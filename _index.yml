@@ -1,0 +1,13 @@
+---
+indexpage:
+  title: Versionshinweise zu BlueXP  Workload Factory
+  summary: In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services
+    beschrieben, die Teil der BlueXP  Workload Factory sind.
+  keywords: BlueXP Workload Factory, release notes, what's new
+  lead: In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services
+    beschrieben, die Teil der BlueXP  Workload Factory sind.
+  tiles:
+  - title: Was ist neu
+    links:
+    - title: Aktuelle Änderungen in der Workload Factory
+      url: whats-new.html

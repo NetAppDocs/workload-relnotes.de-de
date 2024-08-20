@@ -1,0 +1,14 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for ontap, databases, genai, vmware' 
+summary: Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil der BlueXP -Workload-Fabrik sind. 
+---
+= Aktuelle Änderungen in der BlueXP  Workload Factory
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil der BlueXP -Workload-Fabrik sind.
