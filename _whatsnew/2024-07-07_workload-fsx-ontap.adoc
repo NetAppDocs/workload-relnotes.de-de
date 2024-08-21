@@ -1,0 +1,9 @@
+= Erste Version von Workload Factory für Amazon FSX for NetApp ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Erste Version von Workload Factory für Amazon FSX for NetApp ONTAP
+
+Amazon FSX for NetApp ONTAP ist jetzt allgemein in Workload Factory verfügbar.
