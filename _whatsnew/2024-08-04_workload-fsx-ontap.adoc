@@ -8,8 +8,8 @@
 
 Mit Terraform aus der Codebox können Dateisysteme und Storage-VMs implementiert und gemanagt werden.
 
-* link:create-file-system.html["Erstellen Sie ein Dateisystem"]
-* link:create-storage-vm.html["Erstellen einer Storage-VM"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erstellen Sie ein Dateisystem"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Erstellen einer Storage-VM"]
 * link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Verwenden Sie Terraform aus der Codebox"^]
 
 
