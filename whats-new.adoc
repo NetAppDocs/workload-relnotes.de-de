@@ -12,3 +12,64 @@ summary: Informieren Sie sich über die neuesten Änderungen an den Workloads, d
 
 [role="lead"]
 Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil der BlueXP -Workload-Fabrik sind.
+
+
+
+== 1 2024-08-04
+
+
+
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Terraform-Unterstützung
+
+Dateisysteme und Storage-VMs können Sie nun mit Terraform von der Codebox implementieren.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erstellen Sie ein Dateisystem"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Erstellen einer Storage-VM"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Verwenden Sie Terraform aus der Codebox"^]
+
+
+
+
+==== Empfehlungen zu Durchsatz und IOPS im Storage-Rechner
+
+Der Storage-Rechner gibt Empfehlungen für die Konfiguration des Filesystems FSX für ONTAP für Durchsatz und IOPS auf Basis von AWS Best Practices ab, damit Sie optimale Hinweise für Ihre Auswahl erhalten.
+
+
+
+=== Einrichtung und Administration
+
+
+
+==== Terraform-Unterstützung
+
+Terraform-Unterstützung ist für die Implementierung von Amazon FSX for NetApp ONTAP Filesystemen und die Erstellung von Storage-VMs verfügbar. Die Setup- und Admin-Anleitung enthält nun Anweisungen zur Verwendung von Terraform aus der Codebox.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Verwenden Sie Terraform aus der Codebox"^]
+
+
+
+== 1 2024-07-07
+
+
+
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Erste Version von Workload Factory für Amazon FSX for NetApp ONTAP
+
+Amazon FSX for NetApp ONTAP ist jetzt allgemein in Workload Factory verfügbar.
+
+
+
+=== Einrichtung und Administration
+
+
+
+==== Erstversion von Workload Factory
+
+BlueXP Workload Factory für AWS ist eine leistungsstarke Lifecycle-Managementplattform, die mithilfe von Amazon FSX für NetApp ONTAP-Dateisystemen zur Optimierung Ihrer Workloads entwickelt wurde. Zu den Workloads, die mit Workload Factory und FSX für ONTAP optimiert werden können, gehören Datenbanken, VMware Migrationen zu VMware Cloud on AWS, KI-Chatbots und vieles mehr.
