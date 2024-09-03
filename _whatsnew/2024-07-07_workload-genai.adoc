@@ -1,0 +1,9 @@
+= Erstveröffentlichung der Workload Factory für GenAI
+:allow-uri-read: 
+
+
+
+
+=== Erstveröffentlichung der Workload Factory für GenAI
+
+Die erste Version umfasst die Fähigkeit, eine Wissensdatenbank zu entwickeln, die durch die Einbettung der Unternehmensdaten angepasst wird. Auf die Wissensdatenbank kann über eine Chatbot-Anwendung für Ihre Benutzer zugegriffen werden. Diese Funktion gewährleistet präzise und relevante Antworten auf unternehmensspezifische Fragen und verbessert so die Zufriedenheit und Produktivität aller Benutzer.

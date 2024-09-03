@@ -96,4 +96,14 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">Die erste Version umfasst die Möglichkeit, mithilfe des VMware Migrationsberaters Ihre aktuellen Konfigurationen von Virtual Machines in lokalen vSphere Umgebungen zu analysieren, einen Plan für die Implementierung empfohlener VM-Layouts in VMware Cloud on AWS zu erstellen und die benutzerdefinierten Amazon FSX for NetApp ONTAP Filesysteme als externe Datastores zu verwenden.</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrieren Sie zu Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory für VMware unterstützt jetzt die Migration zu Amazon EC2 mithilfe des VMware Migrationsberaters.</block>
+  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">Erstveröffentlichung der Workload Factory für GenAI</block>
+  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">Die erste Version umfasst die Fähigkeit, eine Wissensdatenbank zu entwickeln, die durch die Einbettung der Unternehmensdaten angepasst wird. Auf die Wissensdatenbank kann über eine Chatbot-Anwendung für Ihre Benutzer zugegriffen werden. Diese Funktion gewährleistet präzise und relevante Antworten auf unternehmensspezifische Fragen und verbessert so die Zufriedenheit und Produktivität aller Benutzer.</block>
+  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integration von Amazon CloudWatch Logs</block>
+  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">Generative KI-Workloads sind jetzt in Amazon CloudWatch Logs integriert, sodass Sie die Protokolldateien generativer KI-Workloads überwachen können.</block>
+  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Beispiel für eine Chatbot-Anwendung</block>
+  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">Mit der GenAI-Beispielanwendung von NetApp Workload Factory können Sie die Authentifizierung und den Abruf aus Ihrer veröffentlichten Wissensdatenbank von NetApp Workload Factory testen, indem Sie direkt mit dieser in einer webbasierten Chatbot-Anwendung interagieren.</block>
+  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Zusätzliche Chunking-Strategien</block>
+  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Generative KI-Workloads unterstützen jetzt Multi-Sentence Chunking und überlappendes Chunking für Datenquellen.</block>
+  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Dediziertes Volumen für jede Wissensdatenbank</block>
+  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">Generative KI-Workloads erstellen jetzt für jede neue Knowledge Base ein dediziertes Amazon FSX for NetApp ONTAP Volume, mit dem individuelle Snapshot-Richtlinien für jede Knowledge Base erstellt werden. So wird auch der Schutz vor Ausfällen und Datenvergiftungen verbessert.</block>
 </blocks>

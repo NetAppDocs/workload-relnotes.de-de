@@ -1,0 +1,15 @@
+= Zusätzliche Chunking-Strategien
+:allow-uri-read: 
+
+
+
+
+=== Zusätzliche Chunking-Strategien
+
+Generative KI-Workloads unterstützen jetzt Multi-Sentence Chunking und überlappendes Chunking für Datenquellen.
+
+
+
+=== Dediziertes Volumen für jede Wissensdatenbank
+
+Generative KI-Workloads erstellen jetzt für jede neue Knowledge Base ein dediziertes Amazon FSX for NetApp ONTAP Volume, mit dem individuelle Snapshot-Richtlinien für jede Knowledge Base erstellt werden. So wird auch der Schutz vor Ausfällen und Datenvergiftungen verbessert.

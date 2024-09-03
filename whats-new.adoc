@@ -69,6 +69,22 @@ Workload Factory für VMware unterstützt jetzt die Migration zu Amazon EC2 mith
 
 
 
+=== GenAI-Workloads
+
+
+
+==== Zusätzliche Chunking-Strategien
+
+Generative KI-Workloads unterstützen jetzt Multi-Sentence Chunking und überlappendes Chunking für Datenquellen.
+
+
+
+==== Dediziertes Volumen für jede Wissensdatenbank
+
+Generative KI-Workloads erstellen jetzt für jede neue Knowledge Base ein dediziertes Amazon FSX for NetApp ONTAP Volume, mit dem individuelle Snapshot-Richtlinien für jede Knowledge Base erstellt werden. So wird auch der Schutz vor Ausfällen und Datenvergiftungen verbessert.
+
+
+
 === Einrichtung und Administration
 
 
@@ -148,6 +164,22 @@ link:explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Wor
 
 
 
+=== GenAI-Workloads
+
+
+
+==== Integration von Amazon CloudWatch Logs
+
+Generative KI-Workloads sind jetzt in Amazon CloudWatch Logs integriert, sodass Sie die Protokolldateien generativer KI-Workloads überwachen können.
+
+
+
+==== Beispiel für eine Chatbot-Anwendung
+
+Mit der GenAI-Beispielanwendung von NetApp Workload Factory können Sie die Authentifizierung und den Abruf aus Ihrer veröffentlichten Wissensdatenbank von NetApp Workload Factory testen, indem Sie direkt mit dieser in einer webbasierten Chatbot-Anwendung interagieren.
+
+
+
 === Einrichtung und Administration
 
 
@@ -193,6 +225,16 @@ link:learn-databases.html["Lernen Sie Datenbanken kennen"].
 ==== Erstversion von Workload Factory für VMware
 
 Die erste Version umfasst die Möglichkeit, mithilfe des VMware Migrationsberaters Ihre aktuellen Konfigurationen von Virtual Machines in lokalen vSphere Umgebungen zu analysieren, einen Plan für die Implementierung empfohlener VM-Layouts in VMware Cloud on AWS zu erstellen und die benutzerdefinierten Amazon FSX for NetApp ONTAP Filesysteme als externe Datastores zu verwenden.
+
+
+
+=== GenAI-Workloads
+
+
+
+==== Erstveröffentlichung der Workload Factory für GenAI
+
+Die erste Version umfasst die Fähigkeit, eine Wissensdatenbank zu entwickeln, die durch die Einbettung der Unternehmensdaten angepasst wird. Auf die Wissensdatenbank kann über eine Chatbot-Anwendung für Ihre Benutzer zugegriffen werden. Diese Funktion gewährleistet präzise und relevante Antworten auf unternehmensspezifische Fragen und verbessert so die Zufriedenheit und Produktivität aller Benutzer.
 
 
 

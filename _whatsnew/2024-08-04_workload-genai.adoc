@@ -1,0 +1,15 @@
+= Integration von Amazon CloudWatch Logs
+:allow-uri-read: 
+
+
+
+
+=== Integration von Amazon CloudWatch Logs
+
+Generative KI-Workloads sind jetzt in Amazon CloudWatch Logs integriert, sodass Sie die Protokolldateien generativer KI-Workloads überwachen können.
+
+
+
+=== Beispiel für eine Chatbot-Anwendung
+
+Mit der GenAI-Beispielanwendung von NetApp Workload Factory können Sie die Authentifizierung und den Abruf aus Ihrer veröffentlichten Wissensdatenbank von NetApp Workload Factory testen, indem Sie direkt mit dieser in einer webbasierten Chatbot-Anwendung interagieren.
