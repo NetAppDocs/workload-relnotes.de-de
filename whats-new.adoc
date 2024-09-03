@@ -15,6 +15,30 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 1 2024-09-01
+
+
+
+=== Datenbank-Workloads
+
+
+
+==== Entdecken Sie Einsparungen durch Anpassung
+
+Sie können jetzt mit FSX für Windows File Server und Elastic Block Store Storage im Einsparungsrechner die Konfigurationseinstellungen für Microsoft SQL Server auf Amazon EC2 anpassen. Abhängig von Ihren Storage-Anforderungen sind Sie der Meinung, dass FSX für ONTAP-Storage für Ihre Datenbank-Workloads am kostengünstigsten ist.
+
+link:explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen."]
+
+
+
+==== Navigieren Sie von der Startseite zum Einsparungsrechner
+
+Sie können nun von der link:https://console.workloads.netapp.com["Workload Factory-Konsole"^]Homepage zum Einsparungsrechner navigieren. Wählen Sie zum Einstieg Elastic Block Store und FSX for Windows File Server aus.
+
+image:screenshot-explore-savings-home-small.png["Screenshot der Workload Factory Konsole-Startseite. Die Abbildung zeigt die Kachel „Datenbanken“ mit einer neuen Schaltfläche „Explore Savings“. Klicken Sie auf die Schaltfläche, um ein Dropdown-Menü zu öffnen. Das Dropdown-Menü hat zwei Optionen - Elastic Block Store und FSX für Windows File Server. Wenn Sie eine der beiden Optionen auswählen, gelangen Sie zum Einsparungsrechner."]
+
+
+
 == 1 2024-08-04
 
 
@@ -37,6 +61,38 @@ Dateisysteme und Storage-VMs können Sie nun mit Terraform von der Codebox imple
 ==== Empfehlungen zu Durchsatz und IOPS im Storage-Rechner
 
 Der Storage-Rechner gibt Empfehlungen für die Konfiguration des Filesystems FSX für ONTAP für Durchsatz und IOPS auf Basis von AWS Best Practices ab, damit Sie optimale Hinweise für Ihre Auswahl erhalten.
+
+
+
+=== Datenbank-Workloads
+
+
+
+==== Verbesserungen des Einsparungsrechners
+
+* Beschreibungen der Kostenvoranschlafe
++
+Sie erfahren nun, wie die geschätzten Kosten mithilfe des Einsparungsrechners berechnet werden. Sie können mithilfe von Amazon Elastic Block Store Storage eine Beschreibung aller Berechnungen für Ihre Microsoft SQL Server Instanzen im Vergleich zur Nutzung von Amazon FSX für ONTAP Storage einsehen.
+
+* Unterstützung der Always-On-Verfügbarkeitsgruppe
++
+Datenbanken ermöglichen jetzt mit Microsoft SQL Server unter Verwendung von Amazon Elastic Block Store Kostenersparnisse für die Bereitstellung von Always-on-Verfügbarkeitsgruppen.
+
+* Optimierung der SQL Server-Lizenzierung mit FSX für ONTAP
++
+Der Datenbank-Rechner bestimmt, ob die mit Amazon Elastic Block Store verwendete SQL Lizenzversion für Ihre Datenbank-Workloads optimiert ist. Sie erhalten eine Empfehlung für die optimale SQL-Lizenz mit FSX für ONTAP Storage.
+
+* Mehrere SQL Server Instanzen
++
+Datenbanken ermöglichen jetzt Kosteneinsparungen bei einer Konfiguration, die mehrere Microsoft SQL Server Instanzen mithilfe von Amazon Elastic Block Store hostet.
+
+* Anpassen der Berechnungseinstellungen
++
+Sie können jetzt die Einstellungen für Microsoft SQL Server, Amazon EC2 und Elastic Block Store anpassen und die Einsparungen manuell berechnen. Mit dem Einsparungsrechner wird die beste Konfiguration basierend auf den Kosten ermittelt.
+
+
+
+link:explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen."]
 
 
 
@@ -63,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Verwen
 ==== Erste Version von Workload Factory für Amazon FSX for NetApp ONTAP
 
 Amazon FSX for NetApp ONTAP ist jetzt allgemein in Workload Factory verfügbar.
+
+
+
+=== Datenbank-Workloads
+
+
+
+==== Erstversion von Workload Factory für Datenbanken
+
+Die erste Version umfasst die Möglichkeit, mit Amazon FSX for NetApp ONTAP als Storage-Umgebung für Ihre Datenbank-Workloads die Einsparungen zu untersuchen, Microsoft SQL-Server zu erkennen, zu managen und zu implementieren, Datenbanken zu implementieren und zu klonen und diese Jobs innerhalb der Workload Factory zu überwachen.
+
+link:learn-databases.html["Lernen Sie Datenbanken kennen"].
 
 
 
