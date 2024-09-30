@@ -84,8 +84,6 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">Die erste Version umfasst die Möglichkeit, mithilfe des VMware Migrationsberaters Ihre aktuellen Konfigurationen von Virtual Machines in lokalen vSphere Umgebungen zu analysieren, einen Plan für die Implementierung empfohlener VM-Layouts in VMware Cloud on AWS zu erstellen und die benutzerdefinierten Amazon FSX for NetApp ONTAP Filesysteme als externe Datastores zu verwenden.</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrieren Sie zu Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory für VMware unterstützt jetzt die Migration zu Amazon EC2 mithilfe des VMware Migrationsberaters.</block>
-  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">Erstveröffentlichung der Workload Factory für GenAI</block>
-  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">Die erste Version umfasst die Fähigkeit, eine Wissensdatenbank zu entwickeln, die durch die Einbettung der Unternehmensdaten angepasst wird. Auf die Wissensdatenbank kann über eine Chatbot-Anwendung für Ihre Benutzer zugegriffen werden. Diese Funktion gewährleistet präzise und relevante Antworten auf unternehmensspezifische Fragen und verbessert so die Zufriedenheit und Produktivität aller Benutzer.</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integration von Amazon CloudWatch Logs</block>
   <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">Generative KI-Workloads sind jetzt in Amazon CloudWatch Logs integriert, sodass Sie die Protokolldateien generativer KI-Workloads überwachen können.</block>
   <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Beispiel für eine Chatbot-Anwendung</block>
@@ -114,4 +112,18 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
+  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">Erstellen Sie einen Snapshot von und stellen Sie ein Knowledge-Base-Volume wieder her</block>
+  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Sie können jetzt Daten aus generativen KI-Workloads schützen, indem Sie eine zeitpunktgenaue Kopie einer Knowledge Base erstellen. So können Sie Ihre Daten vor versehentlichem Verlust schützen oder Änderungen an den Einstellungen der Wissensdatenbank testen. Sie können jederzeit die vorherige Version des Knowledge Base-Volumes wiederherstellen.</block>
+  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Erstellen Sie einen Snapshot eines Knowledge-Base-Volumes</block>
+  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
+  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">Stellen Sie einen Snapshot eines Knowledge-Base-Volumes wieder her</block>
+  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
+  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">Geplante Scans anhalten</block>
+  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">Sie können jetzt geplante Scans der Datenquelle anhalten. Standardmäßig scannt generative KI-Workloads jede Datenquelle täglich, um neue Daten in jeder Knowledge Base zu erfassen. Wenn Sie nicht möchten, dass die letzten Änderungen aufgenommen werden (z. B. während des Tests oder beim Wiederherstellen eines Snapshots), können Sie die geplanten Scans anhalten und jederzeit wieder aufnehmen.</block>
+  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">Management von Wissensdatenbanken</block>
+  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
+  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">Datensicherung-Volumes werden jetzt für Wissensdatenbanken unterstützt</block>
+  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Bei der Auswahl eines Knowledge-Base-Volumes können Sie nun ein Datensicherungs-Volume auswählen, das Teil einer NetApp SnapMirror Replizierungsbeziehung ist. So können Sie Wissensdatenbanken auf Volumes speichern, die bereits durch die SnapMirror-Replizierung geschützt sind.</block>
+  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Ermitteln Sie die Datenquellen, die in Ihre Wissensdatenbank integriert werden sollen</block>
+  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
 </blocks>
