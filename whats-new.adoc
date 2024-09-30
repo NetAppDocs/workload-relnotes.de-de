@@ -19,6 +19,21 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Aktualisierung der Link-Erstellung
+
+* Codebox Viewer: Codebox ist nun in den Prozess der Link-Erstellung integriert. Sie können die CloudFormation-Vorlage aus der Codebox in Workload Factory anzeigen und kopieren, bevor Sie zur Ausführung des Vorgangs zu AWS umgeleitet werden.
+* Erforderliche Berechtigungen: Die Berechtigungen, die für die Ausführung der Link-Erstellung in AWS CloudFormation erforderlich sind, sind jetzt verfügbar, um aus dem Create Link Wizard in Workload Factory anzuzeigen und zu kopieren.
+* Unterstützung für manuelle Link-Erstellung: Diese Funktion ermöglicht die eigenständige Erstellung in AWS CloudFormation mit manueller Registrierung des Links ARN. Es ist nützlich, wenn ein Sicherheits- oder DevOps-Team beim Link-Erstellungsprozess hilft.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Erstellen Sie eine Verknüpfung"^]
+
+
+
 === Datenbank-Workloads
 
 
@@ -151,8 +166,8 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["F�
 
 Dateisysteme und Storage-VMs können Sie nun mit Terraform von der Codebox implementieren.
 
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erstellen Sie ein Dateisystem"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Erstellen einer Storage-VM"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erstellen Sie ein Dateisystem"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Erstellen einer Storage-VM"^]
 * link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Verwenden Sie Terraform aus der Codebox"^]
 
 
@@ -225,16 +240,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Verwen
 
 
 == 1 2024-07-07
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Erste Version von Workload Factory für Amazon FSX for NetApp ONTAP
-
-Amazon FSX for NetApp ONTAP ist jetzt allgemein in Workload Factory verfügbar.
 
 
 
