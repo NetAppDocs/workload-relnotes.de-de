@@ -49,10 +49,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">Aktuelle Änderungen in der BlueXP  Workload Factory</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">1 2024-08-04</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">1 2024-07-07</block>
-  <block id="ed54fefae379fac8157c0d466e30a150" category="doc">Erstversion von Workload Factory für Datenbanken</block>
-  <block id="7737adcb101b7285a3a8567ae4d22021" category="paragraph">Die erste Version umfasst die Möglichkeit, mit Amazon FSX for NetApp ONTAP als Storage-Umgebung für Ihre Datenbank-Workloads die Einsparungen zu untersuchen, Microsoft SQL-Server zu erkennen, zu managen und zu implementieren, Datenbanken zu implementieren und zu klonen und diese Jobs innerhalb der Workload Factory zu überwachen.</block>
-  <block id="76d820a16128270adf6a061b253cca06" category="inline-link-macro">Lernen Sie Datenbanken kennen</block>
-  <block id="c8b559206fbe2064f93b1a567d84e637" category="paragraph"><block ref="eda6f6881c0c5cc5180d85b417e4f376" category="inline-link-macro-rx"></block>.</block>
   <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">Verbesserungen des Einsparungsrechners</block>
   <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">Beschreibungen der Kostenvoranschlafe</block>
   <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">Sie erfahren nun, wie die geschätzten Kosten mithilfe des Einsparungsrechners berechnet werden. Sie können mithilfe von Amazon Elastic Block Store Storage eine Beschreibung aller Berechnungen für Ihre Microsoft SQL Server Instanzen im Vergleich zur Nutzung von Amazon FSX für ONTAP Storage einsehen.</block>
@@ -64,15 +60,11 @@
   <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">Datenbanken ermöglichen jetzt Kosteneinsparungen bei einer Konfiguration, die mehrere Microsoft SQL Server Instanzen mithilfe von Amazon Elastic Block Store hostet.</block>
   <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">Anpassen der Berechnungseinstellungen</block>
   <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">Sie können jetzt die Einstellungen für Microsoft SQL Server, Amazon EC2 und Elastic Block Store anpassen und die Einsparungen manuell berechnen. Mit dem Einsparungsrechner wird die beste Konfiguration basierend auf den Kosten ermittelt.</block>
-  <block id="85f439a5ead422005f331327c6b4d189" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen.</block>
-  <block id="ffcdb01d64d534ead82555dabfbdd7da" category="paragraph"><block ref="ffcdb01d64d534ead82555dabfbdd7da" category="inline-link-macro-rx"></block></block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Entdecken Sie Einsparungen durch Anpassung</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Sie können jetzt mit FSX für Windows File Server und Elastic Block Store Storage im Einsparungsrechner die Konfigurationseinstellungen für Microsoft SQL Server auf Amazon EC2 anpassen. Abhängig von Ihren Storage-Anforderungen sind Sie der Meinung, dass FSX für ONTAP-Storage für Ihre Datenbank-Workloads am kostengünstigsten ist.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Navigieren Sie von der Startseite zum Einsparungsrechner</block>
   <block id="8fd935558171bd50056871ef9ee7bd05" category="inline-link-macro">Workload Factory-Konsole</block>
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">Sie können nun von der <block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block>Homepage zum Einsparungsrechner navigieren. Wählen Sie zum Einstieg Elastic Block Store und FSX for Windows File Server aus.</block>
-  <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">Screenshot der Workload Factory Konsole-Startseite. Die Abbildung zeigt die Kachel „Datenbanken“ mit einer neuen Schaltfläche „Explore Savings“. Klicken Sie auf die Schaltfläche, um ein Dropdown-Menü zu öffnen. Das Dropdown-Menü hat zwei Optionen - Elastic Block Store und FSX für Windows File Server. Wenn Sie eine der beiden Optionen auswählen, gelangen Sie zum Einsparungsrechner.</block>
-  <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 2024-09-01</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">Lesemodus-Unterstützung für Speicherverwaltung</block>
   <block id="8db376980442524a58ebd917532846d7" category="paragraph">Der Lesemodus steht für die Speicherverwaltung in Workload Factory zur Verfügung. Der Lesemodus verbessert die Erfahrung des Grundmodus durch Hinzufügen von schreibgeschützten Berechtigungen, sodass die Infrastructure-as-Code-Vorlagen mit Ihren spezifischen Variablen gefüllt werden. Die Infrastruktur-als-Code-Vorlagen können direkt über Ihr AWS-Konto ausgeführt werden, ohne dass dafür Änderungsberechtigungen für Workload Factory erteilt werden müssen.</block>
@@ -111,4 +103,11 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">1 2024-09-19</block>
+  <block id="4ac33bc47ec0338e6c23f5e315a2b5ec" category="inline-link-macro">Informieren Sie sich über Kosteneinsparungen mit FSX für ONTAP für Ihre Datenbank-Workloads^.</block>
+  <block id="f9ca6ec7df5da581020634d84b3e477c" category="paragraph"><block ref="f9ca6ec7df5da581020634d84b3e477c" category="inline-link-macro-rx"></block></block>
+  <block id="b6e7a46e866a97d8ad38a3ce2e41e926" category="inline-image-macro">Screenshot der Workload Factory Konsole-Startseite. Die Abbildung zeigt die Kachel „Datenbanken“ mit einer neuen Schaltfläche „Explore Savings“. Klicken Sie auf die Schaltfläche, um ein Dropdown-Menü zu öffnen. Das Dropdown-Menü hat zwei Optionen - Microsoft SQL Server auf EBS und Microsoft SQL Server auf FSX für Windows File Server.</block>
+  <block id="a7396d19dde0193e37cada3b5524bb0b" category="paragraph"><block ref="a7396d19dde0193e37cada3b5524bb0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Informieren Sie sich über die Einsparungen für erkannte Microsoft SQL-Server auf FSX für Windows File Server</block>
+  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Mit FSX für Windows File Server Storage können Sie jetzt die Einsparungen von erkannten Microsoft SQL Servern auf Amazon EC2 untersuchen. Abhängig von Ihren SQL-Server- und Storage-Anforderungen sind Sie vielleicht der Meinung, dass FSX für ONTAP-Storage die kosteneffizienteste Lösung für Ihre Datenbank-Workloads ist.</block>
+  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">1 2024-09-29</block>
 </blocks>
