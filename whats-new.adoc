@@ -42,7 +42,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Erstelle
 
 Mit FSX für Windows File Server Storage können Sie jetzt die Einsparungen von erkannten Microsoft SQL Servern auf Amazon EC2 untersuchen. Abhängig von Ihren SQL-Server- und Storage-Anforderungen sind Sie vielleicht der Meinung, dass FSX für ONTAP-Storage die kosteneffizienteste Lösung für Ihre Datenbank-Workloads ist.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Informieren Sie sich über Kosteneinsparungen mit FSX für ONTAP für Ihre Datenbank-Workloads^."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
 
 
 
@@ -94,7 +94,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Lösch
 
 Sie können jetzt mit FSX für Windows File Server und Elastic Block Store Storage im Einsparungsrechner die Konfigurationseinstellungen für Microsoft SQL Server auf Amazon EC2 anpassen. Abhängig von Ihren Storage-Anforderungen sind Sie der Meinung, dass FSX für ONTAP-Storage für Ihre Datenbank-Workloads am kostengünstigsten ist.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Informieren Sie sich über Kosteneinsparungen mit FSX für ONTAP für Ihre Datenbank-Workloads^."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
 
 
 
@@ -207,7 +207,7 @@ Sie können jetzt die Einstellungen für Microsoft SQL Server, Amazon EC2 und El
 
 
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Informieren Sie sich über Kosteneinsparungen mit FSX für ONTAP für Ihre Datenbank-Workloads^."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
 
 
 

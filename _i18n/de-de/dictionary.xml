@@ -99,8 +99,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">1 2024-09-19</block>
-  <block id="4ac33bc47ec0338e6c23f5e315a2b5ec" category="inline-link-macro">Informieren Sie sich über Kosteneinsparungen mit FSX für ONTAP für Ihre Datenbank-Workloads^.</block>
-  <block id="f9ca6ec7df5da581020634d84b3e477c" category="paragraph"><block ref="f9ca6ec7df5da581020634d84b3e477c" category="inline-link-macro-rx"></block></block>
   <block id="b6e7a46e866a97d8ad38a3ce2e41e926" category="inline-image-macro">Screenshot der Workload Factory Konsole-Startseite. Die Abbildung zeigt die Kachel „Datenbanken“ mit einer neuen Schaltfläche „Explore Savings“. Klicken Sie auf die Schaltfläche, um ein Dropdown-Menü zu öffnen. Das Dropdown-Menü hat zwei Optionen - Microsoft SQL Server auf EBS und Microsoft SQL Server auf FSX für Windows File Server.</block>
   <block id="a7396d19dde0193e37cada3b5524bb0b" category="paragraph"><block ref="a7396d19dde0193e37cada3b5524bb0b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Informieren Sie sich über die Einsparungen für erkannte Microsoft SQL-Server auf FSX für Windows File Server</block>
@@ -114,4 +112,6 @@
   <block id="3721bd571f4111dad2c363436de34c51" category="list-text">Unterstützung für manuelle Link-Erstellung: Diese Funktion ermöglicht die eigenständige Erstellung in AWS CloudFormation mit manueller Registrierung des Links ARN. Es ist nützlich, wenn ein Sicherheits- oder DevOps-Team beim Link-Erstellungsprozess hilft.</block>
   <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">Erstellen Sie eine Verknüpfung</block>
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
+  <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
+  <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
 </blocks>

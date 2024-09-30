@@ -8,4 +8,4 @@
 
 Mit FSX für Windows File Server Storage können Sie jetzt die Einsparungen von erkannten Microsoft SQL Servern auf Amazon EC2 untersuchen. Abhängig von Ihren SQL-Server- und Storage-Anforderungen sind Sie vielleicht der Meinung, dass FSX für ONTAP-Storage die kosteneffizienteste Lösung für Ihre Datenbank-Workloads ist.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Informieren Sie sich über Kosteneinsparungen mit FSX für ONTAP für Ihre Datenbank-Workloads^."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]

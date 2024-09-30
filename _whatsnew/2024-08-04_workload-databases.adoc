@@ -28,4 +28,4 @@ Sie können jetzt die Einstellungen für Microsoft SQL Server, Amazon EC2 und El
 
 
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Informieren Sie sich über Kosteneinsparungen mit FSX für ONTAP für Ihre Datenbank-Workloads^."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
