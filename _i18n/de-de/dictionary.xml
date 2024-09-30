@@ -112,7 +112,6 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">Erstellen Sie einen Snapshot von und stellen Sie ein Knowledge-Base-Volume wieder her</block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Sie können jetzt Daten aus generativen KI-Workloads schützen, indem Sie eine zeitpunktgenaue Kopie einer Knowledge Base erstellen. So können Sie Ihre Daten vor versehentlichem Verlust schützen oder Änderungen an den Einstellungen der Wissensdatenbank testen. Sie können jederzeit die vorherige Version des Knowledge Base-Volumes wiederherstellen.</block>
   <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Erstellen Sie einen Snapshot eines Knowledge-Base-Volumes</block>
   <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
@@ -126,4 +125,5 @@
   <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Bei der Auswahl eines Knowledge-Base-Volumes können Sie nun ein Datensicherungs-Volume auswählen, das Teil einer NetApp SnapMirror Replizierungsbeziehung ist. So können Sie Wissensdatenbanken auf Volumes speichern, die bereits durch die SnapMirror-Replizierung geschützt sind.</block>
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Ermitteln Sie die Datenquellen, die in Ihre Wissensdatenbank integriert werden sollen</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
+  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Snapshot und Restore-Unterstützung für Knowledge Base Volumes</block>
 </blocks>

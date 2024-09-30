@@ -1,10 +1,10 @@
-= Erstellen Sie einen Snapshot von und stellen Sie ein Knowledge-Base-Volume wieder her
+= Snapshot und Restore-Unterstützung für Knowledge Base Volumes
 :allow-uri-read: 
 
 
 
 
-=== Erstellen Sie einen Snapshot von und stellen Sie ein Knowledge-Base-Volume wieder her
+=== Snapshot und Restore-Unterstützung für Knowledge Base Volumes
 
 Sie können jetzt Daten aus generativen KI-Workloads schützen, indem Sie eine zeitpunktgenaue Kopie einer Knowledge Base erstellen. So können Sie Ihre Daten vor versehentlichem Verlust schützen oder Änderungen an den Einstellungen der Wissensdatenbank testen. Sie können jederzeit die vorherige Version des Knowledge Base-Volumes wiederherstellen.
 
