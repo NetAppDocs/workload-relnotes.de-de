@@ -1,0 +1,13 @@
+= Maskieren Sie personenbezogene Daten mithilfe von Datengeländern
+:allow-uri-read: 
+
+
+
+
+=== Maskieren Sie personenbezogene Daten mithilfe von Datengeländern
+
+Der generative KI-Workload bietet eine Data Guardrails-Funktion basierend auf einer BlueXP -Klassifizierung. Mithilfe der Funktion „Data Guardrails“ werden personenbezogene Daten identifiziert und maskiert. Auf diese Weise können Sie die Compliance aufrechterhalten und die Sicherheit Ihrer sensiblen Unternehmensdaten stärken.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Erstellen einer Wissensdatenbank"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Mehr zur BlueXP Klassifizierung"^]

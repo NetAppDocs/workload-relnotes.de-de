@@ -67,6 +67,20 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
+=== GenAI-Workloads
+
+
+
+==== Maskieren Sie personenbezogene Daten mithilfe von Datengeländern
+
+Der generative KI-Workload bietet eine Data Guardrails-Funktion basierend auf einer BlueXP -Klassifizierung. Mithilfe der Funktion „Data Guardrails“ werden personenbezogene Daten identifiziert und maskiert. Auf diese Weise können Sie die Compliance aufrechterhalten und die Sicherheit Ihrer sensiblen Unternehmensdaten stärken.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Erstellen einer Wissensdatenbank"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Mehr zur BlueXP Klassifizierung"^]
+
+
+
 == 1 2024-09-29
 
 
@@ -237,22 +251,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["F�
 
 
 == 1 2024-08-04
-
-
-
-=== GenAI-Workloads
-
-
-
-==== Integration von Amazon CloudWatch Logs
-
-Generative KI-Workloads sind jetzt in Amazon CloudWatch Logs integriert, sodass Sie die Protokolldateien generativer KI-Workloads überwachen können.
-
-
-
-==== Beispiel für eine Chatbot-Anwendung
-
-Mit der GenAI-Beispielanwendung von NetApp Workload Factory können Sie die Authentifizierung und den Abruf aus Ihrer veröffentlichten Wissensdatenbank von NetApp Workload Factory testen, indem Sie direkt mit dieser in einer webbasierten Chatbot-Anwendung interagieren.
 
 
 
