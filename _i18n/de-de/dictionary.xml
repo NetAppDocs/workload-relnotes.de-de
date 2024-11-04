@@ -64,8 +64,6 @@
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Fügen Sie Workloads Factory Anmeldedaten für AWS hinzu</block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
-  <block id="e34fc91d682ebcf23e9732294872ca80" category="doc">Erstversion von Workload Factory für VMware</block>
-  <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">Die erste Version umfasst die Möglichkeit, mithilfe des VMware Migrationsberaters Ihre aktuellen Konfigurationen von Virtual Machines in lokalen vSphere Umgebungen zu analysieren, einen Plan für die Implementierung empfohlener VM-Layouts in VMware Cloud on AWS zu erstellen und die benutzerdefinierten Amazon FSX for NetApp ONTAP Filesysteme als externe Datastores zu verwenden.</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrieren Sie zu Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory für VMware unterstützt jetzt die Migration zu Amazon EC2 mithilfe des VMware Migrationsberaters.</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integration von Amazon CloudWatch Logs</block>
@@ -120,4 +118,6 @@
   <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">Sie können jetzt Terraform aus der Codebox verwenden, um Microsoft SQL Server bereitzustellen.</block>
   <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">Erstellen Sie einen Datenbankserver</block>
   <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
+  <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Das Datenreduzierungsverhältnis von VMware Migration Advisor hilft Ihnen dabei</block>
+  <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Diese Version von Workload Factory für VMware umfasst einen Assistenten zur Datenreduzierung. Mit dem Assistenten zur Datenreduzierung können Sie entscheiden, welches Verhältnis für Ihren VMware Bestand und Ihren Storage-Bestand am besten ist, wenn Sie sich für das AWS Cloud Onboarding vorbereiten.</block>
 </blocks>
