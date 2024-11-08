@@ -18,12 +18,12 @@ settings:
   langs: de-de,us-en,ja-jp,ko-kr,zh-cn,zh-tw,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Versionshinweise zu Workload Factory
+  - title: Versionshinweise zu BlueXP  Workload auf Werkseinstellungen
     url: "/index.html"
   - title: Neueste Änderungen
     url: "/whats-new.html"
   - title: Rechtliche Hinweise
     url: "/legal-notices.html"
 product-family:
-  name: Workload Factory
+  name: BlueXP workload factory
   repo: workload-family
