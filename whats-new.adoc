@@ -212,9 +212,9 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit 
 
 ==== Navigieren Sie von der Startseite zum Einsparungsrechner
 
-Sie können nun von der link:https://console.workloads.netapp.com["Workload Factory-Konsole"^]Homepage zum Einsparungsrechner navigieren. Wählen Sie zum Einstieg Elastic Block Store und FSX for Windows File Server aus.
+Sie können nun von der link:https://console.workloads.netapp.com["Arbeitslastwerkkonsole"^]Homepage zum Einsparungsrechner navigieren. Wählen Sie zum Einstieg Elastic Block Store und FSX for Windows File Server aus.
 
-image:screenshot-explore-savings-home-small.png["Screenshot der Workload Factory Konsole-Startseite. Die Abbildung zeigt die Kachel „Datenbanken“ mit einer neuen Schaltfläche „Explore Savings“. Klicken Sie auf die Schaltfläche, um ein Dropdown-Menü zu öffnen. Das Dropdown-Menü hat zwei Optionen - Microsoft SQL Server auf EBS und Microsoft SQL Server auf FSX für Windows File Server."]
+image:screenshot-explore-savings-home-small.png["Screenshot der Workload Factory-Konsole-Homepage. Die Abbildung zeigt die Kachel „Datenbanken“ mit einer neuen Schaltfläche „Explore Savings“. Klicken Sie auf die Schaltfläche, um ein Dropdown-Menü zu öffnen. Das Dropdown-Menü hat zwei Optionen - Microsoft SQL Server auf EBS und Microsoft SQL Server auf FSX für Windows File Server."]
 
 
 
