@@ -27,7 +27,7 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 Sie haben nun die Möglichkeit, die Workload Factory aus der link:https://console.bluexp.netapp.com["BlueXP-Konsole"^]zu verwenden. Die BlueXP -Konsole bietet die gleiche Funktionalität wie die Arbeitslastwerkkonsole.
 
-link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["Erfahren Sie, wie Sie über die BlueXP -Konsole auf die Workload-Farm zugreifen"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Erfahren Sie, wie Sie über die BlueXP -Konsole auf die Workload-Farm zugreifen"]
 
 
 
