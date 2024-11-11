@@ -91,12 +91,12 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 ==== Aktualisierung der Link-Erstellung
 
-* Codebox Viewer: Codebox ist nun in den Prozess der Link-Erstellung integriert. Sie können die CloudFormation-Vorlage aus der Codebox in Workload Factory anzeigen und kopieren, bevor Sie zur Ausführung des Vorgangs zu AWS umgeleitet werden.
-* Erforderliche Berechtigungen: Die Berechtigungen, die für die Ausführung der Link-Erstellung in AWS CloudFormation erforderlich sind, sind jetzt verfügbar, um aus dem Create Link Wizard in Workload Factory anzuzeigen und zu kopieren.
+* Codebox Viewer: Codebox ist nun in den Prozess der Link-Erstellung integriert. Sie können die CloudFormation-Vorlage aus der Codebox in der Workload Factory anzeigen und kopieren, bevor Sie zur Ausführung des Vorgangs zu AWS umgeleitet werden.
+* Erforderliche Berechtigungen: Die für die Ausführung der Link-Erstellung in AWS CloudFormation erforderlichen Berechtigungen sind nun verfügbar, um sie über den Create Link Wizard in Workload Factory anzuzeigen und zu kopieren.
 * Unterstützung für manuelle Link-Erstellung: Diese Funktion ermöglicht die eigenständige Erstellung in AWS CloudFormation mit manueller Registrierung des Links ARN. Es ist nützlich, wenn ein Sicherheits- oder DevOps-Team beim Link-Erstellungsprozess hilft.
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Erstellen Sie eine Verknüpfung"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Erstellen Sie eine Verknüpfung"]
 
 
 
@@ -168,9 +168,9 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 ==== Lesemodus-Unterstützung für Speicherverwaltung
 
-Der Lesemodus steht für die Speicherverwaltung in Workload Factory zur Verfügung. Der Lesemodus verbessert die Erfahrung des Grundmodus durch Hinzufügen von schreibgeschützten Berechtigungen, sodass die Infrastructure-as-Code-Vorlagen mit Ihren spezifischen Variablen gefüllt werden. Die Infrastruktur-als-Code-Vorlagen können direkt über Ihr AWS-Konto ausgeführt werden, ohne dass dafür Änderungsberechtigungen für Workload Factory erteilt werden müssen.
+Der Lesemodus steht für das Speichermanagement in der Workload Factory zur Verfügung. Der Lesemodus verbessert die Erfahrung des Grundmodus durch Hinzufügen von schreibgeschützten Berechtigungen, sodass die Infrastructure-as-Code-Vorlagen mit Ihren spezifischen Variablen gefüllt werden. Die Infrastructure-as-Code-Vorlagen können direkt über Ihr AWS-Konto ausgeführt werden, ohne dass Änderungen an den Berechtigungen für die Werkseinstellungen des Workloads vorgenommen werden müssen.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Weitere Informationen zum Lesemodus"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Weitere Informationen zum Lesemodus"]
 
 
 
@@ -178,7 +178,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["
 
 Sie können jetzt ein Volume sichern, bevor Sie es löschen. Die Sicherung bleibt im Dateisystem, bis sie gelöscht wird.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Löschen Sie ein Volume"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Löschen Sie ein Volume"]
 
 
 

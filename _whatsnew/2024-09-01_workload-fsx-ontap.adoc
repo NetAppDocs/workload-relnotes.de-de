@@ -6,9 +6,9 @@
 
 === Lesemodus-Unterstützung für Speicherverwaltung
 
-Der Lesemodus steht für die Speicherverwaltung in Workload Factory zur Verfügung. Der Lesemodus verbessert die Erfahrung des Grundmodus durch Hinzufügen von schreibgeschützten Berechtigungen, sodass die Infrastructure-as-Code-Vorlagen mit Ihren spezifischen Variablen gefüllt werden. Die Infrastruktur-als-Code-Vorlagen können direkt über Ihr AWS-Konto ausgeführt werden, ohne dass dafür Änderungsberechtigungen für Workload Factory erteilt werden müssen.
+Der Lesemodus steht für das Speichermanagement in der Workload Factory zur Verfügung. Der Lesemodus verbessert die Erfahrung des Grundmodus durch Hinzufügen von schreibgeschützten Berechtigungen, sodass die Infrastructure-as-Code-Vorlagen mit Ihren spezifischen Variablen gefüllt werden. Die Infrastructure-as-Code-Vorlagen können direkt über Ihr AWS-Konto ausgeführt werden, ohne dass Änderungen an den Berechtigungen für die Werkseinstellungen des Workloads vorgenommen werden müssen.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Weitere Informationen zum Lesemodus"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Weitere Informationen zum Lesemodus"]
 
 
 
@@ -16,4 +16,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["
 
 Sie können jetzt ein Volume sichern, bevor Sie es löschen. Die Sicherung bleibt im Dateisystem, bis sie gelöscht wird.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Löschen Sie ein Volume"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Löschen Sie ein Volume"]
