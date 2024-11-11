@@ -59,13 +59,11 @@
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Fügen Sie Workloads Factory Anmeldedaten für AWS hinzu</block>
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrieren Sie zu Amazon EC2</block>
-  <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory für VMware unterstützt jetzt die Migration zu Amazon EC2 mithilfe des VMware Migrationsberaters.</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Zusätzliche Chunking-Strategien</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Generative KI-Workloads unterstützen jetzt Multi-Sentence Chunking und überlappendes Chunking für Datenquellen.</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Dediziertes Volumen für jede Wissensdatenbank</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">Generative KI-Workloads erstellen jetzt für jede neue Knowledge Base ein dediziertes Amazon FSX for NetApp ONTAP Volume, mit dem individuelle Snapshot-Richtlinien für jede Knowledge Base erstellt werden. So wird auch der Schutz vor Ausfällen und Datenvergiftungen verbessert.</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Verbesserungen bei VMware Migration Advisor</block>
-  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">Diese Version von Workload Factory für VMware bietet Verbesserungen an Funktionalität und Stabilität sowie die Möglichkeit, Migrationspläne mithilfe des VMware Migrationsberaters zu importieren und zu exportieren.</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">1 2024-09-19</block>
@@ -120,4 +118,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Kürzliche Änderungen in der BlueXP  Workload-Farm</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Versionshinweise zu BlueXP  Workload auf Werkseinstellungen</block>
+  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">Die Workload-Farm für VMware unterstützt jetzt die Migration zu Amazon EC2 mithilfe des VMware Migrationsberaters.</block>
+  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Diese Version der Workload-Farm für VMware bietet Funktions- und Stabilitätsverbesserungen sowie die Möglichkeit, Migrationspläne mithilfe des VMware Migration Advisor zu importieren und zu exportieren.</block>
 </blocks>
