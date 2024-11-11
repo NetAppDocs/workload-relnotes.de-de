@@ -24,8 +24,6 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform-Unterstützung</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Verwenden Sie Terraform aus der Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Erstversion von Workload Factory</block>
-  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory für AWS ist eine leistungsstarke Lifecycle-Managementplattform, die mithilfe von Amazon FSX für NetApp ONTAP-Dateisystemen zur Optimierung Ihrer Workloads entwickelt wurde. Zu den Workloads, die mit Workload Factory und FSX für ONTAP optimiert werden können, gehören Datenbanken, VMware Migrationen zu VMware Cloud on AWS, KI-Chatbots und vieles mehr.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform-Unterstützung ist für die Implementierung von Amazon FSX for NetApp ONTAP Filesystemen und die Erstellung von Storage-VMs verfügbar. Die Setup- und Admin-Anleitung enthält nun Anweisungen zur Verwendung von Terraform aus der Codebox.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Datenbank-Workloads</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX für NetApp ONTAP</block>
@@ -33,7 +31,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Einrichtung und Administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware-Workloads</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">1 2024-08-04</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">1 2024-07-07</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Entdecken Sie Einsparungen durch Anpassung</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Sie können jetzt mit FSX für Windows File Server und Elastic Block Store Storage im Einsparungsrechner die Konfigurationseinstellungen für Microsoft SQL Server auf Amazon EC2 anpassen. Abhängig von Ihren Storage-Anforderungen sind Sie der Meinung, dass FSX für ONTAP-Storage für Ihre Datenbank-Workloads am kostengünstigsten ist.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Navigieren Sie von der Startseite zum Einsparungsrechner</block>
@@ -46,15 +43,9 @@
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">Sie können jetzt ein Volume sichern, bevor Sie es löschen. Die Sicherung bleibt im Dateisystem, bis sie gelöscht wird.</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">Löschen Sie ein Volume</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS-Abonnement</block>
-  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">RSS-Abonnement ist über die verfügbar<block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>. Die Verwendung eines RSS-Feeds ist eine einfache Möglichkeit, sich über Änderungen in der BlueXP  Workload Factory zu informieren.</block>
-  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Screenshot des Dropdown-Menüs der Workload Factory-Konsole. Eine neue Schaltfläche zum Abonnieren von RSS wird als Option im Dropdown-Menü angezeigt.</block>
-  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Unterstützung einer einzelnen Berechtigungsrichtlinie pro Workload</block>
-  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">Beim Hinzufügen von AWS Zugangsdaten in Workload Factory können Sie nun für jeden Workload und jedes Storage-Management eine einzelne Berechtigungsrichtlinie auswählen, entweder den Lese- oder den Automatisierungsmodus.</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Screenshot aus dem Abschnitt „Berechtigungskonfiguration“ auf der Seite „Anmeldedaten“, im dem Sie Lese- oder Automatisierungsberechtigungen für das Storage-Management, KI-Workloads, Datenbank-Workloads und VMware-Workloads auswählen können.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Fügen Sie Workloads Factory Anmeldedaten für AWS hinzu</block>
-  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrieren Sie zu Amazon EC2</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Zusätzliche Chunking-Strategien</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Generative KI-Workloads unterstützen jetzt Multi-Sentence Chunking und überlappendes Chunking für Datenquellen.</block>
@@ -120,4 +111,17 @@
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codebox Viewer: Codebox ist nun in den Prozess der Link-Erstellung integriert. Sie können die CloudFormation-Vorlage aus der Codebox in der Workload Factory anzeigen und kopieren, bevor Sie zur Ausführung des Vorgangs zu AWS umgeleitet werden.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Erforderliche Berechtigungen: Die für die Ausführung der Link-Erstellung in AWS CloudFormation erforderlichen Berechtigungen sind nun verfügbar, um sie über den Create Link Wizard in Workload Factory anzuzeigen und zu kopieren.</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
+  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">Arbeitslastwerkkonsole</block>
+  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSS-Abonnement ist über die verfügbar<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. Durch die Verwendung eines RSS-Feeds können Sie auf einfache Weise von Änderungen in der BlueXP  Workload Factory Gebrauch machen.</block>
+  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Screenshot des Dropdown-Menüs „Workload Factory Console“. Eine neue Schaltfläche zum Abonnieren von RSS wird als Option im Dropdown-Menü angezeigt.</block>
+  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">Beim Hinzufügen von AWS Zugangsdaten an die Workload-Farm können Sie nun für jeden Workload und jedes Storage-Management eine einzelne Berechtigungsrichtlinie auswählen, entweder den Lese- oder den Automatisierungsmodus.</block>
+  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">Fügen Sie AWS-Anmeldedaten zu der Workload-Factory hinzu</block>
+  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
+  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Workload Factory Integration in die BlueXP  Konsole</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP-Konsole</block>
+  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Sie haben nun die Möglichkeit, die Workload Factory aus der <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>zu verwenden. Die BlueXP -Konsole bietet die gleiche Funktionalität wie die Arbeitslastwerkkonsole.</block>
+  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Erfahren Sie, wie Sie über die BlueXP -Konsole auf die Workload-Farm zugreifen</block>
+  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
+  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">1 2024-11-11</block>
 </blocks>
