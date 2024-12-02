@@ -36,7 +36,6 @@
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Unterstützung einer einzelnen Berechtigungsrichtlinie pro Workload</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Screenshot aus dem Abschnitt „Berechtigungskonfiguration“ auf der Seite „Anmeldedaten“, im dem Sie Lese- oder Automatisierungsberechtigungen für das Storage-Management, KI-Workloads, Datenbank-Workloads und VMware-Workloads auswählen können.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrieren Sie zu Amazon EC2</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Verbesserungen bei VMware Migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -87,7 +86,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Kürzliche Änderungen in der BlueXP  Workload-Farm</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Versionshinweise zu BlueXP  Workload auf Werkseinstellungen</block>
-  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">Die Workload-Farm für VMware unterstützt jetzt die Migration zu Amazon EC2 mithilfe des VMware Migrationsberaters.</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Diese Version der Workload-Farm für VMware bietet Funktions- und Stabilitätsverbesserungen sowie die Möglichkeit, Migrationspläne mithilfe des VMware Migration Advisor zu importieren und zu exportieren.</block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codebox Viewer: Codebox ist nun in den Prozess der Link-Erstellung integriert. Sie können die CloudFormation-Vorlage aus der Codebox in der Workload Factory anzeigen und kopieren, bevor Sie zur Ausführung des Vorgangs zu AWS umgeleitet werden.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Erforderliche Berechtigungen: Die für die Ausführung der Link-Erstellung in AWS CloudFormation erforderlichen Berechtigungen sind nun verfügbar, um sie über den Create Link Wizard in Workload Factory anzuzeigen und zu kopieren.</block>
@@ -140,4 +138,9 @@
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">Die BlueXP  Workload-Farm für GenAI unterstützt jetzt das Klonen einer Knowledge Base aus einem Snapshot. Dies ermöglicht eine schnelle Wiederherstellung von Wissensdatenbanken und die Erstellung neuer Wissensdatenbanken mit vorhandenen Datenquellen. Außerdem hilft es bei der Wiederherstellung und Entwicklung von Daten.</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Klonen einer Wissensdatenbank</block>
   <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Verbesserungen bei Amazon EC2 Migration Advisor</block>
+  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Diese Version der BlueXP  Workload-Farm für VMware enthält mehrere Verbesserungen beim Migrationsberater:</block>
+  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Datenerfassung*: Die BlueXP  Workload Factory für VMware unterstützt die Möglichkeit, Daten für einen bestimmten Zeitraum zu erfassen, wenn Sie den Migrationsberater verwenden.</block>
+  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">*VM Selection*: Die BlueXP  Workload Factory für VMware unterstützt jetzt die Auswahl von VMs, die Sie in Ihre Migrationsimplementierung aufnehmen möchten.</block>
+  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Quick vs. Advanced Experience*: Wenn Sie den Migrationsberater verwenden, können Sie jetzt eine schnelle Migration mit RVTools oder die erweiterte Erfahrung auswählen, die den Datensammler des Migrationsberaters verwendet.</block>
 </blocks>
