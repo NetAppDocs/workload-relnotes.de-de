@@ -65,6 +65,46 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Erku
 
 
 
+=== Datenbank-Workloads
+
+
+
+==== Kontinuierliche Optimierung ergänzt die Behebung und Bewertung von Compute-Ressourcen
+
+Datenbanken bieten jetzt Einblicke und Empfehlungen, um Compute-Ressourcen für Microsoft SQL Server Instanzen zu optimieren. Wir messen die CPU-Auslastung und nutzen den AWS Compute Optimizer Service, um Instanztypen der optimalen Größe zu empfehlen und Sie über verfügbare Betriebssystem-Patches zu informieren. Wenn Sie Compute-Ressourcen optimieren, können Sie fundierte Entscheidungen zu Instanztypen treffen, was zu Kosteneinsparungen und einer effizienten Ressourcenauslastung führt.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimierte Konfigurationen von Compute-Ressourcen"]
+
+
+
+==== PostgreSQL-Unterstützung
+
+Sie können jetzt eigenständige PostgreSQL-Server-Implementierungen in Datenbanken implementieren und verwalten.
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Erstellen Sie einen PostgreSQL-Server"]
+
+
+
+=== GenAI-Workloads
+
+
+
+==== Klonen Sie eine Wissensdatenbank aus einem Snapshot
+
+Die BlueXP  Workload-Farm für GenAI unterstützt jetzt das Klonen einer Knowledge Base aus einem Snapshot. Dies ermöglicht eine schnelle Wiederherstellung von Wissensdatenbanken und die Erstellung neuer Wissensdatenbanken mit vorhandenen Datenquellen. Außerdem hilft es bei der Wiederherstellung und Entwicklung von Daten.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["Klonen einer Wissensdatenbank"]
+
+
+
+==== Erkennung und Replizierung von lokalen ONTAP Clustern
+
+Ermitteln und replizieren Sie On-Premises-ONTAP-Cluster-Daten auf ein FSX for ONTAP-Filesystem, damit es für eine Erweiterung von KI-Knowledge-Basen verwendet werden kann. Alle lokalen Erkennungs- und Replikations-Workflows sind über die neue Registerkarte *On-Premises ONTAP* im Speicherbestand möglich.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Ermitteln eines lokalen ONTAP Clusters"]
+
+
+
 == 1 2024-11-11
 
 
@@ -228,26 +268,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== Datenbank-Workloads
-
-
-
-==== Entdecken Sie Einsparungen durch Anpassung
-
-Sie können jetzt mit FSX für Windows File Server und Elastic Block Store Storage im Einsparungsrechner die Konfigurationseinstellungen für Microsoft SQL Server auf Amazon EC2 anpassen. Abhängig von Ihren Storage-Anforderungen sind Sie der Meinung, dass FSX für ONTAP-Storage für Ihre Datenbank-Workloads am kostengünstigsten ist.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
-
-
-
-==== Navigieren Sie von der Startseite zum Einsparungsrechner
-
-Sie können nun von der link:https://console.workloads.netapp.com["Arbeitslastwerkkonsole"^]Homepage zum Einsparungsrechner navigieren. Wählen Sie zum Einstieg Elastic Block Store und FSX for Windows File Server aus.
-
-image:screenshot-explore-savings-home-small.png["Screenshot der Workload Factory-Konsole-Homepage. Die Abbildung zeigt die Kachel „Datenbanken“ mit einer neuen Schaltfläche „Explore Savings“. Klicken Sie auf die Schaltfläche, um ein Dropdown-Menü zu öffnen. Das Dropdown-Menü hat zwei Optionen - Microsoft SQL Server auf EBS und Microsoft SQL Server auf FSX für Windows File Server."]
-
-
-
 === VMware-Workloads
 
 
@@ -255,22 +275,6 @@ image:screenshot-explore-savings-home-small.png["Screenshot der Workload Factory
 ==== Migrieren Sie zu Amazon EC2
 
 Die Workload-Farm für VMware unterstützt jetzt die Migration zu Amazon EC2 mithilfe des VMware Migrationsberaters.
-
-
-
-=== GenAI-Workloads
-
-
-
-==== Zusätzliche Chunking-Strategien
-
-Generative KI-Workloads unterstützen jetzt Multi-Sentence Chunking und überlappendes Chunking für Datenquellen.
-
-
-
-==== Dediziertes Volumen für jede Wissensdatenbank
-
-Generative KI-Workloads erstellen jetzt für jede neue Knowledge Base ein dediziertes Amazon FSX for NetApp ONTAP Volume, mit dem individuelle Snapshot-Richtlinien für jede Knowledge Base erstellt werden. So wird auch der Schutz vor Ausfällen und Datenvergiftungen verbessert.
 
 
 
