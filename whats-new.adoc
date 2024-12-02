@@ -15,6 +15,56 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 1 2024-12-01
+
+
+
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Block-Storage für Scale-out-FSX für ONTAP-Filesysteme
+
+Sie können jetzt Block-Storage über FSX für ONTAP bereitstellen, wenn Sie eine Scale-out-Filesystem-Implementierung mit bis zu 6 HA-Paaren verwenden.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erstellen Sie ein FSX für ONTAP-Dateisystem in der BlueXP -Workload-Fabrik"]
+
+
+
+==== Mount-Befehl verfügbar
+
+Für den NFS- und CIFS-Zugriff auf ein Volume sind nun Mount-Befehle verfügbar. Sie können den Mount-Punkt für ein Volume innerhalb eines FSX für ONTAP-Dateisystems erhalten, indem Sie *Basisaktionen* und dann *Mount-Befehl anzeigen* auswählen.
+
+image:screenshot-view-mount-command.png["Screenshot, der zeigt, wie der Mount-Befehl angezeigt wird, indem Sie in ein fsx für ONTAP-Dateisystem wechseln, das Volume-Menü auswählen, grundlegende Aktionen auswählen und dann den Befehl zum Bereitstellen von View auswählen. Das Dialogfeld Mount-Befehl wird angezeigt und zeigt den Mount-Befehl für den CIFS- oder NFS-Zugriff an."]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/access-data.html["Zeigen Sie den Mount-Befehl für ein Volume an"]
+
+
+
+==== Aktualisierung der Storage-Effizienz nach der Volume-Erstellung
+
+Sie können jetzt die Storage-Effizienz für FlexVol Volumes nach der Volume-Erstellung aktivieren oder deaktivieren. Storage-Effizienz umfasst Deduplizierung, Datenkomprimierung und Data-Compaction. Durch Aktivierung der Storage-Effizienz erzielen Sie optimale Platzeinsparungen mit einer FlexVol volume.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/update-storage-efficiency.html["Aktualisieren der Speichereffizienz für ein Volume"]
+
+
+
+==== Erkennung und Replizierung von lokalen ONTAP Clustern
+
+Ermitteln und replizieren Sie On-Premises-ONTAP-Cluster-Daten auf ein FSX for ONTAP-Filesystem, damit es für eine Erweiterung von KI-Knowledge-Basen verwendet werden kann. Alle lokalen Erkennungs- und Replikations-Workflows sind über die neue Registerkarte *On-Premises ONTAP* im Speicherbestand möglich.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Ermitteln eines lokalen ONTAP Clusters"]
+
+
+
+==== AWS Zugangsdaten verbessern die Einsparungsrechner-Analyse
+
+Sie haben jetzt die Möglichkeit, AWS Zugangsdaten aus dem Einsparungsrechner hinzuzufügen. Das Hinzufügen von Zugangsdaten verbessert die Genauigkeit der Einsparungsrechner-Analyse Ihrer Amazon Elastic Block Store, Elastic File Systems und FSX für Windows File Server Storage-Umgebungen im Vergleich zu FSX für ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Erkunden Sie die Einsparungen mit FSX für ONTAP im BlueXP  Workload-Werk"]
+
+
+
 == 1 2024-11-11
 
 
@@ -175,26 +225,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 == 1 2024-09-01
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Lesemodus-Unterstützung für Speicherverwaltung
-
-Der Lesemodus steht für das Speichermanagement in der Workload Factory zur Verfügung. Der Lesemodus verbessert die Erfahrung des Grundmodus durch Hinzufügen von schreibgeschützten Berechtigungen, sodass die Infrastructure-as-Code-Vorlagen mit Ihren spezifischen Variablen gefüllt werden. Die Infrastructure-as-Code-Vorlagen können direkt über Ihr AWS-Konto ausgeführt werden, ohne dass Änderungen an den Berechtigungen für die Werkseinstellungen des Workloads vorgenommen werden müssen.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Weitere Informationen zum Lesemodus"]
-
-
-
-==== Unterstützung für Backup vor dem Löschen von Volumes
-
-Sie können jetzt ein Volume sichern, bevor Sie es löschen. Die Sicherung bleibt im Dateisystem, bis sie gelöscht wird.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Löschen Sie ein Volume"]
 
 
 
