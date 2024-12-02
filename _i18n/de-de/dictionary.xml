@@ -143,4 +143,6 @@
   <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Datenerfassung*: Die BlueXP  Workload Factory für VMware unterstützt die Möglichkeit, Daten für einen bestimmten Zeitraum zu erfassen, wenn Sie den Migrationsberater verwenden.</block>
   <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">*VM Selection*: Die BlueXP  Workload Factory für VMware unterstützt jetzt die Auswahl von VMs, die Sie in Ihre Migrationsimplementierung aufnehmen möchten.</block>
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Quick vs. Advanced Experience*: Wenn Sie den Migrationsberater verwenden, können Sie jetzt eine schnelle Migration mit RVTools oder die erweiterte Erfahrung auswählen, die den Datensammler des Migrationsberaters verwendet.</block>
+  <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP -Workload ist werkseitig eingestellt</block>
+  <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
 </blocks>
