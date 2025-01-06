@@ -40,23 +40,8 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">1 2024-09-19</block>
-  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">1 2024-09-29</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Sie können jetzt Daten aus generativen KI-Workloads schützen, indem Sie eine zeitpunktgenaue Kopie einer Knowledge Base erstellen. So können Sie Ihre Daten vor versehentlichem Verlust schützen oder Änderungen an den Einstellungen der Wissensdatenbank testen. Sie können jederzeit die vorherige Version des Knowledge Base-Volumes wiederherstellen.</block>
-  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Erstellen Sie einen Snapshot eines Knowledge-Base-Volumes</block>
-  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
-  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">Stellen Sie einen Snapshot eines Knowledge-Base-Volumes wieder her</block>
-  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
-  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">Geplante Scans anhalten</block>
-  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">Sie können jetzt geplante Scans der Datenquelle anhalten. Standardmäßig scannt generative KI-Workloads jede Datenquelle täglich, um neue Daten in jeder Knowledge Base zu erfassen. Wenn Sie nicht möchten, dass die letzten Änderungen aufgenommen werden (z. B. während des Tests oder beim Wiederherstellen eines Snapshots), können Sie die geplanten Scans anhalten und jederzeit wieder aufnehmen.</block>
-  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">Management von Wissensdatenbanken</block>
-  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
-  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">Datensicherung-Volumes werden jetzt für Wissensdatenbanken unterstützt</block>
-  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Bei der Auswahl eines Knowledge-Base-Volumes können Sie nun ein Datensicherungs-Volume auswählen, das Teil einer NetApp SnapMirror Replizierungsbeziehung ist. So können Sie Wissensdatenbanken auf Volumes speichern, die bereits durch die SnapMirror-Replizierung geschützt sind.</block>
-  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Ermitteln Sie die Datenquellen, die in Ihre Wissensdatenbank integriert werden sollen</block>
-  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
-  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Snapshot und Restore-Unterstützung für Knowledge Base Volumes</block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Registerkartenansichten im Speicherbestand</block>
   <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">Der Bestand des Speichers wurde auf eine Ansicht mit zwei Registerkarten aktualisiert:</block>
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSX für ONTAP Registerkarte: Zeigt die FSX für ONTAP Dateisysteme, die Sie derzeit haben.</block>
@@ -162,4 +147,16 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Bewertung und Optimierung für überprovisionierte Microsoft SQL Server-Lizenzen</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">Der Einsparungsrechner bewertet nun, ob die Enterprise Edition für Ihre Microsoft SQL Server-Bereitstellung erforderlich ist. Wenn eine Lizenz überprovisioniert ist, empfiehlt der Rechner ein Downgrade. Sie können die Lizenz in Datenbanken automatisch herunterstufen, indem Sie die Anwendung optimieren.</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">1 2025-01-06</block>
+  <block id="a117d99fd0597e840921767ec50fe791" category="doc">Benutzerdefinierter Snapshot-Name</block>
+  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">Sie können jetzt einen Snapshot-Namen für einen Ad-hoc-Snapshot bereitstellen.</block>
+  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">Schützen Sie eine Wissensdatenbank mit Snapshots</block>
+  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
+  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">Individueller Name für die AI Engine Instance</block>
+  <block id="5a22f1756638135653917db715aeec43" category="paragraph">Sie können der KI-Engine-Instanz jetzt während der Implementierung einen benutzerdefinierten Namen geben.</block>
+  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">Implementierung der GenAI-Infrastruktur</block>
+  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
+  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">Wiederherstellung beschädigter oder fehlender GenAI-Infrastruktur</block>
+  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Wenn Ihre KI-Engine beschädigt wird oder irgendwie gelöscht wird, können Sie sie auf der Workload-Farm für Sie neu erstellen lassen. Die Workload Factory verbindet Ihre Wissensdatenbanken nach Abschluss der Neuerstellung automatisch mit der Infrastruktur, sodass sie einsatzbereit sind.</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Fehlerbehebung</block>
+  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
 </blocks>
