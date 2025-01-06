@@ -1,0 +1,17 @@
+= Verbesserungen der Volume-CIFS-Freigabe
+:allow-uri-read: 
+
+
+
+
+=== Verbesserungen der Volume-CIFS-Freigabe
+
+Die folgenden Verbesserungen sind für das Management von CIFS-Freigaben für Volumes in einem Dateisystem von Amazon FSX für ONTAP in der BlueXP -Workload-Fabrik verfügbar:
+
+* Unterstützung für mehrere CIFS-Freigaben auf einem Volume
+* Die Option, Benutzer und Gruppen jederzeit zu aktualisieren
+* Die Option, Berechtigungen für Benutzer und Gruppen jederzeit zu aktualisieren
+* Löschen der CIFS-Freigabe
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["CIFS-Freigaben managen"]

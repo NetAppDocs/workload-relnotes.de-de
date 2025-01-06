@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Informieren Sie sich über die Einsparungen für erkannte Microsoft SQL-Server auf FSX für Windows File Server</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Mit FSX für Windows File Server Storage können Sie jetzt die Einsparungen von erkannten Microsoft SQL Servern auf Amazon EC2 untersuchen. Abhängig von Ihren SQL-Server- und Storage-Anforderungen sind Sie vielleicht der Meinung, dass FSX für ONTAP-Storage die kosteneffizienteste Lösung für Ihre Datenbank-Workloads ist.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">1 2024-09-29</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">Aktualisierung der Link-Erstellung</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">Unterstützung für manuelle Link-Erstellung: Diese Funktion ermöglicht die eigenständige Erstellung in AWS CloudFormation mit manueller Registrierung des Links ARN. Es ist nützlich, wenn ein Sicherheits- oder DevOps-Team beim Link-Erstellungsprozess hilft.</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">Erstellen Sie eine Verknüpfung</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Sie können jetzt Daten aus generativen KI-Workloads schützen, indem Sie eine zeitpunktgenaue Kopie einer Knowledge Base erstellen. So können Sie Ihre Daten vor versehentlichem Verlust schützen oder Änderungen an den Einstellungen der Wissensdatenbank testen. Sie können jederzeit die vorherige Version des Knowledge Base-Volumes wiederherstellen.</block>
@@ -87,9 +84,6 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Versionshinweise zu BlueXP  Workload auf Werkseinstellungen</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Diese Version der Workload-Farm für VMware bietet Funktions- und Stabilitätsverbesserungen sowie die Möglichkeit, Migrationspläne mithilfe des VMware Migration Advisor zu importieren und zu exportieren.</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">Codebox Viewer: Codebox ist nun in den Prozess der Link-Erstellung integriert. Sie können die CloudFormation-Vorlage aus der Codebox in der Workload Factory anzeigen und kopieren, bevor Sie zur Ausführung des Vorgangs zu AWS umgeleitet werden.</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Erforderliche Berechtigungen: Die für die Ausführung der Link-Erstellung in AWS CloudFormation erforderlichen Berechtigungen sind nun verfügbar, um sie über den Create Link Wizard in Workload Factory anzuzeigen und zu kopieren.</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">Arbeitslastwerkkonsole</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSS-Abonnement ist über die verfügbar<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. Durch die Verwendung eines RSS-Feeds können Sie auf einfache Weise von Änderungen in der BlueXP  Workload Factory Gebrauch machen.</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Screenshot des Dropdown-Menüs „Workload Factory Console“. Eine neue Schaltfläche zum Abonnieren von RSS wird als Option im Dropdown-Menü angezeigt.</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Quick vs. Advanced Experience*: Wenn Sie den Migrationsberater verwenden, können Sie jetzt eine schnelle Migration mit RVTools oder die erweiterte Erfahrung auswählen, die den Datensammler des Migrationsberaters verwendet.</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP -Workload ist werkseitig eingestellt</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">Verbesserungen der Volume-CIFS-Freigabe</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">Die folgenden Verbesserungen sind für das Management von CIFS-Freigaben für Volumes in einem Dateisystem von Amazon FSX für ONTAP in der BlueXP -Workload-Fabrik verfügbar:</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">Unterstützung für mehrere CIFS-Freigaben auf einem Volume</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">Die Option, Benutzer und Gruppen jederzeit zu aktualisieren</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">Die Option, Berechtigungen für Benutzer und Gruppen jederzeit zu aktualisieren</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">Löschen der CIFS-Freigabe</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">CIFS-Freigaben managen</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">1 2025-01-05</block>
 </blocks>
