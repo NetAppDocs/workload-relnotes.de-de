@@ -24,22 +24,18 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform-Unterstützung</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Verwenden Sie Terraform aus der Codebox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Terraform-Unterstützung ist für die Implementierung von Amazon FSX for NetApp ONTAP Filesystemen und die Erstellung von Storage-VMs verfügbar. Die Setup- und Admin-Anleitung enthält nun Anweisungen zur Verwendung von Terraform aus der Codebox.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Datenbank-Workloads</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX für NetApp ONTAP</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI-Workloads</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Einrichtung und Administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware-Workloads</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">1 2024-08-04</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 2024-09-01</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS-Abonnement</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Unterstützung einer einzelnen Berechtigungsrichtlinie pro Workload</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Screenshot aus dem Abschnitt „Berechtigungskonfiguration“ auf der Seite „Anmeldedaten“, im dem Sie Lese- oder Automatisierungsberechtigungen für das Storage-Management, KI-Workloads, Datenbank-Workloads und VMware-Workloads auswählen können.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Verbesserungen bei VMware Migration Advisor</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">1 2024-09-19</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Registerkartenansichten im Speicherbestand</block>
@@ -66,7 +62,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Kürzliche Änderungen in der BlueXP  Workload-Farm</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Versionshinweise zu BlueXP  Workload auf Werkseinstellungen</block>
-  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Diese Version der Workload-Farm für VMware bietet Funktions- und Stabilitätsverbesserungen sowie die Möglichkeit, Migrationspläne mithilfe des VMware Migration Advisor zu importieren und zu exportieren.</block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">Arbeitslastwerkkonsole</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">RSS-Abonnement ist über die verfügbar<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. Durch die Verwendung eines RSS-Feeds können Sie auf einfache Weise von Änderungen in der BlueXP  Workload Factory Gebrauch machen.</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Screenshot des Dropdown-Menüs „Workload Factory Console“. Eine neue Schaltfläche zum Abonnieren von RSS wird als Option im Dropdown-Menü angezeigt.</block>
@@ -159,4 +154,10 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Wenn Ihre KI-Engine beschädigt wird oder irgendwie gelöscht wird, können Sie sie auf der Workload-Farm für Sie neu erstellen lassen. Die Workload Factory verbindet Ihre Wissensdatenbanken nach Abschluss der Neuerstellung automatisch mit der Infrastruktur, sodass sie einsatzbereit sind.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Fehlerbehebung</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
+  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Support für Servicekonten in der BlueXP  Workload-Fabrik</block>
+  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Servicekonten werden jetzt in der BlueXP  Workload-Fabrik unterstützt. Sie können Servicekonten erstellen, die als Maschinenbenutzer fungieren, die Infrastrukturvorgänge automatisieren.</block>
+  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Erstellen und Verwalten von Servicekonten</block>
+  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
+  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Migrationsplan speichern oder herunterladen*: Sie können jetzt einen Migrationsplan speichern oder herunterladen und den Migrationsplan laden, um den Migrationsberater zu füllen. Wenn Sie einen Migrationsplan speichern, wird der Plan mit Ihrem Arbeitslastwerkskonto gespeichert.</block>
+  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Verbesserte VM-Auswahl*: Die BlueXP  Workload Factory für VMware unterstützt jetzt das Filtern und Durchsuchen der Liste der VMs, die Sie in Ihre Migrationsbereitstellung aufnehmen möchten.</block>
 </blocks>
