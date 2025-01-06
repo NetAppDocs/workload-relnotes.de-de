@@ -15,6 +15,47 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 1 2025-01-06
+
+
+
+=== Datenbank-Workloads
+
+
+
+==== Verbesserungen am DatenbankDashboard
+
+Ein neues Design des Dashboards umfasst die folgenden Grafiken und Verbesserungen:
+
+* Das Diagramm „Hostverteilung“ zeigt die Anzahl der Microsoft SQL Server-Hosts und PostgreSQL-Hosts an
+* Details zur Verteilung von Instanzen umfassen die Gesamtanzahl der erkannten Instanzen und die Anzahl der verwalteten Microsoft SQL Server- und PostgreSQL-Instanzen
+* Zu den Details der Datenbankverteilung zählen die Gesamtzahl der Datenbanken sowie die Anzahl der verwalteten Microsoft SQL Server- und PostgreSQL-Datenbanken
+* Optimierungswert und -Status für verwaltete und Online-Instanzen
+* Optimierungsdetails für Storage-, Computing- und Applikationskategorien
+* Optimierungsdetails für Microsoft SQL Server Instanzen-Konfigurationen wie Storage-Sizing, Storage Layout, ONTAP Storage, Computing und Applikationen
+* Potenzielle Einsparungen bei Datenbank-Workloads, die auf Amazon Elastic Block Store und FSX für Windows File Server Storage-Umgebungen ausgeführt werden, im Vergleich zu Amazon FSX für NetApp ONTAP Storage
+
+
+
+
+==== Neuer Status „mit Problemen abgeschlossen“ in der Jobüberwachung
+
+Die Jobüberwachungsfunktion für Datenbanken bietet jetzt den neuen Status „mit Problemen abgeschlossen“, sodass Sie erfahren können, welche untergeordneten Jobs Probleme hatten und welche Probleme auftreten.
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Überwachen Sie Ihre Datenbanken"]
+
+
+
+==== Bewertung und Optimierung für überprovisionierte Microsoft SQL Server-Lizenzen
+
+Der Einsparungsrechner bewertet nun, ob die Enterprise Edition für Ihre Microsoft SQL Server-Bereitstellung erforderlich ist. Wenn eine Lizenz überprovisioniert ist, empfiehlt der Rechner ein Downgrade. Sie können die Lizenz in Datenbanken automatisch herunterstufen, indem Sie die Anwendung optimieren.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Server-Workloads optimieren"]
+
+
+
+
 == 1 2025-01-05
 
 
@@ -227,18 +268,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 == 1 2024-09-29
-
-
-
-=== Datenbank-Workloads
-
-
-
-==== Informieren Sie sich über die Einsparungen für erkannte Microsoft SQL-Server auf FSX für Windows File Server
-
-Mit FSX für Windows File Server Storage können Sie jetzt die Einsparungen von erkannten Microsoft SQL Servern auf Amazon EC2 untersuchen. Abhängig von Ihren SQL-Server- und Storage-Anforderungen sind Sie vielleicht der Meinung, dass FSX für ONTAP-Storage die kosteneffizienteste Lösung für Ihre Datenbank-Workloads ist.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
 
 
 
