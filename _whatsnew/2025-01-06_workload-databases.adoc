@@ -31,6 +31,6 @@ link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Ü
 
 Der Einsparungsrechner bewertet nun, ob die Enterprise Edition für Ihre Microsoft SQL Server-Bereitstellung erforderlich ist. Wenn eine Lizenz überprovisioniert ist, empfiehlt der Rechner ein Downgrade. Sie können die Lizenz in Datenbanken automatisch herunterstufen, indem Sie die Anwendung optimieren.
 
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"^]
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen"]
 * link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["SQL Server-Workloads optimieren"]
 
