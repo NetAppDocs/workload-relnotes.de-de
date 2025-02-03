@@ -1,0 +1,35 @@
+= Dateitypfilterung für Datenquellen
+:allow-uri-read: 
+
+
+
+
+=== Dateitypfilterung für Datenquellen
+
+GenAI unterstützt jetzt die Auswahl bestimmter Dateitypen, die beim Hinzufügen einer Datenquelle in den Scan der Datenquelle einbezogen werden sollen.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Fügen Sie der Wissensdatenbank Datenquellen hinzu"]
+
+
+
+=== Dateiänderung nach Datenquellen filtern
+
+GenAI unterstützt jetzt das Filtern von Dateien, die beim Hinzufügen einer Datenquelle in den Scan der Datenquelle nach Änderungsdatum einbezogen werden sollen. Sie können einen Änderungsdatumbereich für die enthaltenen Dateien auswählen.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Fügen Sie der Wissensdatenbank Datenquellen hinzu"]
+
+
+
+=== Unterstützung für Bilddateien und erweiterte Unterstützung für PDF-Dateien
+
+GenAI unterstützt jetzt das Scannen von Bilddateien und Bildern in PDF-Dateien (auch als Multi-modale Dateiunterstützung bekannt). Wenn Sie Bilddateien auswählen, wird der Text aus den Bildern in die Datenquelle gescannt und als Daten verwendet. Diese Funktion umfasst Bilder in PDF-Dokumenten. Wenn Sie PDF-Dateitypen hinzufügen, werden Bilder in jeder PDF-Datei nach Text gescannt, und dieser Text wird in den Informationen aus der Datenquelle enthalten.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Fügen Sie der Wissensdatenbank Datenquellen hinzu"]
+
+
+
+=== Hybride Suche und erneute Unterstützung
+
+GenAI verbessert jetzt die Relevanz von Suchergebnissen durch hybride Suche und Neubewertung der Ergebnisse. Hybride Suche kombiniert Schlüsselwortsuche mit Vektor- und semantischer Suche. Die Standard-Keyword-Suchergebnisse werden durch enge Übereinstimmungen und sprachliche Nuance erweitert, was die Relevanz erhöht. GenAI ordnet die Suchergebnisse neu und liefert nur Ergebnisse mit der höchsten Relevanz.
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Erfahren Sie mehr über die BlueXP -Workload-Fabrik für GenAI"]
