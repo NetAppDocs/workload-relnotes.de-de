@@ -48,6 +48,73 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== CloudShell in der BlueXP -Workload-Factory-Konsole
+
+CloudShell ist eine integrierte CLI-Funktion, die in der BlueXP -Workload-Farm für Storage verfügbar ist. Sie können CloudShell verwenden, um ONTAP- oder AWS-CLI-Befehle von mehreren Sitzungen in einer Shell-ähnlichen Umgebung in der Workload-Factory-Konsole zu erstellen, zu teilen und auszuführen.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Erfahren Sie mehr über CloudShell in der BlueXP -Workload-Farm"^]
+
+
+
+==== Herunterladen von Bestandsdaten
+
+Sie können jetzt FSX für ONTAP-Bestandsdaten in eine Microsoft Excel- oder CSV-Datei von Speicher in BlueXP  Workload Factory herunterladen.
+
+image:screenshot-fsx-inventory-download.png["Ein Screenshot von Speicher in der BlueXP  Workload-Fabrik zeigt die neue Download-Schaltfläche zum Herunterladen von FSX für ONTAP File-System-Bestandsdaten."]
+
+
+
+==== FSX für ONTAP-Dateisystem zusätzliche Menüoptionen
+
+Wir haben es für ein Dateisystem FSX für ONTAP aus der Registerkarte FSX für ONTAP in Speicher einfacher gemacht.
+
+* Erstellen einer Storage-VM
+* Erstellen eines Volumes
+* Replizierung von Volume-Daten
+
+
+image:screenshot-filesystem-menu-options.png["Ein Screenshot der Registerkarte FSX for ONTAP in Storage mit den neuen Menüoptionen zur Erstellung von Storage-VM, zur Erstellung von Volumes und zur Replizierung von Volume-Daten"]
+
+
+
+==== Terraform-Unterstützung zum Erstellen von Volumes
+
+Sie können jetzt Terraform aus der Codebox verwenden, um Volumes zu erstellen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Erstellen eines Volumes"]
+
+
+
+==== Dateisperrung mit der Funktion „unveränderliche Dateien“
+
+Sie können nun Dateien mit der Funktion „unveränderliche Dateien“ sperren, wenn Sie ein Volume für ein FSX für ONTAP-Dateisystem erstellen. Dateisperrung hilft Ihnen und anderen, versehentliches oder vorsätzliches Löschen von Dateien für einen bestimmten Zeitraum zu verhindern.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Erstellen eines Volumes"]
+
+
+
+==== Tracker zur Überwachung und Nachverfolgung von Vorgängen verfügbar
+
+Tracker, eine neue Monitoring-Funktion ist im Storage verfügbar. Mit Tracker können Sie den Fortschritt und den Status von Anmeldeinformationen, Speicher und Verbindungsvorgängen überwachen und verfolgen, Details für Betriebsaufgaben und untergeordnete Aufgaben überprüfen, Probleme oder Fehler diagnostizieren, Parameter für fehlgeschlagene Vorgänge bearbeiten und fehlgeschlagene Vorgänge erneut versuchen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Überwachen und verfolgen Sie den Betrieb mit Tracker"]
+
+
+
+==== Unterstützung für die zweite Generation von Amazon FSX für NetApp ONTAP-Filesystemen
+
+Sie können jetzt Amazon FSX for NetApp ONTAP Filesysteme der zweiten Generation in einer BlueXP -Workload-Fabrik verwenden. FSX für ONTAP Single-AZ-Filesysteme der zweiten Generation werden mit bis zu 12 HA-Paaren unterstützt, die einen Durchsatz von bis zu 72 Gbit/s und 2,400,000 SSD-IOPS liefern können. FSX für ONTAP Multi-AZ-Filesysteme der zweiten Generation werden mit einem HA-Paar betrieben. Sie bieten einen Durchsatz von 6 GB/s und 200,000 SSD-IOPS.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["Fügen Sie Hochverfügbarkeitspaare hinzu"]
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Kontingente und Grenzen für Amazon FSX for NetApp ONTAP"^]
+
+
+
+
 === GenAI-Workloads
 
 
@@ -347,20 +414,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Ermi
 
 
 == 1 2024-11-03
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Registerkartenansichten im Speicherbestand
-
-Der Bestand des Speichers wurde auf eine Ansicht mit zwei Registerkarten aktualisiert:
-
-* FSX für ONTAP Registerkarte: Zeigt die FSX für ONTAP Dateisysteme, die Sie derzeit haben.
-* Registerkarte „Einsparungen“: Zeigt Elastic Block Store-, FSX für Windows File Server- und Elastic File Systems-Storage-Systeme an. Außerdem können Sie die Einsparungen für diese Systeme im Vergleich mit FSX for ONTAP untersuchen.
-
 
 
 
