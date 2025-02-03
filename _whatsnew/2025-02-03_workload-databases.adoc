@@ -1,0 +1,24 @@
+= Kostenanalyse und Migrationsplanung für On-Premises-Datenbankumgebungen
+:allow-uri-read: 
+
+
+
+
+=== Kostenanalyse und Migrationsplanung für On-Premises-Datenbankumgebungen
+
+Die BlueXP  Workload Factory für Datenbanken erkennt, analysiert und unterstützt Sie jetzt bei der Planung einer On-Premises-Datenbankmigration zu Amazon FSX für NetApp ONTAP. Mit dem Einsparungsrechner können Sie die Kosten für die Ausführung Ihrer lokalen Datenbankumgebung in der Cloud einschätzen und Empfehlungen für die Migration Ihrer lokalen Datenbankumgebung in die Cloud prüfen.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Entdecken Sie Einsparungen bei lokalen Datenbankumgebungen"]
+
+
+
+=== Neue Optimierungsbewertungen für Datenbanken
+
+Die folgenden Bewertungen sind jetzt in der BlueXP -Workload-Fabrik für Datenbanken verfügbar. Der Schwerpunkt dieser Bewertungen liegt auf der Erkennung und dem Schutz vor potenziellen Sicherheitslücken sowie der Erkennung und Beseitigung von Performance-Engpässen.
+
+* *Empfangsseitige Skalierung (RSS) Konfiguration*: Prüft, ob die RSS Konfiguration aktiviert ist und ob die Anzahl der Warteschlangen auf den empfohlenen Wert gesetzt ist. Die Bewertung enthält auch Empfehlungen zur Optimierung der RSS-Konfiguration.
+* *Maximale Parallelität (MAXDOP) Serverkonfiguration*: Die Bewertung prüft, ob MAXDOP korrekt konfiguriert ist und gibt Empfehlungen zur Optimierung der Leistung.
+* *Microsoft SQL Server Patches*: Die Prüfung prüft, ob die neuesten Patches auf den SQL Server Instanzen installiert sind und gibt Empfehlungen zur Installation der neuesten Patches.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimieren von Konfigurationen"]
