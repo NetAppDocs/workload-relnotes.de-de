@@ -1,6 +1,14 @@
-= Dateitypfilterung für Datenquellen
+= Support für Amazon Nova-Basismodelle
 :allow-uri-read: 
 
+
+
+
+=== Support für Amazon Nova-Basismodelle
+
+GenAI unterstützt jetzt die Amazon Nova Foundation Modelle. Amazon Nova Micro, Amazon Nova Lite und Amazon Nova Pro werden unterstützt.
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["GenAI-Anforderungen"]
 
 
 
