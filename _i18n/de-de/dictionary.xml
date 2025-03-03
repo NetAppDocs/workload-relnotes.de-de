@@ -29,24 +29,13 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
-  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">1 2024-11-03</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Server-Workloads optimieren</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Das Datenreduzierungsverhältnis von VMware Migration Advisor hilft Ihnen dabei</block>
-  <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Diese Version von Workload Factory für VMware umfasst einen Assistenten zur Datenreduzierung. Mit dem Assistenten zur Datenreduzierung können Sie entscheiden, welches Verhältnis für Ihren VMware Bestand und Ihren Storage-Bestand am besten ist, wenn Sie sich für das AWS Cloud Onboarding vorbereiten.</block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil der BlueXP -Workload-Fabrik sind.</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Kürzliche Änderungen in der BlueXP  Workload-Farm</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Versionshinweise zu BlueXP  Workload auf Werkseinstellungen</block>
-  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">Erkennung und Replizierung von lokalen ONTAP Clustern</block>
-  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">Ermitteln und replizieren Sie On-Premises-ONTAP-Cluster-Daten auf ein FSX for ONTAP-Filesystem, damit es für eine Erweiterung von KI-Knowledge-Basen verwendet werden kann. Alle lokalen Erkennungs- und Replikations-Workflows sind über die neue Registerkarte *On-Premises ONTAP* im Speicherbestand möglich.</block>
-  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">Ermitteln eines lokalen ONTAP Clusters</block>
-  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 2024-12-01</block>
-  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">Klonen Sie eine Wissensdatenbank aus einem Snapshot</block>
-  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">Die BlueXP  Workload-Farm für GenAI unterstützt jetzt das Klonen einer Knowledge Base aus einem Snapshot. Dies ermöglicht eine schnelle Wiederherstellung von Wissensdatenbanken und die Erstellung neuer Wissensdatenbanken mit vorhandenen Datenquellen. Außerdem hilft es bei der Wiederherstellung und Entwicklung von Daten.</block>
-  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Klonen einer Wissensdatenbank</block>
-  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Verbesserungen bei Amazon EC2 Migration Advisor</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Diese Version der BlueXP  Workload-Farm für VMware enthält mehrere Verbesserungen beim Migrationsberater:</block>
   <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Datenerfassung*: Die BlueXP  Workload Factory für VMware unterstützt die Möglichkeit, Daten für einen bestimmten Zeitraum zu erfassen, wenn Sie den Migrationsberater verwenden.</block>
@@ -209,4 +198,21 @@
   <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">Bericht zur Einsparungsanalyse per E-Mail</block>
   <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">Wenn Sie die Einsparungen für Ihre Amazon Elastic Block Store und FSX für Windows File Server Storage-Umgebungen im Vergleich zu FSX für ONTAP erkunden, können Sie sich nun den Empfehlungsbericht per E-Mail an sich selbst, Teammitglieder und Kunden senden.</block>
   <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">1 2025-03-03</block>
+  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">Verbesserungen des integrierten Chatbot</block>
+  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">Sie können jetzt Fragen und Antworten direkt in die Zwischenablage kopieren, die Größe des Chat-Fensters anpassen und dessen Titel ändern. Darüber hinaus können Chat-Antworten jetzt Tabellen enthalten, die auch kopierbar sind.</block>
+  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">Testen Sie eine GenAI Knowledge Base</block>
+  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
+  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">Unterstützung bei der Chat-Antwort</block>
+  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">Die Chat-Antworten enthalten nun Zitate, in denen die Dateien und Datenpakete aufgelistet sind, die zur Generierung der Antwort verwendet wurden.</block>
+  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">Verbesserte Unterstützung von Dateitypen</block>
+  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">Diese Version von GenAI bietet erweiterte Dateiunterstützung:</block>
+  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">Chat-Modelle bieten eine verbesserte CSV-Unterstützung. Dies ermöglicht nützlichste Antworten beim Abfragen von Daten aus CSV-Dateien.</block>
+  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI kann jetzt Apache Parkett Dateien aus Datenquellen aufnehmen.</block>
+  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI unterstützt jetzt die Aufnahme von Microsoft Word DOCX-Dateien, die Bilder enthalten.</block>
+  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Unterstützte Datenquelldateiformate</block>
+  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
+  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Diese Version der BlueXP  Workload-Farm für VMware bietet mehrere Verbesserungen bei der Erfahrung des Amazon EC2 Migration Advisor:</block>
+  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Geschätzter Instanztyp*: Der Migrationsberater kann nun die Anforderungen Ihrer Umgebung prüfen und für jede VM einen geschätzten Amazon EC2 Instanztyp angeben. Sie können auswählen, den geschätzten Instanztyp für jede VM im Schritt „Umfang“ des Migrationsberaters einzubeziehen.</block>
+  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*Möglichkeit Amazon EBS Volumes zu empfehlen*: Der Migrationsberater kann aufgrund bestimmter Kapazitäts- oder Performance-Anforderungen einer bestimmten Region nun die Migration von Daten-Volumes in den Amazon Elastic Block Store (EBS) anstelle von Amazon FSX for NetApp ONTAP empfehlen.</block>
+  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* Verbesserte automatische Dateisystemzuweisung*: Amazon FSX für NetApp ONTAP Dateisystemzuweisung wurde verbessert, um Kosten besser zu optimieren und Durchsatz zu minimieren.</block>
 </blocks>

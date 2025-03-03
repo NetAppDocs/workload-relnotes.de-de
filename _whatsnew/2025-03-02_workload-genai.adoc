@@ -1,0 +1,32 @@
+= Verbesserungen des integrierten Chatbot
+:allow-uri-read: 
+
+
+
+
+=== Verbesserungen des integrierten Chatbot
+
+Sie können jetzt Fragen und Antworten direkt in die Zwischenablage kopieren, die Größe des Chat-Fensters anpassen und dessen Titel ändern. Darüber hinaus können Chat-Antworten jetzt Tabellen enthalten, die auch kopierbar sind.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Testen Sie eine GenAI Knowledge Base"]
+
+
+
+=== Unterstützung bei der Chat-Antwort
+
+Die Chat-Antworten enthalten nun Zitate, in denen die Dateien und Datenpakete aufgelistet sind, die zur Generierung der Antwort verwendet wurden.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Testen Sie eine GenAI Knowledge Base"]
+
+
+
+=== Verbesserte Unterstützung von Dateitypen
+
+Diese Version von GenAI bietet erweiterte Dateiunterstützung:
+
+* Chat-Modelle bieten eine verbesserte CSV-Unterstützung. Dies ermöglicht nützlichste Antworten beim Abfragen von Daten aus CSV-Dateien.
+* GenAI kann jetzt Apache Parkett Dateien aus Datenquellen aufnehmen.
+* GenAI unterstützt jetzt die Aufnahme von Microsoft Word DOCX-Dateien, die Bilder enthalten.
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Unterstützte Datenquelldateiformate"]
