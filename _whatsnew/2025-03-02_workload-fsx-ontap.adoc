@@ -1,0 +1,50 @@
+= Automatische Verbesserungen beim Kapazitätsmanagement
+:allow-uri-read: 
+
+
+
+
+=== Automatische Verbesserungen beim Kapazitätsmanagement
+
+Bei Aktivierung des automatischen Kapazitätsmanagements prüft die BlueXP  Workload Factory nun, ob ein Filesystem seinen Kapazitätsschwellenwert alle 30 Minuten anstatt alle 2 Stunden erreicht hat.
+
+Die Workload Factory überprüft außerdem nach verfügbaren Inodes in Volumes und erhöht ihre Anzahl entsprechend den konfigurierten Schwellenwerten für das automatische Kapazitätsmanagement.
+
+Die Einstellung für bereitgestellte IOPS wird nicht mehr beeinflusst, wenn der Kapazitätsschwellenwert erreicht wird.
+
+
+
+=== Unveränderliche Snapshots
+
+Sie können Snapshots nun über einen bestimmten Aufbewahrungszeitraum sperren und sie damit unveränderbar machen. Das Sperren verhindert unbefugten Zugriff und böswillige Löschung von Snapshots. Sie können unveränderliche Snapshots während der Erstellung der Snapshot-Richtlinie, beim Erstellen manueller Snapshots und nach der Snapshot-Erstellung aktivieren.
+
+
+
+=== Aktualisierung unveränderlicher Dateien
+
+Nun können Sie an Ihrer Konfiguration unveränderlicher Dateien folgende Änderungen vornehmen: Aufbewahrungsrichtlinie, Aufbewahrungszeitraum, Autofestzeitraum und Modus für anhängen von Volumes.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Management unveränderlicher Dateien"^]
+
+
+
+=== Verbesserungen bei der Datenreplizierung
+
+* Cross-Account-Replizierung: Die Replizierung zwischen zwei AWS-Konten wird in der BlueXP  Workload Factory-Konsole sowie in der Replikationsverwaltung unterstützt.
+* Volume-Replizierung für Datensicherung: Datensicherungs-Volumes unterstützen jetzt eine kaskadierende Replizierung, wenn Volumes von replizierten Volumes repliziert werden.
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Replizierung eines Datensicherheitsvolumes"]
+
+* Replikation anhalten und fortsetzen: Sie können geplante Replikations-Updates vom Quell-Volume zum Ziel-Volume unterbrechen (stilllegen) und dann den Replikationszeitplan wieder aufnehmen, sobald Sie bereit sind. Während der Pause werden Quell- und Ziel-Volumes unabhängig und das Ziel-Volume wird von schreibgeschützten auf Schreib- und Lesezugriff umgestellt.
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["Anhalten und Wiederaufnehmen einer Replikationsbeziehung"]
+
+
+
+
+
+=== CloudShell-Events in Tracker
+
+Jetzt können Sie CloudShell-Ereignisse in Tracker verfolgen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Überwachen und verfolgen Sie den Betrieb mit Tracker"]
