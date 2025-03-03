@@ -15,6 +15,58 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 1 2025-03-03
+
+
+
+=== Datenbank-Workloads
+
+
+
+==== Konfiguration und schnelle Erstellung von PostgreSQL-Hochverfügbarkeit
+
+In der BlueXP -Workload-Fabrik für Datenbanken werden zwei neue Funktionen unterstützt:
+
+* PostgreSQL HA-Konfiguration (High Availability, Hochverfügbarkeit): Sie können jetzt eine HA-Konfiguration für PostgreSQL Server implementieren.
+* Schnelle Erstellung: Sie können diese schnelle Bereitstellungsoption verwenden, um einen PostgreSQL-Server mit HA-Konfiguration und eingebetteten Best Practices zu erstellen.
+
+
+link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["Erstellen Sie einen PostgreSQL-Server"]
+
+
+
+==== Terraform-Unterstützung für die PostgreSQL-Servererstellung
+
+Sie können jetzt Terraform aus der Codebox verwenden, um PostgreSQL zu implementieren.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Erstellen Sie einen PostgreSQL-Datenbankserver"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Verwenden Sie Terraform aus der Codebox"^]
+
+
+
+
+==== Stabilitätsbewertung für lokalen Snapshot-Zeitplan
+
+Für Datenbank-Workloads steht eine neue Bewertung der Ausfallsicherheit zur Verfügung. Wir bewerten, ob Volumes für Ihre Microsoft SQL Server Instanzen gültige geplante Snapshot-Richtlinien aufweisen. Snapshots sind zeitpunktgenaue Kopien Ihrer Daten und sorgen dafür, dass Ihre Datenbankumgebungen auch bei Datenverlusten ausfallsicher bleiben.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimieren von Konfigurationen"]
+
+
+
+==== MAXDOP-Korrektur für Datenbank-Workloads
+
+Die BlueXP -Workload-Fabrik für Datenbanken unterstützt jetzt die Wiederherstellung der maximalen Parallelität (Maximum Degree of Parallelism, MAXDOP)-Serverkonfiguration. Wenn die MAXDOP-Konfiguration nicht optimal ist, können Sie die Konfiguration für die BlueXP -Workload Factory optimieren lassen.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimieren von Konfigurationen"]
+
+
+
+==== Bericht zur Einsparungsanalyse per E-Mail
+
+Wenn Sie die Einsparungen für Ihre Amazon Elastic Block Store und FSX für Windows File Server Storage-Umgebungen im Vergleich zu FSX für ONTAP erkunden, können Sie sich nun den Empfehlungsbericht per E-Mail an sich selbst, Teammitglieder und Kunden senden.
+
+
+
 == 1 2025-03-02
 
 
@@ -370,26 +422,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 
 
 == 1 2024-12-01
-
-
-
-=== Datenbank-Workloads
-
-
-
-==== Kontinuierliche Optimierung ergänzt die Behebung und Bewertung von Compute-Ressourcen
-
-Datenbanken bieten jetzt Einblicke und Empfehlungen, um Compute-Ressourcen für Microsoft SQL Server Instanzen zu optimieren. Wir messen die CPU-Auslastung und nutzen den AWS Compute Optimizer Service, um Instanztypen der optimalen Größe zu empfehlen und Sie über verfügbare Betriebssystem-Patches zu informieren. Wenn Sie Compute-Ressourcen optimieren, können Sie fundierte Entscheidungen zu Instanztypen treffen, was zu Kosteneinsparungen und einer effizienten Ressourcenauslastung führt.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimierte Konfigurationen von Compute-Ressourcen"]
-
-
-
-==== PostgreSQL-Unterstützung
-
-Sie können jetzt eigenständige PostgreSQL-Server-Implementierungen in Datenbanken implementieren und verwalten.
-
-link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Erstellen Sie einen PostgreSQL-Server"]
 
 
 
