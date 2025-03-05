@@ -24,7 +24,7 @@ Sie können Snapshots nun über einen bestimmten Aufbewahrungszeitraum sperren u
 
 Nun können Sie an Ihrer Konfiguration unveränderlicher Dateien folgende Änderungen vornehmen: Aufbewahrungsrichtlinie, Aufbewahrungszeitraum, Autofestzeitraum und Modus für anhängen von Volumes.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Management unveränderlicher Dateien"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Management unveränderlicher Dateien"]
 
 
 

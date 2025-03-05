@@ -95,7 +95,7 @@ Sie können Snapshots nun über einen bestimmten Aufbewahrungszeitraum sperren u
 
 Nun können Sie an Ihrer Konfiguration unveränderlicher Dateien folgende Änderungen vornehmen: Aufbewahrungsrichtlinie, Aufbewahrungszeitraum, Autofestzeitraum und Modus für anhängen von Volumes.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Management unveränderlicher Dateien"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Management unveränderlicher Dateien"]
 
 
 
@@ -213,7 +213,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 CloudShell ist eine integrierte CLI-Funktion, die in der BlueXP -Workload-Farm für Storage verfügbar ist. Sie können CloudShell verwenden, um ONTAP- oder AWS-CLI-Befehle von mehreren Sitzungen in einer Shell-ähnlichen Umgebung in der Workload-Factory-Konsole zu erstellen, zu teilen und auszuführen.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Erfahren Sie mehr über CloudShell in der BlueXP -Workload-Farm"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Erfahren Sie mehr über CloudShell in der BlueXP -Workload-Farm"]
 
 
 
