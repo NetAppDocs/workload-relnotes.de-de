@@ -8,8 +8,6 @@
 
 Bei Aktivierung des automatischen Kapazitätsmanagements prüft die BlueXP  Workload Factory nun, ob ein Filesystem seinen Kapazitätsschwellenwert alle 30 Minuten anstatt alle 2 Stunden erreicht hat.
 
-Die Workload Factory überprüft außerdem nach verfügbaren Inodes in Volumes und erhöht ihre Anzahl entsprechend den konfigurierten Schwellenwerten für das automatische Kapazitätsmanagement.
-
 Die Einstellung für bereitgestellte IOPS wird nicht mehr beeinflusst, wenn der Kapazitätsschwellenwert erreicht wird.
 
 
