@@ -1,16 +1,12 @@
-= Konfiguration und schnelle Erstellung von PostgreSQL-Hochverfügbarkeit
+= PostgreSQL-Hochverfügbarkeitskonfiguration
 :allow-uri-read: 
 
 
 
 
-=== Konfiguration und schnelle Erstellung von PostgreSQL-Hochverfügbarkeit
+=== PostgreSQL-Hochverfügbarkeitskonfiguration
 
-In der BlueXP -Workload-Fabrik für Datenbanken werden zwei neue Funktionen unterstützt:
-
-* PostgreSQL HA-Konfiguration (High Availability, Hochverfügbarkeit): Sie können jetzt eine HA-Konfiguration für PostgreSQL Server implementieren.
-* Schnelle Erstellung: Sie können diese schnelle Bereitstellungsoption verwenden, um einen PostgreSQL-Server mit HA-Konfiguration und eingebetteten Best Practices zu erstellen.
-
+Sie können jetzt eine HA-Konfiguration für PostgreSQL Server implementieren.
 
 link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["Erstellen Sie einen PostgreSQL-Server"]
 
