@@ -1,0 +1,41 @@
+= Verbesserte Unterstützung von Dateitypen
+:allow-uri-read: 
+
+
+
+
+=== Verbesserte Unterstützung von Dateitypen
+
+Diese Version von GenAI führt die Unterstützung von JSON- und JSONP-Dateiformaten ein, wenn Dateien aus Datenquellen erstellt `.json` werden. JSON-Dateien mit geschachtelten Objekten werden unterstützt, wobei die Unterstützung für verschachtelte Arrays eingeschränkt ist.
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Unterstützte Datenquelldateiformate"]
+
+
+
+=== Internationalisierungsunterstützung für die externe Chatbot-Beispielanwendung
+
+Sie können die Benutzeroberfläche der externen GenAI-Beispielanwendung für Chatbot jetzt ganz einfach in eine andere Sprache oder ein anderes Gebietsschema ändern.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Externe Beispiel-Chatbot-Anwendung von GenAI"]
+
+
+
+=== Unterstützung für das Anthropic Claude Sonnet 3.7 Chat-Modell
+
+GenAI bietet jetzt Unterstützung für das Anthropic Claude 3.7 Sonnet Chat-Modell. Die Beta-Funktionen von Claude 3.7 Sonnet ermöglichen bis zu 128K Output-Token pro Anfrage und unterstützen neue Computer-Use-Aktionen. Claude 3.7 Sonnet Extended Thinking Mode wird in einer zukünftigen GenAI Version unterstützt.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
+
+
+
+=== Unterstützung für das Hinzufügen von Datenquellen von generischen NFS/SMB-Freigaben
+
+Mit der Workload-Factory-API können Sie jetzt eine Datenquelle aus einer generischen NFSv3, NFSv4 oder SMB-Freigabe hinzufügen. Wenn Sie eine Datenquelle aus einer NFS- oder SMB-Freigabe hinzufügen, bleibt das Knowledge-Base-Volume auf einem Amazon FSX for NetApp ONTAP-Volume erhalten. Die Workload Factory Web UI unterstützt diese Funktion in einer zukünftigen Version.
+
+
+
+=== VPC-Peering-Unterstützung
+
+Jetzt können Sie die GenAI-Infrastruktur über dieselbe Region hinweg implementieren link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Peered Virtual Private Clouds (VPCs)"^]und dasselbe AWS-Konto verwenden. Sie können die AI-Engine in einer VPC implementieren und dann eine Knowledge Base in einer Peering-VPC erstellen. Anschließend können Sie Amazon FSX für NetApp ONTAP-Dateisysteme in einem Peering-VPC auswählen.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]

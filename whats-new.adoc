@@ -58,6 +58,64 @@ Wenn Sie sich nun für eine Tiering-Richtlinie während der Volume-Erstellung, D
 
 
 
+=== VMware-Workloads
+
+
+
+==== Verbesserungen bei Amazon EC2 Migration Advisor
+
+Diese Version der BlueXP  Workload-Farm für VMware bietet mehrere Verbesserungen bei der Erfahrung des Amazon EC2 Migration Advisor:
+
+* *Verbesserte Anleitung zur Volume-Zuweisung*: Die Informationen zur Volume-Zuweisung im EC2-Migrationsberater „Classify“ und „Package“ bietet eine verbesserte Lesbarkeit und Benutzerfreundlichkeit. Es werden nützlichste Informationen zu jedem Volume angezeigt, sodass Sie Volumes besser identifizieren und festlegen können, wie sie zugewiesen werden.
+* *Data Collector-Skript-Effizienzverbesserungen*: Das Data Collector-Skript des EC2-Migrationsberaters optimiert die CPU-Nutzung bei der Erfassung von Daten für kleinere VM-Bereitstellungen.
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters"]
+
+
+
+=== GenAI-Workloads
+
+
+
+==== Verbesserte Unterstützung von Dateitypen
+
+Diese Version von GenAI führt die Unterstützung von JSON- und JSONP-Dateiformaten ein, wenn Dateien aus Datenquellen erstellt `.json` werden. JSON-Dateien mit geschachtelten Objekten werden unterstützt, wobei die Unterstützung für verschachtelte Arrays eingeschränkt ist.
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Unterstützte Datenquelldateiformate"]
+
+
+
+==== Internationalisierungsunterstützung für die externe Chatbot-Beispielanwendung
+
+Sie können die Benutzeroberfläche der externen GenAI-Beispielanwendung für Chatbot jetzt ganz einfach in eine andere Sprache oder ein anderes Gebietsschema ändern.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Externe Beispiel-Chatbot-Anwendung von GenAI"]
+
+
+
+==== Unterstützung für das Anthropic Claude Sonnet 3.7 Chat-Modell
+
+GenAI bietet jetzt Unterstützung für das Anthropic Claude 3.7 Sonnet Chat-Modell. Die Beta-Funktionen von Claude 3.7 Sonnet ermöglichen bis zu 128K Output-Token pro Anfrage und unterstützen neue Computer-Use-Aktionen. Claude 3.7 Sonnet Extended Thinking Mode wird in einer zukünftigen GenAI Version unterstützt.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
+
+
+
+==== Unterstützung für das Hinzufügen von Datenquellen von generischen NFS/SMB-Freigaben
+
+Mit der Workload-Factory-API können Sie jetzt eine Datenquelle aus einer generischen NFSv3, NFSv4 oder SMB-Freigabe hinzufügen. Wenn Sie eine Datenquelle aus einer NFS- oder SMB-Freigabe hinzufügen, bleibt das Knowledge-Base-Volume auf einem Amazon FSX for NetApp ONTAP-Volume erhalten. Die Workload Factory Web UI unterstützt diese Funktion in einer zukünftigen Version.
+
+
+
+==== VPC-Peering-Unterstützung
+
+Jetzt können Sie die GenAI-Infrastruktur über dieselbe Region hinweg implementieren link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Peered Virtual Private Clouds (VPCs)"^]und dasselbe AWS-Konto verwenden. Sie können die AI-Engine in einer VPC implementieren und dann eine Knowledge Base in einer Peering-VPC erstellen. Anschließend können Sie Amazon FSX für NetApp ONTAP-Dateisysteme in einem Peering-VPC auswählen.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
+
+
+
 === Einrichtung und Administration
 
 
@@ -460,55 +518,6 @@ Diese Version der BlueXP  Workload-Farm für VMware enthält mehrere Verbesseru
 
 * *Migrationsplan speichern oder herunterladen*: Sie können jetzt einen Migrationsplan speichern oder herunterladen und den Migrationsplan laden, um den Migrationsberater zu füllen. Wenn Sie einen Migrationsplan speichern, wird der Plan mit Ihrem Arbeitslastwerkskonto gespeichert.
 * *Verbesserte VM-Auswahl*: Die BlueXP  Workload Factory für VMware unterstützt jetzt das Filtern und Durchsuchen der Liste der VMs, die Sie in Ihre Migrationsbereitstellung aufnehmen möchten.
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters"]
-
-
-
-=== GenAI-Workloads
-
-
-
-==== Benutzerdefinierter Snapshot-Name
-
-Sie können jetzt einen Snapshot-Namen für einen Ad-hoc-Snapshot bereitstellen.
-
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["Schützen Sie eine Wissensdatenbank mit Snapshots"]
-
-
-
-==== Individueller Name für die AI Engine Instance
-
-Sie können der KI-Engine-Instanz jetzt während der Implementierung einen benutzerdefinierten Namen geben.
-
-link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Implementierung der GenAI-Infrastruktur"]
-
-
-
-==== Wiederherstellung beschädigter oder fehlender GenAI-Infrastruktur
-
-Wenn Ihre KI-Engine beschädigt wird oder irgendwie gelöscht wird, können Sie sie auf der Workload-Farm für Sie neu erstellen lassen. Die Workload Factory verbindet Ihre Wissensdatenbanken nach Abschluss der Neuerstellung automatisch mit der Infrastruktur, sodass sie einsatzbereit sind.
-
-link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Fehlerbehebung"]
-
-
-
-== 1 2024-12-01
-
-
-
-=== VMware-Workloads
-
-
-
-==== Verbesserungen bei Amazon EC2 Migration Advisor
-
-Diese Version der BlueXP  Workload-Farm für VMware enthält mehrere Verbesserungen beim Migrationsberater:
-
-* *Datenerfassung*: Die BlueXP  Workload Factory für VMware unterstützt die Möglichkeit, Daten für einen bestimmten Zeitraum zu erfassen, wenn Sie den Migrationsberater verwenden.
-* *VM Selection*: Die BlueXP  Workload Factory für VMware unterstützt jetzt die Auswahl von VMs, die Sie in Ihre Migrationsimplementierung aufnehmen möchten.
-* *Quick vs. Advanced Experience*: Wenn Sie den Migrationsberater verwenden, können Sie jetzt eine schnelle Migration mit RVTools oder die erweiterte Erfahrung auswählen, die den Datensammler des Migrationsberaters verwendet.
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters"]
