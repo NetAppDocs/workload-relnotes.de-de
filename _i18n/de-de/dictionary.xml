@@ -80,10 +80,6 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Wenn Ihre KI-Engine beschädigt wird oder irgendwie gelöscht wird, können Sie sie auf der Workload-Farm für Sie neu erstellen lassen. Die Workload Factory verbindet Ihre Wissensdatenbanken nach Abschluss der Neuerstellung automatisch mit der Infrastruktur, sodass sie einsatzbereit sind.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Fehlerbehebung</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
-  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Support für Servicekonten in der BlueXP  Workload-Fabrik</block>
-  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Servicekonten werden jetzt in der BlueXP  Workload-Fabrik unterstützt. Sie können Servicekonten erstellen, die als Maschinenbenutzer fungieren, die Infrastrukturvorgänge automatisieren.</block>
-  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Erstellen und Verwalten von Servicekonten</block>
-  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Migrationsplan speichern oder herunterladen*: Sie können jetzt einen Migrationsplan speichern oder herunterladen und den Migrationsplan laden, um den Migrationsberater zu füllen. Wenn Sie einen Migrationsplan speichern, wird der Plan mit Ihrem Arbeitslastwerkskonto gespeichert.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Verbesserte VM-Auswahl*: Die BlueXP  Workload Factory für VMware unterstützt jetzt das Filtern und Durchsuchen der Liste der VMs, die Sie in Ihre Migrationsbereitstellung aufnehmen möchten.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -209,4 +205,9 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL-Hochverfügbarkeitskonfiguration</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">Sie können jetzt eine HA-Konfiguration für PostgreSQL Server implementieren.</block>
+  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell meldet von der KI generierte Fehler für ONTAP-CLI-Befehle</block>
+  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Bei der Verwendung von CloudShell können Sie jedes Mal, wenn Sie einen ONTAP-CLI-Befehl ausgeben und ein Fehler auftritt, AI-generierte Fehlermeldungen erhalten, die eine Beschreibung des Fehlers, die Ursache des Fehlers und eine detaillierte Lösung enthalten.</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:SimulatePermissionPolicy-Berechtigungsaktualisierung</block>
+  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Sie können jetzt die Berechtigung über die Konsole für die Werkseinstellungen managen<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>, wenn Sie zusätzliche AWS-Kontoinformationen hinzufügen oder eine neue Workload-Funktion hinzufügen, z. B. den GenAI-Workload.</block>
+  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">1 2025-03-30</block>
 </blocks>

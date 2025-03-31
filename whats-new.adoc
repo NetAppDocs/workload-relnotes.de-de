@@ -15,6 +15,30 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 1 2025-03-30
+
+
+
+=== Einrichtung und Administration
+
+
+
+==== CloudShell meldet von der KI generierte Fehler für ONTAP-CLI-Befehle
+
+Bei der Verwendung von CloudShell können Sie jedes Mal, wenn Sie einen ONTAP-CLI-Befehl ausgeben und ein Fehler auftritt, AI-generierte Fehlermeldungen erhalten, die eine Beschreibung des Fehlers, die Ursache des Fehlers und eine detaillierte Lösung enthalten.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Verwenden Sie CloudShell"]
+
+
+
+==== iam:SimulatePermissionPolicy-Berechtigungsaktualisierung
+
+Sie können jetzt die Berechtigung über die Konsole für die Werkseinstellungen managen `iam:SimulatePrincipalPolicy`, wenn Sie zusätzliche AWS-Kontoinformationen hinzufügen oder eine neue Workload-Funktion hinzufügen, z. B. den GenAI-Workload.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Änderungsprotokoll für Berechtigungen"]
+
+
+
 == 1 2025-03-03
 
 
@@ -446,18 +470,6 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Im
 Wenn Ihre KI-Engine beschädigt wird oder irgendwie gelöscht wird, können Sie sie auf der Workload-Farm für Sie neu erstellen lassen. Die Workload Factory verbindet Ihre Wissensdatenbanken nach Abschluss der Neuerstellung automatisch mit der Infrastruktur, sodass sie einsatzbereit sind.
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Fehlerbehebung"]
-
-
-
-=== Einrichtung und Administration
-
-
-
-==== Support für Servicekonten in der BlueXP  Workload-Fabrik
-
-Servicekonten werden jetzt in der BlueXP  Workload-Fabrik unterstützt. Sie können Servicekonten erstellen, die als Maschinenbenutzer fungieren, die Infrastrukturvorgänge automatisieren.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["Erstellen und Verwalten von Servicekonten"]
 
 
 
