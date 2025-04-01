@@ -122,7 +122,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Ein
 
 
 
-==== CloudShell meldet von der KI generierte Fehler für ONTAP-CLI-Befehle
+==== CloudShell meldet AI-generierte Fehlermeldungen für ONTAP-CLI-Befehle
 
 Bei der Verwendung von CloudShell können Sie jedes Mal, wenn Sie einen ONTAP-CLI-Befehl ausgeben und ein Fehler auftritt, AI-generierte Fehlermeldungen erhalten, die eine Beschreibung des Fehlers, die Ursache des Fehlers und eine detaillierte Lösung enthalten.
 

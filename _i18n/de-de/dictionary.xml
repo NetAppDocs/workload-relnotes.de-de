@@ -181,7 +181,6 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL-Hochverfügbarkeitskonfiguration</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">Sie können jetzt eine HA-Konfiguration für PostgreSQL Server implementieren.</block>
-  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell meldet von der KI generierte Fehler für ONTAP-CLI-Befehle</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Bei der Verwendung von CloudShell können Sie jedes Mal, wenn Sie einen ONTAP-CLI-Befehl ausgeben und ein Fehler auftritt, AI-generierte Fehlermeldungen erhalten, die eine Beschreibung des Fehlers, die Ursache des Fehlers und eine detaillierte Lösung enthalten.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:SimulatePermissionPolicy-Berechtigungsaktualisierung</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Sie können jetzt die Berechtigung über die Konsole für die Werkseinstellungen managen<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>, wenn Sie zusätzliche AWS-Kontoinformationen hinzufügen oder eine neue Workload-Funktion hinzufügen, z. B. den GenAI-Workload.</block>
@@ -221,4 +220,5 @@
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*Data Collector-Skript-Effizienzverbesserungen*: Das Data Collector-Skript des EC2-Migrationsberaters optimiert die CPU-Nutzung bei der Erfassung von Daten für kleinere VM-Bereitstellungen.</block>
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">Verwenden Sie die Workload Factory API</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
+  <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell meldet AI-generierte Fehlermeldungen für ONTAP-CLI-Befehle</block>
 </blocks>
