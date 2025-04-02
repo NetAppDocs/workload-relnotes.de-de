@@ -221,4 +221,8 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">Verwenden Sie die Workload Factory API</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell meldet AI-generierte Fehlermeldungen für ONTAP-CLI-Befehle</block>
+  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">Details der Sicherheitsgruppe für die Dateisystemerstellung</block>
+  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">Im Rahmen des Dateisystemerstellungsprozesses FSX für ONTAP wird eine Sicherheitsgruppe erstellt. Details zu Sicherheitsgruppen wie Protokolle, Ports und Rollen sind jetzt verfügbar.</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Erstellen Sie ein Dateisystem</block>
+  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -36,3 +36,11 @@ Wenn Sie sich nun für eine Tiering-Richtlinie während der Volume-Erstellung, D
 * _Kostenoptimiert (Alle)_
 * _Performance Optimized (nur Snapshots)_
 
+
+
+
+=== Details der Sicherheitsgruppe für die Dateisystemerstellung
+
+Im Rahmen des Dateisystemerstellungsprozesses FSX für ONTAP wird eine Sicherheitsgruppe erstellt. Details zu Sicherheitsgruppen wie Protokolle, Ports und Rollen sind jetzt verfügbar.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erstellen Sie ein Dateisystem"]
