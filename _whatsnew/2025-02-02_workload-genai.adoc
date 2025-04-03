@@ -30,7 +30,7 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Unterstützung für Bilddateien und erweiterte Unterstützung für PDF-Dateien
 
-GenAI unterstützt jetzt das Scannen von Bilddateien und Bildern in PDF-Dateien (auch als Multi-modale Dateiunterstützung bekannt). Wenn Sie Bilddateien auswählen, wird der Text aus den Bildern in die Datenquelle gescannt und als Daten verwendet. Diese Funktion umfasst Bilder in PDF-Dokumenten. Wenn Sie PDF-Dateitypen hinzufügen, werden Bilder in jeder PDF-Datei nach Text gescannt, und dieser Text wird in den Informationen aus der Datenquelle enthalten.
+GenAI unterstützt jetzt die Verbesserung der Antworten auf Knowledge-Base-Abfragen durch Einblicke aus Bildern und Diagrammbeschreibungen sowie Dokumenttext, was zu reichhaltigeren und qualitativ hochwertigeren Antworten führt. GenAI kann nun Bilddateien und Bilder innerhalb von PDF-Dateien scannen (auch als Multi-modale Dateiunterstützung bekannt). Wenn Sie Bilder oder PDF-Dateien scannen, wird der Text der Bilder (einschließlich der in PDF-Dokumenten eingebetteten Bilder) in die Datenquelle gescannt und die Ergebnisse der Scans werden in die Antworten auf Knowledge-Base-Abfragen aufgenommen.
 
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Fügen Sie der Wissensdatenbank Datenquellen hinzu"]
 
@@ -38,6 +38,6 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-
 
 === Hybride Suche und erneute Unterstützung
 
-GenAI verbessert jetzt die Relevanz von Suchergebnissen durch hybride Suche und Neubewertung der Ergebnisse. Hybride Suche kombiniert Schlüsselwortsuche mit Vektor- und semantischer Suche. Die Standard-Keyword-Suchergebnisse werden durch enge Übereinstimmungen und sprachliche Nuance erweitert, was die Relevanz erhöht. GenAI ordnet die Suchergebnisse neu und liefert nur Ergebnisse mit der höchsten Relevanz.
+GenAI kann jetzt die Relevanz und Genauigkeit von Suchergebnissen durch hybride Suche und Neubewertung der Ergebnisse deutlich verbessern. Die hybride Suche kombiniert die Stärken der herkömmlichen Keyword-basierten Suche mit erweiterten dichten vektorbasierten semantischen Suchtechniken. Die Standard-Keyword-Suchergebnisse werden durch enge Übereinstimmungen und sprachliche Nuance erweitert, was die Relevanz erhöht. GenAI verfeinert diese Ergebnisse dann weiter, indem er erweiterte Re-Ranking-Modelle wie Cohere Rerank und Amazon Rerank verwendet, und gibt die relevantesten Ergebnisse zurück. Diese Funktion ist für neu erstellte Wissensdatenbanken verfügbar.
 
 link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Erfahren Sie mehr über die BlueXP -Workload-Fabrik für GenAI"]
