@@ -28,9 +28,6 @@
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware-Workloads</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Mit FSX for ONTAP können Sie für Ihre Datenbank-Workloads Kosten einsparen</block>
-  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">SQL Server-Workloads optimieren</block>
-  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil der BlueXP -Workload-Fabrik sind.</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Kürzliche Änderungen in der BlueXP  Workload-Farm</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
@@ -40,25 +37,8 @@
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP -Workload ist werkseitig eingestellt</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">1 2025-01-05</block>
-  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">Verbesserungen am DatenbankDashboard</block>
-  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">Ein neues Design des Dashboards umfasst die folgenden Grafiken und Verbesserungen:</block>
-  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">Das Diagramm „Hostverteilung“ zeigt die Anzahl der Microsoft SQL Server-Hosts und PostgreSQL-Hosts an</block>
-  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">Details zur Verteilung von Instanzen umfassen die Gesamtanzahl der erkannten Instanzen und die Anzahl der verwalteten Microsoft SQL Server- und PostgreSQL-Instanzen</block>
-  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">Zu den Details der Datenbankverteilung zählen die Gesamtzahl der Datenbanken sowie die Anzahl der verwalteten Microsoft SQL Server- und PostgreSQL-Datenbanken</block>
-  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">Optimierungswert und -Status für verwaltete und Online-Instanzen</block>
-  <block id="341934677d47967f5c6e737476247396" category="list-text">Optimierungsdetails für Storage-, Computing- und Applikationskategorien</block>
-  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">Optimierungsdetails für Microsoft SQL Server Instanzen-Konfigurationen wie Storage-Sizing, Storage Layout, ONTAP Storage, Computing und Applikationen</block>
-  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">Potenzielle Einsparungen bei Datenbank-Workloads, die auf Amazon Elastic Block Store und FSX für Windows File Server Storage-Umgebungen ausgeführt werden, im Vergleich zu Amazon FSX für NetApp ONTAP Storage</block>
-  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">Neuer Status „mit Problemen abgeschlossen“ in der Jobüberwachung</block>
-  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">Die Jobüberwachungsfunktion für Datenbanken bietet jetzt den neuen Status „mit Problemen abgeschlossen“, sodass Sie erfahren können, welche untergeordneten Jobs Probleme hatten und welche Probleme auftreten.</block>
-  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">Überwachen Sie Ihre Datenbanken</block>
-  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
-  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Bewertung und Optimierung für überprovisionierte Microsoft SQL Server-Lizenzen</block>
-  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">Der Einsparungsrechner bewertet nun, ob die Enterprise Edition für Ihre Microsoft SQL Server-Bereitstellung erforderlich ist. Wenn eine Lizenz überprovisioniert ist, empfiehlt der Rechner ein Downgrade. Sie können die Lizenz in Datenbanken automatisch herunterstufen, indem Sie die Anwendung optimieren.</block>
-  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">1 2025-01-06</block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Migrationsplan speichern oder herunterladen*: Sie können jetzt einen Migrationsplan speichern oder herunterladen und den Migrationsplan laden, um den Migrationsberater zu füllen. Wenn Sie einen Migrationsplan speichern, wird der Plan mit Ihrem Arbeitslastwerkskonto gespeichert.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Verbesserte VM-Auswahl*: Die BlueXP  Workload Factory für VMware unterstützt jetzt das Filtern und Durchsuchen der Liste der VMs, die Sie in Ihre Migrationsbereitstellung aufnehmen möchten.</block>
-  <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
   <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP -Workload-Werkseinstellungen</block>
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">Sie können sich jetzt die Berechtigungen anzeigen lassen, die BlueXP -Workload in der Fabrik verwendet, um verschiedene Vorgänge auszuführen. Angefangen bei der Erkennung Ihrer Storage-Umgebungen bis hin zum Implementieren von AWS Ressourcen wie Dateisysteme im Storage oder Wissensdatenbanken für GenAI-Workloads. Sie können IAM-Richtlinien und Berechtigungen für Storage, Datenbanken, VMware und GenAI-Workloads anzeigen.</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
@@ -225,4 +205,23 @@
   <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">GenAI unterstützt jetzt die Verbesserung der Antworten auf Knowledge-Base-Abfragen durch Einblicke aus Bildern und Diagrammbeschreibungen sowie Dokumenttext, was zu reichhaltigeren und qualitativ hochwertigeren Antworten führt. GenAI kann nun Bilddateien und Bilder innerhalb von PDF-Dateien scannen (auch als Multi-modale Dateiunterstützung bekannt). Wenn Sie Bilder oder PDF-Dateien scannen, wird der Text der Bilder (einschließlich der in PDF-Dokumenten eingebetteten Bilder) in die Datenquelle gescannt und die Ergebnisse der Scans werden in die Antworten auf Knowledge-Base-Abfragen aufgenommen.</block>
   <block id="603e61783fa33cd04788f143e949760c" category="paragraph">GenAI kann jetzt die Relevanz und Genauigkeit von Suchergebnissen durch hybride Suche und Neubewertung der Ergebnisse deutlich verbessern. Die hybride Suche kombiniert die Stärken der herkömmlichen Keyword-basierten Suche mit erweiterten dichten vektorbasierten semantischen Suchtechniken. Die Standard-Keyword-Suchergebnisse werden durch enge Übereinstimmungen und sprachliche Nuance erweitert, was die Relevanz erhöht. GenAI verfeinert diese Ergebnisse dann weiter, indem er erweiterte Re-Ranking-Modelle wie Cohere Rerank und Amazon Rerank verwendet, und gibt die relevantesten Ergebnisse zurück. Diese Funktion ist für neu erstellte Wissensdatenbanken verfügbar.</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI unterstützt jetzt die Aufnahme von Microsoft Word DOCX-Dateien, die Bilder enthalten. In DOCX-Dokumenten eingebettete Bilder werden gescannt, und Texteinblicke aus den eingebetteten Bildern werden in Antworten auf Knowledge-Base-Abfragen berücksichtigt.</block>
+  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Optimierungsverbesserungen</block>
+  <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">Bei der Optimierung Ihrer Datenbankumgebungen stehen neue Optimierungsbewertungen, Korrekturmaßnahmen und die Anzeige mehrerer Ressourcen zur Verfügung.</block>
+  <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">Stabilitätsbewertungen</block>
+  <block id="218733e992141498b68631094f232446" category="paragraph">Die Verbesserungen umfassen neue Stabilitätsbewertungen, um zu überprüfen, ob Datenredundanz- und Disaster-Recovery-Funktionen für Ihre Datenbankumgebungen konfiguriert werden.</block>
+  <block id="a8b36cbcd13facdcd526df9ca0c4aba5" category="list-text">FSX für ONTAP-Backups: Analysiert, ob FSX für ONTAP-Dateisysteme, die die Volumes der SQL Server-Instanz bedienen, mit geplanten FSX für ONTAP-Backups konfiguriert sind.</block>
+  <block id="3ddd695d01877806196cb9bc8be009da" category="list-text">Regionsübergreifende Replizierung: Bewertet, ob FSX für ONTAP-Dateisysteme, die Microsoft SQL Server-Instanzen bedienen, mit regionsübergreifender Replizierung konfiguriert sind.</block>
+  <block id="233f3c54635152d78b375495cd0b5580" category="section-title">Problembehebung</block>
+  <block id="c4b982d56748631e5cf80fe05312f901" category="paragraph">Receive Side Scaling (RSS) Remediation konfiguriert RSS, um die Netzwerkverarbeitung auf mehrere Prozessoren zu verteilen und eine effiziente Lastverteilung zu gewährleisten.</block>
+  <block id="9ed609dc6760dae060dbad52b3aa2d42" category="section-title">Korrektur lokaler Snapshots</block>
+  <block id="229b55b063b8208ec58911841f6bad18" category="paragraph">Lokale Snapshot-Korrektur richtet Snapshot-Richtlinien für Volumes für Ihre Microsoft SQL Server-Instanzen ein, um Ihre Datenbankumgebungen bei Datenverlust ausfallsicher zu halten.</block>
+  <block id="14684cd0a52a7f7301e2400ff9ce8c16" category="section-title">Unterstützung für die Auswahl mehrerer Ressourcen</block>
+  <block id="909e5b19987da9dd66e288802ac9729e" category="paragraph">Bei der Optimierung von Datenbankkonfigurationen können Sie nun spezifische Ressourcen anstelle aller Ressourcen auswählen.</block>
+  <block id="d36362545a72cd1eef4186ca8a99dca1" category="section-title">Verbesserte Bestandansicht</block>
+  <block id="9f3b67d6f0d3de869a895be1df755a3b" category="paragraph">Die Registerkarte „Inventar“ in der Arbeitslastwerkkonsole wurde so optimiert, dass sie nur SQL-Server enthält, die auf Amazon FSX für NetApp ONTAP ausgeführt werden. Auf der Registerkarte „Einsparungen“ finden Sie jetzt SQL-Server vor Ort, die auf Amazon Elastic Block Store und Amazon FSX für Windows File Server ausgeführt werden.</block>
+  <block id="b66e93ffc0672f74db831d8f9d81fdba" category="section-title">Schnelles Erstellen für PostgreSQL-Serverimplementierung verfügbar</block>
+  <block id="f7d019f8da84eee0771921896cbb0cd5" category="paragraph">Sie können diese schnelle Bereitstellungsoption verwenden, um einen PostgreSQL-Server mit HA-Konfiguration und integrierten Best Practices zu erstellen.</block>
+  <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Erstellen Sie einen PostgreSQL-Server in der BlueXP  Workload Factory</block>
+  <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
+  <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">1 2025-04-04</block>
 </blocks>
