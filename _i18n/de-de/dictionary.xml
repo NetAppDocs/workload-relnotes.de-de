@@ -147,7 +147,6 @@
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">Chat-Modelle bieten eine verbesserte CSV-Unterstützung. Dies ermöglicht nützlichste Antworten beim Abfragen von Daten aus CSV-Dateien.</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI kann jetzt Apache Parkett Dateien aus Datenquellen aufnehmen.</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Unterstützte Datenquelldateiformate</block>
-  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Diese Version der BlueXP  Workload-Farm für VMware bietet mehrere Verbesserungen bei der Erfahrung des Amazon EC2 Migration Advisor:</block>
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Geschätzter Instanztyp*: Der Migrationsberater kann nun die Anforderungen Ihrer Umgebung prüfen und für jede VM einen geschätzten Amazon EC2 Instanztyp angeben. Sie können auswählen, den geschätzten Instanztyp für jede VM im Schritt „Umfang“ des Migrationsberaters einzubeziehen.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*Möglichkeit Amazon EBS Volumes zu empfehlen*: Der Migrationsberater kann aufgrund bestimmter Kapazitäts- oder Performance-Anforderungen einer bestimmten Region nun die Migration von Daten-Volumes in den Amazon Elastic Block Store (EBS) anstelle von Amazon FSX for NetApp ONTAP empfehlen.</block>
@@ -224,4 +223,5 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Erstellen Sie einen PostgreSQL-Server in der BlueXP  Workload Factory</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">1 2025-04-04</block>
+  <block id="b70e34d229298faea8d481f1cfdd32a9" category="paragraph"><block ref="b70e34d229298faea8d481f1cfdd32a9" category="inline-link-macro-rx"></block></block>
 </blocks>
