@@ -33,38 +33,10 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Versionshinweise zu BlueXP  Workload auf Werkseinstellungen</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Verbesserungen bei Amazon EC2 Migration Advisor</block>
-  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Diese Version der BlueXP  Workload-Farm für VMware enthält mehrere Verbesserungen beim Migrationsberater:</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP -Workload ist werkseitig eingestellt</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">1 2025-01-05</block>
-  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Migrationsplan speichern oder herunterladen*: Sie können jetzt einen Migrationsplan speichern oder herunterladen und den Migrationsplan laden, um den Migrationsberater zu füllen. Wenn Sie einen Migrationsplan speichern, wird der Plan mit Ihrem Arbeitslastwerkskonto gespeichert.</block>
-  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*Verbesserte VM-Auswahl*: Die BlueXP  Workload Factory für VMware unterstützt jetzt das Filtern und Durchsuchen der Liste der VMs, die Sie in Ihre Migrationsbereitstellung aufnehmen möchten.</block>
-  <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP -Workload-Werkseinstellungen</block>
-  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">Sie können sich jetzt die Berechtigungen anzeigen lassen, die BlueXP -Workload in der Fabrik verwendet, um verschiedene Vorgänge auszuführen. Angefangen bei der Erkennung Ihrer Storage-Umgebungen bis hin zum Implementieren von AWS Ressourcen wie Dateisysteme im Storage oder Wissensdatenbanken für GenAI-Workloads. Sie können IAM-Richtlinien und Berechtigungen für Storage, Datenbanken, VMware und GenAI-Workloads anzeigen.</block>
-  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
-  <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">1 2025-01-22</block>
-  <block id="efc2466e55cc45101064c2ade9e1ac96" category="doc">Kostenanalyse und Migrationsplanung für On-Premises-Datenbankumgebungen</block>
-  <block id="b070dbce75db746d44b4965253ae3c9f" category="paragraph">Die BlueXP  Workload Factory für Datenbanken erkennt, analysiert und unterstützt Sie jetzt bei der Planung einer On-Premises-Datenbankmigration zu Amazon FSX für NetApp ONTAP. Mit dem Einsparungsrechner können Sie die Kosten für die Ausführung Ihrer lokalen Datenbankumgebung in der Cloud einschätzen und Empfehlungen für die Migration Ihrer lokalen Datenbankumgebung in die Cloud prüfen.</block>
-  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">Entdecken Sie Einsparungen bei lokalen Datenbankumgebungen</block>
-  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
-  <block id="6003a521aa2fb4eca1577921d2f2d6ec" category="section-title">Neue Optimierungsbewertungen für Datenbanken</block>
-  <block id="a66d8cac65b4a62026dda75c54de5093" category="paragraph">Die folgenden Bewertungen sind jetzt in der BlueXP -Workload-Fabrik für Datenbanken verfügbar. Der Schwerpunkt dieser Bewertungen liegt auf der Erkennung und dem Schutz vor potenziellen Sicherheitslücken sowie der Erkennung und Beseitigung von Performance-Engpässen.</block>
-  <block id="41e5288ef108e483da5a07bf4a8c654d" category="list-text">*Empfangsseitige Skalierung (RSS) Konfiguration*: Prüft, ob die RSS Konfiguration aktiviert ist und ob die Anzahl der Warteschlangen auf den empfohlenen Wert gesetzt ist. Die Bewertung enthält auch Empfehlungen zur Optimierung der RSS-Konfiguration.</block>
-  <block id="20c22843405fd91269ed56974f603ebf" category="list-text">*Maximale Parallelität (MAXDOP) Serverkonfiguration*: Die Bewertung prüft, ob MAXDOP korrekt konfiguriert ist und gibt Empfehlungen zur Optimierung der Leistung.</block>
-  <block id="288748eac82542205cccb2a59e324600" category="list-text">*Microsoft SQL Server Patches*: Die Prüfung prüft, ob die neuesten Patches auf den SQL Server Instanzen installiert sind und gibt Empfehlungen zur Installation der neuesten Patches.</block>
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">Optimieren von Konfigurationen</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
-  <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">1 2025-02-03</block>
-  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">Dateitypfilterung für Datenquellen</block>
-  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">GenAI unterstützt jetzt die Auswahl bestimmter Dateitypen, die beim Hinzufügen einer Datenquelle in den Scan der Datenquelle einbezogen werden sollen.</block>
-  <block id="9bd079cbc91b32393983ae28a378c00c" category="inline-link-macro">Fügen Sie der Wissensdatenbank Datenquellen hinzu</block>
-  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
-  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">Dateiänderung nach Datenquellen filtern</block>
-  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">GenAI unterstützt jetzt das Filtern von Dateien, die beim Hinzufügen einer Datenquelle in den Scan der Datenquelle nach Änderungsdatum einbezogen werden sollen. Sie können einen Änderungsdatumbereich für die enthaltenen Dateien auswählen.</block>
-  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">Unterstützung für Bilddateien und erweiterte Unterstützung für PDF-Dateien</block>
-  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">Hybride Suche und erneute Unterstützung</block>
-  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">Erfahren Sie mehr über die BlueXP -Workload-Fabrik für GenAI</block>
-  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">1 2025-02-02</block>
   <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">CloudShell ist in der BlueXP -Workload-Factory-Konsole verfügbar</block>
   <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell ist an jedem beliebigen Ort in der BlueXP -Workload-Factory-Konsole verfügbar. CloudShell ermöglicht Ihnen, die in Ihrem BlueXP -Konto angegebenen AWS- und ONTAP-Anmeldeinformationen zu verwenden und AWS CLI-Befehle oder ONTAP CLI-Befehle in einer Shell-ähnlichen Umgebung auszuführen.</block>
@@ -74,39 +46,10 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">Die folgende Berechtigung ist jetzt im _read_ Modus für Datenbanken verfügbar:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Änderungsprotokoll für Berechtigungen</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">CloudShell in der BlueXP -Workload-Factory-Konsole</block>
-  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell ist eine integrierte CLI-Funktion, die in der BlueXP -Workload-Farm für Storage verfügbar ist. Sie können CloudShell verwenden, um ONTAP- oder AWS-CLI-Befehle von mehreren Sitzungen in einer Shell-ähnlichen Umgebung in der Workload-Factory-Konsole zu erstellen, zu teilen und auszuführen.</block>
-  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">Erfahren Sie mehr über CloudShell in der BlueXP -Workload-Farm</block>
-  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">Herunterladen von Bestandsdaten</block>
-  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">Sie können jetzt FSX für ONTAP-Bestandsdaten in eine Microsoft Excel- oder CSV-Datei von Speicher in BlueXP  Workload Factory herunterladen.</block>
-  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">Ein Screenshot von Speicher in der BlueXP  Workload-Fabrik zeigt die neue Download-Schaltfläche zum Herunterladen von FSX für ONTAP File-System-Bestandsdaten.</block>
-  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">FSX für ONTAP-Dateisystem zusätzliche Menüoptionen</block>
-  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">Wir haben es für ein Dateisystem FSX für ONTAP aus der Registerkarte FSX für ONTAP in Speicher einfacher gemacht.</block>
-  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">Erstellen einer Storage-VM</block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">Erstellen eines Volumes</block>
-  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">Replizierung von Volume-Daten</block>
-  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">Ein Screenshot der Registerkarte FSX for ONTAP in Storage mit den neuen Menüoptionen zur Erstellung von Storage-VM, zur Erstellung von Volumes und zur Replizierung von Volume-Daten</block>
-  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">Terraform-Unterstützung zum Erstellen von Volumes</block>
-  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">Sie können jetzt Terraform aus der Codebox verwenden, um Volumes zu erstellen.</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">Dateisperrung mit der Funktion „unveränderliche Dateien“</block>
-  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">Sie können nun Dateien mit der Funktion „unveränderliche Dateien“ sperren, wenn Sie ein Volume für ein FSX für ONTAP-Dateisystem erstellen. Dateisperrung hilft Ihnen und anderen, versehentliches oder vorsätzliches Löschen von Dateien für einen bestimmten Zeitraum zu verhindern.</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">Tracker zur Überwachung und Nachverfolgung von Vorgängen verfügbar</block>
-  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Tracker, eine neue Monitoring-Funktion ist im Storage verfügbar. Mit Tracker können Sie den Fortschritt und den Status von Anmeldeinformationen, Speicher und Verbindungsvorgängen überwachen und verfolgen, Details für Betriebsaufgaben und untergeordnete Aufgaben überprüfen, Probleme oder Fehler diagnostizieren, Parameter für fehlgeschlagene Vorgänge bearbeiten und fehlgeschlagene Vorgänge erneut versuchen.</block>
   <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Überwachen und verfolgen Sie den Betrieb mit Tracker</block>
   <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
-  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">Unterstützung für die zweite Generation von Amazon FSX für NetApp ONTAP-Filesystemen</block>
-  <block id="327da4942931ea47a06f556d15726878" category="paragraph">Sie können jetzt Amazon FSX for NetApp ONTAP Filesysteme der zweiten Generation in einer BlueXP -Workload-Fabrik verwenden. FSX für ONTAP Single-AZ-Filesysteme der zweiten Generation werden mit bis zu 12 HA-Paaren unterstützt, die einen Durchsatz von bis zu 72 Gbit/s und 2,400,000 SSD-IOPS liefern können. FSX für ONTAP Multi-AZ-Filesysteme der zweiten Generation werden mit einem HA-Paar betrieben. Sie bieten einen Durchsatz von 6 GB/s und 200,000 SSD-IOPS.</block>
-  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">Fügen Sie Hochverfügbarkeitspaare hinzu</block>
-  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
-  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Kontingente und Grenzen für Amazon FSX for NetApp ONTAP</block>
-  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
-  <block id="9a7d43c72f0d1a35c2a2cdfb58c6cc0d" category="doc">Support für Amazon Nova-Basismodelle</block>
-  <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">GenAI unterstützt jetzt die Amazon Nova Foundation Modelle. Amazon Nova Micro, Amazon Nova Lite und Amazon Nova Pro werden unterstützt.</block>
-  <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">GenAI-Anforderungen</block>
-  <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
   <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">Automatische Verbesserungen beim Kapazitätsmanagement</block>
   <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">Bei Aktivierung des automatischen Kapazitätsmanagements prüft die BlueXP  Workload Factory nun, ob ein Filesystem seinen Kapazitätsschwellenwert alle 30 Minuten anstatt alle 2 Stunden erreicht hat.</block>
   <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">Die Einstellung für bereitgestellte IOPS wird nicht mehr beeinflusst, wenn der Kapazitätsschwellenwert erreicht wird.</block>
@@ -139,7 +82,6 @@
   <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">Verbesserungen des integrierten Chatbot</block>
   <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">Sie können jetzt Fragen und Antworten direkt in die Zwischenablage kopieren, die Größe des Chat-Fensters anpassen und dessen Titel ändern. Darüber hinaus können Chat-Antworten jetzt Tabellen enthalten, die auch kopierbar sind.</block>
   <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">Testen Sie eine GenAI Knowledge Base</block>
-  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
   <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">Unterstützung bei der Chat-Antwort</block>
   <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">Die Chat-Antworten enthalten nun Zitate, in denen die Dateien und Datenpakete aufgelistet sind, die zur Generierung der Antwort verwendet wurden.</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">Verbesserte Unterstützung von Dateitypen</block>
@@ -153,7 +95,6 @@
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">* Verbesserte automatische Dateisystemzuweisung*: Amazon FSX für NetApp ONTAP Dateisystemzuweisung wurde verbessert, um Kosten besser zu optimieren und Durchsatz zu minimieren.</block>
   <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
-  <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL-Hochverfügbarkeitskonfiguration</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">Sie können jetzt eine HA-Konfiguration für PostgreSQL Server implementieren.</block>
@@ -201,8 +142,6 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">Im Rahmen des Dateisystemerstellungsprozesses FSX für ONTAP wird eine Sicherheitsgruppe erstellt. Details zu Sicherheitsgruppen wie Protokolle, Ports und Rollen sind jetzt verfügbar.</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Erstellen Sie ein Dateisystem</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">GenAI unterstützt jetzt die Verbesserung der Antworten auf Knowledge-Base-Abfragen durch Einblicke aus Bildern und Diagrammbeschreibungen sowie Dokumenttext, was zu reichhaltigeren und qualitativ hochwertigeren Antworten führt. GenAI kann nun Bilddateien und Bilder innerhalb von PDF-Dateien scannen (auch als Multi-modale Dateiunterstützung bekannt). Wenn Sie Bilder oder PDF-Dateien scannen, wird der Text der Bilder (einschließlich der in PDF-Dokumenten eingebetteten Bilder) in die Datenquelle gescannt und die Ergebnisse der Scans werden in die Antworten auf Knowledge-Base-Abfragen aufgenommen.</block>
-  <block id="603e61783fa33cd04788f143e949760c" category="paragraph">GenAI kann jetzt die Relevanz und Genauigkeit von Suchergebnissen durch hybride Suche und Neubewertung der Ergebnisse deutlich verbessern. Die hybride Suche kombiniert die Stärken der herkömmlichen Keyword-basierten Suche mit erweiterten dichten vektorbasierten semantischen Suchtechniken. Die Standard-Keyword-Suchergebnisse werden durch enge Übereinstimmungen und sprachliche Nuance erweitert, was die Relevanz erhöht. GenAI verfeinert diese Ergebnisse dann weiter, indem er erweiterte Re-Ranking-Modelle wie Cohere Rerank und Amazon Rerank verwendet, und gibt die relevantesten Ergebnisse zurück. Diese Funktion ist für neu erstellte Wissensdatenbanken verfügbar.</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI unterstützt jetzt die Aufnahme von Microsoft Word DOCX-Dateien, die Bilder enthalten. In DOCX-Dokumenten eingebettete Bilder werden gescannt, und Texteinblicke aus den eingebetteten Bildern werden in Antworten auf Knowledge-Base-Abfragen berücksichtigt.</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Optimierungsverbesserungen</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">Bei der Optimierung Ihrer Datenbankumgebungen stehen neue Optimierungsbewertungen, Korrekturmaßnahmen und die Anzeige mehrerer Ressourcen zur Verfügung.</block>
@@ -223,5 +162,95 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">Erstellen Sie einen PostgreSQL-Server in der BlueXP  Workload Factory</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">1 2025-04-04</block>
-  <block id="b70e34d229298faea8d481f1cfdd32a9" category="paragraph"><block ref="b70e34d229298faea8d481f1cfdd32a9" category="inline-link-macro-rx"></block></block>
+  <block id="77a89cd0e5a14d8b8709467f579b8edc" category="paragraph"><block ref="77a89cd0e5a14d8b8709467f579b8edc" category="inline-link-macro-rx"></block></block>
+  <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
+  <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
+  <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">Dashboard-Verbesserungen</block>
+  <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">Kunden- und regionsübergreifende Ansichten sind verfügbar, wenn Sie in der BlueXP  Workload Factory-Konsole zwischen den Registerkarten navigieren. Die neuen Ansichten verbessern das Ressourcenmanagement, die Überwachung und die Optimierung.</block>
+  <block id="6e21267988cadc818dd398393c695465" category="list-text">Über die Kachel *potenzielle Einsparungen* im Dashboard können Sie schnell überprüfen, was Sie sparen könnten, indem Sie vom Amazon Elastic Block Store oder Amazon FSX for Windows File Server zu FSX for ONTAP wechseln.</block>
+  <block id="255a96bb0a74416846fbad7e40f8ddf4" category="section-title">Ad-hoc-Scans für Datenbankkonfigurationen verfügbar</block>
+  <block id="2b1a16b6cd72c9555872ec61d3334af5" category="paragraph">Die BlueXP -Workload-Fabrik für Datenbanken scannt gemanagte Microsoft SQL Server-Instanzen automatisch mit FSX für ONTAP Storage auf potenzielle Konfigurationsprobleme. Zusätzlich zum täglichen Scan können Sie jetzt jederzeit scannen.</block>
+  <block id="365d8fe4130e8c12f4a3defc920178dd" category="section-title">Entfernung von Beurteilungsunterlagen vor Ort</block>
+  <block id="c4fd25bd6650f0eaedfd01e29fbecddd" category="paragraph">Nachdem Sie die Einsparungen für einen lokalen Microsoft SQL Server-Host untersucht haben, haben Sie die Möglichkeit, den lokalen Host-Datensatz aus der BlueXP  Workload Factory zu entfernen.</block>
+  <block id="ae548505379d0043460d8c15540cb546" category="section-title">Klonbereinigung</block>
+  <block id="0d003b1e16a8cf8a4b6c0774ee3a0f41" category="paragraph">Die Bewertung und Korrektur der Klonbereinigung identifiziert und managt alte und teure Klone. Klone, die älter als 60 Tage sind, können aktualisiert oder aus der BlueXP -Workload-Werkseinstellungen gelöscht werden.</block>
+  <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">Verschieben und Verwerfen der Konfigurationsanalyse</block>
+  <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">Einige Konfigurationen gelten möglicherweise nicht für Ihre Datenbankumgebungen. Sie haben jetzt die Möglichkeit, eine bestimmte Konfigurationsanalyse um 30 Tage zu verschieben oder die Analyse zu verwerfen.</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminologie für Berechtigungen wurde aktualisiert</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">Die Benutzeroberfläche und Dokumentation der Workload Factory verwenden jetzt „Read-Only“, um auf Leseberechtigungen und „Read-Write“ zu verweisen, um Berechtigungen zu automatisieren.</block>
+  <block id="36099969c15a5d064d7174336be7e668" category="doc">Autonomer Ransomware-Schutz für FSX für ONTAP-Filesysteme</block>
+  <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">Schützen Sie Ihre Daten mit ARP (Autonomous Ransomware Protection), einer Funktion, die Workload-Analysen in NAS-Umgebungen (NFS/SMB) nutzt, um abnormale Aktivitäten, die ein Ransomware-Angriff sein könnten, zu erkennen und zu warnen. Wird ein Angriff vermutet, erstellt ARP auch neue, unveränderliche Snapshots, anhand derer Sie Ihre Daten wiederherstellen können.</block>
+  <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">Schützen Sie Ihre Daten mit autonomem Ransomware-Schutz</block>
+  <block id="8deff747fe441bd05b94960711ba6dc7" category="paragraph"><block ref="8deff747fe441bd05b94960711ba6dc7" category="inline-link-macro-rx"></block></block>
+  <block id="a915f8d1a90241b0905e5e0102866336" category="section-title">Verbesserung des FlexGroup Volume-Ausgleiches</block>
+  <block id="b4e8b949e8b2a108d117e8d00573baa5" category="paragraph">Bei einer BlueXP  Workload-Fabrik wird der FlexGroup Volume Ausgleichs-Assistent mit mehreren Layout-Optionen zur Ausbalancierung der Daten in einem FlexGroup Volume eingeführt. Die Ausbalancierung verteilt Daten gleichmäßig auf die FlexGroup-Mitglieds-Volumes.</block>
+  <block id="a3fa0d8d3f4c7edc445cef1c52eb31b4" category="inline-link-macro">Bringen Sie die Kapazität in einem FlexGroup Volume wieder ins Gleichgewicht</block>
+  <block id="ba5f40b0cbda6629d8835a8ddec32ba7" category="paragraph"><block ref="ba5f40b0cbda6629d8835a8ddec32ba7" category="inline-link-macro-rx"></block></block>
+  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">Implementierung von Best Practices für ein FSX für ONTAP-Filesystem</block>
+  <block id="23298c67bec69aa678274ba1b4e76d09" category="paragraph">Die BlueXP  Workload Factory bietet ein Dashboard, über das Sie den gut konzipierten Status Ihrer Filesystem-Konfigurationen überprüfen können. Mithilfe dieser Analyse können Sie Best Practices für Ihre FSX for ONTAP-Dateisysteme implementieren. Die Dateisystemkonfigurationsanalyse umfasst die folgenden Konfigurationen: SSD-Kapazitätsgrenze, geplante lokale Snapshots, geplante FSX für ONTAP-Backups, Daten-Tiering und Remote-Datenreplizierung.</block>
+  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">Informieren Sie sich über die gut konzipierte Analyse für Filesystem-Konfigurationen</block>
+  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
+  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">Implementieren Sie Best Practices für Ihre Dateisysteme</block>
+  <block id="809288260d1cdd9ac42626b2cf175ba5" category="list-text"><block ref="809288260d1cdd9ac42626b2cf175ba5" category="inline-link-macro-rx"></block></block>
+  <block id="b9b3a3dd5e7f3f2002c13a1dde978328" category="section-title">Dual-Protokoll-Volume-Sicherheitsoptionen</block>
+  <block id="8138182381112922a4c0de3123a20759" category="paragraph">Sie können entweder NTFS oder UNIX als Sicherheitstil für ein Volume auswählen, um die Methode zu bestimmen, mit der Benutzer und Berechtigungen auf ein Volume zugreifen.</block>
+  <block id="01723ef9eeaed61dd2633adc90d31f85" category="section-title">Verbesserungen bei der Replizierung</block>
+  <block id="b2e52f2d95b8128fa0aa997184d2e917" category="section-title">Unterstützung für umgekehrte Replizierung von FSX für ONTAP nach On-Premises</block>
+  <block id="987500c5a62dc35588c50c1cdc64759a" category="paragraph">Die umgekehrte Replizierung ist jetzt von einem FSX für ONTAP-Filesystem zu einem lokalen ONTAP-Cluster in der Workload-Factory-Konsole verfügbar.</block>
+  <block id="7ffd90bebe955a3d38da9e78eaaaf49b" category="inline-link-macro">Umgekehrte Replikation</block>
+  <block id="ad52c9d51cc60d89ce36c30b38feb597" category="paragraph"><block ref="ad52c9d51cc60d89ce36c30b38feb597" category="inline-link-macro-rx"></block></block>
+  <block id="e949ed7c07a946c5c5337cf0219fbc8a" category="section-title">Datensicherung Volume-Replizierung</block>
+  <block id="b160179bf174efa559aefeb2a6a265ff" category="paragraph">Sie können jetzt Datensicherungs-Volumes replizieren.</block>
+  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">Replizierung eines Datensicherheitsvolumes</block>
+  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
+  <block id="f45e31e9eb62670abb227bd17e863909" category="section-title">Auswahl mehrerer Volumes</block>
+  <block id="11b72bb293d845376d594d8db15c5c42" category="paragraph">Es stehen mehrere Volumeauswahl zur Verfügung, sodass Sie genau die Volumes auswählen können, die Sie replizieren möchten.</block>
+  <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">Erstellen einer Replikationsbeziehung</block>
+  <block id="4027269222ebe19f8c7ce0489bd4a099" category="paragraph"><block ref="4027269222ebe19f8c7ce0489bd4a099" category="inline-link-macro-rx"></block></block>
+  <block id="a07aceed52eedb73437d4be9dffb7512" category="section-title">Etiketten für Richtlinien zur langfristigen Aufbewahrung</block>
+  <block id="4f41e87d14e054d42c2670ea8c528589" category="paragraph">Wenn Sie die langfristige Aufbewahrung für eine Replikationsbeziehung aktivieren, müssen die Label von Quell- und Ziel-Volumes exakt übereinstimmen. Jetzt kann BlueXP  Workload Factory automatisch fehlende Quell-Volume-Labels für Sie erstellen.</block>
+  <block id="cfe8fde03c6d1a12606f20570c95dd3a" category="section-title">Der Dateiname FSX for ONTAP ist bei der Volume-Erstellung sichtbar</block>
+  <block id="15ed156f4715eb4b7e7feb040d7c9c90" category="paragraph">Wir haben die Sichtbarkeit von FSX für ONTAP-Dateisysteme während der Volume-Erstellung verbessert. Wenn Sie ein Volume erstellen, sehen Sie das FSX für ONTAP-Dateisystem, sodass Sie genau wissen, wo das Volume erstellt wird.</block>
+  <block id="92698312f3f978b9a3975381093aea27" category="section-title">AWS-Konto ist für den Storage-Workload sichtbar</block>
+  <block id="d4ba91ca8b32dac38d8a02560db45f99" category="paragraph">Wir haben die Account-Transparenz für den Storage Workload verbessert. Das AWS-Konto wird angezeigt, wenn Sie zu den Registerkarten *Volumes*, *Storage VMs* und *Replication* navigieren.</block>
+  <block id="44918ad8d6b4fa49e31aa71e8c3e972b" category="section-title">Verbesserungen bei der Verknüpfung</block>
+  <block id="730fff71d8c1a3c83285cf73a189adc1" category="list-text">Sie können einen Link aus einem FSX für ONTAP-Dateisystem in der Registerkarte Inventar schnell verknüpfen.</block>
+  <block id="794643699de592957f5ae7ac7b70d1be" category="list-text">BlueXP  Workload Factory unterstützt jetzt die Verwendung alternativer ONTAP-Benutzeranmeldeinformationen für die Link-Zuordnung.</block>
+  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">Unterstützung der Link-Authentifizierung für AWS Secrets Manager</block>
+  <block id="9eee39cc8777da8f7dbd19a76d917105" category="paragraph">Sie haben jetzt die Möglichkeit, Secrets von AWS Secrets Manager zum Authentifizieren von Links zu verwenden, sodass Sie keine in der BlueXP  Workload Factory gespeicherten Anmeldeinformationen verwenden müssen.</block>
+  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">Unterstützung von Tracker-Antworten</block>
+  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">Tracker bietet jetzt API-Antworten, sodass Sie die REST API-Ausgabe zu der Aufgabe sehen können.</block>
+  <block id="2e0c4c64c2671f5575eb184e577dcdae" category="inline-link-macro">Überwachen Sie den Betrieb mit Tracker</block>
+  <block id="51901acdd0b1d27e153698e9d896b4ab" category="paragraph"><block ref="51901acdd0b1d27e153698e9d896b4ab" category="inline-link-macro-rx"></block></block>
+  <block id="3d84fc344c6f90d01ec1ed67bf66b2cf" category="section-title">Kapazitätsvalidierung beim Wiederherstellen eines Volumes aus einem Backup</block>
+  <block id="02fb27a360f5d3b300cee7fd194ec4ab" category="paragraph">Beim Wiederherstellen eines Volumes aus einem Backup ermittelt die BlueXP  Workload Factory, ob Sie über genügend Kapazität für die Wiederherstellung verfügen. Andernfalls kann automatisch SSD-Storage-Tier-Kapazität hinzugefügt werden.</block>
+  <block id="669e24f4895025d47b6321e03f0890e4" category="inline-link-macro">Stellen Sie ein Volume aus einem Backup wieder her</block>
+  <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
+  <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">Unterstützung alternativer ONTAP-Benutzeranmeldeinformationen</block>
+  <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">Workload Factory unterstützt jetzt alternative Sätze von ONTAP-Anmeldeinformationen zur Erstellung von Dateisystemen, um Sicherheitsrisiken zu minimieren. Anstatt nur den Benutzer fsxadmin zu verwenden, können Sie einen anderen Satz von ONTAP-Anmeldeinformationen auswählen oder wählen, kein Passwort für Benutzer von fsxadmin und vsaadmin anzugeben.</block>
+  <block id="fa499afb5b0e71cede67d6430b479aad" category="doc">Unterstützung von NetApp ONTAP Connector für Amazon Q</block>
+  <block id="c77dd74f22a4c7346ab562d5eff0bc5a" category="paragraph">Diese Version von GenAI bietet Unterstützung für NetApp ONTAP Connector für Amazon Q, damit Sie Connectors für Amazon Q Business erstellen können. Nutzen Sie den Amazon Q Business KI-Assistenten schnell und einfach mit einer geringeren Erstkonfiguration als mit dem Aufbau einer GenAI Knowledge Base für Amazon Bedrock.</block>
+  <block id="cf79fa4b0d1663f0ab76e8bc4b4e5ff3" category="inline-link-macro">Erstellen Sie einen GenAI-Connector für Amazon Q Business</block>
+  <block id="9e4085aea7ddf49d777bc0d6415232d0" category="paragraph"><block ref="9e4085aea7ddf49d777bc0d6415232d0" category="inline-link-macro-rx"></block></block>
+  <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">Verbesserter Support für Chatmodelle</block>
+  <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">GenAI unterstützt jetzt die folgenden zusätzlichen Chatmodelle für Wissensdatenbanken:</block>
+  <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Mistral KI-Modelle</block>
+  <block id="fffe8738239ad19b2e24fda4b92d99f8" category="list-text"><block ref="fffe8738239ad19b2e24fda4b92d99f8" category="inline-link-macro-rx"></block></block>
+  <block id="ac4754b088e15ec23e2e33942607b0db" category="inline-link-macro">Amazon Titan Textmodelle</block>
+  <block id="91b642108b49f539aef5f1e7e8429b9a" category="list-text"><block ref="91b642108b49f539aef5f1e7e8429b9a" category="inline-link-macro-rx"></block></block>
+  <block id="3e431ea8f1bf6f1b755d11be49ab7215" category="inline-link-macro">Meta Llama Modelle</block>
+  <block id="957aa19111afb49cbdb72a75c11a7824" category="list-text"><block ref="957aa19111afb49cbdb72a75c11a7824" category="inline-link-macro-rx"></block></block>
+  <block id="025fda77b8ffb8c9e7812b66f625dcdb" category="inline-link-macro">Jamba 1.5 Modelle</block>
+  <block id="00be89811246b5f1554783fae811628a" category="list-text"><block ref="00be89811246b5f1554783fae811628a" category="inline-link-macro-rx"></block></block>
+  <block id="d5bedd5eb6b3c4a63a27527880abc5ae" category="inline-link-macro">Co-here Command-Modelle</block>
+  <block id="01f2d137c910887f5780defdf71aa720" category="list-text"><block ref="01f2d137c910887f5780defdf71aa720" category="inline-link-macro-rx"></block></block>
+  <block id="7af238b1ae959fcc9ca0417cb2d5f9a7" category="inline-link-macro">Deepseek-Modelle</block>
+  <block id="96734ae1eb62df22f906e39314369633" category="list-text"><block ref="96734ae1eb62df22f906e39314369633" category="inline-link-macro-rx"></block></block>
+  <block id="dbc68fe7976455ff2b6f2e5143dfd308" category="inline-link-macro">Unterstützte Basismodelle in Amazon Bedrock</block>
+  <block id="b198f4cca9409499187762bec5420672" category="paragraph">GenAI unterstützt die Modelle von jedem Provider, die von Amazon Bedrock unterstützt werden: <block ref="9f10081366e85554159ed4dc640b95c7" category="inline-link-macro-rx"></block></block>
+  <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">Autocomplete-Unterstützung für CloudShell</block>
+  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">Wenn Sie BlueXP  Workload Factory CloudShell verwenden, können Sie einen Befehl eingeben und die Tabulatortaste drücken, um die verfügbaren Optionen anzuzeigen. Wenn mehrere Möglichkeiten vorhanden sind, zeigt die CLI eine Liste mit Vorschlägen an. Diese Funktion steigert die Produktivität, indem Fehler minimiert und die Befehlsausführung beschleunigt wird.</block>
+  <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">Diese Version der BlueXP  Workload-Farm für VMware umfasst folgende Verbesserungen zur Nutzung des Amazon EC2 Migrationsberaters:</block>
+  <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*Einblicke in die NetApp-Dateninfrastruktur als Datenquelle*: Workload Factory stellt jetzt eine direkte Verbindung mit NetApp Data Infrastructure Insights her, um VMware Implementierungsinformationen zu erfassen, wenn Sie den Data Collector des EC2 Migration Advisor verwenden.</block>
+  <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">1 2025-05-04</block>
 </blocks>

@@ -8,7 +8,7 @@
 
 Sie können jetzt Fragen und Antworten direkt in die Zwischenablage kopieren, die Größe des Chat-Fensters anpassen und dessen Titel ändern. Darüber hinaus können Chat-Antworten jetzt Tabellen enthalten, die auch kopierbar sind.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Testen Sie eine GenAI Knowledge Base"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Testen Sie eine GenAI Knowledge Base"]
 
 
 
@@ -16,7 +16,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Teste
 
 Die Chat-Antworten enthalten nun Zitate, in denen die Dateien und Datenpakete aufgelistet sind, die zur Generierung der Antwort verwendet wurden.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Testen Sie eine GenAI Knowledge Base"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Testen Sie eine GenAI Knowledge Base"]
 
 
 
@@ -29,4 +29,4 @@ Diese Version von GenAI bietet erweiterte Dateiunterstützung:
 * GenAI unterstützt jetzt die Aufnahme von Microsoft Word DOCX-Dateien, die Bilder enthalten. In DOCX-Dokumenten eingebettete Bilder werden gescannt, und Texteinblicke aus den eingebetteten Bildern werden in Antworten auf Knowledge-Base-Abfragen berücksichtigt.
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Unterstützte Datenquelldateiformate"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Unterstützte Datenquelldateiformate"]
