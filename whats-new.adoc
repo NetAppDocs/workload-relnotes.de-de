@@ -19,6 +19,50 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Verbesserung der automatischen Volumevergrößerung
+
+Jetzt können Sie die Autogrow-Größe Ihrer Volumes so einstellen, dass die Volumegröße über die bereitgestellte Größe für Geschäftsanforderungen und Anwendungsanforderungen hinaus wachsen kann.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["Aktivieren Sie Autogrow"]
+
+
+
+==== Gut strukturiertes Analyse-Update
+
+Workload Factory analysiert jetzt Ihre FSx for ONTAP-Dateisysteme, um zu prüfen, ob Speichereffizienzen wie Datenkomprimierung, -komprimierung und -deduplizierung genutzt werden. Die Speichereffizienz misst, wie effektiv die Dateisysteme den verfügbaren Speicherplatz nutzen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status der Speichereffizienz an"]
+
+
+
+==== Verbesserungen des Speicher-Dashboards
+
+Wenn Sie ab sofort den Storage-Workload über die Workload Factory-Konsole öffnen, wird Ihnen das Dashboard angezeigt. Das neu gestaltete Dashboard bietet eine ganzheitliche Ansicht Ihrer FSx for ONTAP-Systeme, einschließlich der Anzahl der Dateisysteme, der gesamten SSD-Kapazität, der Statusübersicht, der Datenschutzübersicht und der Integrität der Replikationsbeziehungen.
+
+
+
+==== Verbesserungen der Registerkarte „Volumes“
+
+Die Storage-Workload hat Verbesserungen an der Registerkarte „Volumes“ innerhalb eines FSx for ONTAP-Dateisystems in der Workload-Factory-Konsole vorgenommen. Die Verbesserungen umfassen:
+
+* *Neue Karten*: SSD-Kapazität, Kapazitätspool und Autonomous Ransomware Protection (ARP)
+* *Neue Spalten*: Kapazitätsverteilung, genutzte SSD-Kapazität, genutzter Kapazitätspool und SSD-Effizienz
+
+
+
+
+==== Aktualisierung der Speichereffizienz für die Volume-Erstellung
+
+Beim Erstellen eines neuen Volumes werden Speichereffizienzen wie Datenkomprimierung, Komprimierung und Deduplizierung standardmäßig aktiviert.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Erstellen Sie ein neues Volume in der Workload Factory"]
+
+
+
 === Datenbank-Workloads
 
 
@@ -513,51 +557,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 == 1 2025-03-02
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Automatische Verbesserungen beim Kapazitätsmanagement
-
-Bei Aktivierung des automatischen Kapazitätsmanagements prüft die BlueXP  Workload Factory nun, ob ein Filesystem seinen Kapazitätsschwellenwert alle 30 Minuten anstatt alle 2 Stunden erreicht hat.
-
-Die Einstellung für bereitgestellte IOPS wird nicht mehr beeinflusst, wenn der Kapazitätsschwellenwert erreicht wird.
-
-
-
-==== Unveränderliche Snapshots
-
-Sie können Snapshots nun über einen bestimmten Aufbewahrungszeitraum sperren und sie damit unveränderbar machen. Das Sperren verhindert unbefugten Zugriff und böswillige Löschung von Snapshots. Sie können unveränderliche Snapshots während der Erstellung der Snapshot-Richtlinie, beim Erstellen manueller Snapshots und nach der Snapshot-Erstellung aktivieren.
-
-
-
-==== Aktualisierung unveränderlicher Dateien
-
-Nun können Sie an Ihrer Konfiguration unveränderlicher Dateien folgende Änderungen vornehmen: Aufbewahrungsrichtlinie, Aufbewahrungszeitraum, Autofestzeitraum und Modus für anhängen von Volumes.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Management unveränderlicher Dateien"]
-
-
-
-==== Verbesserungen bei der Datenreplizierung
-
-* Cross-Account-Replizierung: Die Replizierung zwischen zwei AWS-Konten wird in der BlueXP  Workload Factory-Konsole sowie in der Replikationsverwaltung unterstützt.
-* Replikation anhalten und fortsetzen: Sie können geplante Replikations-Updates vom Quell-Volume zum Ziel-Volume unterbrechen (stilllegen) und dann den Replikationszeitplan wieder aufnehmen, sobald Sie bereit sind. Während der Pause werden Quell- und Ziel-Volumes unabhängig und das Ziel-Volume wird von schreibgeschützten auf Schreib- und Lesezugriff umgestellt.
-+
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["Anhalten und Wiederaufnehmen einer Replikationsbeziehung"]
-
-
-
-
-
-==== CloudShell-Events in Tracker
-
-Jetzt können Sie CloudShell-Ereignisse in Tracker verfolgen.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Überwachen und verfolgen Sie den Betrieb mit Tracker"]
 
 
 
