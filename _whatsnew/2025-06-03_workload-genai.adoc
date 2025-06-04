@@ -1,0 +1,19 @@
+= Tracker zur Überwachung und Nachverfolgung von Vorgängen verfügbar
+:allow-uri-read: 
+
+
+
+
+=== Tracker zur Überwachung und Nachverfolgung von Vorgängen verfügbar
+
+Die Tracker-Überwachungsfunktion ist jetzt in GenAI verfügbar. Mit Tracker können Sie den Fortschritt und Status ausstehender, laufender und abgeschlossener Vorgänge überwachen und verfolgen, Details zu Vorgangsaufgaben und Unteraufgaben überprüfen, Probleme oder Fehler diagnostizieren, Parameter für fehlgeschlagene Vorgänge bearbeiten und fehlgeschlagene Vorgänge wiederholen.
+
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["Überwachen Sie Workload-Vorgänge mit Tracker in der BlueXP-Workload-Factory"]
+
+
+
+=== Auswählen eines Reranking-Modells für eine Wissensdatenbank
+
+Sie können jetzt die Relevanz neu bewerteter Abfrageergebnisse erhöhen, indem Sie ein bestimmtes Reranking-Modell für die Verwendung mit einer Wissensdatenbank auswählen. GenAI unterstützt die Modelle Cohere Rerank und Amazon Rerank.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
