@@ -317,11 +317,11 @@ Die Benutzeroberfläche und Dokumentation der Workload Factory verwenden jetzt �
 
 
 
-==== Unterstützung von NetApp ONTAP Connector für Amazon Q
+==== Support für NetApp Connector für Amazon Q Business
 
-Diese Version von GenAI bietet Unterstützung für NetApp ONTAP Connector für Amazon Q, damit Sie Connectors für Amazon Q Business erstellen können. Nutzen Sie den Amazon Q Business KI-Assistenten schnell und einfach mit einer geringeren Erstkonfiguration als mit dem Aufbau einer GenAI Knowledge Base für Amazon Bedrock.
+Diese Version von GenAI bietet Unterstützung für NetApp Connector für Amazon Q Business und ermöglicht Ihnen die Erstellung von Konnektoren für Amazon Q Business. Nutzen Sie den Amazon Q Business KI-Assistenten schnell und einfach mit einer geringeren Erstkonfiguration als mit dem Aufbau einer GenAI Knowledge Base für Amazon Bedrock.
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Erstellen Sie einen GenAI-Connector für Amazon Q Business"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Erstellen Sie einen NetApp Connector für Amazon Q Business"]
 
 
 
@@ -339,7 +339,7 @@ GenAI unterstützt jetzt die folgenden zusätzlichen Chatmodelle für Wissensdat
 
 GenAI unterstützt die Modelle von jedem Provider, die von Amazon Bedrock unterstützt werden: link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Unterstützte Basismodelle in Amazon Bedrock"^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
 
 
 
