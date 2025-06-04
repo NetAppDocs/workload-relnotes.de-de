@@ -124,4 +124,4 @@ Workload Factory unterstützt jetzt alternative Sätze von ONTAP-Anmeldeinformat
 
 === Terminologie für Berechtigungen wurde aktualisiert
 
-Die Benutzeroberfläche und Dokumentation der Workload Factory verwenden jetzt „Read-Only“, um auf Leseberechtigungen und „Read-Write“ zu verweisen, um Berechtigungen zu automatisieren.
+In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
