@@ -15,6 +15,33 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 1 2025-06-08
+
+
+
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Neue, gut strukturierte Analyse und Unterstützung zur Behebung von Problemen
+
+Das automatische Kapazitätsmanagement für FSx für ONTAP-Dateisysteme ist jetzt als Konfigurationsanalyse im gut strukturierten Status-Dashboard enthalten.
+
+Darüber hinaus unterstützt Workload Factory jetzt die Behebung der folgenden Konfigurationsprobleme:
+
+* Schwellenwert für SSD-Kapazität
+* Daten-Tiering
+* Geplante lokale Snapshots
+* FSx für ONTAP-Backups
+* Remote-Datenreplizierung
+* Storage-Effizienz
+* Automatisches Kapazitätsmanagement
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Beheben von Konfigurationsproblemen"]
+
+
+
 == 1 2025-06-03
 
 
@@ -426,53 +453,6 @@ link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.h
 
 
 == 1 2025-03-30
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Automatisches Kapazitätsmanagement für Scale-out-Systeme
-
-Workload Factory sucht nun nach verfügbaren Inodes in Volumes und erhöht ihre Anzahl entsprechend den konfigurierten Schwellenwerten für das automatische Kapazitätsmanagement. Diese Funktion unterstützt automatisches Kapazitätsmanagement für Scale-out-Systeme. Sie können das Inodes-Management im Rahmen des automatischen Kapazitätsmanagements aktivieren.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Aktivieren Sie das automatische Kapazitätsmanagement"]
-
-
-
-==== FlexGroup-AusgleichAPI
-
-An der BlueXP  Workload-Fabrik wird die FlexGroup-Ausgleichs-API veröffentlicht, über die Sie einen Plan zum Lastausgleich der Daten in einer FlexGroup ausführen können. Durch die Ausbalancierung werden Daten gleichmäßig auf die Mitglieds-Volumes verteilt.
-
-link:https://console.workloads.netapp.com/api-doc["BlueXP  Workload-API-Dokumentation"]
-
-
-
-==== Datenform zur Replizierung umfasst Anwendungsfälle
-
-Das Formular Daten replizieren enthält jetzt Anwendungsfälle, um das Ausfüllen des Formulars zu erleichtern. Wählen Sie einen der folgenden Anwendungsfälle für die Datenreplizierung aus: Migration, Disaster Recovery für häufig benötigte Daten, Cold-Disaster-Recovery, Archivierung oder andere. Nachdem Sie einen Anwendungsfall ausgewählt haben, empfiehlt Workload Factory Werte im Einklang mit Best Practices. Sie können die vorausgewählten Werte akzeptieren oder die Werte im Formular anpassen.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Datenreplizierung"]
-
-
-
-==== Änderungen der Terminologie bei der Data Tiering-Richtlinie
-
-Wenn Sie sich nun für eine Tiering-Richtlinie während der Volume-Erstellung, Datenreplizierung oder Aktualisierung vorhandener Tiering-Richtlinien entscheiden, finden Sie neue Begriffe zur Beschreibung der Tiering-Richtlinien.
-
-* _Ausgeglichen (Auto)_
-* _Kostenoptimiert (Alle)_
-* _Performance Optimized (nur Snapshots)_
-
-
-
-
-==== Details der Sicherheitsgruppe für die Dateisystemerstellung
-
-Im Rahmen des Dateisystemerstellungsprozesses FSX für ONTAP wird eine Sicherheitsgruppe erstellt. Details zu Sicherheitsgruppen wie Protokolle, Ports und Rollen sind jetzt verfügbar.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Erstellen Sie ein Dateisystem"]
 
 
 

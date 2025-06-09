@@ -1,0 +1,22 @@
+= Neue, gut strukturierte Analyse und Unterstützung zur Behebung von Problemen
+:allow-uri-read: 
+
+
+
+
+=== Neue, gut strukturierte Analyse und Unterstützung zur Behebung von Problemen
+
+Das automatische Kapazitätsmanagement für FSx für ONTAP-Dateisysteme ist jetzt als Konfigurationsanalyse im gut strukturierten Status-Dashboard enthalten.
+
+Darüber hinaus unterstützt Workload Factory jetzt die Behebung der folgenden Konfigurationsprobleme:
+
+* Schwellenwert für SSD-Kapazität
+* Daten-Tiering
+* Geplante lokale Snapshots
+* FSx für ONTAP-Backups
+* Remote-Datenreplizierung
+* Storage-Effizienz
+* Automatisches Kapazitätsmanagement
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Beheben von Konfigurationsproblemen"]
