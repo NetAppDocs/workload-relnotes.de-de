@@ -234,4 +234,9 @@
   <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">Beheben von Konfigurationsproblemen</block>
   <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
   <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">1 2025-06-08</block>
+  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Ursprüngliche Version des Builders-Workloads</block>
+  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">Die BlueXP  Workload Factory for Builders vereinfacht die Nutzung und den Zugriff auf Softwareversionen, sodass keine benutzerdefinierten Tools oder Skripte erforderlich sind. Sie können Softwareversionen als in Perforce Helix Core integrierte, sofort-Clones als komfortable Arbeitsumgebung für Ihre Entwicklungsprozesse nutzen und so Zeit und Ressourcen sparen.</block>
+  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">Die erste Version beinhaltet die Möglichkeit, Projekte und Arbeitsbereiche zu verwalten und Aktionen mit Codebox zu automatisieren. Sie können auch Builders mit Perforce Helix Core integrieren, so dass Sie verschiedene Versionen jedes Projekts verwalten und schnell zwischen ihnen wechseln können.</block>
+  <block id="e562428972beeca78a1b44b300444717" category="paragraph">Ungelöste Direktive in &lt;stdin&gt; – include::_include/workload-builders.adoc[] :leveloffset: +1</block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 2024-12-01</block>
 </blocks>

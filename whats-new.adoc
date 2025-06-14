@@ -390,6 +390,14 @@ Wenn Sie BlueXP  Workload Factory CloudShell verwenden, können Sie einen Befeh
 
 In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
 
+Ungelöste Direktive in <stdin> – include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Terminologie für Berechtigungen wurde aktualisiert
+
+In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
+
 
 
 == 1 2025-04-04
@@ -578,3 +586,17 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Ver
 Die folgende Berechtigung ist jetzt im _read_ Modus für Datenbanken verfügbar: `iam:SimulatePrincipalPolicy`.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Änderungsprotokoll für Berechtigungen"]
+
+
+
+== 1 2024-12-01
+
+Ungelöste Direktive in <stdin> – include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Ursprüngliche Version des Builders-Workloads
+
+Die BlueXP  Workload Factory for Builders vereinfacht die Nutzung und den Zugriff auf Softwareversionen, sodass keine benutzerdefinierten Tools oder Skripte erforderlich sind. Sie können Softwareversionen als in Perforce Helix Core integrierte, sofort-Clones als komfortable Arbeitsumgebung für Ihre Entwicklungsprozesse nutzen und so Zeit und Ressourcen sparen.
+
+Die erste Version beinhaltet die Möglichkeit, Projekte und Arbeitsbereiche zu verwalten und Aktionen mit Codebox zu automatisieren. Sie können auch Builders mit Perforce Helix Core integrieren, so dass Sie verschiedene Versionen jedes Projekts verwalten und schnell zwischen ihnen wechseln können.
