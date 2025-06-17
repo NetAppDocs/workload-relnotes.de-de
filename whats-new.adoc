@@ -15,6 +15,20 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 1 2025-06-16
+
+Ungelöste Direktive in <stdin> – include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Klonunterstützung
+
+Sie können jetzt ein Projekt in der BlueXP Workload Factory für Builder klonen. Beim Klonen eines Projekts erstellt Builder aus einem Snapshot ein neues Projekt mit der gleichen Konfiguration wie das Original. Das Klonen ist nützlich, um schnell ähnliche Projekte zu erstellen oder zu Testzwecken. Sie können den neuen Projektklon mounten, indem Sie den Anweisungen in Builder folgen.
+
+https://docs.netapp.com/us-en/workload-builders/version-projects.html["Verwalten Sie Versionen der BlueXP-Workload-Factory für Builder-Projekte"]
+
+
+
 == 1 2025-06-08
 
 
