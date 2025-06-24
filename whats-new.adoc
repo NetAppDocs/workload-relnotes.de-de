@@ -17,11 +17,13 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 == 1 2025-06-16
 
-Ungelöste Direktive in <stdin> – include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Arbeitslasten der Bauarbeiter
 
 
 
-=== Klonunterstützung
+==== Klonunterstützung
 
 Sie können jetzt ein Projekt in der BlueXP Workload Factory für Builder klonen. Beim Klonen eines Projekts erstellt Builder aus einem Snapshot ein neues Projekt mit der gleichen Konfiguration wie das Original. Das Klonen ist nützlich, um schnell ähnliche Projekte zu erstellen oder zu Testzwecken. Sie können den neuen Projektklon mounten, indem Sie den Anweisungen in Builder folgen.
 
@@ -404,11 +406,13 @@ Wenn Sie BlueXP  Workload Factory CloudShell verwenden, können Sie einen Befeh
 
 In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
 
-Ungelöste Direktive in <stdin> – include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Arbeitslasten der Bauarbeiter
 
 
 
-=== Terminologie für Berechtigungen wurde aktualisiert
+==== Terminologie für Berechtigungen wurde aktualisiert
 
 In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
 
@@ -605,11 +609,13 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 == 1 2024-12-01
 
-Ungelöste Direktive in <stdin> – include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+=== Arbeitslasten der Bauarbeiter
 
 
 
-=== Ursprüngliche Version des Builders-Workloads
+==== Ursprüngliche Version des Builders-Workloads
 
 Die BlueXP  Workload Factory for Builders vereinfacht die Nutzung und den Zugriff auf Softwareversionen, sodass keine benutzerdefinierten Tools oder Skripte erforderlich sind. Sie können Softwareversionen als in Perforce Helix Core integrierte, sofort-Clones als komfortable Arbeitsumgebung für Ihre Entwicklungsprozesse nutzen und so Zeit und Ressourcen sparen.
 
