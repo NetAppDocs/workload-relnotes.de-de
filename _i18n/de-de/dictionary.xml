@@ -239,8 +239,9 @@
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Verwalten Sie Versionen der BlueXP-Workload-Factory für Builder-Projekte</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">1 2025-06-16</block>
-  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">Unterstützung des BlueXP Workload Factory-Benachrichtigungsdienstes</block>
-  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">Der Benachrichtigungsdienst der BlueXP Workload Factory ermöglicht es der Workload Factory, Benachrichtigungen an den BlueXP-Warndienst oder an ein Amazon SNS-Thema zu senden. An BlueXP-Warnmeldungen gesendete Benachrichtigungen werden im BlueXP-Warnmeldungsbereich angezeigt. Wenn die Workload Factory Benachrichtigungen an ein Amazon SNS-Thema veröffentlicht, erhalten Abonnenten des Themas (z. B. Benutzer oder andere Anwendungen) die Benachrichtigungen an den für das Thema konfigurierten Endpunkten (z. B. per E-Mail oder SMS).</block>
-  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Konfigurieren Sie die Benachrichtigungen der BlueXP-Workload-Factory</block>
-  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">CloudShell ist in der BlueXP -Workload-Factory-Konsole verfügbar</block>
+  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell ist an jedem beliebigen Ort in der BlueXP -Workload-Factory-Konsole verfügbar. CloudShell ermöglicht Ihnen, die in Ihrem BlueXP -Konto angegebenen AWS- und ONTAP-Anmeldeinformationen zu verwenden und AWS CLI-Befehle oder ONTAP CLI-Befehle in einer Shell-ähnlichen Umgebung auszuführen.</block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Berechtigungsaktualisierung für Datenbanken</block>
+  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">Die folgende Berechtigung ist jetzt im _read_ Modus für Datenbanken verfügbar:<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>.</block>
+  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">1 2025-02-02</block>
 </blocks>
