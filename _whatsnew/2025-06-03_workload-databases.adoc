@@ -18,8 +18,8 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Ko
 
 
 
-=== Verbessertes Onboarding für Host-Instanzen
+=== Verbessertes Onboarding für Instanzen
 
-Anstelle der Begriffe „unerkannt“, „unverwaltet“ oder „verwaltet“ für die Verwaltung von Hostinstanzen verwendet Workload Factory jetzt „Registrieren“ für das Onboarding von Hostinstanzen. Der neue Registrierungsprozess umfasst die Authentifizierung und Vorbereitung von Hostinstanzen, sodass Sie Ressourcen in Ihren Datenbankkonfigurationen in der Workload Factory-Konsole erstellen, überwachen, analysieren und reparieren können. Der Vorbereitungsschritt im Registrierungsprozess zeigt an, ob Ihre Hostinstanzen für die Verwaltung bereit sind.
+Anstelle der Begriffe „unerkannt“, „unverwaltet“ oder „verwaltet“ für die Instanzverwaltung verwendet Workload Factory jetzt „Registrieren“ für das Onboarding von Instanzen. Der neue Registrierungsprozess umfasst die Authentifizierung und Vorbereitung von Instanzen, sodass Sie Ressourcen in Ihren Datenbankkonfigurationen in der Workload Factory-Konsole erstellen, überwachen, analysieren und reparieren können. Der Vorbereitungsschritt im Registrierungsprozess zeigt an, ob Ihre Instanzen für die Verwaltung bereit sind.
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Instanzmanagement"]
