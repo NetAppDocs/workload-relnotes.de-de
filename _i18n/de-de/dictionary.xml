@@ -233,4 +233,7 @@
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">Der Benachrichtigungsdienst der BlueXP Workload Factory ermöglicht es der Workload Factory, Benachrichtigungen an den BlueXP-Warndienst oder an ein Amazon SNS-Thema zu senden. An BlueXP-Warnmeldungen gesendete Benachrichtigungen werden im BlueXP-Warnmeldungsbereich angezeigt. Wenn die Workload Factory Benachrichtigungen an ein Amazon SNS-Thema veröffentlicht, erhalten Abonnenten des Themas (z. B. Benutzer oder andere Anwendungen) die Benachrichtigungen an den für das Thema konfigurierten Endpunkten (z. B. per E-Mail oder SMS).</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Konfigurieren Sie die Benachrichtigungen der BlueXP-Workload-Factory</block>
   <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">Berechtigungsaktualisierung für Datenbanken</block>
+  <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">Die folgende Berechtigung ist jetzt im _schreibgeschützten_ Modus für Datenbanken verfügbar: <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
+  <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
 </blocks>
