@@ -1,0 +1,13 @@
+= Unterstützung für Datenquellen, die auf generischen NFS/SMB-Dateisystemen gehostet werden
+:allow-uri-read: 
+
+
+
+
+=== Unterstützung für Datenquellen, die auf generischen NFS/SMB-Dateisystemen gehostet werden
+
+Sie können jetzt eine Datenquelle aus einer generischen SMB- oder NFS-Freigabe hinzufügen. Dadurch können Sie Dateien einbeziehen, die auf Volumes gespeichert sind, die von anderen Dateisystemen als Amazon FSx für NetApp ONTAP gehostet werden.
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Hinzufügen von Datenquellen zu einer Wissensdatenbank"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Hinzufügen von Datenquellen zu einem Connector"]
