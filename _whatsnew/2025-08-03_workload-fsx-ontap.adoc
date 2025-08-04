@@ -1,0 +1,80 @@
+= Verbesserungen an der Registerkarte „Replikationsbeziehungen“
+:allow-uri-read: 
+
+
+
+
+=== Verbesserungen an der Registerkarte „Replikationsbeziehungen“
+
+Wir haben der Tabelle mit den Replikationsbeziehungen mehrere neue Spalten hinzugefügt, um Ihnen auf der Registerkarte *Replikationsbeziehungen* weitere Informationen zu Ihren Replikationsbeziehungen zu geben. Die Tabelle enthält jetzt die folgenden Spalten:
+
+* SnapMirror -Richtlinie
+* Quelldateisystem
+* Zieldateisystem
+* Stand der Beziehung
+* Letzte Übertragungszeit
+
+
+
+
+=== Verbesserungen des autonomen Ransomware-Schutzes von NetApp mit KI (ARP/AI)
+
+In dieser Version wird der aktualisierte Begriff „NetApp Autonomous Ransomware Protection with AI (ARP/AI)“ eingeführt, um die Integration künstlicher Intelligenz in unsere Ransomware-Schutzfunktionen besser widerzuspiegeln.
+
+Darüber hinaus wurden die folgenden Verbesserungen an ARP/AI vorgenommen:
+
+* ARP/AI auf Volume-Ebene: Sie können jetzt ARP/AI auf Volume-Ebene aktivieren und so bestimmte Volumes innerhalb Ihrer FSx for ONTAP Dateisysteme schützen.
+* Automatische Snapshot-Erstellung: Sie können die ARP/AI-Richtlinie so einstellen, dass automatische Snapshots erstellt werden, und festlegen, wie oft Snapshots für Volumes mit aktiviertem ARP/AI erstellt werden, wodurch Ihre Datenschutzstrategie verbessert wird.
+* Unveränderliche Snapshots: ARP/AI unterstützt jetzt unveränderliche Snapshots, die nicht gelöscht oder geändert werden können und so eine zusätzliche Sicherheitsebene gegen Ransomware-Angriffe bieten.
+* Erkennung: umfasst verschiedene Erkennungsmethoden wie beispielsweise eine hohe Entropie-Datenrate auf Datenträgerebene, Dateierstellungsrate, Dateiumbenennungsrate, Dateilöschrate und Verhaltensanalyse sowie nie zuvor gesehene Dateierweiterungen, die dabei helfen, Anomalien und potenzielle Ransomware-Angriffe zu erkennen.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Schützen Sie Ihre Daten mit NetApp Autonomous Ransomware Protection mit KI (ARP/AI)"]
+
+
+
+=== Gut strukturierte Analyse-Updates
+
+Workload Factory analysiert jetzt Ihre FSx for ONTAP Dateisysteme für die folgenden Konfigurationen:
+
+* Zuverlässigkeit der Langzeitaufbewahrungsdaten: Überprüft, ob die der Snapshot-Richtlinie des Quellvolumes zugewiesenen Bezeichnungen mit den der Langzeitaufbewahrungsrichtlinie zugewiesenen Bezeichnungen identisch sind. Wenn die Bezeichnungen identisch sind, ist die Datenreplikation zwischen Quell- und Zielvolumes zuverlässig.
+* NetApp Autonomous Ransomware Protection mit KI (ARP/AI): Überprüft, ob ARP/AI auf Ihren Dateisystemen aktiviert ist. Diese Funktion hilft Ihnen, Ransomware-Angriffe zu erkennen und sich davon zu erholen.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an"]
+
+
+
+=== Eine Konfiguration aus der Well-Architected-Analyse verwerfen
+
+Sie können jetzt eine oder mehrere Konfigurationen aus der Well-Architected-Analyse ausschließen. Auf diese Weise können Sie bestimmte Konfigurationen ignorieren, die Sie im Moment nicht ansprechen möchten.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Eine Konfiguration aus der Well-Architected-Analyse verwerfen"]
+
+
+
+=== Terraform-Unterstützung für die Linkerstellung
+
+Sie können jetzt Terraform aus der Codebox verwenden, um einen Link zur Zuordnung zu einem FSx für ONTAP Dateisystem zu erstellen. Diese Funktion ist für Benutzer gedacht, die Links manuell erstellen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Stellen Sie über einen Lambda-Link eine Verbindung zu einem FSX für ONTAP-Dateisystem her"]
+
+
+
+=== Neue regionale Unterstützung zur Ermittlung von Einsparungen bei der Speicherung
+
+Die folgenden neuen Regionen werden jetzt unterstützt, um Einsparungen für Amazon Elastic Block Store (EBS), FSx für Windows File Server und Elastic File Systems (EFS) zu erkunden:
+
+* Mexiko
+* Thailand
+
+
+
+
+=== Verbesserungen bei der Erstellung und Verwaltung von SMB/CIFS-Freigaben
+
+Sie können jetzt SMB/CIFS-Freigaben erstellen, die auf Verzeichnisse innerhalb eines Volumes verweisen. Innerhalb des Volumes können Sie sehen, welche Freigaben vorhanden sind, wohin die Freigaben verweisen und welche Berechtigungen bestimmten Benutzern und Gruppen erteilt wurden.
+
+Bei Datensicherungsvolumes umfasst der Ablauf zum Erstellen einer SMB/CIFS-Freigabe jetzt die Erstellung eines Verbindungspfads zum Volume für Bereitstellungszwecke.
+
+link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["Erstellen einer CIFS-Freigabe für ein Volume"]

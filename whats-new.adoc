@@ -15,6 +15,91 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 03.08.2025
+
+
+
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Verbesserungen an der Registerkarte „Replikationsbeziehungen“
+
+Wir haben der Tabelle mit den Replikationsbeziehungen mehrere neue Spalten hinzugefügt, um Ihnen auf der Registerkarte *Replikationsbeziehungen* weitere Informationen zu Ihren Replikationsbeziehungen zu geben. Die Tabelle enthält jetzt die folgenden Spalten:
+
+* SnapMirror -Richtlinie
+* Quelldateisystem
+* Zieldateisystem
+* Stand der Beziehung
+* Letzte Übertragungszeit
+
+
+
+
+==== Verbesserungen des autonomen Ransomware-Schutzes von NetApp mit KI (ARP/AI)
+
+In dieser Version wird der aktualisierte Begriff „NetApp Autonomous Ransomware Protection with AI (ARP/AI)“ eingeführt, um die Integration künstlicher Intelligenz in unsere Ransomware-Schutzfunktionen besser widerzuspiegeln.
+
+Darüber hinaus wurden die folgenden Verbesserungen an ARP/AI vorgenommen:
+
+* ARP/AI auf Volume-Ebene: Sie können jetzt ARP/AI auf Volume-Ebene aktivieren und so bestimmte Volumes innerhalb Ihrer FSx for ONTAP Dateisysteme schützen.
+* Automatische Snapshot-Erstellung: Sie können die ARP/AI-Richtlinie so einstellen, dass automatische Snapshots erstellt werden, und festlegen, wie oft Snapshots für Volumes mit aktiviertem ARP/AI erstellt werden, wodurch Ihre Datenschutzstrategie verbessert wird.
+* Unveränderliche Snapshots: ARP/AI unterstützt jetzt unveränderliche Snapshots, die nicht gelöscht oder geändert werden können und so eine zusätzliche Sicherheitsebene gegen Ransomware-Angriffe bieten.
+* Erkennung: umfasst verschiedene Erkennungsmethoden wie beispielsweise eine hohe Entropie-Datenrate auf Datenträgerebene, Dateierstellungsrate, Dateiumbenennungsrate, Dateilöschrate und Verhaltensanalyse sowie nie zuvor gesehene Dateierweiterungen, die dabei helfen, Anomalien und potenzielle Ransomware-Angriffe zu erkennen.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Schützen Sie Ihre Daten mit NetApp Autonomous Ransomware Protection mit KI (ARP/AI)"]
+
+
+
+==== Gut strukturierte Analyse-Updates
+
+Workload Factory analysiert jetzt Ihre FSx for ONTAP Dateisysteme für die folgenden Konfigurationen:
+
+* Zuverlässigkeit der Langzeitaufbewahrungsdaten: Überprüft, ob die der Snapshot-Richtlinie des Quellvolumes zugewiesenen Bezeichnungen mit den der Langzeitaufbewahrungsrichtlinie zugewiesenen Bezeichnungen identisch sind. Wenn die Bezeichnungen identisch sind, ist die Datenreplikation zwischen Quell- und Zielvolumes zuverlässig.
+* NetApp Autonomous Ransomware Protection mit KI (ARP/AI): Überprüft, ob ARP/AI auf Ihren Dateisystemen aktiviert ist. Diese Funktion hilft Ihnen, Ransomware-Angriffe zu erkennen und sich davon zu erholen.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an"]
+
+
+
+==== Eine Konfiguration aus der Well-Architected-Analyse verwerfen
+
+Sie können jetzt eine oder mehrere Konfigurationen aus der Well-Architected-Analyse ausschließen. Auf diese Weise können Sie bestimmte Konfigurationen ignorieren, die Sie im Moment nicht ansprechen möchten.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Eine Konfiguration aus der Well-Architected-Analyse verwerfen"]
+
+
+
+==== Terraform-Unterstützung für die Linkerstellung
+
+Sie können jetzt Terraform aus der Codebox verwenden, um einen Link zur Zuordnung zu einem FSx für ONTAP Dateisystem zu erstellen. Diese Funktion ist für Benutzer gedacht, die Links manuell erstellen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Stellen Sie über einen Lambda-Link eine Verbindung zu einem FSX für ONTAP-Dateisystem her"]
+
+
+
+==== Neue regionale Unterstützung zur Ermittlung von Einsparungen bei der Speicherung
+
+Die folgenden neuen Regionen werden jetzt unterstützt, um Einsparungen für Amazon Elastic Block Store (EBS), FSx für Windows File Server und Elastic File Systems (EFS) zu erkunden:
+
+* Mexiko
+* Thailand
+
+
+
+
+==== Verbesserungen bei der Erstellung und Verwaltung von SMB/CIFS-Freigaben
+
+Sie können jetzt SMB/CIFS-Freigaben erstellen, die auf Verzeichnisse innerhalb eines Volumes verweisen. Innerhalb des Volumes können Sie sehen, welche Freigaben vorhanden sind, wohin die Freigaben verweisen und welche Berechtigungen bestimmten Benutzern und Gruppen erteilt wurden.
+
+Bei Datensicherungsvolumes umfasst der Ablauf zum Erstellen einer SMB/CIFS-Freigabe jetzt die Erstellung eines Verbindungspfads zum Volume für Bereitstellungszwecke.
+
+link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["Erstellen einer CIFS-Freigabe für ein Volume"]
+
+
+
 == 1 2025-06-30
 
 
@@ -235,50 +320,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 == 1 2025-06-03
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Verbesserung der automatischen Volumevergrößerung
-
-Jetzt können Sie die Autogrow-Größe Ihrer Volumes so einstellen, dass die Volumegröße über die bereitgestellte Größe für Geschäftsanforderungen und Anwendungsanforderungen hinaus wachsen kann.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["Aktivieren Sie Autogrow"]
-
-
-
-==== Gut strukturiertes Analyse-Update
-
-Workload Factory analysiert jetzt Ihre FSx for ONTAP-Dateisysteme, um zu prüfen, ob Speichereffizienzen wie Datenkomprimierung, -komprimierung und -deduplizierung genutzt werden. Die Speichereffizienz misst, wie effektiv die Dateisysteme den verfügbaren Speicherplatz nutzen.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status der Speichereffizienz an"]
-
-
-
-==== Verbesserungen des Speicher-Dashboards
-
-Wenn Sie ab sofort den Storage-Workload über die Workload Factory-Konsole öffnen, wird Ihnen das Dashboard angezeigt. Das neu gestaltete Dashboard bietet eine ganzheitliche Ansicht Ihrer FSx for ONTAP-Systeme, einschließlich der Anzahl der Dateisysteme, der gesamten SSD-Kapazität, der Statusübersicht, der Datenschutzübersicht und der Integrität der Replikationsbeziehungen.
-
-
-
-==== Verbesserungen der Registerkarte „Volumes“
-
-Die Storage-Workload hat Verbesserungen an der Registerkarte „Volumes“ innerhalb eines FSx for ONTAP-Dateisystems in der Workload-Factory-Konsole vorgenommen. Die Verbesserungen umfassen:
-
-* *Neue Karten*: SSD-Kapazität, Kapazitätspool und Autonomous Ransomware Protection (ARP)
-* *Neue Spalten*: Kapazitätsverteilung, genutzte SSD-Kapazität, genutzter Kapazitätspool und SSD-Effizienz
-
-
-
-
-==== Aktualisierung der Speichereffizienz für die Volume-Erstellung
-
-Beim Erstellen eines neuen Volumes werden Speichereffizienzen wie Datenkomprimierung, Komprimierung und Deduplizierung standardmäßig aktiviert.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Erstellen Sie ein neues Volume in der Workload Factory"]
 
 
 
