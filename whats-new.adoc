@@ -15,6 +15,38 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 04.08.2025
+
+
+
+=== Datenbank-Workloads
+
+
+
+==== Eine gut strukturierte Analyse umfasst die Validierung von Hochverfügbarkeitsclustern
+
+Die gut strukturierte Analyse umfasst jetzt eine Validierung für Hochverfügbarkeitscluster. Bei dieser Validierung werden alle clusterbezogenen Konfigurationen von der Serverseite aus überprüft, einschließlich der Festplattenverfügbarkeit und -konfiguration auf beiden Knoten, der Windows-Clusterkonfiguration und der Failover-Bereitschaft. Dadurch wird sichergestellt, dass der Windows-Cluster ordnungsgemäß eingerichtet ist und bei Bedarf ein erfolgreiches Failover durchführen kann.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in der Workload Factory"]
+
+
+
+==== Mehrstufiges Menü für Instanzen verfügbar
+
+Die Workload Factory-Konsole enthält jetzt ein mehrstufiges Menü für Instanzen. Diese Änderung bietet eine besser organisierte und intuitivere Navigationsstruktur für die Verwaltung von Instanzen. Zu den Menüoptionen für die Instanzverwaltung gehören das Anzeigen des Instanz-Dashboards, das Anzeigen von Datenbanken, das Erstellen einer Datenbank und das Erstellen eines Sandbox-Klons.
+
+image:manage-instance-table-menu.png["Ein Screenshot des Instanztabellenmenüs mit einer mehrstufigen Menüstruktur. Wählen Sie das Instanztabellenmenü und verwalten Sie dann die Instanz, um Datenbanken anzuzeigen, eine Datenbank zu erstellen und einen Sandbox-Klon zu erstellen."]
+
+
+
+==== Neue Authentifizierungsoption zum Ausloten von Einsparungen
+
+Wenn die `NT Authority\SYSTEM` Wenn der Benutzer nicht über ausreichende Berechtigungen für den Microsoft SQL Server verfügt, können Sie sich mit SQL Server-Anmeldeinformationen authentifizieren oder die fehlenden SQL Server-Berechtigungen hinzufügen, um `NT Authority\SYSTEM` .
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Entdecken Sie potenzielle Einsparungen für Ihre Datenbankumgebungen mit Amazon FSx for NetApp ONTAP"]
+
+
+
 == 03.08.2025
 
 
@@ -390,58 +422,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 == 1 2025-05-04
-
-
-
-=== Datenbank-Workloads
-
-
-
-==== Dashboard-Verbesserungen
-
-* Kunden- und regionsübergreifende Ansichten sind verfügbar, wenn Sie in der BlueXP  Workload Factory-Konsole zwischen den Registerkarten navigieren. Die neuen Ansichten verbessern das Ressourcenmanagement, die Überwachung und die Optimierung.
-* Über die Kachel *potenzielle Einsparungen* im Dashboard können Sie schnell überprüfen, was Sie sparen könnten, indem Sie vom Amazon Elastic Block Store oder Amazon FSX for Windows File Server zu FSX for ONTAP wechseln.
-
-
-
-
-==== Ad-hoc-Scans für Datenbankkonfigurationen verfügbar
-
-Die BlueXP -Workload-Fabrik für Datenbanken scannt gemanagte Microsoft SQL Server-Instanzen automatisch mit FSX für ONTAP Storage auf potenzielle Konfigurationsprobleme. Zusätzlich zum täglichen Scan können Sie jetzt jederzeit scannen.
-
-
-
-==== Entfernung von Beurteilungsunterlagen vor Ort
-
-Nachdem Sie die Einsparungen für einen lokalen Microsoft SQL Server-Host untersucht haben, haben Sie die Möglichkeit, den lokalen Host-Datensatz aus der BlueXP  Workload Factory zu entfernen.
-
-
-
-==== Optimierungsverbesserungen
-
-
-
-===== Klonbereinigung
-
-Die Bewertung und Korrektur der Klonbereinigung identifiziert und managt alte und teure Klone. Klone, die älter als 60 Tage sind, können aktualisiert oder aus der BlueXP -Workload-Werkseinstellungen gelöscht werden.
-
-
-
-===== Verschieben und Verwerfen der Konfigurationsanalyse
-
-Einige Konfigurationen gelten möglicherweise nicht für Ihre Datenbankumgebungen. Sie haben jetzt die Möglichkeit, eine bestimmte Konfigurationsanalyse um 30 Tage zu verschieben oder die Analyse zu verwerfen.
-
-
-
-==== Entfernung von Beurteilungsunterlagen vor Ort
-
-Nachdem Sie die Einsparungen für einen lokalen Microsoft SQL Server-Host untersucht haben, haben Sie die Möglichkeit, den lokalen Host-Datensatz aus der BlueXP  Workload Factory zu entfernen.
-
-
-
-==== Terminologie für Berechtigungen wurde aktualisiert
-
-In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
 
 
 
