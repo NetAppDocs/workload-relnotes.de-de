@@ -1,0 +1,41 @@
+= Agentic KI-gestützter Fehlerprotokollanalysator
+:allow-uri-read: 
+
+
+
+
+=== Agentic KI-gestützter Fehlerprotokollanalysator
+
+Der KI-gestützte Fehlerprotokollanalysator von Agentic ist eine neue Funktion, die fortschrittliche Algorithmen des maschinellen Lernens nutzt, um Fehler in Protokolldateien automatisch zu erkennen und zu analysieren. Dieses Tool zielt darauf ab, den Fehlerbehebungsprozess zu optimieren, indem es Entwicklern auf der Grundlage der in den Protokollen erkannten Muster umsetzbare Erkenntnisse und Empfehlungen liefert.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Erfahren Sie mehr über den KI-gestützten Fehlerprotokollanalysator von Agentic"]
+
+
+
+=== Oracle-Unterstützung
+
+Workload Factory umfasst Unterstützung für Oracle-Datenbanken. In der Workload Factory-Konsole können Sie Ihre Oracle-Datenbanken aus dem Inventar anzeigen, Datenbanken registrieren, um erweiterte Funktionen in der Workload Factory zu verwenden, und Oracle-Datenbanken mithilfe der gut strukturierten Funktion auf Übereinstimmung mit Best Practices analysieren. Die gut strukturierte Analyse ermittelt, ob die Speicherkonfigurationen für Oracle-Datenbanken optimiert sind. Mithilfe dieser Informationen können Sie fundierte Entscheidungen zu Ihren Datenbankbereitstellungen treffen und sicherstellen, dass diese effizient ausgeführt werden.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in der Workload Factory"]
+
+
+
+=== Unterstützung für Microsoft SQL Server-Bereitstellungen auf FSx for ONTAP -Dateisystemen der zweiten Generation
+
+Workload Factory unterstützt Microsoft SQL Server-Bereitstellungen auf FSx für ONTAP -Dateisystemen der zweiten Generation. Diese Erweiterung ermöglicht es Ihnen, die neuesten Funktionen und Leistungsverbesserungen der Dateisysteme der zweiten Generation zu nutzen und gleichzeitig Ihre SQL Server-Workloads zu verwalten.
+
+
+
+=== Windows-Authentifizierung für SQL Server-Schutz
+
+Die Authentifizierung von Microsoft SQL Server-Instanzen mit Windows-Anmeldeinformationen ist in den Workflow eingebettet, um Microsoft SQL Server-Hosts für den Schutz mit BlueXP backup and recovery vorzubereiten. Dies war früher ein erforderlicher Schritt, der manuell abgeschlossen werden musste. Stattdessen werden Sie aufgefordert, Windows-Anmeldeinformationen mit Administratorzugriff freizugeben, wenn Sie die Hosts nicht mit Windows-Anmeldeinformationen in der Workload Factory registriert haben.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Erfahren Sie, wie Sie Microsoft SQL Server-Workloads über die Workload Factory-Konsole schützen"] .
+
+
+
+=== Gut strukturierte Analyse umfasst MTU-Ausrichtung für SQL Server
+
+Die gut strukturierte Analyse bewertet und behebt die Fehlausrichtung der Maximum Transmission Unit (MTU) zwischen Endpunkten für Microsoft SQL Server auf FSx für ONTAP -Speicher. Durch Anpassen der MTU-Einstellungen können Sie die Netzwerkleistung optimieren und die Latenz für SQL Server-Workloads reduzieren.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in der Workload Factory"]
