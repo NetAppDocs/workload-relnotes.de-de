@@ -15,7 +15,7 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
-== 09.09.2025
+== 09. September 2025
 
 
 
@@ -65,7 +65,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
-== 01.09.2025
+== 01. September 2025
 
 
 
@@ -111,7 +111,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
-== 12.08.2025
+== 12. August 2025
 
 
 
@@ -129,7 +129,7 @@ Weitere Informationen zur BlueXP backup and recovery finden Sie imlink:https://d
 
 
 
-== 04.08.2025
+== 04. August 2025
 
 
 
@@ -161,7 +161,7 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Entd
 
 
 
-== 03.08.2025
+== 03. August 2025
 
 
 
@@ -286,7 +286,61 @@ link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Ne
 
 
 
-== 1 2025-06-29
+== 30. Juni 2025
+
+
+
+=== Datenbank-Workloads
+
+
+
+==== Unterstützung des BlueXP Workload Factory-Benachrichtigungsdienstes
+
+Der Benachrichtigungsdienst der BlueXP Workload Factory ermöglicht es der Workload Factory, Benachrichtigungen an den BlueXP-Warndienst oder an ein Amazon SNS-Thema zu senden. An BlueXP-Warnmeldungen gesendete Benachrichtigungen werden im BlueXP-Warnmeldungsbereich angezeigt. Wenn die Workload Factory Benachrichtigungen an ein Amazon SNS-Thema veröffentlicht, erhalten Abonnenten des Themas (z. B. Benutzer oder andere Anwendungen) die Benachrichtigungen an den für das Thema konfigurierten Endpunkten (z. B. per E-Mail oder SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Konfigurieren Sie die Benachrichtigungen der BlueXP-Workload-Factory"^]
+
+Workload Factory bietet die folgenden Benachrichtigungen für Datenbanken:
+
+* Gut strukturierter Bericht
+* Hostbereitstellung
+
+
+
+
+==== Onboarding-Erweiterung für die Registrierung von Instanzen
+
+Workload Factory für Datenbanken hat seinen Onboarding-Prozess für die Registrierung von Instanzen verbessert, die auf Amazon FSx for NetApp ONTAP -Speicher ausgeführt werden.  Sie können jetzt Instanzen in großen Mengen zur Registrierung auswählen.  Sobald eine Instanz registriert ist, können Sie Datenbankressourcen in der Workload Factory-Konsole erstellen und verwalten.
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Instanzverwaltung"]
+
+
+
+==== Analyse und Fehlerbehebung für die Microsoft Multipath I/O-Timeout-Einstellung
+
+Der Well-Architected-Status für Ihre Datenbankinstanzen umfasst jetzt die Analyse und den Fix für die Timeout-Einstellung von Microsoft Multipath I/O (MPIO).  Durch Einstellen des MPIO-Timeouts auf 60 Sekunden wird die FSx für ONTAP Speicherkonnektivität und Stabilität während Failovers sichergestellt.  Wenn die MPIO-Einstellung nicht entsprechend festgelegt ist, bietet Workload Factory eine Lösung, um den MPIO-Timeoutwert auf 60 Sekunden festzulegen.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in der Workload Factory"]
+
+
+
+==== Verbesserungen der Grafiken im Instanzinventar
+
+Auf dem Bildschirm „Instanzinventar“ werden jetzt in verschiedenen Diagrammen zur Ressourcenauslastung, beispielsweise zu Durchsatz und IOPS, Daten der letzten 7 Tage angezeigt, sodass Sie die Leistung von SQL-Knoten von der Workload Factory-Konsole aus effizienter überwachen können.  Die von den SQL-Knoten gesammelten Leistungsmetriken werden in Amazon CloudWatch gespeichert und können für Logs Insights oder zur Integration mit anderen Analysediensten in Ihrer Umgebung verwendet werden.
+
+Auf den Registerkarten „Instanzen“ und „Datenbanken“ im Inventar haben wir die Beschreibung und Visualisierung zum Schutz verbessert.
+
+
+
+==== Unterstützung für Windows-Authentifizierung in der Workload Factory
+
+Jetzt unterstützt Workload Factory die SQL Server-Authentifizierung mithilfe von Windows-authentifizierten Benutzern, um Instanzen zu registrieren und von Verwaltungsfunktionen zu profitieren.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registrieren Sie Instanzen in der Workload Factory für Datenbanken"]
+
+
+
+== 29. Juni 2025
 
 
 
@@ -408,7 +462,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 
 
 
-== 1 2025-06-16
+== 16. Juni 2025
 
 
 
@@ -421,117 +475,3 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 Sie können jetzt ein Projekt in der BlueXP Workload Factory für Builder klonen. Beim Klonen eines Projekts erstellt Builder aus einem Snapshot ein neues Projekt mit der gleichen Konfiguration wie das Original. Das Klonen ist nützlich, um schnell ähnliche Projekte zu erstellen oder zu Testzwecken. Sie können den neuen Projektklon mounten, indem Sie den Anweisungen in Builder folgen.
 
 https://docs.netapp.com/us-en/workload-builders/version-projects.html["Verwalten Sie Versionen der BlueXP-Workload-Factory für Builder-Projekte"]
-
-
-
-== 1 2025-06-03
-
-
-
-=== GenAI-Workloads
-
-
-
-==== Tracker zur Überwachung und Nachverfolgung von Vorgängen verfügbar
-
-Die Tracker-Überwachungsfunktion ist jetzt in GenAI verfügbar. Mit Tracker können Sie den Fortschritt und Status ausstehender, laufender und abgeschlossener Vorgänge überwachen und verfolgen, Details zu Vorgangsaufgaben und Unteraufgaben überprüfen, Probleme oder Fehler diagnostizieren, Parameter für fehlgeschlagene Vorgänge bearbeiten und fehlgeschlagene Vorgänge wiederholen.
-
-link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["Überwachen Sie Workload-Vorgänge mit Tracker in der BlueXP-Workload-Factory"]
-
-
-
-==== Auswählen eines Reranking-Modells für eine Wissensdatenbank
-
-Sie können jetzt die Relevanz neu bewerteter Abfrageergebnisse erhöhen, indem Sie ein bestimmtes Reranking-Modell für die Verwendung mit einer Wissensdatenbank auswählen. GenAI unterstützt die Modelle Cohere Rerank und Amazon Rerank.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
-
-
-
-== 1 2025-05-04
-
-
-
-=== VMware-Workloads
-
-
-
-==== Verbesserungen bei Amazon EC2 Migration Advisor
-
-Diese Version der BlueXP  Workload-Farm für VMware umfasst folgende Verbesserungen zur Nutzung des Amazon EC2 Migrationsberaters:
-
-*Einblicke in die NetApp-Dateninfrastruktur als Datenquelle*: Workload Factory stellt jetzt eine direkte Verbindung mit NetApp Data Infrastructure Insights her, um VMware Implementierungsinformationen zu erfassen, wenn Sie den Data Collector des EC2 Migration Advisor verwenden.
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters"]
-
-
-
-==== Terminologie für Berechtigungen wurde aktualisiert
-
-In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
-
-
-
-=== Einrichtung und Administration
-
-
-
-==== Autocomplete-Unterstützung für CloudShell
-
-Wenn Sie BlueXP  Workload Factory CloudShell verwenden, können Sie einen Befehl eingeben und die Tabulatortaste drücken, um die verfügbaren Optionen anzuzeigen. Wenn mehrere Möglichkeiten vorhanden sind, zeigt die CLI eine Liste mit Vorschlägen an. Diese Funktion steigert die Produktivität, indem Fehler minimiert und die Befehlsausführung beschleunigt wird.
-
-
-
-==== Terminologie für Berechtigungen wurde aktualisiert
-
-In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
-
-
-
-=== Arbeitslasten der Bauarbeiter
-
-
-
-==== Terminologie für Berechtigungen wurde aktualisiert
-
-In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.
-
-
-
-== 1 2025-03-30
-
-
-
-=== Einrichtung und Administration
-
-
-
-==== CloudShell meldet AI-generierte Fehlermeldungen für ONTAP-CLI-Befehle
-
-Bei der Verwendung von CloudShell können Sie jedes Mal, wenn Sie einen ONTAP-CLI-Befehl ausgeben und ein Fehler auftritt, AI-generierte Fehlermeldungen erhalten, die eine Beschreibung des Fehlers, die Ursache des Fehlers und eine detaillierte Lösung enthalten.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Verwenden Sie CloudShell"]
-
-
-
-==== iam:SimulatePermissionPolicy-Berechtigungsaktualisierung
-
-Sie können jetzt die Berechtigung über die Konsole für die Werkseinstellungen managen `iam:SimulatePrincipalPolicy`, wenn Sie zusätzliche AWS-Kontoinformationen hinzufügen oder eine neue Workload-Funktion hinzufügen, z. B. den GenAI-Workload.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Änderungsprotokoll für Berechtigungen"]
-
-
-
-== 1 2024-12-01
-
-
-
-=== Arbeitslasten der Bauarbeiter
-
-
-
-==== Ursprüngliche Version des Builders-Workloads
-
-Die BlueXP  Workload Factory for Builders vereinfacht die Nutzung und den Zugriff auf Softwareversionen, sodass keine benutzerdefinierten Tools oder Skripte erforderlich sind. Sie können Softwareversionen als in Perforce Helix Core integrierte, sofort-Clones als komfortable Arbeitsumgebung für Ihre Entwicklungsprozesse nutzen und so Zeit und Ressourcen sparen.
-
-Die erste Version beinhaltet die Möglichkeit, Projekte und Arbeitsbereiche zu verwalten und Aktionen mit Codebox zu automatisieren. Sie können auch Builders mit Perforce Helix Core integrieren, so dass Sie verschiedene Versionen jedes Projekts verwalten und schnell zwischen ihnen wechseln können.

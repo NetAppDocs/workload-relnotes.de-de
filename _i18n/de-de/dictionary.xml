@@ -26,50 +26,20 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI-Workloads</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Einrichtung und Administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware-Workloads</block>
-  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Erstellen eines Implementierungsplans für Amazon EC2 mithilfe des Migrationsberaters</block>
-  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil der BlueXP -Workload-Fabrik sind.</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Kürzliche Änderungen in der BlueXP  Workload-Farm</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Versionshinweise zu BlueXP  Workload auf Werkseinstellungen</block>
-  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Verbesserungen bei Amazon EC2 Migration Advisor</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP -Workload ist werkseitig eingestellt</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">Verwenden Sie CloudShell</block>
-  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Änderungsprotokoll für Berechtigungen</block>
-  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Bei der Verwendung von CloudShell können Sie jedes Mal, wenn Sie einen ONTAP-CLI-Befehl ausgeben und ein Fehler auftritt, AI-generierte Fehlermeldungen erhalten, die eine Beschreibung des Fehlers, die Ursache des Fehlers und eine detaillierte Lösung enthalten.</block>
-  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:SimulatePermissionPolicy-Berechtigungsaktualisierung</block>
-  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Sie können jetzt die Berechtigung über die Konsole für die Werkseinstellungen managen<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>, wenn Sie zusätzliche AWS-Kontoinformationen hinzufügen oder eine neue Workload-Funktion hinzufügen, z. B. den GenAI-Workload.</block>
-  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">1 2025-03-30</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Einrichtung einer GenAI Knowledge Base</block>
-  <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell meldet AI-generierte Fehlermeldungen für ONTAP-CLI-Befehle</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminologie für Berechtigungen wurde aktualisiert</block>
-  <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">Autocomplete-Unterstützung für CloudShell</block>
-  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">Wenn Sie BlueXP  Workload Factory CloudShell verwenden, können Sie einen Befehl eingeben und die Tabulatortaste drücken, um die verfügbaren Optionen anzuzeigen. Wenn mehrere Möglichkeiten vorhanden sind, zeigt die CLI eine Liste mit Vorschlägen an. Diese Funktion steigert die Produktivität, indem Fehler minimiert und die Befehlsausführung beschleunigt wird.</block>
-  <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">Diese Version der BlueXP  Workload-Farm für VMware umfasst folgende Verbesserungen zur Nutzung des Amazon EC2 Migrationsberaters:</block>
-  <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*Einblicke in die NetApp-Dateninfrastruktur als Datenquelle*: Workload Factory stellt jetzt eine direkte Verbindung mit NetApp Data Infrastructure Insights her, um VMware Implementierungsinformationen zu erfassen, wenn Sie den Data Collector des EC2 Migration Advisor verwenden.</block>
-  <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">1 2025-05-04</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">Tracker zur Überwachung und Nachverfolgung von Vorgängen verfügbar</block>
-  <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">Die Tracker-Überwachungsfunktion ist jetzt in GenAI verfügbar. Mit Tracker können Sie den Fortschritt und Status ausstehender, laufender und abgeschlossener Vorgänge überwachen und verfolgen, Details zu Vorgangsaufgaben und Unteraufgaben überprüfen, Probleme oder Fehler diagnostizieren, Parameter für fehlgeschlagene Vorgänge bearbeiten und fehlgeschlagene Vorgänge wiederholen.</block>
-  <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">Überwachen Sie Workload-Vorgänge mit Tracker in der BlueXP-Workload-Factory</block>
-  <block id="6cfb11211ef97bba3b2359a766b22994" category="paragraph"><block ref="6cfb11211ef97bba3b2359a766b22994" category="inline-link-macro-rx"></block></block>
-  <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">Auswählen eines Reranking-Modells für eine Wissensdatenbank</block>
-  <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">Sie können jetzt die Relevanz neu bewerteter Abfrageergebnisse erhöhen, indem Sie ein bestimmtes Reranking-Modell für die Verwendung mit einer Wissensdatenbank auswählen. GenAI unterstützt die Modelle Cohere Rerank und Amazon Rerank.</block>
-  <block id="8443221e1b90a24e56685750c704746a" category="section-title">1 2025-06-03</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Verbesserungen des Speicher-Dashboards</block>
-  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">In der Benutzeroberfläche und Dokumentation der Workload Factory wird jetzt „schreibgeschützt“ für Leseberechtigungen und „Lesen/Schreiben“ für automatisierte Berechtigungen verwendet.</block>
-  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Ursprüngliche Version des Builders-Workloads</block>
-  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">Die BlueXP  Workload Factory for Builders vereinfacht die Nutzung und den Zugriff auf Softwareversionen, sodass keine benutzerdefinierten Tools oder Skripte erforderlich sind. Sie können Softwareversionen als in Perforce Helix Core integrierte, sofort-Clones als komfortable Arbeitsumgebung für Ihre Entwicklungsprozesse nutzen und so Zeit und Ressourcen sparen.</block>
-  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">Die erste Version beinhaltet die Möglichkeit, Projekte und Arbeitsbereiche zu verwalten und Aktionen mit Codebox zu automatisieren. Sie können auch Builders mit Perforce Helix Core integrieren, so dass Sie verschiedene Versionen jedes Projekts verwalten und schnell zwischen ihnen wechseln können.</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 2024-12-01</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Klonunterstützung</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Sie können jetzt ein Projekt in der BlueXP Workload Factory für Builder klonen. Beim Klonen eines Projekts erstellt Builder aus einem Snapshot ein neues Projekt mit der gleichen Konfiguration wie das Original. Das Klonen ist nützlich, um schnell ähnliche Projekte zu erstellen oder zu Testzwecken. Sie können den neuen Projektklon mounten, indem Sie den Anweisungen in Builder folgen.</block>
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Verwalten Sie Versionen der BlueXP-Workload-Factory für Builder-Projekte</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
-  <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">1 2025-06-16</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Arbeitslasten der Bauarbeiter</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">Unterstützung für Datenquellen, die auf generischen NFS/SMB-Dateisystemen gehostet werden</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">Sie können jetzt eine Datenquelle aus einer generischen SMB- oder NFS-Freigabe hinzufügen. Dadurch können Sie Dateien einbeziehen, die auf Volumes gespeichert sind, die von anderen Dateisystemen als Amazon FSx für NetApp ONTAP gehostet werden.</block>
@@ -81,7 +51,6 @@
   <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">Die BlueXP Workload Factory für VMware unterstützt jetzt Amazon Elastic VMware Service. Mit dem Migration Advisor können Sie Ihre lokalen VMware-Workloads schnell zu Amazon Elastic VMware Service migrieren. Das optimiert die Kosten und ermöglicht Ihnen mehr Kontrolle über Ihre VMware-Umgebung, ohne Ihre Anwendungen umgestalten oder auf eine neue Plattform umstellen zu müssen.</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Erstellen Sie einen Bereitstellungsplan für Amazon EVS mit dem Migrationsberater</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">1 2025-06-29</block>
   <block id="64c17706e0528a5c44c7beee628cc101" category="doc">Unterstützung des BlueXP Workload Factory-Benachrichtigungsdienstes</block>
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">Der Benachrichtigungsdienst der BlueXP Workload Factory ermöglicht es der Workload Factory, Benachrichtigungen an den BlueXP-Warndienst oder an ein Amazon SNS-Thema zu senden. An BlueXP-Warnmeldungen gesendete Benachrichtigungen werden im BlueXP-Warnmeldungsbereich angezeigt. Wenn die Workload Factory Benachrichtigungen an ein Amazon SNS-Thema veröffentlicht, erhalten Abonnenten des Themas (z. B. Benutzer oder andere Anwendungen) die Benachrichtigungen an den für das Thema konfigurierten Endpunkten (z. B. per E-Mail oder SMS).</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Konfigurieren Sie die Benachrichtigungen der BlueXP-Workload-Factory</block>
@@ -154,7 +123,6 @@
   <block id="4662a232249c09ca958781da08211b0c" category="paragraph">Bei Datensicherungsvolumes umfasst der Ablauf zum Erstellen einer SMB/CIFS-Freigabe jetzt die Erstellung eines Verbindungspfads zum Volume für Bereitstellungszwecke.</block>
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">Erstellen einer CIFS-Freigabe für ein Volume</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
-  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">03.08.2025</block>
   <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Verbesserte Migrationsberaterunterstützung für Amazon Elastic VMWare Service</block>
   <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Der Migrationsberater des Amazon Elastic VMware Service unterstützt jetzt die automatische Bereitstellung und Bereitstellung Ihres Amazon FSx for NetApp ONTAP Dateisystems. Auf diese Weise können Sie mit der Bereitstellung Ihrer VMs auf FSx für ONTAP -Dateisystemen beginnen, wenn die Migration zur Amazon EVS-Umgebung abgeschlossen ist.</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Berechnen Sie die Kosteneinsparungen durch die Migration zum Amazon Elastic VMware Service</block>
@@ -171,7 +139,6 @@
   <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">Wenn die<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> Wenn der Benutzer nicht über ausreichende Berechtigungen für den Microsoft SQL Server verfügt, können Sie sich mit SQL Server-Anmeldeinformationen authentifizieren oder die fehlenden SQL Server-Berechtigungen hinzufügen, um<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> .</block>
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Entdecken Sie potenzielle Einsparungen für Ihre Datenbankumgebungen mit Amazon FSx for NetApp ONTAP</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
-  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">04.08.2025</block>
   <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">Sichere Speicherung strukturierter Datenergebnisse</block>
   <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">Wenn die Abfrageergebnisse des Chatbots strukturierte Daten enthalten, kann GenAI die Ergebnisse in einem Amazon S3-Bucket speichern. Wenn diese Ergebnisse in einem S3-Bucket gespeichert sind, können Sie sie über den Download-Link innerhalb der Chat-Sitzung herunterladen.</block>
   <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP-Serververfügbarkeit</block>
@@ -182,7 +149,6 @@
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Erfahren Sie, wie Sie Microsoft SQL Server-Workloads über die Workload Factory-Konsole schützen</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">Überblick über Microsoft SQL-Workloads mit BlueXP backup and recovery schützen</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">Weitere Informationen zur BlueXP backup and recovery finden Sie im<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block> .</block>
-  <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">12.08.2025</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> .</block>
   <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">BlueXP backup and recovery unterstützt jetzt Microsoft SQL Server-Workloads</block>
   <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic KI-gestützter Fehlerprotokollanalysator</block>
@@ -197,7 +163,6 @@
   <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">Die Authentifizierung von Microsoft SQL Server-Instanzen mit Windows-Anmeldeinformationen ist in den Workflow eingebettet, um Microsoft SQL Server-Hosts für den Schutz mit BlueXP backup and recovery vorzubereiten. Dies war früher ein erforderlicher Schritt, der manuell abgeschlossen werden musste. Stattdessen werden Sie aufgefordert, Windows-Anmeldeinformationen mit Administratorzugriff freizugeben, wenn Sie die Hosts nicht mit Windows-Anmeldeinformationen in der Workload Factory registriert haben.</block>
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">Gut strukturierte Analyse umfasst MTU-Ausrichtung für SQL Server</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">Die gut strukturierte Analyse bewertet und behebt die Fehlausrichtung der Maximum Transmission Unit (MTU) zwischen Endpunkten für Microsoft SQL Server auf FSx für ONTAP -Speicher. Durch Anpassen der MTU-Einstellungen können Sie die Netzwerkleistung optimieren und die Latenz für SQL Server-Workloads reduzieren.</block>
-  <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">01.09.2025</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">Verbesserungen des Speicherinventarberichts</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">Workload Factory hat die für Ihre FSx for ONTAP -Dateisysteme gemeldeten Daten verbessert. Der herunterladbare Bericht von der FSx for ONTAP -Inventarseite enthält die folgenden neuen Spalten:</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">Verwendete SSD: Zeigt den Wert der verwendeten SSD-Kapazität an</block>
@@ -222,5 +187,28 @@
   <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">Workload Factory unterstützt die Verringerung der Solid-State-Drive-Kapazität (SSD) Ihrer Dateisysteme der ersten und zweiten Generation. Mit der elastischen Dateisystemkapazität können Sie die Kapazität Ihrer Dateisysteme dynamisch an die Anforderungen Ihrer Arbeitslasten anpassen.</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">Passen Sie die Dateisystemkapazität an</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">09.09.2025</block>
+  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">Workload Factory bietet die folgenden Benachrichtigungen für Datenbanken:</block>
+  <block id="33e3371223dba19c723617802e06af8d" category="list-text">Gut strukturierter Bericht</block>
+  <block id="d415d128365eca1587931ed756de7819" category="list-text">Hostbereitstellung</block>
+  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">Onboarding-Erweiterung für die Registrierung von Instanzen</block>
+  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">Workload Factory für Datenbanken hat seinen Onboarding-Prozess für die Registrierung von Instanzen verbessert, die auf Amazon FSx for NetApp ONTAP -Speicher ausgeführt werden.  Sie können jetzt Instanzen in großen Mengen zur Registrierung auswählen.  Sobald eine Instanz registriert ist, können Sie Datenbankressourcen in der Workload Factory-Konsole erstellen und verwalten.</block>
+  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">Instanzverwaltung</block>
+  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
+  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Analyse und Fehlerbehebung für die Microsoft Multipath I/O-Timeout-Einstellung</block>
+  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">Der Well-Architected-Status für Ihre Datenbankinstanzen umfasst jetzt die Analyse und den Fix für die Timeout-Einstellung von Microsoft Multipath I/O (MPIO).  Durch Einstellen des MPIO-Timeouts auf 60 Sekunden wird die FSx für ONTAP Speicherkonnektivität und Stabilität während Failovers sichergestellt.  Wenn die MPIO-Einstellung nicht entsprechend festgelegt ist, bietet Workload Factory eine Lösung, um den MPIO-Timeoutwert auf 60 Sekunden festzulegen.</block>
+  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">Verbesserungen der Grafiken im Instanzinventar</block>
+  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">Auf dem Bildschirm „Instanzinventar“ werden jetzt in verschiedenen Diagrammen zur Ressourcenauslastung, beispielsweise zu Durchsatz und IOPS, Daten der letzten 7 Tage angezeigt, sodass Sie die Leistung von SQL-Knoten von der Workload Factory-Konsole aus effizienter überwachen können.  Die von den SQL-Knoten gesammelten Leistungsmetriken werden in Amazon CloudWatch gespeichert und können für Logs Insights oder zur Integration mit anderen Analysediensten in Ihrer Umgebung verwendet werden.</block>
+  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">Auf den Registerkarten „Instanzen“ und „Datenbanken“ im Inventar haben wir die Beschreibung und Visualisierung zum Schutz verbessert.</block>
+  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">Unterstützung für Windows-Authentifizierung in der Workload Factory</block>
+  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">Jetzt unterstützt Workload Factory die SQL Server-Authentifizierung mithilfe von Windows-authentifizierten Benutzern, um Instanzen zu registrieren und von Verwaltungsfunktionen zu profitieren.</block>
+  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">Registrieren Sie Instanzen in der Workload Factory für Datenbanken</block>
+  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">09. September 2025</block>
+  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">01. September 2025</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">12. August 2025</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">04. August 2025</block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">03. August 2025</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">30. Juni 2025</block>
+  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">29. Juni 2025</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">16. Juni 2025</block>
 </blocks>
