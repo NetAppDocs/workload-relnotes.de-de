@@ -1,0 +1,55 @@
+= Optimieren Sie Ihre Einsparungen im Speicherrechner für Amazon Elastic Block Store (EBS)
+:allow-uri-read: 
+
+
+
+
+=== Optimieren Sie Ihre Einsparungen im Speicherrechner für Amazon Elastic Block Store (EBS)
+
+Workload Factory kann Ihre EBS-Leistungsnutzung analysieren und dann die beste und kosteneffizienteste FSx für ONTAP Konfiguration vorschlagen, sodass Sie durch die Umstellung auf FSx für ONTAP mehr sparen können.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["Erkunden Sie Einsparungen für erkannte Speicherumgebungen in der Workload Factory-Konsole"]
+
+
+
+=== Schneller Zugriff auf den Ressourcenbildschirm vom Dateisysteminventar
+
+Sie können schnell zu einem FSx for ONTAP -Dateisystemressourcenbildschirm navigieren, indem Sie den Dateisystemnamen (jetzt ein Hyperlink) aus dem FSx for ONTAP -Inventar auswählen.
+
+
+
+=== Ermitteln von Cache-Beziehungen in der Workload Factory-Konsole
+
+Wenn Sie _Cache_-Beziehungen zwischen dem FSx for ONTAP -Dateisystem und einem anderen ONTAP Speichertyp (lokales System, Cloud Volumes ONTAP und FSx for ONTAP) haben, können Sie diese über die Workload Factory-Konsole ermitteln und anzeigen. Dadurch können Sie Datenflüsse besser verstehen, die Cache-Auslastung optimieren und die Effizienz in verteilten Umgebungen verbessern.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["Ermitteln und Anzeigen von Cache-Beziehungen in der Workload Factory-Konsole"]
+
+
+
+=== Gut strukturiertes Analyse-Update
+
+Workload Factory analysiert jetzt Ihre FSx for ONTAP Dateisysteme für die folgende Konfiguration:
+
+Schwellenwert für die Dateikapazitätsauslastung des Volumes: Überprüft, ob die Schwellenwerte für die Dateikapazität auf 80 % oder weniger eingestellt sind. Auf diese Weise vermeiden Sie, dass der Speicherplatz auf Ihren Dateisystemen knapp wird.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an"]
+
+
+
+==== Verbesserungen bei Aktionen für Konfigurationsprobleme
+
+Auf der Registerkarte *Well-architected analysis* im Dashboard für ein FSx for ONTAP -Dateisystem können Sie, anstatt eine gesamte Konfiguration für ein Dateisystem zu verwerfen, auch ein oder mehrere Volumes innerhalb eines Dateisystems auswählen, um sie zu reparieren, zu verwerfen oder zu reaktivieren.
+
+
+
+=== Zusätzliche Benachrichtigung für Lagerung
+
+Der Benachrichtigungsdienst von NetApp Workload Factory umfasst die wöchentliche Benachrichtigung bei Problemen mit der Well-Architected-Konfiguration.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Benachrichtigungstypen und Nachrichten in der Einrichtungs- und Verwaltungsdokumentation von Workload Factory"]
+
+
+
+=== Unveränderliche Dateien unterstützen privilegiertes Löschen
+
+Mit dieser Funktion können Sie privilegierten Löschzugriff für unveränderliche Dateien in Ihren FSx for ONTAP -Dateisystemen konfigurieren. Auf diese Weise können Sie kritische Daten vor versehentlichem oder böswilligem Löschen schützen und gleichzeitig autorisierten Benutzern die Möglichkeit geben, die Sperre aufzuheben und diese Dateien nach Bedarf zu löschen. Das Aktivieren des privilegierten Löschens ist während der Volume-Erstellung oder für vorhandene Volumes möglich.
