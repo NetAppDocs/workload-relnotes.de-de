@@ -29,6 +29,56 @@ BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihre
 
 
 
+=== Datenbank-Workloads
+
+
+
+==== BlueXP workload factory jetzt NetApp Workload Factory
+
+BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
+
+
+
+==== Verbesserungen für Oracle in der Workload Factory-Konsole
+
+
+
+===== Bildschirm „Oracle-Datenbankressourcen“
+
+Jede Oracle-Datenbank verfügt über einen eigenen dedizierten Ressourcenbildschirm, der im Datenbankinventar verfügbar ist. Der Ressourcenbildschirm bietet eine Übersicht mit Datenbankname, Status (online oder offline), Mandantenstatus und Bereitstellungstyp. Ebenfalls enthalten sind Diagramme mit den folgenden Daten über einen Zeitraum von drei Monaten: CPU-Auslastung, Latenz, IOPS und Durchsatz. Die Kapazitätsauslastung liefert die Gesamtgröße der Datenbank, die Größe der geschriebenen Daten, die genutzte Solid-State-Laufwerkskapazität und den genutzten Kapazitätspoolspeicher.
+
+Auf dem Ressourcenbildschirm können Sie Informationen zum Oracle-Server (Bereitstellungsmodell, Betriebssystem, Edition, Version usw.), Standort (AWS-Konto, Region, Availability Zone und Subnetz), Speicher und Computing (FSx für ONTAP Dateisystemdetails, Datenbankinstanztyp und zugehörige LUNs und Volumes) sowie Konnektivität (VPC und Zugriffsprotokoll) anzeigen. Sie können auch den ordnungsgemäßen Architekturstatus der Datenbankkonfigurationen überprüfen und mit der Datenbank verknüpfte Pluggable Databases (PDBs) anzeigen.
+
+
+
+===== Unterstützung für steckbare Oracle-Datenbanken
+
+Pluggable-Datenbanken von Oracle können im Datenbankinventar und auf dem Ressourcenbildschirm ihrer übergeordneten Containerdatenbank angezeigt werden. Die folgenden Informationen zu Ihren PDBs sind verfügbar: CDB-Name, Hostname, Schutzstatus, Datenbankgröße, FSx für ONTAP Dateisystem, AWS-Anmeldeinformationen, AWS-Konto und Region.
+
+
+
+===== Gut konzipierte Analyse für Oracle
+
+Die gut strukturierte Analyse umfasst Bewertungen von Konfigurationsproblemen mit dem Speicherlayout für Oracle-Datenbanken über NFS oder über iSCSI mit oder ohne Automatic Storage Management (ASM) sowie Speicherkonfigurationsprobleme auf dem Betriebssystem für Oracle über iSCSI-LUNs. Mithilfe dieser Informationen können Sie fundierte Entscheidungen zu Ihren Datenbankbereitstellungen treffen und sicherstellen, dass diese effizient ausgeführt werden.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory"]
+
+
+
+==== Verbesserungen der Datenbankinventur
+
+Auf dem Instanzbildschirm im Datenbankinventar stehen die Optionen zum Beheben, Verschieben und Verwerfen eines Konfigurationsproblems für einzelne oder mehrere Instanzen für Microsoft SQL Server oder für einzelne oder mehrere Datenbanken für Oracle zur Verfügung.
+
+
+
+==== Optimieren Sie Ihre Einsparungen im Speicherrechner für Amazon Elastic Block Store (EBS)
+
+Workload Factory kann Ihre EBS-Leistungsnutzung analysieren und dann die beste und kosteneffizienteste FSx für ONTAP Konfiguration vorschlagen, sodass Sie durch die Umstellung auf FSx für ONTAP mehr sparen können.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Erkunden Sie Einsparungen für erkannte Speicherumgebungen in der Workload Factory-Konsole"]
+
+
+
 === Einrichtung und Administration
 
 
@@ -120,6 +170,14 @@ BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihre
 Mit dem VMware Workloads-Planungscenter können Sie Ihr VM-Inventar und Ihre Migrationspläne von einem Ort aus anzeigen und verwalten. Sie können mehrere VM-Inventare aus unterschiedlichen Umgebungen hochladen und speichern und für jedes davon mit der Planung einer Migration zu AWS EC2 oder dem Amazon Elastic VMware-Dienst beginnen. Sie können auch AWS EC2- oder EVS-Migrationspläne erstellen und speichern.
 
 https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["Entdecken Sie das VMware Workloads-Planungscenter"]
+
+
+
+==== Einführung der Migrationsberater-Unterstützung für Amazon Elastic VMWare Service
+
+Mit BlueXP Workload Factory für VMware können Sie jetzt den Migrationsberater des Amazon Elastic VMware Service verwenden, um Ihre lokalen VMware-Workloads schnell zum Amazon Elastic VMware Service zu migrieren. Nachdem Sie mit dem Migrationsberater einen Migrationsplan erstellt haben, wird dieser automatisch in der Liste der Migrationspläne im Planungscenter gespeichert.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs.html["Erstellen Sie einen Bereitstellungsplan für Amazon EVS mit dem Migrationsberater"]
 
 
 
@@ -418,7 +476,7 @@ link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismi
 
 ==== Verbesserte Migrationsberaterunterstützung für Amazon Elastic VMWare Service
 
-Der Migrationsberater des Amazon Elastic VMware Service unterstützt jetzt die automatische Bereitstellung und Bereitstellung Ihres Amazon FSx for NetApp ONTAP Dateisystems. Auf diese Weise können Sie mit der Bereitstellung Ihrer VMs auf FSx für ONTAP -Dateisystemen beginnen, wenn die Migration zur Amazon EVS-Umgebung abgeschlossen ist.
+NetApp Workload Factory unterstützt jetzt die automatische Bereitstellung und Einbindung Ihres Amazon FSx for NetApp ONTAP Dateisystems. Auf diese Weise können Sie mit der Bereitstellung Ihrer VMs auf FSx für ONTAP -Dateisystemen beginnen, wenn die Migration zur Amazon EVS-Umgebung abgeschlossen ist.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Erstellen Sie einen Bereitstellungsplan für Amazon EVS mit dem Migrationsberater"]
 
