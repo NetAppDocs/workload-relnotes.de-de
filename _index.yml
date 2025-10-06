@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: Versionshinweise zu BlueXP  Workload auf Werkseinstellungen
-  summary: In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services
-    beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.
-  keywords: BlueXP workload factory, release notes, what's new
-  lead: In diesen Versionshinweisen werden die neuesten Verbesserungen an den Cloud-Services
-    beschrieben, die Bestandteil der BlueXP  Workload-Fabrik sind.
+  title: Versionshinweise zu NetApp Workload Factory
+  summary: Diese Versionshinweise beschreiben die jüngsten Verbesserungen der Cloud-Dienste,
+    die Teil der NetApp Workload Factory sind.
+  keywords: NetApp Workload Factory, release notes, what's new
+  lead: Diese Versionshinweise beschreiben die jüngsten Verbesserungen der Cloud-Dienste,
+    die Teil der NetApp Workload Factory sind.
   tiles:
   - title: Was ist neu
     links:
-    - title: Kürzliche Änderungen in der BlueXP  Workload-Farm
+    - title: Aktuelle Änderungen in der NetApp Workload Factory
       url: whats-new.html
