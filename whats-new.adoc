@@ -289,6 +289,14 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
+==== Neue Benachrichtigung für Speicher
+
+Der Workload Factory-Benachrichtigungsdienst umfasst Erfolgs- und Fehlerbenachrichtigungen für die automatische Kapazitätsverwaltung für Speicher.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Benachrichtigungen für die BlueXP workload factory"^]
+
+
+
 === Einrichtung und Administration
 
 

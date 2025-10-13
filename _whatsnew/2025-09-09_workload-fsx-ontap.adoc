@@ -43,3 +43,11 @@ image:screenshot-manage-snapshots-screen.png["Screenshot, der den Bildschirm zum
 Workload Factory unterstützt die Verringerung der Solid-State-Drive-Kapazität (SSD) Ihrer Dateisysteme der zweiten Generation. Mit der elastischen Dateisystemkapazität können Sie die Kapazität Ihrer Dateisysteme dynamisch an die Anforderungen Ihrer Arbeitslasten anpassen.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Passen Sie die Dateisystemkapazität an"]
+
+
+
+=== Neue Benachrichtigung für Speicher
+
+Der Workload Factory-Benachrichtigungsdienst umfasst Erfolgs- und Fehlerbenachrichtigungen für die automatische Kapazitätsverwaltung für Speicher.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Benachrichtigungen für die BlueXP workload factory"^]
