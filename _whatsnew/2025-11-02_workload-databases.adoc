@@ -1,0 +1,59 @@
+= Verbesserungen am Dashboard
+:allow-uri-read: 
+
+
+
+
+=== Verbesserungen am Dashboard
+
+Das neue Dashboard ist übersichtlicher und besser organisiert, um einen klareren Überblick über Ihre Datenbankressourcen und die wichtigsten Funktionen von Workload Factory auf einem Bildschirm zu bieten; eine Karte hebt die Datenbankressourcen hervor, eine Karte liefert Informationen über den Well-Architected Score und die Analyse, eine Karte zeigt die Fehleranalyse an, zwei Karten zeigen die monatlichen Kosten und die potenziellen Einsparungen an und eine Karte zeigt Informationen zu Sandboxes an.
+
+
+
+=== Gut konzipierte Analyse für Oracle
+
+Die gut durchdachte Analyse umfasst die folgenden Bewertungen und Korrekturen für Oracle-Konfigurationen:
+
+* Speicherkonfigurationsbetriebssystem unter Verwendung des NFS-Protokolls: Bewertet und behebt Konfigurationsprobleme mit der NFS-Konfiguration für bestehende Oracle-Datenbankbereitstellungen.
+* Speicherkonfigurationsbetriebssystem unter Verwendung des iSCSI-Protokolls: Bewertet und behebt Konfigurationsprobleme mit der iSCSI-Konfiguration für bestehende Oracle-Datenbankbereitstellungen.
+* Speicherkonfigurationsbetriebssystem unter Verwendung von Automatic Storage Management (ASM): bewertet Konfigurationsprobleme mit der ASM-Konfiguration für bestehende Oracle-Datenbankbereitstellungen.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory"]
+
+
+
+=== Berechtigungsänderungen für Workload Factory für Datenbanken
+
+Workload Factory for Databases hat die Berechtigungsrichtlinien aktualisiert, um mehr Klarheit darüber zu schaffen, was für bestimmte Aktionen erforderlich ist, und um eine feinere Auswahlmöglichkeit für die benötigten Berechtigungen zu bieten. Wenn Sie Anmeldeinformationen hinzufügen, stehen Ihnen drei Berechtigungsoptionen zur Auswahl, anstatt des bisherigen Berechtigungsmodells mit den Optionen „Nur lesen“ und „Lesen/Schreiben“. Das neue Berechtigungsmodell unterteilt die Berechtigungsrichtlinien wie folgt:
+
+* Ansicht, Planung und Analyse: Sehen Sie sich den Bestand Ihrer Datenbankressourcen an, informieren Sie sich über deren Zustand, prüfen Sie die detaillierte Analyse Ihrer Datenbankkonfigurationen, erhalten Sie eine Fehlerprotokollanalyse und entdecken Sie Einsparmöglichkeiten.
+* Betrieb und Fehlerbehebung: Wir führen operative Aufgaben für Ihre Datenbankressourcen durch und beheben Probleme mit Datenbankkonfigurationen und dem zugrunde liegenden FSx for ONTAP Dateisystemspeicher.
+* _Erstellung von Datenbankhosts_: Bereitstellung von Datenbankhosts und des zugrunde liegenden FSx for ONTAP Dateisystems gemäß bewährten Verfahren
+
+
+Beim Hinzufügen von Anmeldeinformationen können Sie eine oder mehrere dieser Berechtigungsrichtlinien auswählen, je nachdem, welchen Zugriff Sie Workload Factory for Databases gewähren möchten.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referenz zu den Berechtigungen der Workload Factory"^]
+
+
+
+=== Gut gestalteter Dashboard-Bildschirm hinzugefügt
+
+Dem Menü „Datenbanken“ wurde ein neues, übersichtliches Dashboard hinzugefügt. Auf diesem Bildschirm erhalten Sie eine Gesamtübersicht über den Konfigurationsstatus Ihrer gesamten Datenbanklandschaft.
+
+
+
+=== Bearbeitungsschutz für Datenbankbereitstellungen in NetApp Backup and Recovery
+
+In der Workload Factory-Konsole können Sie die Bearbeitung des Schutzes für eine geschützte Ressource auswählen. Anschließend werden Sie zur Sicherung und Wiederherstellung in der NetApp Console weitergeleitet, wo Sie die Schutzrichtlinie oder den Zeitplan ändern können.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Bearbeitungsschutz für Datenbankbereitstellungen"]
+
+
+
+=== Fehlerfilterung nach Tags, die für die Fehleranalysefunktion verfügbar sind
+
+Sie können Microsoft SQL Server-Fehlerprotokolle anhand von infrastrukturorientierten Tags filtern und anzeigen, wenn Sie die Fehleranalysefunktion in Workload Factory verwenden. Diese Erweiterung hilft Ihnen, Probleme schnell zu priorisieren, zu analysieren und zu beheben.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analysieren Sie Fehlerprotokolle mithilfe von Tag-Filtern."^]

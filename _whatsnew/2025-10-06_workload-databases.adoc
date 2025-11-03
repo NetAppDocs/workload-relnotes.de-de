@@ -42,7 +42,7 @@ Auf dem Instanzbildschirm im Datenbankinventar stehen die Optionen zum Beheben, 
 
 
 
-=== Optimieren Sie Ihre Einsparungen im Speicherrechner für Amazon Elastic Block Store (EBS)
+=== Optimierung der Einsparungen basierend auf der Nutzung für Amazon Elastic Block Store (EBS)
 
 Workload Factory kann Ihre EBS-Leistungsnutzung analysieren und dann die beste und kosteneffizienteste FSx für ONTAP Konfiguration vorschlagen, sodass Sie durch die Umstellung auf FSx für ONTAP mehr sparen können.
 
