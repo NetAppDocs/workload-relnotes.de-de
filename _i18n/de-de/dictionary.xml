@@ -161,18 +161,15 @@
   <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">Cache-Volume vorbefüllen</block>
   <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">Löschen eines Cache-Volumes</block>
   <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">Cache-Volumes verwalten</block>
-  <block id="9223fd31c285815a2492912ef49bdbbb" category="paragraph"><block ref="9223fd31c285815a2492912ef49bdbbb" category="inline-link-macro-rx"></block></block>
   <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">Automatisches Inode-Management verfügbar</block>
   <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">Die automatische Inode-Verwaltung kann aktiviert werden, ohne dass die automatische Kapazitätsverwaltung aktiviert werden muss.</block>
   <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">Automatische Inode-Verwaltung aktivieren</block>
-  <block id="c38d477b997e2c8216a0b40479691f29" category="paragraph"><block ref="c38d477b997e2c8216a0b40479691f29" category="inline-link-macro-rx"></block></block>
   <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">Schwellenwertwarnung für Kapazitäts- und Inode-Nutzung</block>
   <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">NetApp Workload Factory Benachrichtigungsdienst</block>
   <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">Schwellenwertwarnungen sind sowohl für die Kapazität als auch für die Inode-Auslastung verfügbar. Diese Schwellenwerte können Sie beim Aktivieren der automatischen Kapazitäts- oder Inode-Verwaltung festlegen. Um diese Einstellung zu verwenden, müssen Sie Benachrichtigungen mithilfe der folgenden Funktion konfigurieren:<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> Die</block>
   <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">Volumenverkleinerung möglich</block>
   <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">Sie können die Größe von NFS- und SMB/CIFS-Volumes in NetApp Workload Factory verringern. Diese Funktion ermöglicht eine bessere Verwaltung der Speicherressourcen, indem sie es Ihnen erlaubt, die Größe von Volumes zu reduzieren, die in ihrer aktuellen Kapazität nicht mehr benötigt werden.</block>
   <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">Verringern Sie die Kapazität eines Volumens</block>
-  <block id="e1b7073be30c28b07f5c847e0a1b56ed" category="paragraph"><block ref="e1b7073be30c28b07f5c847e0a1b56ed" category="inline-link-macro-rx"></block></block>
   <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">Erweiterter FSx für ONTAP Ressourcenstatus</block>
   <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory hat den Ressourcenstatus „falsch konfiguriert“ um eine Erläuterung des eigentlichen Problems für die Ressource erweitert.</block>
   <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory analysiert Ihre FSx for ONTAP Dateisysteme für die folgenden Konfigurationen:</block>
@@ -189,7 +186,6 @@
   <block id="c4a6983274098ca737ffda27862010ea" category="section-title">FSx für ONTAP Cyber ​​Vault-Unterstützung</block>
   <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">Sie können einen Cyber-Tresor erstellen, indem Sie FSx für ONTAP als Quelle oder Ziel in der Cyber-Tresor-Architektur verwenden. Cyber-Tresore bieten eine sichere und isolierte Umgebung zur Speicherung kritischer Daten und schützen diese vor Ransomware und anderen Cyberbedrohungen.</block>
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">Richten Sie einen Cyber-Tresor mit FSx für ONTAP ein.</block>
-  <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">02. November 2025</block>
   <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">Optimierung der Einsparungen basierend auf der Nutzung für Amazon Elastic Block Store (EBS)</block>
   <block id="3cab156afe8725e62725f4973a3c9949" category="doc">Verbesserungen am Dashboard</block>
@@ -214,4 +210,18 @@
   <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">Sie können Microsoft SQL Server-Fehlerprotokolle anhand von infrastrukturorientierten Tags filtern und anzeigen, wenn Sie die Fehleranalysefunktion in Workload Factory verwenden. Diese Erweiterung hilft Ihnen, Probleme schnell zu priorisieren, zu analysieren und zu beheben.</block>
   <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">Analysieren Sie Fehlerprotokolle mithilfe von Tag-Filtern.</block>
   <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
+  <block id="8763b09bbcb06ec11c1d0d3331ba74f4" category="paragraph"><block ref="8763b09bbcb06ec11c1d0d3331ba74f4" category="inline-link-macro-rx"></block></block>
+  <block id="8cc5e5335040870d41183130dad2a0a6" category="paragraph"><block ref="8cc5e5335040870d41183130dad2a0a6" category="inline-link-macro-rx"></block></block>
+  <block id="6b49a1e6e88960820791afdda16a063c" category="paragraph"><block ref="6b49a1e6e88960820791afdda16a063c" category="inline-link-macro-rx"></block></block>
+  <block id="7999c939951d1cfce0556df15a76a345" category="paragraph"><block ref="7999c939951d1cfce0556df15a76a345" category="inline-link-macro-rx"></block></block>
+  <block id="1aa6907369c233df8f3cc388c26b9890" category="paragraph"><block ref="1aa6907369c233df8f3cc388c26b9890" category="inline-link-macro-rx"></block></block>
+  <block id="a8652a10fdfc1f87b6bf65a1067a7fd9" category="doc">Berechtigungsaktualisierung</block>
+  <block id="27d373ed8bf1b1a511ec6680dde4e448" category="paragraph">In dieser Version haben wir bedeutende Aktualisierungen an den Berechtigungsrichtlinien für Speicher-, Datenbank- und VMware-Workloads vorgenommen, um die Sicherheit und die Benutzerkontrolle zu verbessern. Sie können Ihre Berechtigungseinstellungen detaillierter anpassen und Berechtigungen nach Bedarf hinzufügen oder entfernen.</block>
+  <block id="6ab8e8b21fd457b68a33554bd8f64377" category="inline-link-macro">Berechtigungsreferenz für Workload Factory</block>
+  <block id="f5baf95dfead3e34e749c6d871873a72" category="paragraph"><block ref="f5baf95dfead3e34e749c6d871873a72" category="inline-link-macro-rx"></block></block>
+  <block id="7723c7d7d2f2eb53098d3c771a7b7854" category="paragraph">Der NetApp Workload Factory Benachrichtigungsdienst umfasst die Benachrichtigung für die automatische Inode-Verwaltung für Speicher.</block>
+  <block id="ef97320a660fe1bab5cd9dea0fdf90c3" category="section-title">Schwellenwertwarnungen für die automatische Kapazitäts- und Inode-Verwaltung</block>
+  <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">Die automatische Kapazitäts- und Inode-Verwaltung für den Speicher kann mit einem Warnschwellenwert eingerichtet werden, der eine Benachrichtigung vom Workload Factory-Benachrichtigungsdienst auslöst. Um diese Funktion nutzen zu können, müssen Sie zuerst den Workload Factory-Benachrichtigungsdienst aktivieren.</block>
+  <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">Konfigurieren Sie Benachrichtigungen für NetApp Workload Factory</block>
+  <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -35,7 +35,7 @@ Die folgenden Vorgänge zur Verwaltung des Cache-Volumes können Sie in der Work
 * Löschen eines Cache-Volumes
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Cache-Volumes verwalten"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Cache-Volumes verwalten"]
 
 
 
@@ -43,7 +43,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 Die automatische Inode-Verwaltung kann aktiviert werden, ohne dass die automatische Kapazitätsverwaltung aktiviert werden muss.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Automatische Inode-Verwaltung aktivieren"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Automatische Inode-Verwaltung aktivieren"]
 
 
 
@@ -57,7 +57,7 @@ Schwellenwertwarnungen sind sowohl für die Kapazität als auch für die Inode-A
 
 Sie können die Größe von NFS- und SMB/CIFS-Volumes in NetApp Workload Factory verringern. Diese Funktion ermöglicht eine bessere Verwaltung der Speicherressourcen, indem sie es Ihnen erlaubt, die Größe von Volumes zu reduzieren, die in ihrer aktuellen Kapazität nicht mehr benötigt werden.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Verringern Sie die Kapazität eines Volumens"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Verringern Sie die Kapazität eines Volumens"]
 
 
 
@@ -88,7 +88,7 @@ Workload Factory bietet mehr Klarheit darüber, welche Berechtigungen für besti
 
 Beim Hinzufügen von Anmeldeinformationen können Sie eine oder mehrere dieser Berechtigungsrichtlinien auswählen, je nachdem, welchen Zugriff Sie Workload Factory gewähren möchten.
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referenz zu den Berechtigungen der Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referenz zu den Berechtigungen der Workload Factory"]
 
 
 
@@ -96,7 +96,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 Sie können einen Cyber-Tresor erstellen, indem Sie FSx für ONTAP als Quelle oder Ziel in der Cyber-Tresor-Architektur verwenden. Cyber-Tresore bieten eine sichere und isolierte Umgebung zur Speicherung kritischer Daten und schützen diese vor Ransomware und anderen Cyberbedrohungen.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Richten Sie einen Cyber-Tresor mit FSx für ONTAP ein."^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Richten Sie einen Cyber-Tresor mit FSx für ONTAP ein."]
 
 
 
@@ -157,6 +157,34 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["B
 Sie können Microsoft SQL Server-Fehlerprotokolle anhand von infrastrukturorientierten Tags filtern und anzeigen, wenn Sie die Fehleranalysefunktion in Workload Factory verwenden. Diese Erweiterung hilft Ihnen, Probleme schnell zu priorisieren, zu analysieren und zu beheben.
 
 link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analysieren Sie Fehlerprotokolle mithilfe von Tag-Filtern."^]
+
+
+
+=== Einrichtung und Administration
+
+
+
+==== Berechtigungsaktualisierung
+
+In dieser Version haben wir bedeutende Aktualisierungen an den Berechtigungsrichtlinien für Speicher-, Datenbank- und VMware-Workloads vorgenommen, um die Sicherheit und die Benutzerkontrolle zu verbessern. Sie können Ihre Berechtigungseinstellungen detaillierter anpassen und Berechtigungen nach Bedarf hinzufügen oder entfernen.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Berechtigungsreferenz für Workload Factory"]
+
+
+
+==== Neue Benachrichtigung für Speicher
+
+Der NetApp Workload Factory Benachrichtigungsdienst umfasst die Benachrichtigung für die automatische Inode-Verwaltung für Speicher.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Benachrichtigungen für NetApp Workload Factory"]
+
+
+
+==== Schwellenwertwarnungen für die automatische Kapazitäts- und Inode-Verwaltung
+
+Die automatische Kapazitäts- und Inode-Verwaltung für den Speicher kann mit einem Warnschwellenwert eingerichtet werden, der eine Benachrichtigung vom Workload Factory-Benachrichtigungsdienst auslöst. Um diese Funktion nutzen zu können, müssen Sie zuerst den Workload Factory-Benachrichtigungsdienst aktivieren.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Konfigurieren Sie Benachrichtigungen für NetApp Workload Factory"]
 
 
 
