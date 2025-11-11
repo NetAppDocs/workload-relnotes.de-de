@@ -560,21 +560,3 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["E
 Die gut strukturierte Analyse bewertet und behebt die Fehlausrichtung der Maximum Transmission Unit (MTU) zwischen Endpunkten für Microsoft SQL Server auf FSx für ONTAP -Speicher. Durch Anpassen der MTU-Einstellungen können Sie die Netzwerkleistung optimieren und die Latenz für SQL Server-Workloads reduzieren.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in der Workload Factory"]
-
-
-
-== 12. August 2025
-
-
-
-=== Datenbank-Workloads
-
-
-
-==== BlueXP backup and recovery unterstützt jetzt Microsoft SQL Server-Workloads
-
-Mit BlueXP backup and recovery können Sie Microsoft SQL Server-Datenbanken und Verfügbarkeitsgruppen sichern, wiederherstellen, überprüfen und klonen. Über die Workload Factory-Konsole können Sie auf BlueXP backup and recovery zugreifen und diese verwenden, um Microsoft SQL Server-Workloads zu schützen.
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Erfahren Sie, wie Sie Microsoft SQL Server-Workloads über die Workload Factory-Konsole schützen"] .
-
-Weitere Informationen zur BlueXP backup and recovery finden Sie imlink:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["Überblick über Microsoft SQL-Workloads mit BlueXP backup and recovery schützen"^] .
