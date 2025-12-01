@@ -30,25 +30,9 @@
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Arbeitslasten der Bauarbeiter</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Erstellen Sie einen Bereitstellungsplan für Amazon EVS mit dem Migrationsberater</block>
-  <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">Implementieren Sie gut strukturierte Datenbankkonfigurationen in der Workload Factory</block>
-  <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Gut strukturierte Analyse-Updates</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Erfahren Sie, wie Sie Microsoft SQL Server-Workloads über die Workload Factory-Konsole schützen</block>
-  <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> .</block>
-  <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic KI-gestützter Fehlerprotokollanalysator</block>
-  <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">Der KI-gestützte Fehlerprotokollanalysator von Agentic ist eine neue Funktion, die fortschrittliche Algorithmen des maschinellen Lernens nutzt, um Fehler in Protokolldateien automatisch zu erkennen und zu analysieren. Dieses Tool zielt darauf ab, den Fehlerbehebungsprozess zu optimieren, indem es Entwicklern auf der Grundlage der in den Protokollen erkannten Muster umsetzbare Erkenntnisse und Empfehlungen liefert.</block>
-  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">Erfahren Sie mehr über den KI-gestützten Fehlerprotokollanalysator von Agentic</block>
-  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
-  <block id="87b85aff45217080ba500a992ada602c" category="section-title">Oracle-Unterstützung</block>
-  <block id="74ddb3b25ce5cc41642c58d46e3e527b" category="paragraph">Workload Factory umfasst Unterstützung für Oracle-Datenbanken. In der Workload Factory-Konsole können Sie Ihre Oracle-Datenbanken aus dem Inventar anzeigen, Datenbanken registrieren, um erweiterte Funktionen in der Workload Factory zu verwenden, und Oracle-Datenbanken mithilfe der gut strukturierten Funktion auf Übereinstimmung mit Best Practices analysieren. Die gut strukturierte Analyse ermittelt, ob die Speicherkonfigurationen für Oracle-Datenbanken optimiert sind. Mithilfe dieser Informationen können Sie fundierte Entscheidungen zu Ihren Datenbankbereitstellungen treffen und sicherstellen, dass diese effizient ausgeführt werden.</block>
-  <block id="0c32ff88af8d87b6ac8198432d56bd75" category="section-title">Unterstützung für Microsoft SQL Server-Bereitstellungen auf FSx for ONTAP -Dateisystemen der zweiten Generation</block>
-  <block id="6f4eab6394c8d6b2b9c2f5990b195f88" category="paragraph">Workload Factory unterstützt Microsoft SQL Server-Bereitstellungen auf FSx für ONTAP -Dateisystemen der zweiten Generation. Diese Erweiterung ermöglicht es Ihnen, die neuesten Funktionen und Leistungsverbesserungen der Dateisysteme der zweiten Generation zu nutzen und gleichzeitig Ihre SQL Server-Workloads zu verwalten.</block>
-  <block id="4b0e4c53f590f96c7ae9dbd2af881643" category="section-title">Windows-Authentifizierung für SQL Server-Schutz</block>
-  <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">Die Authentifizierung von Microsoft SQL Server-Instanzen mit Windows-Anmeldeinformationen ist in den Workflow eingebettet, um Microsoft SQL Server-Hosts für den Schutz mit BlueXP backup and recovery vorzubereiten. Dies war früher ein erforderlicher Schritt, der manuell abgeschlossen werden musste. Stattdessen werden Sie aufgefordert, Windows-Anmeldeinformationen mit Administratorzugriff freizugeben, wenn Sie die Hosts nicht mit Windows-Anmeldeinformationen in der Workload Factory registriert haben.</block>
-  <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">Gut strukturierte Analyse umfasst MTU-Ausrichtung für SQL Server</block>
-  <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">Die gut strukturierte Analyse bewertet und behebt die Fehlausrichtung der Maximum Transmission Unit (MTU) zwischen Endpunkten für Microsoft SQL Server auf FSx für ONTAP -Speicher. Durch Anpassen der MTU-Einstellungen können Sie die Netzwerkleistung optimieren und die Latenz für SQL Server-Workloads reduzieren.</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">Verbesserungen des Speicherinventarberichts</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">Workload Factory hat die für Ihre FSx for ONTAP -Dateisysteme gemeldeten Daten verbessert. Der herunterladbare Bericht von der FSx for ONTAP -Inventarseite enthält die folgenden neuen Spalten:</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">Verwendete SSD: Zeigt den Wert der verwendeten SSD-Kapazität an</block>
@@ -73,7 +57,6 @@
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">Passen Sie die Dateisystemkapazität an</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">09. September 2025</block>
-  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">01. September 2025</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">Workload Factory unterstützt die Verringerung der Solid-State-Drive-Kapazität (SSD) Ihrer Dateisysteme der zweiten Generation. Mit der elastischen Dateisystemkapazität können Sie die Kapazität Ihrer Dateisysteme dynamisch an die Anforderungen Ihrer Arbeitslasten anpassen.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp Workload Factory</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
@@ -231,4 +214,10 @@
   <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">Diese Version von NetApp Workload Factory für VMware bietet mehrere Verbesserungen für die Benutzererfahrung des Migrationsberaters:</block>
   <block id="62057df0ae6e346379f483246f31203b" category="list-text">*Migrationsplan speichern oder herunterladen*: Sie können jetzt einen Migrationsplan als PDF- oder CSV-Datei speichern oder herunterladen. Wenn Sie einen Migrationsplan speichern, wird dieser Plan in Ihrem Workload Factory-Konto gespeichert.</block>
   <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">Beim Hinzufügen von Anmeldeinformationen können Sie eine oder mehrere dieser Berechtigungsrichtlinien auswählen, je nachdem, welchen Zugriff Sie Workload Factory for Databases gewähren möchten.</block>
+  <block id="e738192b7a8dc90f6d5e566ceb909da3" category="doc">Berechnen Sie die Kosteneinsparungen durch die Migration zu Amazon Elastic VMware Service für bestimmte Regionen</block>
+  <block id="d4a40d01192a627963ffd40503ef4713" category="paragraph">Sie können nun den Wert verschiedener Bereitstellungsoptionen für Ihre Cloud-Migration erkunden, den Aufwand für die Lösungsbewertung optimieren und sich eingehend mit Lösungen befassen, die das Potenzial haben, in der Cloud Mehrwert und Einsparungen zu bieten.</block>
+  <block id="de480346f69aff69cc4e4e1e5d52ea98" category="paragraph">Sie können auch die Einsparungen an vCPU-Kernen überprüfen, die durch die Verwendung von FSx für ONTAP für eine EVS-Bereitstellung erzielt werden können.</block>
+  <block id="122a56eb4649431a7f2dbb8886f047cc" category="inline-link">Entdecken Sie die Einsparungen für Amazon Elastic VMware Service mit NetApp Workload Factory</block>
+  <block id="389870bd93c88ff4cb5e7f6216054ce2" category="paragraph"><block ref="389870bd93c88ff4cb5e7f6216054ce2" category="inline-link-rx"></block></block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">27. November 2025</block>
 </blocks>
