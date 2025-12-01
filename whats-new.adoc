@@ -19,6 +19,62 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Blockgeräteunterstützung in NetApp Workload Factory
+
+Verwalten Sie Ihre Blockgeräte effektiver mit der neu eingeführten Blockgeräteunterstützung in NetApp Workload Factory. Diese Funktion ermöglicht es Ihnen, Details anzuzeigen und die Kapazität von iSCSI-LUNs zu erhöhen, wodurch Sie mehr Flexibilität für Ihre Speicheranforderungen erhalten.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["Blockgeräte in Workload Factory verwalten"]
+
+
+
+==== Gut strukturierte Analyse-Updates
+
+Workload Factory analysiert Ihre FSx for ONTAP Dateisysteme für die folgenden Konfigurationen:
+
+* Unnötige Snapshot-Löschung: Prüft, ob Volumes veraltete und unnötige Snapshots enthalten, die gelöscht werden können, um Kosten zu reduzieren.
+* FlexGroup -Volumes-Rebalance: Prüft, ob die FlexGroup Volumes gleichmäßig auf die einzelnen Mitgliedsvolumes verteilt sind, um eine optimale Performance zu gewährleisten.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an"]
+
+
+
+==== KI-Analysator für EMS-Ereignisse in NetApp Workload Factory
+
+NetApp Workload Factory stellt einen KI-gestützten Analysator für ONTAP Event Management System (EMS)-Ereignisse vor. Diese Funktion hilft Ihnen, Probleme schnell zu erkennen und zu beheben, indem sie auf der Grundlage der Analyse von EMS-Ereignisdaten Erkenntnisse und Empfehlungen liefert.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["Analysieren Sie EMS-Ereignisse in Workload Factory."]
+
+
+
+==== Überwachen Sie Kosten- und Nutzungstrends für FSx für ONTAP Dateisysteme
+
+Sie können die Kosten- und Nutzungstrends Ihrer FSx for ONTAP -Dateisysteme direkt über die NetApp Workload Factory Konsole überwachen. Diese Funktion liefert Kennzahlen zum Speicherverbrauch und zu den Kosten sowie detaillierte Kostenaufstellungen und hilft Ihnen so, Ihre Ressourcenzuweisung und Budgetplanung zu optimieren.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["Verfolgen Sie die Kosten für FSx für ONTAP Dateisysteme in Workload Factory"]
+
+
+
+==== Verwalten von FSx-Tags für ein Dateisystem in NetApp Workload Factory
+
+Verwalten Sie Ihre FSx-Tags für ein Dateisystem ganz einfach direkt über die NetApp Workload Factory Konsole. Diese Funktion ermöglicht das Hinzufügen, Bearbeiten oder Entfernen von Tags und ermöglicht so eine bessere Organisation und Kategorisierung Ihrer FSx for ONTAP -Dateisysteme.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-fsx-tags.html["Verwalten Sie FSx-Tags in Workload Factory"]
+
+
+
+==== Cache-Kapazität für FSx für ONTAP Dateisysteme anpassen
+
+Über die Workload Factory-Konsole können Sie die Kapazität für Cache-Volumes erhöhen und verringern.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Cache-Volumes in Workload Factory verwalten"]
+
+
+
 === Datenbank-Workloads
 
 
