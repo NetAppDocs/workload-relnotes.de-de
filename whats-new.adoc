@@ -127,6 +127,24 @@ https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Entdec
 
 
 
+=== Einrichtung und Administration
+
+
+
+==== Berechtigungsaktualisierung für Speicher
+
+Der FSx for ONTAP EMS-Ereignisanalysator verwendet die folgenden Amazon Bedrock-Berechtigungen in der Berechtigungsrichtlinie _operations and remediation_, um Ereignisdaten für die Storage-Workload abzurufen.
+
+* `bedrock:ListInferenceProfiles`
+* `bedrock:GetInferenceProfile`
+* `bedrock:InvokeModelWithResponseStream`
+* `bedrock:InvokeModel`
+
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Änderungsprotokoll der Berechtigungsreferenz"]
+
+
+
 == 02. November 2025
 
 
