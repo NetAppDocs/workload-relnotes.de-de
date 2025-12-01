@@ -1,0 +1,37 @@
+= Optimieren Sie die Einsparungen im Datenbankrechner für Amazon Elastic Block Store (EBS).
+:allow-uri-read: 
+
+
+
+
+=== Optimieren Sie die Einsparungen im Datenbankrechner für Amazon Elastic Block Store (EBS).
+
+Zwei neue Funktionen des Rechners verbessern die Kostenersparnisanalyse beim Betrieb mehrerer Instanzen mit EBS-Speicher, sodass Sie durch den Wechsel zu FSx für ONTAP mehr sparen können.
+
+* Workload Factory bietet eine konsolidierte Speicherlösung für mehrere Datenbank-Hosts auf einem FSx for ONTAP -Dateisystem. Durch diese Konsolidierung werden die Speicherkosten optimiert, indem die Anzahl der für mehrere Datenbankhosts benötigten Dateisysteme reduziert wird, was zu erheblichen Kosteneinsparungen führt.
+* Workload Factory analysiert Ihre EBS-Leistungsnutzung und schlägt dann die beste und kosteneffizienteste FSx for ONTAP Konfiguration vor.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Entdecken Sie die Einsparungen für erkannte EBS-Hosts"]
+
+
+
+=== Ein Excel-Bericht ist für das übersichtliche Dashboard verfügbar.
+
+Sie können einen Excel-Bericht des übersichtlichen Dashboards herunterladen. Der Bericht liefert den Status der gut strukturierten Datenbankressource und Empfehlungen für alle Ressourcenkonfigurationen, einschließlich Unterkonfigurationen für Betriebssystem und ONTAP.
+
+
+
+=== Fehlerprotokollanalyse für Oracle-Datenbanken verfügbar
+
+Der KI-gestützte Fehlerprotokollanalysator Agentic ist für Oracle-Datenbanken verfügbar. Die Funktion nutzt fortschrittliche Algorithmen des maschinellen Lernens, um Fehler in Protokolldateien automatisch zu erkennen und zu analysieren. Dieses Tool zielt darauf ab, den Fehlerbehebungsprozess zu optimieren, indem es Entwicklern auf der Grundlage der in den Protokollen erkannten Muster umsetzbare Erkenntnisse und Empfehlungen liefert.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Erfahren Sie mehr über den KI-gestützten Fehlerprotokollanalysator von Agentic"]
+
+
+
+=== Gut konzipierte Analyse für Oracle
+
+Die gut durchdachte Analyse beinhaltet zwei neue Speicherkonfigurationen. Die Analyse bewertet und behebt Konfigurationsprobleme im Zusammenhang mit der Zuweisung von Auslagerungsspeicher und dem Dateisystem-Spielraum für bestehende Oracle-Datenbankinstallationen.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory"]
