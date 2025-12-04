@@ -263,4 +263,10 @@
   <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Änderungsprotokoll der Berechtigungsreferenz</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">Unterstützung für AWS S3-Zugriffspunkte für FSx für ONTAP</block>
+  <block id="3b8b774c9a2fdbcd783a971c096ca5f2" category="paragraph">Mit dieser Funktion können Sie Volumes mithilfe von S3-Zugriffspunkten aus der Workload Factory-Konsole erstellen. Mithilfe eines S3-Zugriffspunkts können Sie über die AWS S3-APIs auf Dateidaten zugreifen, die sich auf SMB/CIFS- oder NFS-Volumes befinden. Dies ermöglicht Ihnen die Integration Ihrer vorhandenen Daten mit GenAI, ML und Analysen von AWS-Diensten, die S3-Zugriffspunkte unterstützen.</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="inline-link-macro">Erstellen eines Volumes</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory unterstützt AWS S3-Zugriffspunkte für Ihre FSx for ONTAP Dateisysteme. Sie können Volumes mithilfe von S3-Zugriffspunkten erstellen, S3-Zugriffspunkte einem vorhandenen Volume zuweisen und S3-Zugriffspunkte über die Workload Factory-Konsole verwalten. Mithilfe eines S3-Zugriffspunkts können Sie über die AWS S3-APIs auf Dateidaten zugreifen, die sich auf SMB/CIFS- oder NFS-Volumes befinden. Dies ermöglicht Ihnen die Integration Ihrer vorhandenen Daten mit GenAI, ML und Analysen von AWS-Diensten, die S3-Zugriffspunkte unterstützen.</block>
+  <block id="788c421d379c47cc27e8fdc18771f4c7" category="section-title">02. Dezember 2025</block>
 </blocks>
