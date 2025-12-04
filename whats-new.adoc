@@ -91,14 +91,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 
 
-==== Unterstützung für AWS S3-Zugriffspunkte für FSx für ONTAP
-
-Mit dieser Funktion können Sie Volumes mithilfe von S3-Zugriffspunkten aus der Workload Factory-Konsole erstellen. Mithilfe eines S3-Zugriffspunkts können Sie über die AWS S3-APIs auf Dateidaten zugreifen, die sich auf SMB/CIFS- oder NFS-Volumes befinden. Dies ermöglicht Ihnen die Integration Ihrer vorhandenen Daten mit GenAI, ML und Analysen von AWS-Diensten, die S3-Zugriffspunkte unterstützen.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Erstellen eines Volumes"]
-
-
-
 === Datenbank-Workloads
 
 
