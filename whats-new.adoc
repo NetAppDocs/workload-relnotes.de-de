@@ -19,6 +19,70 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Gut strukturierte Analyse-Updates
+
+Workload Factory analysiert Ihre FSx for ONTAP -Dateisysteme für die folgenden Konfigurationen:
+
+* NetApp Autonomous Ransomware Protection (ARP/AI) deaktiviert – umfasst Blockgeräte: Prüft, ob ARP/AI auf Blockgeräte-Volumes deaktiviert ist.
+* Schreibmodus für Cache-Beziehungen: Prüft, ob der Schreibmodus für die Cache-Volume-Auslastung optimal ist.
+* Unnötige Backup-Löschung: Prüft, ob Backups veraltet oder unnötig sind und gelöscht werden können, um Kosten zu reduzieren.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an"]
+
+
+
+==== Integration des KI-Assistenten auf der Startseite
+
+Auf der Startseite der Workload Factory-Konsole ist der KI-Assistent „Ask me“ integriert, mit dem Sie Fragen zu Ihrer eigenen Speicherlandschaft stellen, personalisierte Einblicke direkt aus Ihrer Umgebung erhalten und auf frühere Konversationen zurückgreifen können. Sie können mit „Fragen Sie mich“ interagieren, um Ihre Workloads zu verstehen, Probleme zu beheben und mehr über Workload Factory zu erfahren – alles, ohne die Konsole zu verlassen.
+
+
+
+==== Verwendung von IAM-Benutzerprinzipalen in Lambda-Link-Ressourcen-basierten Berechtigungsrichtlinien
+
+Lambda-Links, die zur Verbindung zwischen Ihrem Workload Factory-Konto und einem oder mehreren FSx for ONTAP -Dateisystemen verwendet werden, um erweiterte ONTAP Operationen durchzuführen, verwenden jetzt den IAM-Benutzerprinzipal für ressourcenbasierte Richtlinienberechtigungen. Diese Änderung sorgt für eine bessere Angleichung an die branchenüblichen Best Practices für den Zugriff auf AWS-Ressourcen.
+
+
+
+==== Analysebildschirm für den KI-Analysator für EMS-Ereignisse hinzugefügt.
+
+Dem Speichermenü wurde ein neuer Bildschirm namens „Analyse“ hinzugefügt. Von diesem Bildschirm aus können Sie die KI-Analysefunktion für FSx für ONTAP EMS-Ereignisse nutzen.
+
+
+
+==== Blockgeräteerweiterungen in NetApp Workload Factory
+
+Für Blockgeräte wurden folgende Verbesserungen vorgenommen.
+
+
+
+===== Blockgeräteerstellung
+
+NetApp Workload Factory unterstützt die Erstellung von Blockgeräten mithilfe des iSCSI-Protokolls auf FSx for ONTAP -Dateisystemen, damit Sie Ihre Geschäftsanwendungen (LOB) besser über die Workload Factory-Konsole unterstützen können.
+
+
+
+===== Verbesserungen der Blockgeräteverwaltung
+
+NetApp Workload Factory umfasst die folgenden Verbesserungen für link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html["Verwaltung von Blockgeräten"]Die Sie können nun die folgenden Aufgaben über die Workload Factory-Konsole ausführen:
+
+* Clientzugriff verwalten
+* Archiv Blockgerätedaten
+* Löschen eines Blockgeräts
+
+
+
+
+===== Unterstützung für ARP/AI auf FlexVol -Volumes, die Blockgeräte enthalten
+
+Sie können aktivieren link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Autonomer Ransomware-Schutz von NetApp mit KI (ARP/AI)"] auf FlexVol Volumes, die Blockgeräte enthalten. Durch die Aktivierung von ARP/AI werden Ransomware-Angriffe mithilfe von KI erkannt und die Datenwiederherstellung unterstützt.
+
+
+
 === Datenbank-Workloads
 
 
