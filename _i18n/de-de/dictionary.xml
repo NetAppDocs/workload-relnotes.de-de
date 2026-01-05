@@ -26,10 +26,7 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI-Workloads</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Einrichtung und Administration</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware-Workloads</block>
-  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">Einrichtung einer GenAI Knowledge Base</block>
-  <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Arbeitslasten der Bauarbeiter</block>
-  <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Erstellen Sie einen Bereitstellungsplan für Amazon EVS mit dem Migrationsberater</block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Gut strukturierte Analyse-Updates</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
@@ -39,67 +36,12 @@
   <block id="374d5bd32bb9ae08b0f703942e0fe21c" category="doc">Aktuelle Änderungen in der NetApp Workload Factory</block>
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">Diese Versionshinweise beschreiben die jüngsten Verbesserungen der Cloud-Dienste, die Teil der NetApp Workload Factory sind.</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">Versionshinweise zu NetApp Workload Factory</block>
-  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory jetzt NetApp Workload Factory</block>
-  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.</block>
-  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">05. Oktober 2025</block>
-  <block id="3ddc651759568c7b8f0de7c7f9a41828" category="section-title">Unterstützung für das Hinzufügen generischer NFS/SMB-Datenquellen in NetApp -Konnektoren für Amazon Q Business</block>
-  <block id="a0689e9e0b6114698a732a2dc7c3c921" category="paragraph">Mithilfe der Workload Factory API können Sie jetzt eine Datenquelle aus einer generischen NFSv3-, NFSv4- oder SMB-Freigabe zu einem NetApp Connector für Amazon Q Business hinzufügen. Dadurch können Sie Dateien einschließen, die auf Volumes gespeichert sind, die von anderen Dateisystemen als Amazon FSx for NetApp ONTAP gehostet werden.</block>
-  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Erstellen Sie einen NetApp Connector für Amazon Q Business</block>
-  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
-  <block id="b6016044adc61a2efcd415d2be8b12bc" category="paragraph"><block ref="b6016044adc61a2efcd415d2be8b12bc" category="inline-link-macro-rx"></block></block>
-  <block id="b0462077e62a0ea67b3f53638651e833" category="section-title">Erweiterte Chat-Konfiguration für Wissensdatenbanken</block>
-  <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">Sie können jetzt erweiterte Chat-Einstellungen konfigurieren, die auf das Chat-Modell für die Wissensdatenbank anwendbar sind, wie z. B. Antwortlänge, Temperatur, Argumentationseinstellungen und mehr. Einige dieser Einstellungen, wie etwa Einstellungen für Aktualität und Änderungszeit, erweiterte Abrufeinstellungen und Systemaufforderungen, sind nur über die Workload Factory-API verfügbar.</block>
-  <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">Die Auswahl des Inferenztyps wird jetzt für Einbettungs-, Chat- und Neurangmodelle unterstützt.</block>
-  <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">Wenn Ihr ausgewähltes Einbettungs-, Chat- oder Neurankingmodell über Inferenzeinstellungen verfügt, können Sie jetzt einen Inferenztyp auswählen. Dadurch können Sie die Leistung und den Ressourcenbedarf des Chatbots besser auf Ihre Bedürfnisse abstimmen.</block>
-  <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">Mit dem VMware Workloads-Planungscenter können Sie Ihr VM-Inventar und Ihre Migrationspläne von einem Ort aus anzeigen und verwalten. Sie können mehrere VM-Inventare aus unterschiedlichen Umgebungen hochladen und speichern und für jedes davon mit der Planung einer Migration zu AWS EC2 oder dem Amazon Elastic VMware-Dienst beginnen. Sie können auch AWS EC2- oder EVS-Migrationspläne erstellen und speichern.</block>
-  <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">Entdecken Sie das VMware Workloads-Planungscenter</block>
-  <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
-  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link-macro">Datenquellen zu einem Connector hinzufügen</block>
   <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">Neue Benachrichtigung für Speicher</block>
-  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">Der Benachrichtigungsdienst von NetApp Workload Factory umfasst die Benachrichtigung bei gut strukturierten Problemen für Storage.</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Benachrichtigungen für NetApp Workload Factory</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Ask Me-Integration mit MCP</block>
-  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Ask Me, der KI-Assistent von Workload Factory, ist in das Model Context Protocol (MCP) integriert. Mithilfe von MCP stellt Ask Me eine sichere Schnittstelle zu externen Umgebungen und Abfrage-API-Tools her, um Antworten zu liefern, die auf Ihre spezifische Speicherumgebung zugeschnitten sind.</block>
-  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06. Oktober 2025</block>
-  <block id="945d9800b1b25a8b224232b57dabb8a6" category="doc">Optimieren Sie Ihre Einsparungen im Speicherrechner für Amazon Elastic Block Store (EBS)</block>
-  <block id="b051b129322b1fa228bb46d5704f8ad2" category="paragraph">Workload Factory kann Ihre EBS-Leistungsnutzung analysieren und dann die beste und kosteneffizienteste FSx für ONTAP Konfiguration vorschlagen, sodass Sie durch die Umstellung auf FSx für ONTAP mehr sparen können.</block>
-  <block id="75851f48043c7a3877391f5330fb19c1" category="inline-link-macro">Erkunden Sie Einsparungen für erkannte Speicherumgebungen in der Workload Factory-Konsole</block>
-  <block id="4f3edd63a55b4b51bcfc2a68ac50724c" category="paragraph"><block ref="4f3edd63a55b4b51bcfc2a68ac50724c" category="inline-link-macro-rx"></block></block>
-  <block id="524dbd97409f5770f9a380227ba4daea" category="section-title">Schneller Zugriff auf den Ressourcenbildschirm vom Dateisysteminventar</block>
-  <block id="be962e12d3d4430561fa9a1d6c25c200" category="paragraph">Sie können schnell zu einem FSx for ONTAP -Dateisystemressourcenbildschirm navigieren, indem Sie den Dateisystemnamen (jetzt ein Hyperlink) aus dem FSx for ONTAP -Inventar auswählen.</block>
-  <block id="5c731a647da91c3579ce81b8d9274fca" category="section-title">Ermitteln von Cache-Beziehungen in der Workload Factory-Konsole</block>
-  <block id="7736e3de8e44f415eeeee23744591c40" category="paragraph">Wenn Sie _Cache_-Beziehungen zwischen dem FSx for ONTAP -Dateisystem und einem anderen ONTAP Speichertyp (lokales System, Cloud Volumes ONTAP und FSx for ONTAP) haben, können Sie diese über die Workload Factory-Konsole ermitteln und anzeigen. Dadurch können Sie Datenflüsse besser verstehen, die Cache-Auslastung optimieren und die Effizienz in verteilten Umgebungen verbessern.</block>
-  <block id="a9ace78aa94256517b0d3b32c8e62e7e" category="inline-link-macro">Ermitteln und Anzeigen von Cache-Beziehungen in der Workload Factory-Konsole</block>
-  <block id="0d0589415fc04e290e6c826d0b2f4d56" category="paragraph"><block ref="0d0589415fc04e290e6c826d0b2f4d56" category="inline-link-macro-rx"></block></block>
-  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">Gut strukturiertes Analyse-Update</block>
-  <block id="c9e2abe4bb9341b4452bdb977083efb6" category="paragraph">Workload Factory analysiert jetzt Ihre FSx for ONTAP Dateisysteme für die folgende Konfiguration:</block>
-  <block id="0d646d7995307f809d73f1d2f653df3d" category="paragraph">Schwellenwert für die Dateikapazitätsauslastung des Volumes: Überprüft, ob die Schwellenwerte für die Dateikapazität auf 80 % oder weniger eingestellt sind. Auf diese Weise vermeiden Sie, dass der Speicherplatz auf Ihren Dateisystemen knapp wird.</block>
-  <block id="99caf3ded950ba093933b266e2734b14" category="section-title">Verbesserungen bei Aktionen für Konfigurationsprobleme</block>
-  <block id="8c66f900656d8687c4beaead10bd47de" category="paragraph">Auf der Registerkarte *Well-architected analysis* im Dashboard für ein FSx for ONTAP -Dateisystem können Sie, anstatt eine gesamte Konfiguration für ein Dateisystem zu verwerfen, auch ein oder mehrere Volumes innerhalb eines Dateisystems auswählen, um sie zu reparieren, zu verwerfen oder zu reaktivieren.</block>
-  <block id="3b6856525ae98f397c04f2dd7b07deae" category="section-title">Zusätzliche Benachrichtigung für Lagerung</block>
-  <block id="b62e88c90eef0f29a13cbdcb4e304ae2" category="paragraph">Der Benachrichtigungsdienst von NetApp Workload Factory umfasst die wöchentliche Benachrichtigung bei Problemen mit der Well-Architected-Konfiguration.</block>
-  <block id="06ccf3bb3519e2c352207978ae4f36eb" category="inline-link-macro">Benachrichtigungstypen und Nachrichten in der Einrichtungs- und Verwaltungsdokumentation von Workload Factory</block>
-  <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
-  <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">Unveränderliche Dateien unterstützen privilegiertes Löschen</block>
-  <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">Mit dieser Funktion können Sie privilegierten Löschzugriff für unveränderliche Dateien in Ihren FSx for ONTAP -Dateisystemen konfigurieren. Auf diese Weise können Sie kritische Daten vor versehentlichem oder böswilligem Löschen schützen und gleichzeitig autorisierten Benutzern die Möglichkeit geben, die Sperre aufzuheben und diese Dateien nach Bedarf zu löschen. Das Aktivieren des privilegierten Löschens ist während der Volume-Erstellung oder für vorhandene Volumes möglich.</block>
-  <block id="74f9db7fefcf8c24332761c003d46a02" category="section-title">Einführung des VMware Workloads Planning Center</block>
-  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="section-title">Einführung der Migrationsberater-Unterstützung für Amazon Elastic VMWare Service</block>
-  <block id="c1ed477ef5d58aa5d9931821badda717" category="paragraph">Mit BlueXP Workload Factory für VMware können Sie jetzt den Migrationsberater des Amazon Elastic VMware Service verwenden, um Ihre lokalen VMware-Workloads schnell zum Amazon Elastic VMware Service zu migrieren. Nachdem Sie mit dem Migrationsberater einen Migrationsplan erstellt haben, wird dieser automatisch in der Liste der Migrationspläne im Planungscenter gespeichert.</block>
-  <block id="c2ec0e17d82dd73344c2ef80a6de22f1" category="paragraph"><block ref="c2ec0e17d82dd73344c2ef80a6de22f1" category="inline-link-rx"></block></block>
-  <block id="fe1ae90129b3fc6c05d6d55d62ca79b2" category="section-title">Verbesserungen für Oracle in der Workload Factory-Konsole</block>
-  <block id="bde440a6f221f754dda1ba04c79f7982" category="section-title">Bildschirm „Oracle-Datenbankressourcen“</block>
-  <block id="b9e6ca1860385235df9a27b8a183c14b" category="paragraph">Jede Oracle-Datenbank verfügt über einen eigenen dedizierten Ressourcenbildschirm, der im Datenbankinventar verfügbar ist. Der Ressourcenbildschirm bietet eine Übersicht mit Datenbankname, Status (online oder offline), Mandantenstatus und Bereitstellungstyp. Ebenfalls enthalten sind Diagramme mit den folgenden Daten über einen Zeitraum von drei Monaten: CPU-Auslastung, Latenz, IOPS und Durchsatz. Die Kapazitätsauslastung liefert die Gesamtgröße der Datenbank, die Größe der geschriebenen Daten, die genutzte Solid-State-Laufwerkskapazität und den genutzten Kapazitätspoolspeicher.</block>
-  <block id="61e62ed73221a8d36e3b5ccff5df1c34" category="paragraph">Auf dem Ressourcenbildschirm können Sie Informationen zum Oracle-Server (Bereitstellungsmodell, Betriebssystem, Edition, Version usw.), Standort (AWS-Konto, Region, Availability Zone und Subnetz), Speicher und Computing (FSx für ONTAP Dateisystemdetails, Datenbankinstanztyp und zugehörige LUNs und Volumes) sowie Konnektivität (VPC und Zugriffsprotokoll) anzeigen. Sie können auch den ordnungsgemäßen Architekturstatus der Datenbankkonfigurationen überprüfen und mit der Datenbank verknüpfte Pluggable Databases (PDBs) anzeigen.</block>
-  <block id="2a862d414b58bb1053d6a8628126f4e0" category="section-title">Unterstützung für steckbare Oracle-Datenbanken</block>
-  <block id="345333792e16177a530fc4095c146b12" category="paragraph">Pluggable-Datenbanken von Oracle können im Datenbankinventar und auf dem Ressourcenbildschirm ihrer übergeordneten Containerdatenbank angezeigt werden. Die folgenden Informationen zu Ihren PDBs sind verfügbar: CDB-Name, Hostname, Schutzstatus, Datenbankgröße, FSx für ONTAP Dateisystem, AWS-Anmeldeinformationen, AWS-Konto und Region.</block>
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">Gut konzipierte Analyse für Oracle</block>
-  <block id="87e54cc3f4d743196aa5ce47b68e9f65" category="paragraph">Die gut strukturierte Analyse umfasst Bewertungen von Konfigurationsproblemen mit dem Speicherlayout für Oracle-Datenbanken über NFS oder über iSCSI mit oder ohne Automatic Storage Management (ASM) sowie Speicherkonfigurationsprobleme auf dem Betriebssystem für Oracle über iSCSI-LUNs. Mithilfe dieser Informationen können Sie fundierte Entscheidungen zu Ihren Datenbankbereitstellungen treffen und sicherstellen, dass diese effizient ausgeführt werden.</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="d90600b832876e9302411cfab905b9bc" category="section-title">Verbesserungen der Datenbankinventur</block>
-  <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">Auf dem Instanzbildschirm im Datenbankinventar stehen die Optionen zum Beheben, Verschieben und Verwerfen eines Konfigurationsproblems für einzelne oder mehrere Instanzen für Microsoft SQL Server oder für einzelne oder mehrere Datenbanken für Oracle zur Verfügung.</block>
-  <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
   <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">Cache-Volume-Verwaltung</block>
   <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">Die folgenden Vorgänge zur Verwaltung des Cache-Volumes können Sie in der Workload Factory-Konsole durchführen:</block>
   <block id="705987d425caa32725844671dba5db96" category="list-text">Cache-Namen bearbeiten</block>
@@ -135,7 +77,6 @@
   <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">Sie können einen Cyber-Tresor erstellen, indem Sie FSx für ONTAP als Quelle oder Ziel in der Cyber-Tresor-Architektur verwenden. Cyber-Tresore bieten eine sichere und isolierte Umgebung zur Speicherung kritischer Daten und schützen diese vor Ransomware und anderen Cyberbedrohungen.</block>
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">Richten Sie einen Cyber-Tresor mit FSx für ONTAP ein.</block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">02. November 2025</block>
-  <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">Optimierung der Einsparungen basierend auf der Nutzung für Amazon Elastic Block Store (EBS)</block>
   <block id="3cab156afe8725e62725f4973a3c9949" category="doc">Verbesserungen am Dashboard</block>
   <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">Das neue Dashboard ist übersichtlicher und besser organisiert, um einen klareren Überblick über Ihre Datenbankressourcen und die wichtigsten Funktionen von Workload Factory auf einem Bildschirm zu bieten; eine Karte hebt die Datenbankressourcen hervor, eine Karte liefert Informationen über den Well-Architected Score und die Analyse, eine Karte zeigt die Fehleranalyse an, zwei Karten zeigen die monatlichen Kosten und die potenziellen Einsparungen an und eine Karte zeigt Informationen zu Sandboxes an.</block>
   <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">Die gut durchdachte Analyse umfasst die folgenden Bewertungen und Korrekturen für Oracle-Konfigurationen:</block>
@@ -249,4 +190,7 @@
   <block id="f43a09fcb5f30e27a88e58e1804f13d0" category="inline-link-macro">Microsoft SQL Server bereitstellen</block>
   <block id="8139c8013582edc0d0eba7cc713f8ffd" category="paragraph"><block ref="8139c8013582edc0d0eba7cc713f8ffd" category="inline-link-macro-rx"></block></block>
   <block id="bfcc9fa5a3178fd803540af87a6b6ab7" category="section-title">18. Dezember 2025</block>
+  <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">Integration des KI-Assistenten auf der Startseite</block>
+  <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">Auf der Startseite der Workload Factory-Konsole ist der KI-Assistent „Ask me“ integriert, mit dem Sie Fragen zu Ihrer eigenen Speicherlandschaft stellen, personalisierte Einblicke direkt aus Ihrer Umgebung erhalten und auf frühere Konversationen zurückgreifen können. Sie können mit „Fragen Sie mich“ interagieren, um Ihre Workloads zu verstehen, Probleme zu beheben und mehr über Workload Factory zu erfahren – alles, ohne die Konsole zu verlassen.</block>
+  <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">04. Januar 2026</block>
 </blocks>

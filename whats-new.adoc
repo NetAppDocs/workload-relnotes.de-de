@@ -15,6 +15,20 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 04. Januar 2026
+
+
+
+=== VMware-Workloads
+
+
+
+==== Integration des KI-Assistenten auf der Startseite
+
+Auf der Startseite der Workload Factory-Konsole ist der KI-Assistent „Ask me“ integriert, mit dem Sie Fragen zu Ihrer eigenen Speicherlandschaft stellen, personalisierte Einblicke direkt aus Ihrer Umgebung erhalten und auf frühere Konversationen zurückgreifen können. Sie können mit „Fragen Sie mich“ interagieren, um Ihre Workloads zu verstehen, Probleme zu beheben und mehr über Workload Factory zu erfahren – alles, ohne die Konsole zu verlassen.
+
+
+
 == 18. Dezember 2025
 
 
@@ -391,227 +405,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 Die automatische Kapazitäts- und Inode-Verwaltung für den Speicher kann mit einem Warnschwellenwert eingerichtet werden, der eine Benachrichtigung vom Workload Factory-Benachrichtigungsdienst auslöst. Um diese Funktion nutzen zu können, müssen Sie zuerst den Workload Factory-Benachrichtigungsdienst aktivieren.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Konfigurieren Sie Benachrichtigungen für NetApp Workload Factory"]
-
-
-
-== 06. Oktober 2025
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== BlueXP workload factory jetzt NetApp Workload Factory
-
-BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
-
-
-
-=== Datenbank-Workloads
-
-
-
-==== BlueXP workload factory jetzt NetApp Workload Factory
-
-BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
-
-
-
-==== Verbesserungen für Oracle in der Workload Factory-Konsole
-
-
-
-===== Bildschirm „Oracle-Datenbankressourcen“
-
-Jede Oracle-Datenbank verfügt über einen eigenen dedizierten Ressourcenbildschirm, der im Datenbankinventar verfügbar ist. Der Ressourcenbildschirm bietet eine Übersicht mit Datenbankname, Status (online oder offline), Mandantenstatus und Bereitstellungstyp. Ebenfalls enthalten sind Diagramme mit den folgenden Daten über einen Zeitraum von drei Monaten: CPU-Auslastung, Latenz, IOPS und Durchsatz. Die Kapazitätsauslastung liefert die Gesamtgröße der Datenbank, die Größe der geschriebenen Daten, die genutzte Solid-State-Laufwerkskapazität und den genutzten Kapazitätspoolspeicher.
-
-Auf dem Ressourcenbildschirm können Sie Informationen zum Oracle-Server (Bereitstellungsmodell, Betriebssystem, Edition, Version usw.), Standort (AWS-Konto, Region, Availability Zone und Subnetz), Speicher und Computing (FSx für ONTAP Dateisystemdetails, Datenbankinstanztyp und zugehörige LUNs und Volumes) sowie Konnektivität (VPC und Zugriffsprotokoll) anzeigen. Sie können auch den ordnungsgemäßen Architekturstatus der Datenbankkonfigurationen überprüfen und mit der Datenbank verknüpfte Pluggable Databases (PDBs) anzeigen.
-
-
-
-===== Unterstützung für steckbare Oracle-Datenbanken
-
-Pluggable-Datenbanken von Oracle können im Datenbankinventar und auf dem Ressourcenbildschirm ihrer übergeordneten Containerdatenbank angezeigt werden. Die folgenden Informationen zu Ihren PDBs sind verfügbar: CDB-Name, Hostname, Schutzstatus, Datenbankgröße, FSx für ONTAP Dateisystem, AWS-Anmeldeinformationen, AWS-Konto und Region.
-
-
-
-===== Gut konzipierte Analyse für Oracle
-
-Die gut strukturierte Analyse umfasst Bewertungen von Konfigurationsproblemen mit dem Speicherlayout für Oracle-Datenbanken über NFS oder über iSCSI mit oder ohne Automatic Storage Management (ASM) sowie Speicherkonfigurationsprobleme auf dem Betriebssystem für Oracle über iSCSI-LUNs. Mithilfe dieser Informationen können Sie fundierte Entscheidungen zu Ihren Datenbankbereitstellungen treffen und sicherstellen, dass diese effizient ausgeführt werden.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory"]
-
-
-
-==== Verbesserungen der Datenbankinventur
-
-Auf dem Instanzbildschirm im Datenbankinventar stehen die Optionen zum Beheben, Verschieben und Verwerfen eines Konfigurationsproblems für einzelne oder mehrere Instanzen für Microsoft SQL Server oder für einzelne oder mehrere Datenbanken für Oracle zur Verfügung.
-
-
-
-==== Optimierung der Einsparungen basierend auf der Nutzung für Amazon Elastic Block Store (EBS)
-
-Workload Factory kann Ihre EBS-Leistungsnutzung analysieren und dann die beste und kosteneffizienteste FSx für ONTAP Konfiguration vorschlagen, sodass Sie durch die Umstellung auf FSx für ONTAP mehr sparen können.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Erkunden Sie Einsparungen für erkannte Speicherumgebungen in der Workload Factory-Konsole"]
-
-
-
-=== Einrichtung und Administration
-
-
-
-==== BlueXP workload factory jetzt NetApp Workload Factory
-
-BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
-
-
-
-==== Ask Me-Integration mit MCP
-
-Ask Me, der KI-Assistent von Workload Factory, ist in das Model Context Protocol (MCP) integriert. Mithilfe von MCP stellt Ask Me eine sichere Schnittstelle zu externen Umgebungen und Abfrage-API-Tools her, um Antworten zu liefern, die auf Ihre spezifische Speicherumgebung zugeschnitten sind.
-
-
-
-== 05. Oktober 2025
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Optimieren Sie Ihre Einsparungen im Speicherrechner für Amazon Elastic Block Store (EBS)
-
-Workload Factory kann Ihre EBS-Leistungsnutzung analysieren und dann die beste und kosteneffizienteste FSx für ONTAP Konfiguration vorschlagen, sodass Sie durch die Umstellung auf FSx für ONTAP mehr sparen können.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["Erkunden Sie Einsparungen für erkannte Speicherumgebungen in der Workload Factory-Konsole"]
-
-
-
-==== Schneller Zugriff auf den Ressourcenbildschirm vom Dateisysteminventar
-
-Sie können schnell zu einem FSx for ONTAP -Dateisystemressourcenbildschirm navigieren, indem Sie den Dateisystemnamen (jetzt ein Hyperlink) aus dem FSx for ONTAP -Inventar auswählen.
-
-
-
-==== Ermitteln von Cache-Beziehungen in der Workload Factory-Konsole
-
-Wenn Sie _Cache_-Beziehungen zwischen dem FSx for ONTAP -Dateisystem und einem anderen ONTAP Speichertyp (lokales System, Cloud Volumes ONTAP und FSx for ONTAP) haben, können Sie diese über die Workload Factory-Konsole ermitteln und anzeigen. Dadurch können Sie Datenflüsse besser verstehen, die Cache-Auslastung optimieren und die Effizienz in verteilten Umgebungen verbessern.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["Ermitteln und Anzeigen von Cache-Beziehungen in der Workload Factory-Konsole"]
-
-
-
-==== Gut strukturiertes Analyse-Update
-
-Workload Factory analysiert jetzt Ihre FSx for ONTAP Dateisysteme für die folgende Konfiguration:
-
-Schwellenwert für die Dateikapazitätsauslastung des Volumes: Überprüft, ob die Schwellenwerte für die Dateikapazität auf 80 % oder weniger eingestellt sind. Auf diese Weise vermeiden Sie, dass der Speicherplatz auf Ihren Dateisystemen knapp wird.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Sehen Sie sich den Status Ihrer FSx for ONTAP -Dateisysteme an"]
-
-
-
-===== Verbesserungen bei Aktionen für Konfigurationsprobleme
-
-Auf der Registerkarte *Well-architected analysis* im Dashboard für ein FSx for ONTAP -Dateisystem können Sie, anstatt eine gesamte Konfiguration für ein Dateisystem zu verwerfen, auch ein oder mehrere Volumes innerhalb eines Dateisystems auswählen, um sie zu reparieren, zu verwerfen oder zu reaktivieren.
-
-
-
-==== Zusätzliche Benachrichtigung für Lagerung
-
-Der Benachrichtigungsdienst von NetApp Workload Factory umfasst die wöchentliche Benachrichtigung bei Problemen mit der Well-Architected-Konfiguration.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Benachrichtigungstypen und Nachrichten in der Einrichtungs- und Verwaltungsdokumentation von Workload Factory"]
-
-
-
-==== Unveränderliche Dateien unterstützen privilegiertes Löschen
-
-Mit dieser Funktion können Sie privilegierten Löschzugriff für unveränderliche Dateien in Ihren FSx for ONTAP -Dateisystemen konfigurieren. Auf diese Weise können Sie kritische Daten vor versehentlichem oder böswilligem Löschen schützen und gleichzeitig autorisierten Benutzern die Möglichkeit geben, die Sperre aufzuheben und diese Dateien nach Bedarf zu löschen. Das Aktivieren des privilegierten Löschens ist während der Volume-Erstellung oder für vorhandene Volumes möglich.
-
-
-
-=== VMware-Workloads
-
-
-
-==== BlueXP workload factory jetzt NetApp Workload Factory
-
-BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
-
-
-
-==== Einführung des VMware Workloads Planning Center
-
-Mit dem VMware Workloads-Planungscenter können Sie Ihr VM-Inventar und Ihre Migrationspläne von einem Ort aus anzeigen und verwalten. Sie können mehrere VM-Inventare aus unterschiedlichen Umgebungen hochladen und speichern und für jedes davon mit der Planung einer Migration zu AWS EC2 oder dem Amazon Elastic VMware-Dienst beginnen. Sie können auch AWS EC2- oder EVS-Migrationspläne erstellen und speichern.
-
-https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["Entdecken Sie das VMware Workloads-Planungscenter"]
-
-
-
-==== Einführung der Migrationsberater-Unterstützung für Amazon Elastic VMWare Service
-
-Mit BlueXP Workload Factory für VMware können Sie jetzt den Migrationsberater des Amazon Elastic VMware Service verwenden, um Ihre lokalen VMware-Workloads schnell zum Amazon Elastic VMware Service zu migrieren. Nachdem Sie mit dem Migrationsberater einen Migrationsplan erstellt haben, wird dieser automatisch in der Liste der Migrationspläne im Planungscenter gespeichert.
-
-https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs.html["Erstellen Sie einen Bereitstellungsplan für Amazon EVS mit dem Migrationsberater"]
-
-
-
-=== GenAI-Workloads
-
-
-
-==== BlueXP workload factory jetzt NetApp Workload Factory
-
-BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
-
-
-
-==== Unterstützung für das Hinzufügen generischer NFS/SMB-Datenquellen in NetApp -Konnektoren für Amazon Q Business
-
-Mithilfe der Workload Factory API können Sie jetzt eine Datenquelle aus einer generischen NFSv3-, NFSv4- oder SMB-Freigabe zu einem NetApp Connector für Amazon Q Business hinzufügen. Dadurch können Sie Dateien einschließen, die auf Volumes gespeichert sind, die von anderen Dateisystemen als Amazon FSx for NetApp ONTAP gehostet werden.
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Erstellen Sie einen NetApp Connector für Amazon Q Business"]
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Datenquellen zu einem Connector hinzufügen"]
-
-
-
-==== Erweiterte Chat-Konfiguration für Wissensdatenbanken
-
-Sie können jetzt erweiterte Chat-Einstellungen konfigurieren, die auf das Chat-Modell für die Wissensdatenbank anwendbar sind, wie z. B. Antwortlänge, Temperatur, Argumentationseinstellungen und mehr. Einige dieser Einstellungen, wie etwa Einstellungen für Aktualität und Änderungszeit, erweiterte Abrufeinstellungen und Systemaufforderungen, sind nur über die Workload Factory-API verfügbar.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
-
-
-
-==== Die Auswahl des Inferenztyps wird jetzt für Einbettungs-, Chat- und Neurangmodelle unterstützt.
-
-Wenn Ihr ausgewähltes Einbettungs-, Chat- oder Neurankingmodell über Inferenzeinstellungen verfügt, können Sie jetzt einen Inferenztyp auswählen. Dadurch können Sie die Leistung und den Ressourcenbedarf des Chatbots besser auf Ihre Bedürfnisse abstimmen.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Einrichtung einer GenAI Knowledge Base"]
-
-
-
-=== Einrichtung und Administration
-
-
-
-==== Neue Benachrichtigung für Speicher
-
-Der Benachrichtigungsdienst von NetApp Workload Factory umfasst die Benachrichtigung bei gut strukturierten Problemen für Storage.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Benachrichtigungen für NetApp Workload Factory"]
-
-
-
-=== Arbeitslasten der Bauarbeiter
-
-
-
-==== BlueXP workload factory jetzt NetApp Workload Factory
-
-BlueXP wurde umbenannt und neu gestaltet, um seine Rolle bei der Verwaltung Ihrer Dateninfrastruktur besser widerzuspiegeln. Aus diesem Grund wurde die BlueXP workload factory in NetApp Workload Factory umbenannt.
