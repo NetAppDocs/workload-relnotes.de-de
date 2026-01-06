@@ -113,6 +113,24 @@ Auf der Startseite der Workload Factory-Konsole ist der KI-Assistent „Ask me�
 
 
 
+=== Arbeitslasten der Bauarbeiter
+
+
+
+==== NetApp Workload Factory for Builders heißt jetzt NetApp Workload Factory for EDA
+
+Workload Factory for Builders heißt jetzt Workload Factory for EDA. Die Namensänderung spiegelt den Fokus auf EDA-Workloads (Electronic Design Automation) wider.
+
+Workload Factory für EDA hilft Ihnen, FSx für ONTAP über mehrere Dateisysteme hinweg zu optimieren. Sie können die Leistung optimieren und die Betriebskosten senken, indem Sie Speicherparameter automatisieren, Leistungsbeschränkungen analysieren und Einblicke in EDA-Projekte gewinnen. Workload Factory für EDA ist so konzipiert, dass es sich in Ihre Infrastructure as Code (IaC)-Frameworks integrieren lässt.
+
+
+
+==== Integration des KI-Assistenten auf der Startseite
+
+Auf der Startseite der Workload Factory-Konsole ist der KI-Assistent „Ask me“ integriert, mit dem Sie Fragen zu Ihrer eigenen Speicherlandschaft stellen, personalisierte Einblicke direkt aus Ihrer Umgebung erhalten und auf frühere Konversationen zurückgreifen können. Sie können mit „Fragen Sie mich“ interagieren, um Ihre Workloads zu verstehen, Probleme zu beheben und mehr über Workload Factory zu erfahren – alles, ohne die Konsole zu verlassen.
+
+
+
 == 18. Dezember 2025
 
 
