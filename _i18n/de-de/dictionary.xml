@@ -158,4 +158,24 @@
   <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">Diese Funktion erfordert AWS-Zugangsdaten und ist über das Menü Latenz im EDA-Dashboard zugänglich.</block>
   <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">Erfahren Sie mehr über Latenzanalyse</block>
   <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
+  <block id="61e49369a35b0f8a0d95ef11e249239f" category="doc">Gut konzipierte Updates</block>
+  <block id="2c8617d4094e3a2f6f2b8588039ad2ed" category="paragraph">NetApp Workload Factory umfasst die well-architected assessment für Elastic VMware Service (EVS) Workloads und fügt neue Konfigurationen für Storage- und Datenbank-Workloads hinzu.</block>
+  <block id="af89cdfb55120aeef29143bab52cb6de" category="list-text">*VMware workloads* NetApp Workload Factory bietet Best Practices und Empfehlungen für den Betrieb gut strukturierter Amazon Elastic VMware Service (EVS) Workloads.</block>
+  <block id="74163cd660daafe169a986c2d540a418" category="inline-link-macro">Implementieren Sie gut strukturierte EVS-Konfigurationen</block>
+  <block id="5d6110d1881f093c497cdaeeb5611ea0" category="paragraph"><block ref="5d6110d1881f093c497cdaeeb5611ea0" category="inline-link-macro-rx"></block></block>
+  <block id="764d59d30018a72d1f4f007b467fe5ea" category="list-text">*Speicher-Workloads* Mehrere neue Konfigurationen wurden der Funktion „Gut strukturiert“ im Bereich „Speicher-Workloads“ hinzugefügt, damit Sie mehr Einblick in Speicherleistung und -kosten erhalten.</block>
+  <block id="20c3b23e12b3cf115bfb4bd82bd3368f" category="list-text">Logische Berichterstellung für Storage-VMs</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="list-text">Cache-Volume-Größe optimieren</block>
+  <block id="2dac5abecf96a197d16faee0444100fe" category="list-text">Verwaiste Blockgeräte</block>
+  <block id="a9866f264fab2ea83525e7cc57292cbe" category="inline-link-macro">Implementieren Sie gut strukturierte Dateisystemkonfigurationen für Storage-Workloads</block>
+  <block id="99187ba72b66267d55626eb367382424" category="paragraph"><block ref="99187ba72b66267d55626eb367382424" category="inline-link-macro-rx"></block></block>
+  <block id="622975b7c88c6bc06b872c6006068776" category="list-text">*Datenbank-Workloads* Workload Factory für Datenbanken beinhaltet neue Speicherkonfiguration für Oracle zur Aktivierung und Einrichtung von Direct NFS (dNFS), um die I/O-Leistung zu verbessern und die Last auf dem Host und dem Speichersystem zu verringern.</block>
+  <block id="5017259dadba571295ba93287ef883f9" category="list-text">dNFS-Aktivierung</block>
+  <block id="3968d7d3f8cb0f09289a934bc1584128" category="list-text">dNFS konsistente IP-Auflösung</block>
+  <block id="a727ea61b65e8aff8729b4fc3c629094" category="list-text">dNFS Konfigurationsdatei</block>
+  <block id="3e4e5c9aa6d22a70ee2aadf98db8552a" category="list-text">dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block></block>
+  <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">Implementieren Sie gut strukturierte Datenbank-Workloads</block>
+  <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
+  <block id="ae1c2cb14154da0c884354777730e920" category="section-title">Neue Berechtigungen für Storage</block>
+  <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">Neue Berechtigungen wurden zur Storage-Workload hinzugefügt, um Verbesserungen bei der Verwaltung von S3-Zugriffspunkten zu ermöglichen.</block>
 </blocks>
