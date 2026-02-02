@@ -39,6 +39,44 @@ link:view-evs-well-architected.html["Implementieren Sie gut strukturierte Konfig
 
 
 
+=== Arbeitslasten der Bauarbeiter
+
+
+
+==== Erweiterte Dashboard-Filterung mit anpassbaren Tags
+
+Sie können nun bis zu fünf benutzerdefinierte Filter im EDA-Dashboard basierend auf Ihren AWS-Tags konfigurieren. Jeder benutzerdefinierte Filter enthält einen Labelnamen, einen AWS-Tag-Schlüssel und einen Auswahltyp (Einzel- oder Mehrfachauswahl).
+
+Die Mehrfachauswahl ermöglicht es Ihnen, mehrere Werte gleichzeitig auszuwählen, während die Einzelauswahl Sie auf einen Wert zur gleichen Zeit beschränkt. Benutzerdefinierte Filter erscheinen in der Reihenfolge, in der Sie sie konfigurieren, was es einfach macht, Ihre am häufigsten verwendeten Filter zu organisieren.
+
+Wenn Sie keine benutzerdefinierten Filter konfigurieren, bleiben die Standardfilter (Dateisystem, Volume-Typ und Zeitbereich) verfügbar, sodass Sie Ihre Dashboards weiterhin anzeigen und interaktiv nutzen können.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html["Erfahren Sie mehr über die Konfiguration benutzerdefinierter Filter"^].
+
+
+
+==== Volumendetailansicht für granulare Leistungsanalyse
+
+Das Dashboard bietet nun zwei Ansichtsmodi: Gesamtansicht und Volumenansicht. Die Gesamtansicht zeigt aggregierte Kennzahlen über alle Volumina hinweg, während die Volumenansicht die individuelle Performance der Top 10 Volumina im Zeitverlauf anzeigt.
+
+In der Volumenansicht bieten interaktive Tooltips beim Überfahren mit der Maus detaillierte Informationen zu jedem Volumen, einschließlich Volumenname, Metriken und zeitbezogener Werte. Wenn dieselben Volumen in mehreren Komponenten erscheinen, erleichtert eine konsistente Farbcodierung das Nachverfolgen bestimmter Volumen über verschiedene Metriken hinweg.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html#view-volume-details["Erfahren Sie mehr über die Anzeige von Volume-Details"^].
+
+
+
+==== Latenzanalyse für proaktive Leistungsüberwachung
+
+Die Latenzanalyse ermöglicht es Ihnen, die Lese- und Schreiblatenz Ihrer FSx for ONTAP-Dateisysteme zu überwachen. Sie können anpassbare Warn- und kritische Ereignisschwellenwerte konfigurieren, um Leistungsengpässe proaktiv zu identifizieren, bevor sie Ihre EDA-Workloads beeinträchtigen.
+
+Die Tabelle der Latenzereignisse zeigt alle Warn- und kritischen Ereignisse an, sodass Sie die Volume-Leistung überwachen und Volumes identifizieren können, die eine Optimierung erfordern.
+
+Diese Funktion erfordert AWS-Zugangsdaten und ist über das Menü Latenz im EDA-Dashboard zugänglich.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html["Erfahren Sie mehr über Latenzanalyse"^].
+
+
+
 == 04. Januar 2026
 
 
