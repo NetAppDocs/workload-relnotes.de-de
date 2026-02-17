@@ -1,7 +1,0 @@
-= Arbeitslasten der Bauarbeiter
-:allow-uri-read: 
-
-
-
-
-=== Arbeitslasten der Bauarbeiter

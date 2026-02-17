@@ -28,7 +28,7 @@ Mehrere Verbesserungen wurden an den Funktionen zur Verwaltung von S3-Zugriffspu
 
 Mit aktivierten Metadaten für S3-Zugriffspunkte scannt NetApp Workload Factory automatisch Ihre AWS S3-Buckets und füllt die S3-Tabellen, um Ihnen eine übersichtliche Momentaufnahme aller Objekte, ihrer Metadaten, Attribute und Tags zu liefern. Der Zugriff auf diese Details hilft Ihnen, die Kontrolle, Transparenz und das Vertrauen in die Daten, für die Sie verantwortlich sind, zu wahren, während der Betriebsaufwand reduziert wird.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Details zu S3-Zugriffspunkten in FSx for ONTAP-Dateisystemen anzeigen"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Details zu S3-Zugriffspunkten in FSx for ONTAP-Dateisystemen anzeigen"]
 
 
 
@@ -36,7 +36,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 
 NetApp Workload Factory bietet zusätzliche Verwaltungsoperationen für S3-Zugriffspunkte. Sie können Zugriffspunktdetails anzeigen, bestehende S3-Zugriffspunkte bearbeiten sowie S3-Zugriffspunkt-Tags über die NetApp Workload Factory-Oberfläche hinzufügen oder entfernen, wodurch Ihre Aufgaben im Bereich der Objektspeicherverwaltung optimiert werden.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Verwalten von S3-Zugriffspunkten in NetApp Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Verwalten von S3-Zugriffspunkten in NetApp Workload Factory"]
 
 
 
@@ -57,7 +57,7 @@ Drei neue Karten wurden auf der Registerkarte „Blockgeräte“ im Speicherwork
 
 * Speichereffizienzen: Zeigt die genutzte und verfügbare Speicherkapazität an; die genutzte Kapazität wird nach SSD- und Kapazitätspool-Speicherebenen aufgeschlüsselt.
 * Geschützte Geräte: Zeigt den Prozentsatz der Blockgeräte mit Snapshots, Remote-Replikation, NetApp Autonomous Ransomware Protection (ARP/AI) und Backups an.
-* Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#view-block-device-details["Speicherplatz für ungenutzte Blockgeräte freigeben"].
+* Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-orphaned-block-device["Speicherplatz für ungenutzte Blockgeräte freigeben"].
 
 
 
@@ -66,6 +66,6 @@ Drei neue Karten wurden auf der Registerkarte „Blockgeräte“ im Speicherwork
 
 NetApp Workload Factory unterstützt das Erstellen und Verwalten von Initiatorgruppen (igroups) für Blockspeicher in FSx for ONTAP Dateisystemen. Initiatorgruppen verbinden Blockgeräte (LUNs) mit den Rechenressourcen, die darauf zugreifen dürfen, und bieten eine Berechtigungsebene für Blockspeicher in SAN-Umgebungen.
 
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["Erstellen Sie eine Initiatorgruppe in NetApp Workload Factory"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["Bestehende Initiatorgruppen in NetApp Workload Factory verwalten"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["Erstellen Sie eine Initiatorgruppe in NetApp Workload Factory"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["Bestehende Initiatorgruppen in NetApp Workload Factory verwalten"]
 
