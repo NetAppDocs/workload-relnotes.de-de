@@ -192,7 +192,6 @@
   <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory bietet zusätzliche Verwaltungsoperationen für S3-Zugriffspunkte. Sie können Zugriffspunktdetails anzeigen, bestehende S3-Zugriffspunkte bearbeiten sowie S3-Zugriffspunkt-Tags über die NetApp Workload Factory-Oberfläche hinzufügen oder entfernen, wodurch Ihre Aufgaben im Bereich der Objektspeicherverwaltung optimiert werden.</block>
   <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">Verwalten von S3-Zugriffspunkten in NetApp Workload Factory</block>
   <block id="e593953aaf04eebecfe2e26326145784" category="list-text">Optimiert die Cache-Volume-Größe: Prüft, ob automatische Größenanpassung und Scrubbing für Cache-Volumes aktiviert sind, um eine optimale Größe zu gewährleisten und den Cache auf häufig genutzte Daten zu konzentrieren, um maximale Effizienz zu erzielen.</block>
-  <block id="00e21b809963a2e31abfc13c3aea34b6" category="list-text">Verwaiste Blockgeräte: Es wird empfohlen, Blockgerätedaten zu archivieren oder ein Blockgerät zu löschen, wenn es sieben aufeinanderfolgende Tage lang nicht verwendet wurde.</block>
   <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Logische Berichterstattung für Storage-VMs: Prüft, ob die Standardeinstellung für die Berichterstattung einer Storage-VM auf „logisch“ gesetzt ist, was eine bessere Transparenz der Speichernutzung auf Volume-Ebene ermöglicht.</block>
   <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">Zusätzliche Karten für Blockgeräte</block>
   <block id="e1d58576240df6c3acc0d5f3067d6468" category="paragraph">Drei neue Karten wurden auf der Registerkarte „Blockgeräte“ im Speicherworkload hinzugefügt, um einen schnellen Überblick über die Nutzung und den Schutzstatus von Blockgeräten zu bieten:</block>
@@ -206,7 +205,6 @@
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA-Workloads</block>
   <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
   <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
-  <block id="b55768d72b4883d58308aa15e30fc7ab" category="list-text">Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie <block ref="88cbe2cfb6c92276ca9f0b27df016fa5" category="inline-link-macro-rx"></block>.</block>
   <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
   <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
   <block id="a7b7c2b9faa4f1ccdcf2564702c510b9" category="doc">Verbesserte Kosteneinsparungen für mehrere Datenbank-Hosts auf Microsoft SQL Server on-premises</block>
@@ -221,4 +219,6 @@
   <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">Um diese Funktion zu nutzen, <block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block> und wählen Sie *Migration* als Anwendungsfall aus. Um den Migrationsprozess abzuschließen, müssen Sie <block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block> sofort ausführen, um Daten und Konfigurationseinstellungen der Storage-VMs dauerhaft auf das Ziel-FSx for ONTAP-Dateisystem zu migrieren.</block>
   <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">16. Februar 2026</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">02. Februar 2026</block>
+  <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">Inaktive Blockgeräte: Es wird empfohlen, Blockgerätedaten zu archivieren oder ein Blockgerät zu löschen, wenn es sieben aufeinanderfolgende Tage lang nicht verwendet wurde.</block>
+  <block id="3310dcc189ef22670c22a32bdf58f0c9" category="list-text">Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie <block ref="5d1d66741e880017163f47d5a2557cb1" category="inline-link-macro-rx"></block>.</block>
 </blocks>

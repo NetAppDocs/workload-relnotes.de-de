@@ -45,7 +45,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 Workload Factory analysiert Ihre FSx for ONTAP -Dateisysteme für die folgenden Konfigurationen:
 
 * Optimiert die Cache-Volume-Größe: Prüft, ob automatische Größenanpassung und Scrubbing für Cache-Volumes aktiviert sind, um eine optimale Größe zu gewährleisten und den Cache auf häufig genutzte Daten zu konzentrieren, um maximale Effizienz zu erzielen.
-* Verwaiste Blockgeräte: Es wird empfohlen, Blockgerätedaten zu archivieren oder ein Blockgerät zu löschen, wenn es sieben aufeinanderfolgende Tage lang nicht verwendet wurde.
+* Inaktive Blockgeräte: Es wird empfohlen, Blockgerätedaten zu archivieren oder ein Blockgerät zu löschen, wenn es sieben aufeinanderfolgende Tage lang nicht verwendet wurde.
 * Logische Berichterstattung für Storage-VMs: Prüft, ob die Standardeinstellung für die Berichterstattung einer Storage-VM auf „logisch“ gesetzt ist, was eine bessere Transparenz der Speichernutzung auf Volume-Ebene ermöglicht.
 
 
@@ -57,7 +57,7 @@ Drei neue Karten wurden auf der Registerkarte „Blockgeräte“ im Speicherwork
 
 * Speichereffizienzen: Zeigt die genutzte und verfügbare Speicherkapazität an; die genutzte Kapazität wird nach SSD- und Kapazitätspool-Speicherebenen aufgeschlüsselt.
 * Geschützte Geräte: Zeigt den Prozentsatz der Blockgeräte mit Snapshots, Remote-Replikation, NetApp Autonomous Ransomware Protection (ARP/AI) und Backups an.
-* Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-orphaned-block-device["Speicherplatz für ungenutzte Blockgeräte freigeben"].
+* Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["Speicherplatz für ungenutzte Blockgeräte freigeben"].
 
 
 
