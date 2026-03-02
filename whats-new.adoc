@@ -75,6 +75,66 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 
 
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Gut strukturierte Analyse-Updates
+
+Workload Factory analysiert Ihre FSx for ONTAP -Dateisysteme für die folgenden Konfigurationen:
+
+* Unterausgelastete SSD-Kapazität: Prüft, ob die SSD-Kapazitätsebene unterausgelastet ist, und empfiehlt, die SSD-Kapazität zu verringern, um die Kosten zu optimieren.
+* Planen Sie Volume-Backups: Workload Factory verbessert die Konfigurationsempfehlung und bietet Optionen zum Aktivieren von FSx for ONTAP backup oder AWS Backup. FSx for ONTAP backup wendet eine Standardrichtlinie auf alle Volumes in einem Dateisystem an und erstellt tägliche Backups, die bis zu 90 Tage aufbewahrt werden. AWS Backup ermöglicht es Ihnen, für jedes Volume im Backup-Plan unterschiedliche Aufbewahrungsfristen auszuwählen.
+
+
+
+
+==== Workload Factory unterstützt KI- und ML-Anwendungsfälle für die Replikation
+
+Workload Factory unterstützt die Replikation von On-Premises ONTAP-Daten zu Amazon FSx for NetApp ONTAP und die Erstellung von S3-Zugriffspunkten für AWS Artificial Intelligence (AI) und Machine Learning (ML) Services, um AI/ML-Workflows zu beschleunigen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replizieren Sie On-Premises-Daten für KI- und ML-Anwendungsfälle"]
+
+
+
+==== Bearbeiten vorhandener S3-Zugangspunkte
+
+Sie können den Benutzer und den Benutzertyp für einen vorhandenen, mit einem Volume verbundenen S3-Zugriffspunkt ändern. Sie können außerdem Metadaten für den Zugriffspunkt aktivieren oder deaktivieren.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Bearbeiten Sie S3-Zugriffspunkte in NetApp Workload Factory"]
+
+
+
+==== Blockspeicherdiagramm hinzugefügt
+
+Wenn Sie Blockspeicher verwenden, können Sie das Blockspeicherdiagramm anzeigen, um zu visualisieren, wie Blockgeräte mit Knoten und Initiatorgruppen verbunden sind. Das Diagramm hilft Ihnen, Ihren Blockspeicher zu verstehen und zu verwalten.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Blockspeicher in NetApp Workload Factory verwalten"]
+
+
+
+==== Aktualisierung der automatischen Kapazitätsmanagement-Funktion
+
+Dieses Update teilt die Funktion in zwei separate Funktionen auf: automatisches Kapazitätsmanagement und Kapazitätsbenachrichtigungen.
+
+Das automatische Kapazitätsmanagement fügt automatisch Dateisystemkapazität hinzu oder entfernt sie, um eine optimale Leistung aufrechtzuerhalten. Neue Optionen umfassen inkrementelle und adaptive Modi. Im inkrementellen Modus erhöht das System die Kapazität an Schwellenwerten um einen festen Betrag; im adaptiven Modus verwendet es historische Daten, um die Kapazität vorherzusagen und anzupassen.
+
+Kapazitätsbenachrichtigungen informieren Sie, wann immer eine Kapazitätsanpassung erfolgt und wenn Dateisysteme festgelegte Grenzwerte erreichen, sodass Sie den Storage verwalten können, bevor Probleme auftreten.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Erfahren Sie mehr über automatisches Kapazitätsmanagement und Kapazitätsbenachrichtigungen in NetApp Workload Factory"]
+
+
+
+==== Neues „Ask Me“-Lesezeichen in Workload Factory verfügbar
+
+Wir haben auf jedem Bildschirm in der Workload Factory-Konsole ein neues Ask Me-Lesezeichen hinzugefügt. Diese Verbesserung macht es für Sie einfacher und schneller, auf Ask Me zuzugreifen, wann immer Sie Hilfe benötigen. Ask Me ist unser KI-Assistent. Sie können Fragen zu Ihren Workload-Umgebungen stellen, personalisierte Einblicke erhalten und frühere Konversationen überprüfen.
+
+Sie können Ask Me von jeder Seite aus öffnen, indem Sie auf das neue Lesezeichen klicken. Es startet Ask Me in einem Seitenbereich, ohne Ihre aktuelle Arbeit zu unterbrechen, und bietet schnelle Erklärungen und Empfehlungen zu dem, was Sie gerade tun.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Erfahren Sie mehr über Ask Me"^]
+
+
+
 === Einrichtung und Administration
 
 
@@ -230,7 +290,7 @@ Drei neue Karten wurden auf der Registerkarte „Blockgeräte“ im Speicherwork
 
 * Speichereffizienzen: Zeigt die genutzte und verfügbare Speicherkapazität an; die genutzte Kapazität wird nach SSD- und Kapazitätspool-Speicherebenen aufgeschlüsselt.
 * Geschützte Geräte: Zeigt den Prozentsatz der Blockgeräte mit Snapshots, Remote-Replikation, NetApp Autonomous Ransomware Protection (ARP/AI) und Backups an.
-* Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["Speicherplatz für ungenutzte Blockgeräte freigeben"].
+* Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["Speicherplatz für ungenutzte Blockgeräte freigeben"].
 
 
 
