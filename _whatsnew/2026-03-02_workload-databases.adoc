@@ -1,0 +1,51 @@
+= Einmalige Bewertung
+:allow-uri-read: 
+
+
+
+
+=== Einmalige Bewertung
+
+Workload Factory bietet jetzt eine einmalige Bewertung an, um die Konfigurationen Ihrer Datenbankbereitstellungen zu analysieren, wann immer Sie es benötigen – bei neuen Bereitstellungen, nach Migrationen, zur Fehlerbehebung und mehr. Sie erhalten Empfehlungen, die Ihnen helfen, Ihre Bereitstellungskonfigurationen zu optimieren und Best Practices einzuhalten. Dies ist Ihre Gelegenheit, die well-architected Funktion zu nutzen, ohne sich vollständig auf den Einrichtungsprozess festlegen zu müssen. Sie können Ihre Datenbanken bewerten, ohne Anmeldeinformationen in Workload Factory zu speichern, Datenbankressourcen zu registrieren oder externe Verbindungen einzurichten.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Führen Sie eine einmalige Bewertung Ihrer Datenbankbereitstellungen durch."]
+
+
+
+=== Registrierungsunterstützung für Always On-Verfügbarkeitsgruppen auf Microsoft SQL Server und Data Guard auf Oracle
+
+Sie können nun Microsoft SQL Server-Instanzen mit dem Always On-Verfügbarkeitsgruppenmodell (AOAG) und Oracle-Datenbanken mit dem Data Guard-Bereitstellungsmodell in der NetApp Workload Factory-Datenbank-Workload erkennen und registrieren. Diese Erweiterung ermöglicht eine optimierte Verwaltung von SQL Server- und Oracle-Ressourcen innerhalb der Workload Factory-Konsole.
+
+Nach der Registrierung Ihrer AOAG-Instanzen und Data Guard Datenbanken können Sie die verschiedenen Funktionen in Workload Factory for Databases nutzen, wie das Anzeigen von Ressourcendetails und das Analysieren von Fehlerprotokollen.
+
+Workload Factory for Databases unterstützt auch die Well-Architected-Analyse für Microsoft SQL Server-Instanzen mit dem AOAG-Bereitstellungsmodell. Sie können die Konfigurationen Ihrer SQL Server-Instanzen in einer Verfügbarkeitsgruppe analysieren und Empfehlungen zur Optimierung Ihrer Bereitstellungskonfigurationen und zur Einhaltung bewährter Verfahren erhalten. Registrieren Sie Ihre AOAG-Instanzen, um diese Funktion zu aktivieren.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["Ressourcen in Workload Factory for Databases registrieren"]
+
+
+
+=== Gut konzipierte Analyse für Oracle
+
+Die gut strukturierte Analyse umfasst *Betriebssystem-Patches* für Oracle, um zu überprüfen, ob Sie die neuesten Patches auf dem Betriebssystem haben, und Ihnen mitzuteilen, wie Sie diese installieren können.
+
+Darüber hinaus benachrichtigt Sie die Well-Architected-Analyse für Oracle, wenn eine Konfiguration wie Storage-Layout Abhängigkeiten von anderen Konfigurationen hat. Die Benachrichtigung teilt Ihnen mit, welche Maßnahmen zur Optimierung verknüpfter Konfigurationen erforderlich sind, damit alle Empfehlungen, die wir bereitstellen, optimal sind.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory"]
+
+
+
+=== Kostenanalyse und Migrationsplanung für Oracle-On-Premises-Datenbankumgebungen
+
+Workload Factory for Databases analysiert und unterstützt Sie jetzt bei der Planung der Oracle On-Premises-Datenbankmigration zu Amazon FSx for NetApp ONTAP. Mit dem Kostenrechner können Sie die Kosten für den Betrieb Ihrer lokalen Oracle-Datenbankumgebung in der Cloud abschätzen und Empfehlungen für die Migration Ihrer lokalen Datenbankumgebung in die Cloud einsehen.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Entdecken Sie Einsparmöglichkeiten für lokale Datenbankumgebungen"]
+
+
+
+=== Neues „Ask Me“-Lesezeichen in Workload Factory verfügbar
+
+Wir haben auf jedem Bildschirm in der Workload Factory-Konsole ein neues Ask Me-Lesezeichen hinzugefügt. Diese Verbesserung macht es für Sie einfacher und schneller, auf Ask Me zuzugreifen, wann immer Sie Hilfe benötigen. Ask Me ist unser KI-Assistent, der es Ihnen ermöglicht, Fragen zu Ihren eigenen Workload-Umgebungen zu stellen, personalisierte Einblicke direkt aus Ihrer Umgebung zu erhalten und auf frühere Konversationen zuzugreifen.
+
+Sie können Ask Me von jeder Seite aus öffnen, indem Sie auf das neue Lesezeichen klicken. Es startet Ask Me in einem Seitenbereich, ohne Ihre aktuelle Arbeit zu unterbrechen, und bietet schnelle Erklärungen und Empfehlungen zu dem, was Sie gerade tun.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Erfahren Sie mehr über Ask Me"^]

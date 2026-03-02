@@ -1,0 +1,39 @@
+= Übersichts-Dashboard für EDA-Speicherverwaltung
+:allow-uri-read: 
+
+
+
+
+=== Übersichts-Dashboard für EDA-Speicherverwaltung
+
+Als IT-Administrator, der Dutzende von FSx for ONTAP Dateisystemen verwaltet, können Sie mithilfe des Übersichts-Dashboards häufige betriebliche Fragen zum Clusterzustand, zur Auslastung und zur Volume-Platzierung beantworten.
+
+Das Übersichts-Dashboard umfasst:
+
+* *Cluster-Gesundheitsstatus*: Informationen, die oben im Dashboard zusammengefasst sind und Leistungs-, Kapazitäts-, Verfügbarkeits-, Schutz- und Sicherheitsereignisse in Ihren Clustern hervorheben.
+* *Clusters table*: Eine durchsuchbare, filterbare und paginierte Tabelle, die SSD-Kapazität, Kapazitätspool und Durchsatzmetriken pro Cluster anzeigt, mit Unterstützung für Spaltenanpassung und CSV-Export.
+
+
+Das bisherige Haupt-Dashboard ist jetzt im Reiter *Projekt* zu finden. Die EDA-Reiter sind nun wie folgt geordnet: Übersicht, Latenz, Projekt, CI/CD.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Erfahren Sie mehr über das Übersichtsdashboard"^].
+
+
+
+=== Automatisierte Latenzanalyse
+
+Die Latenzanalyse umfasst nun auch eine automatisierte Basisanalyse. Wenn Latenzereignisse erkannt werden, analysiert das System automatisch die ONTAP QoS Delay Center-Metriken, um die Ursache der Latenzprobleme zu identifizieren.
+
+Die Basisanalyse wertet QoS-Richtlinien, Festplattenleistung, Netzwerkprobleme und Clusterkonfigurationen aus, um in der Spalte Details der Tabelle der Latenzereignisse sofortige Einblicke zu liefern.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Erfahren Sie mehr über die grundlegende Latenzanalyse"^].
+
+
+
+=== Neues „Ask Me“-Lesezeichen in Workload Factory verfügbar
+
+Wir haben auf jedem Bildschirm in der Workload Factory-Konsole ein neues Ask Me-Lesezeichen hinzugefügt. Diese Verbesserung macht es für Sie einfacher und schneller, auf Ask Me zuzugreifen, wann immer Sie Hilfe benötigen. Ask Me ist unser KI-Assistent, der es Ihnen ermöglicht, Fragen zu Ihren eigenen Workload-Umgebungen zu stellen, personalisierte Einblicke direkt aus Ihrer Umgebung zu erhalten und auf frühere Konversationen zuzugreifen.
+
+Sie können Ask Me von jeder Seite aus öffnen, indem Sie auf das neue Lesezeichen klicken. Es startet Ask Me in einem Seitenbereich, ohne Ihre aktuelle Arbeit zu unterbrechen, und bietet schnelle Erklärungen und Empfehlungen zu dem, was Sie gerade tun.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Erfahren Sie mehr über Ask Me"^]
