@@ -15,6 +15,29 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 09. März 2026
+
+
+
+=== VMware-Workloads
+
+
+
+==== Einführung der Unterstützung für Migration Advisor für Google Cloud VMware Engine
+
+NetApp Workload Factory unterstützt jetzt Google Cloud VMware Engine. Sie können Ihre lokalen VMware-Workloads zu Google Cloud VMware Engine migrieren, indem Sie Google Cloud NetApp Volumes als externe NFS-Datenspeicher verwenden. Dadurch werden die Kosten optimiert und Sie erhalten mehr Kontrolle über Ihre VMware-Umgebung, ohne Ihre Anwendungen refaktorisieren oder auf eine neue Plattform umstellen zu müssen.
+
+Der Google Cloud VMware Engine Migrationsberater bietet:
+
+* Automatisierte Dimensionierung und Auslegung von Google Cloud VMware Engine-Clustern mit Unterstützung für VE1- und VE2-Knotentypen
+* VM-Layoutoptimierung zwischen internen vSAN-Datenspeichern und Google Cloud NetApp Volumes externen NFS-Datenspeichern.
+* Detaillierter Kostenvergleich und TCO-Analyse zwischen reinen vSAN- und Google Cloud NetApp Volumes-basierten Konfigurationen.
+* Unterstützung für die Servicelevel Standard, Premium und Extreme des Google Cloud NetApp Volumes.
+* Infrastructure-as-Code-Bereitstellung mit Terraform für die automatisierte Bereitstellung.
+
+
+
+
 == 02. März 2026
 
 
@@ -128,6 +151,20 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 ==== Neues „Ask Me“-Lesezeichen in Workload Factory verfügbar
 
 Wir haben auf jedem Bildschirm in der Workload Factory-Konsole ein neues Ask Me-Lesezeichen hinzugefügt. Diese Verbesserung macht es für Sie einfacher und schneller, auf Ask Me zuzugreifen, wann immer Sie Hilfe benötigen. Ask Me ist unser KI-Assistent. Sie können Fragen zu Ihren Workload-Umgebungen stellen, personalisierte Einblicke erhalten und frühere Konversationen überprüfen.
+
+Sie können Ask Me von jeder Seite aus öffnen, indem Sie auf das neue Lesezeichen klicken. Es startet Ask Me in einem Seitenbereich, ohne Ihre aktuelle Arbeit zu unterbrechen, und bietet schnelle Erklärungen und Empfehlungen zu dem, was Sie gerade tun.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Erfahren Sie mehr über Ask Me"^]
+
+
+
+=== VMware-Workloads
+
+
+
+==== Neues „Ask Me“-Lesezeichen in Workload Factory verfügbar
+
+Wir haben auf jedem Bildschirm in der Workload Factory-Konsole ein neues Ask Me-Lesezeichen hinzugefügt. Diese Verbesserung macht es für Sie einfacher und schneller, auf Ask Me zuzugreifen, wann immer Sie Hilfe benötigen. Ask Me ist unser KI-Assistent, der es Ihnen ermöglicht, Fragen zu Ihren eigenen Workload-Umgebungen zu stellen, personalisierte Einblicke direkt aus Ihrer Umgebung zu erhalten und auf frühere Konversationen zuzugreifen.
 
 Sie können Ask Me von jeder Seite aus öffnen, indem Sie auf das neue Lesezeichen klicken. Es startet Ask Me in einem Seitenbereich, ohne Ihre aktuelle Arbeit zu unterbrechen, und bietet schnelle Erklärungen und Empfehlungen zu dem, was Sie gerade tun.
 
@@ -544,21 +581,3 @@ Die neuen AD-Felder sind:
 
 
 link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Microsoft SQL Server bereitstellen"]
-
-
-
-== 04. Dezember 2025
-
-
-
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Unterstützung für AWS S3-Zugriffspunkte für FSx für ONTAP
-
-NetApp Workload Factory unterstützt AWS S3-Zugriffspunkte für Ihre FSx for ONTAP Dateisysteme. Sie können Volumes mithilfe von S3-Zugriffspunkten erstellen, S3-Zugriffspunkte einem vorhandenen Volume zuweisen und S3-Zugriffspunkte über die Workload Factory-Konsole verwalten. Mithilfe eines S3-Zugriffspunkts können Sie über die AWS S3-APIs auf Dateidaten zugreifen, die sich auf SMB/CIFS- oder NFS-Volumes befinden. Dies ermöglicht Ihnen die Integration Ihrer vorhandenen Daten mit GenAI, ML und Analysen von AWS-Diensten, die S3-Zugriffspunkte unterstützen.
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Erstellen Sie ein Volume mithilfe von S3-Zugriffspunkten"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Verwalten von S3-Zugriffspunkten für ein Volume"]
-
