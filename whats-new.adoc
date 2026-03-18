@@ -558,26 +558,3 @@ Workload Factory für EDA hilft Ihnen, FSx für ONTAP über mehrere Dateisysteme
 ==== Integration des KI-Assistenten auf der Startseite
 
 Auf der Startseite der Workload Factory-Konsole ist der KI-Assistent „Ask me“ integriert, mit dem Sie Fragen zu Ihrer eigenen Speicherlandschaft stellen, personalisierte Einblicke direkt aus Ihrer Umgebung erhalten und auf frühere Konversationen zurückgreifen können. Sie können mit „Fragen Sie mich“ interagieren, um Ihre Workloads zu verstehen, Probleme zu beheben und mehr über Workload Factory zu erfahren – alles, ohne die Konsole zu verlassen.
-
-
-
-== 18. Dezember 2025
-
-
-
-=== Datenbank-Workloads
-
-
-
-==== Verbesserungen der Active Directory-Integration
-
-Workload Factory for Databases enthält drei neue Active Directory (AD)-Felder, die bei der Bereitstellung von Microsoft SQL Server mit der Option *Erweiterte Erstellung* verwendet werden. Diese Erweiterungen ermöglichen es Ihnen, Active Directory-Beitrittspräferenzen festzulegen und ein verwaltetes Dienstkonto zu verwenden.
-
-Die neuen AD-Felder sind:
-
-* Bevorzugter Domänencontroller
-* Bevorzugter Pfad der Organisationseinheit
-* Ziel-Active Directory-Gruppe
-
-
-link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Microsoft SQL Server bereitstellen"]
