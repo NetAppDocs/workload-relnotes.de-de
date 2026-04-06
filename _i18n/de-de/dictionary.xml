@@ -94,11 +94,8 @@
   <block id="b04638337aac148655a104c2db6c4766" category="section-title">S3-Zugriffspunktverbesserungen in Storage</block>
   <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">Mehrere Verbesserungen wurden an den Funktionen zur Verwaltung von S3-Zugriffspunkten in der Storage-Workload für NetApp Workload Factory vorgenommen. Sie können Netzwerkkonfigurationsdetails für Ihre S3-Zugriffspunkte eingeben und S3-Zugriffspunkt-Tags hinzufügen. Weitere Verbesserungen umfassen die Möglichkeit, S3-Bucket-Details anzuzeigen und zusätzliche Aktionen zur Verwaltung von S3-Zugriffspunkten durchzuführen.</block>
   <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">S3-Bucket-Details verfügbar in Storage</block>
-  <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">Mit aktivierten Metadaten für S3-Zugriffspunkte scannt NetApp Workload Factory automatisch Ihre AWS S3-Buckets und füllt die S3-Tabellen, um Ihnen eine übersichtliche Momentaufnahme aller Objekte, ihrer Metadaten, Attribute und Tags zu liefern. Der Zugriff auf diese Details hilft Ihnen, die Kontrolle, Transparenz und das Vertrauen in die Daten, für die Sie verantwortlich sind, zu wahren, während der Betriebsaufwand reduziert wird.</block>
-  <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">Details zu S3-Zugriffspunkten in FSx for ONTAP-Dateisystemen anzeigen</block>
   <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">Zusätzliche Verwaltungsoperationen für S3 access points</block>
   <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory bietet zusätzliche Verwaltungsoperationen für S3-Zugriffspunkte. Sie können Zugriffspunktdetails anzeigen, bestehende S3-Zugriffspunkte bearbeiten sowie S3-Zugriffspunkt-Tags über die NetApp Workload Factory-Oberfläche hinzufügen oder entfernen, wodurch Ihre Aufgaben im Bereich der Objektspeicherverwaltung optimiert werden.</block>
-  <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">Verwalten von S3-Zugriffspunkten in NetApp Workload Factory</block>
   <block id="e593953aaf04eebecfe2e26326145784" category="list-text">Optimiert die Cache-Volume-Größe: Prüft, ob automatische Größenanpassung und Scrubbing für Cache-Volumes aktiviert sind, um eine optimale Größe zu gewährleisten und den Cache auf häufig genutzte Daten zu konzentrieren, um maximale Effizienz zu erzielen.</block>
   <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Logische Berichterstattung für Storage-VMs: Prüft, ob die Standardeinstellung für die Berichterstattung einer Storage-VM auf „logisch“ gesetzt ist, was eine bessere Transparenz der Speichernutzung auf Volume-Ebene ermöglicht.</block>
   <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">Zusätzliche Karten für Blockgeräte</block>
@@ -111,8 +108,6 @@
   <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">Erstellen Sie eine Initiatorgruppe in NetApp Workload Factory</block>
   <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">Bestehende Initiatorgruppen in NetApp Workload Factory verwalten</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA-Workloads</block>
-  <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
-  <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
   <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
   <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
   <block id="a7b7c2b9faa4f1ccdcf2564702c510b9" category="doc">Verbesserte Kosteneinsparungen für mehrere Datenbank-Hosts auf Microsoft SQL Server on-premises</block>
@@ -164,7 +159,6 @@
   <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">Entdecken Sie Einsparmöglichkeiten für lokale Datenbankumgebungen</block>
   <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">02. März 2026</block>
-  <block id="b810156a51d2ff011de686d088c6dcce" category="list-text">Verwaiste Geräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>.</block>
   <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">Unterausgelastete SSD-Kapazität: Prüft, ob die SSD-Kapazitätsebene unterausgelastet ist, und empfiehlt, die SSD-Kapazität zu verringern, um die Kosten zu optimieren.</block>
   <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">Planen Sie Volume-Backups: Workload Factory verbessert die Konfigurationsempfehlung und bietet Optionen zum Aktivieren von FSx for ONTAP backup oder AWS Backup. FSx for ONTAP backup wendet eine Standardrichtlinie auf alle Volumes in einem Dateisystem an und erstellt tägliche Backups, die bis zu 90 Tage aufbewahrt werden. AWS Backup ermöglicht es Ihnen, für jedes Volume im Backup-Plan unterschiedliche Aufbewahrungsfristen auszuwählen.</block>
   <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory unterstützt KI- und ML-Anwendungsfälle für die Replikation</block>
@@ -174,7 +168,6 @@
   <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">Bearbeiten vorhandener S3-Zugangspunkte</block>
   <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">Sie können den Benutzer und den Benutzertyp für einen vorhandenen, mit einem Volume verbundenen S3-Zugriffspunkt ändern. Sie können außerdem Metadaten für den Zugriffspunkt aktivieren oder deaktivieren.</block>
   <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">Bearbeiten Sie S3-Zugriffspunkte in NetApp Workload Factory</block>
-  <block id="88d72467009c25b9669edfef18e21df3" category="paragraph"><block ref="88d72467009c25b9669edfef18e21df3" category="inline-link-macro-rx"></block></block>
   <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">Blockspeicherdiagramm hinzugefügt</block>
   <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">Wenn Sie Blockspeicher verwenden, können Sie das Blockspeicherdiagramm anzeigen, um zu visualisieren, wie Blockgeräte mit Knoten und Initiatorgruppen verbunden sind. Das Diagramm hilft Ihnen, Ihren Blockspeicher zu verstehen und zu verwalten.</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">Blockspeicher in NetApp Workload Factory verwalten</block>
@@ -210,4 +203,22 @@
   <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Entdecken Sie Einsparungen für erkannte Datenbanken auf Oracle On-Premises.</block>
   <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">06. April 2026</block>
+  <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">Die neue Inventartabelle scannt automatisch Ihre AWS S3-Buckets und füllt die S3-Tabellen, um Ihnen eine übersichtliche Momentaufnahme aller Objekte, ihrer Metadaten, Attribute und Tags zu liefern. Der Zugriff auf diese Details hilft Ihnen, die Kontrolle, Transparenz und das Vertrauen in die Daten, für die Sie verantwortlich sind, zu wahren, während der Betriebsaufwand reduziert wird. Sie können die Funktion beim Erstellen und Zuordnen von S3-Zugriffspunkten oder beim Bearbeiten bestehender Zugriffspunkte aktivieren.</block>
+  <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">Erstellen und Zuordnen eines S3-Zugriffspunkts für ein Volume in NetApp Workload Factory</block>
+  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
+  <block id="0695b468968701e6133374525567ebb8" category="list-text">Inaktive Blockgeräte: Zeigt an, ob Blockgeräte sieben Tage in Folge nicht verwendet wurden, und hilft Ihnen so, ungenutzte Ressourcen effektiv zu identifizieren und zu verwalten. Von hier aus können Sie <block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>.</block>
+  <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
+  <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory analysiert Ihre FSx for ONTAP-Dateisysteme auf *inaktive NAS-Volumes*. Die Konfigurationsanalyse identifiziert nicht aktiv genutzte NAS-Volumes und empfiehlt Maßnahmen zur Optimierung der Speichernutzung und Kostensenkung.</block>
+  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">Implementieren Sie gut strukturierte FSx for ONTAP Dateisysteme</block>
+  <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
+  <block id="51d8364219eb8c2bcde5564c48004466" category="section-title">Journaltabellenfunktion für S3-Zugriffspunkte</block>
+  <block id="5693755c177f4efee6db3867cf164616" category="paragraph">Die Journaltabellenfunktion bietet eine Möglichkeit, den FSx ONTAP S3-Objektspeicher in großem Maßstab zu verwalten und ermöglicht es Ihnen, Benutzerzugriffsereignisse und Operationen an Objekten in Ihren Buckets einfach zu protokollieren. Mit Workload Factory können Sie automatische Scans Ihrer Buckets und S3-Tabellen einrichten, um eine Aufzeichnung der Ereignisse zu führen, die alle Objekte, deren Details und Benutzeraktionen anzeigt.</block>
+  <block id="f5605effc9ff1f2b6b56333b91b9188b" category="inline-link-macro">Richten Sie die Journaltabelleninfrastruktur für NetApp Workload Factory ein.</block>
+  <block id="15ee03197182e575bb603c90e93b0f1d" category="paragraph"><block ref="15ee03197182e575bb603c90e93b0f1d" category="inline-link-macro-rx"></block></block>
+  <block id="7a492c4bebdd8855719e33759860ec85" category="section-title">Unterstützung für die Verwaltung bestehender Initiatorgruppen</block>
+  <block id="8770963e84c3458575dd2cb30097ea59" category="paragraph">Workload Factory unterstützt die Verwaltung bestehender Initiatorgruppen. Sie können Blockgeräte und Host-Initiatoren hinzufügen oder entfernen, um Ihre bereitgestellte Workload termingerecht auszuliefern.</block>
+  <block id="fb848967e18d6d577c43fdac12d36dae" category="section-title">Unterstützung für die Angabe des Aggregats für FlexVol volumes</block>
+  <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factory unterstützt das Erstellen von FlexVol Volumes auf einem ausgewählten Aggregat. Dadurch können Sie die Kapazitäts- und Leistungslast auf alle Dateisystemressourcen verteilen.</block>
+  <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">Erstellen Sie ein FlexVol Volume in NetApp Workload Factory</block>
+  <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -1,0 +1,35 @@
+= Gut strukturierte Analyse-Updates
+:allow-uri-read: 
+
+
+
+
+=== Gut strukturierte Analyse-Updates
+
+Workload Factory analysiert Ihre FSx for ONTAP-Dateisysteme auf *inaktive NAS-Volumes*. Die Konfigurationsanalyse identifiziert nicht aktiv genutzte NAS-Volumes und empfiehlt Maßnahmen zur Optimierung der Speichernutzung und Kostensenkung.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implementieren Sie gut strukturierte FSx for ONTAP Dateisysteme"]
+
+
+
+=== Journaltabellenfunktion für S3-Zugriffspunkte
+
+Die Journaltabellenfunktion bietet eine Möglichkeit, den FSx ONTAP S3-Objektspeicher in großem Maßstab zu verwalten und ermöglicht es Ihnen, Benutzerzugriffsereignisse und Operationen an Objekten in Ihren Buckets einfach zu protokollieren. Mit Workload Factory können Sie automatische Scans Ihrer Buckets und S3-Tabellen einrichten, um eine Aufzeichnung der Ereignisse zu führen, die alle Objekte, deren Details und Benutzeraktionen anzeigt.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["Richten Sie die Journaltabelleninfrastruktur für NetApp Workload Factory ein."]
+
+
+
+=== Unterstützung für die Verwaltung bestehender Initiatorgruppen
+
+Workload Factory unterstützt die Verwaltung bestehender Initiatorgruppen. Sie können Blockgeräte und Host-Initiatoren hinzufügen oder entfernen, um Ihre bereitgestellte Workload termingerecht auszuliefern.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Blockspeicher in NetApp Workload Factory verwalten"]
+
+
+
+=== Unterstützung für die Angabe des Aggregats für FlexVol volumes
+
+Workload Factory unterstützt das Erstellen von FlexVol Volumes auf einem ausgewählten Aggregat. Dadurch können Sie die Kapazitäts- und Leistungslast auf alle Dateisystemressourcen verteilen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Erstellen Sie ein FlexVol Volume in NetApp Workload Factory"]
