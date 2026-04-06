@@ -383,7 +383,7 @@ Mehrere Verbesserungen wurden an den Funktionen zur Verwaltung von S3-Zugriffspu
 
 Die neue Inventartabelle scannt automatisch Ihre AWS S3-Buckets und füllt die S3-Tabellen, um Ihnen eine übersichtliche Momentaufnahme aller Objekte, ihrer Metadaten, Attribute und Tags zu liefern. Der Zugriff auf diese Details hilft Ihnen, die Kontrolle, Transparenz und das Vertrauen in die Daten, für die Sie verantwortlich sind, zu wahren, während der Betriebsaufwand reduziert wird. Sie können die Funktion beim Erstellen und Zuordnen von S3-Zugriffspunkten oder beim Bearbeiten bestehender Zugriffspunkte aktivieren.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-point.html["Erstellen und Zuordnen eines S3-Zugriffspunkts für ein Volume in NetApp Workload Factory"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-points.html["Erstellen und Zuordnen eines S3-Zugriffspunkts für ein Volume in NetApp Workload Factory"]
 
 
 
