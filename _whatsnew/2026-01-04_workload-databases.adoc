@@ -1,9 +1,0 @@
-= Integration der Ask Me AI assistant-Startseite
-:allow-uri-read: 
-
-
-
-
-=== Integration der Ask Me AI assistant-Startseite
-
-Die Startseite der Workload Factory-Konsole integriert den Ask Me KI-Assistenten, sodass Sie Fragen zu Ihrer eigenen Speicherlandschaft stellen, personalisierte Einblicke direkt aus Ihrer Umgebung erhalten und auf frühere Konversationen zugreifen können. Sie können mit Ask Me interagieren, um Ihre Workloads zu verstehen, Probleme zu beheben und mehr über Workload Factory zu erfahren – alles, ohne die Konsole zu verlassen.
