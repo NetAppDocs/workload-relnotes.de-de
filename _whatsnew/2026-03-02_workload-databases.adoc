@@ -1,12 +1,12 @@
-= Einmalige Bewertung
+= Einmalige Bewertung für SQL Server
 :allow-uri-read: 
 
 
 
 
-=== Einmalige Bewertung
+=== Einmalige Bewertung für SQL Server
 
-Workload Factory bietet jetzt eine einmalige Bewertung an, um die Konfigurationen Ihrer Datenbankbereitstellungen zu analysieren, wann immer Sie es benötigen – bei neuen Bereitstellungen, nach Migrationen, zur Fehlerbehebung und mehr. Sie erhalten Empfehlungen, die Ihnen helfen, Ihre Bereitstellungskonfigurationen zu optimieren und Best Practices einzuhalten. Dies ist Ihre Gelegenheit, die well-architected Funktion zu nutzen, ohne sich vollständig auf den Einrichtungsprozess festlegen zu müssen. Sie können Ihre Datenbanken bewerten, ohne Anmeldeinformationen in Workload Factory zu speichern, Datenbankressourcen zu registrieren oder externe Verbindungen einzurichten.
+Workload Factory bietet jetzt eine einmalige Analyse Ihrer SQL Server Datenbankbereitstellungen – wann immer Sie diese benötigen: bei neuen Bereitstellungen, nach der Migration, bei der Fehlerbehebung und mehr. Sie erhalten Empfehlungen zur Optimierung Ihrer Bereitstellungskonfigurationen und zur Einhaltung von Best Practices. Dies ist Ihre Gelegenheit, die well-architected Funktion zu nutzen, ohne sich vollständig auf den Einrichtungsprozess festlegen zu müssen. Sie können Ihre Datenbanken analysieren, ohne Anmeldeinformationen in Workload Factory zu speichern, Datenbankressourcen zu registrieren oder externe Verbindungen einzurichten.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Führen Sie eine einmalige Bewertung Ihrer Datenbankbereitstellungen durch."]
 
