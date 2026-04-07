@@ -100,6 +100,44 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+=== EDA-Workloads
+
+
+
+==== EDA-Kapazitätsempfehlungen
+
+Workload Factory analysiert nun automatisch die SSD-Kapazität jedes FSx for ONTAP-Clusters in Ihrem EDA-Inventar und generiert Kapazitätsempfehlungen, wenn Anpassungen erforderlich sind. Der Algorithmus wird einmal alle 24 Stunden für jeden Cluster ausgeführt.
+
+Wenn eine Empfehlung identifiziert wird:
+
+* Sie erhalten umgehend eine E-Mail oder eine WAD-Benachrichtigung (nicht Teil der wöchentlichen Zusammenfassung).
+* In der Tabelle „Cluster“ wird für den betroffenen Cluster eine Glühbirnenanzeige eingeblendet.
+* Eine Zusammenfassung im Übersichts-Dashboard zeigt die Gesamtzahl der Cluster mit aktiven Empfehlungen an.
+
+
+Wählen Sie einen Cluster mit einer aktiven Empfehlung aus, um die Empfehlung anzuzeigen, in der die vorgeschlagene Änderung und die Begründung erläutert werden.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["Erfahren Sie mehr über Kapazitätsempfehlungen"^].
+
+
+
+==== Automatisierte KI-Latenzanalyse
+
+Die Latenzanalyse umfasst nun auch die Analyse von KI-Agenten.
+
+Bei komplexen Szenarien mit Daten- oder Clusterlatenz können Sie eine KI-Agentenanalyse aufrufen, um Folgendes zu erhalten:
+
+* Detaillierte Ursachenanalyse
+* Liste der betroffenen EC2-Clients
+* Spezifische Abhilfemaßnahmen
+
+
+Die Analyse mittels KI-Agent erfordert die Konfiguration des Amazon Bedrock-Modell-ARN und ist bedarfsgesteuert verfügbar, wenn eine Basisanalyse eine weiterführende Untersuchung empfiehlt. Der KI-Agent kann Probleme wie übermäßige Speicherauslastung, suboptimale Mount-Point-Konfigurationen, FlexGroup-Rebalancing-Bedarf und Skalierungsanforderungen identifizieren.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Erfahren Sie mehr über die Analyse von KI-Agenten"^].
+
+
+
 == 09. März 2026
 
 
@@ -277,7 +315,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 ==== Übersichts-Dashboard für EDA-Speicherverwaltung
 
-Als IT-Administrator, der Dutzende von FSx for ONTAP Dateisystemen verwaltet, können Sie mithilfe des Übersichts-Dashboards häufige betriebliche Fragen zum Clusterzustand, zur Auslastung und zur Volume-Platzierung beantworten.
+Als IT-Administrator, der Dutzende von FSx for ONTAP-Dateisystemen verwaltet, können Sie mithilfe des Übersichts-Dashboards häufig gestellte Fragen zum Clusterzustand, zur Auslastung und zur Volume-Platzierung beantworten.
 
 Das Übersichts-Dashboard umfasst:
 
@@ -287,7 +325,7 @@ Das Übersichts-Dashboard umfasst:
 
 Das bisherige Haupt-Dashboard ist jetzt im Reiter *Projekt* zu finden. Die EDA-Reiter sind nun wie folgt geordnet: Übersicht, Latenz, Projekt, CI/CD.
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Erfahren Sie mehr über das Übersichtsdashboard"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Erfahren Sie mehr über das Overview-Dashboard"^].
 
 
 
@@ -296,8 +334,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Erf
 Die Latenzanalyse umfasst nun auch eine automatisierte Basisanalyse. Wenn Latenzereignisse erkannt werden, analysiert das System automatisch die ONTAP QoS Delay Center-Metriken, um die Ursache der Latenzprobleme zu identifizieren.
 
 Die Basisanalyse wertet QoS-Richtlinien, Festplattenleistung, Netzwerkprobleme und Clusterkonfigurationen aus, um in der Spalte Details der Tabelle der Latenzereignisse sofortige Einblicke zu liefern.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Erfahren Sie mehr über die grundlegende Latenzanalyse"^].
 
 
 

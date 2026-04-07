@@ -1,0 +1,37 @@
+= EDA-Kapazitätsempfehlungen
+:allow-uri-read: 
+
+
+
+
+=== EDA-Kapazitätsempfehlungen
+
+Workload Factory analysiert nun automatisch die SSD-Kapazität jedes FSx for ONTAP-Clusters in Ihrem EDA-Inventar und generiert Kapazitätsempfehlungen, wenn Anpassungen erforderlich sind. Der Algorithmus wird einmal alle 24 Stunden für jeden Cluster ausgeführt.
+
+Wenn eine Empfehlung identifiziert wird:
+
+* Sie erhalten umgehend eine E-Mail oder eine WAD-Benachrichtigung (nicht Teil der wöchentlichen Zusammenfassung).
+* In der Tabelle „Cluster“ wird für den betroffenen Cluster eine Glühbirnenanzeige eingeblendet.
+* Eine Zusammenfassung im Übersichts-Dashboard zeigt die Gesamtzahl der Cluster mit aktiven Empfehlungen an.
+
+
+Wählen Sie einen Cluster mit einer aktiven Empfehlung aus, um die Empfehlung anzuzeigen, in der die vorgeschlagene Änderung und die Begründung erläutert werden.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["Erfahren Sie mehr über Kapazitätsempfehlungen"^].
+
+
+
+=== Automatisierte KI-Latenzanalyse
+
+Die Latenzanalyse umfasst nun auch die Analyse von KI-Agenten.
+
+Bei komplexen Szenarien mit Daten- oder Clusterlatenz können Sie eine KI-Agentenanalyse aufrufen, um Folgendes zu erhalten:
+
+* Detaillierte Ursachenanalyse
+* Liste der betroffenen EC2-Clients
+* Spezifische Abhilfemaßnahmen
+
+
+Die Analyse mittels KI-Agent erfordert die Konfiguration des Amazon Bedrock-Modell-ARN und ist bedarfsgesteuert verfügbar, wenn eine Basisanalyse eine weiterführende Untersuchung empfiehlt. Der KI-Agent kann Probleme wie übermäßige Speicherauslastung, suboptimale Mount-Point-Konfigurationen, FlexGroup-Rebalancing-Bedarf und Skalierungsanforderungen identifizieren.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Erfahren Sie mehr über die Analyse von KI-Agenten"^].

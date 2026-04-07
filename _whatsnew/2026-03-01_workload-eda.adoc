@@ -6,7 +6,7 @@
 
 === Übersichts-Dashboard für EDA-Speicherverwaltung
 
-Als IT-Administrator, der Dutzende von FSx for ONTAP Dateisystemen verwaltet, können Sie mithilfe des Übersichts-Dashboards häufige betriebliche Fragen zum Clusterzustand, zur Auslastung und zur Volume-Platzierung beantworten.
+Als IT-Administrator, der Dutzende von FSx for ONTAP-Dateisystemen verwaltet, können Sie mithilfe des Übersichts-Dashboards häufig gestellte Fragen zum Clusterzustand, zur Auslastung und zur Volume-Platzierung beantworten.
 
 Das Übersichts-Dashboard umfasst:
 
@@ -16,7 +16,7 @@ Das Übersichts-Dashboard umfasst:
 
 Das bisherige Haupt-Dashboard ist jetzt im Reiter *Projekt* zu finden. Die EDA-Reiter sind nun wie folgt geordnet: Übersicht, Latenz, Projekt, CI/CD.
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Erfahren Sie mehr über das Übersichtsdashboard"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Erfahren Sie mehr über das Overview-Dashboard"^].
 
 
 
@@ -25,8 +25,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Erf
 Die Latenzanalyse umfasst nun auch eine automatisierte Basisanalyse. Wenn Latenzereignisse erkannt werden, analysiert das System automatisch die ONTAP QoS Delay Center-Metriken, um die Ursache der Latenzprobleme zu identifizieren.
 
 Die Basisanalyse wertet QoS-Richtlinien, Festplattenleistung, Netzwerkprobleme und Clusterkonfigurationen aus, um in der Spalte Details der Tabelle der Latenzereignisse sofortige Einblicke zu liefern.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Erfahren Sie mehr über die grundlegende Latenzanalyse"^].
 
 
 
