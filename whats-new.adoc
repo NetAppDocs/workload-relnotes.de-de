@@ -15,6 +15,40 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+== 03. Mai 2026
+
+
+
+=== Amazon FSX für NetApp ONTAP
+
+
+
+==== Blockgeräteklone
+
+Workload Factory bietet Klone für Ihre Blockgeräte, sodass Sie schnell beschreibbare und effiziente Kopien Ihrer Daten bereitstellen und gleichzeitig Kapazität, Zugriff und Lebenszyklus kontrollieren können.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Blockspeicher in NetApp Workload Factory verwalten"]
+
+
+
+==== EC2-Tags auf Blockgeräten
+
+Die Blockgerätetabelle enthält nun eine Spalte mit den Tags der EC2-Hosts, die die jeweiligen Blockgeräte verwenden. Dies hilft Ihnen zu erkennen, welcher Host welches Blockgerät während der Fehlersuche oder bei Audits verwendet.
+
+Um Tags auf jedem Blockgerät zu erstellen, stellen Sie eine EC2-Instanz mithilfe unseres bereitgestellten Benutzerskripts bereit.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["EC2-Benutzerdatenskript zum Zuweisen von Tags zu Blockgeräten"]
+
+
+
+==== Kapazitätstrends für FSx für ONTAP-Dateisysteme
+
+Erfahren Sie mehr über SSD-Kapazitätstrends direkt in der Übersicht Ihrer FSx for ONTAP-Dateisysteme. Die neue Karte für Kapazitätsmanagement bietet einen umfassenden Überblick über die Nutzungstrends des Vormonats. Diese Analyse beinhaltet einen Vergleich zwischen der tatsächlich genutzten und der zugewiesenen Kapazität und ermöglicht so eine klare Beurteilung der Ressourcenauslastung.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["Kapazität automatisch in NetApp Workload Factory verwalten"]
+
+
+
 == 06. April 2026
 
 
