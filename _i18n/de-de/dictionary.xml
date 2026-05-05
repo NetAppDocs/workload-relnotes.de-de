@@ -172,4 +172,17 @@
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">Kapazität automatisch in NetApp Workload Factory verwalten</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">03. Mai 2026</block>
+  <block id="97c13014b9e16335b445d04850fb955f" category="doc">E-Mail- und SNS-Benachrichtigungen für Latenzereignisse</block>
+  <block id="c31a2fa4340e87df74fd4add6857d037" category="paragraph">Sie können jetzt automatische Benachrichtigungen erhalten, wenn Latenzereignisse auf Ihren FSx for ONTAP Volumes erkannt werden. Konfigurieren Sie E-Mail- oder Amazon SNS-Benachrichtigungen in den Workload Factory-Einstellungen, um Echtzeit-Benachrichtigungen zu erhalten, wenn Volumes Ihre konfigurierten Latenzschwellenwerte überschreiten.</block>
+  <block id="64252b5e1bc1f93bfafd01c34fd0860b" category="paragraph">Die Benachrichtigungen werden auf Dateisystembasis versendet und enthalten Details zu allen betroffenen Volumes, Schweregraden, Schwellenwertvergleichen und einen direkten Link zur Latenzseite für Untersuchungen.</block>
+  <block id="95e7f36fe4398f41dfcbc5591df71f8d" category="inline-link">Erfahren Sie, wie Sie Latenzbenachrichtigungen konfigurieren</block>
+  <block id="547067437333ccf9f6257f448035fd15" category="paragraph"><block ref="2a3ce45bc4405505b722625836bbe768" category="inline-link-rx"></block>.</block>
+  <block id="f18c989c700bb32f3bcb80ace5539b64" category="section-title">Latenztrendvisualisierung mit interaktiven Diagrammen</block>
+  <block id="11ef7238b057019c31802d06c0bf5b75" category="paragraph">Das Panel zur Latenzanalyse verfügt nun über eine Registerkartenoberfläche für eine umfassende Latenzanalyse:</block>
+  <block id="eb39bcaa5c101fc5087275547ab8e3e6" category="list-text">*Übersicht*: Sehen Sie sich die automatisierten Ergebnisse der Basisanalyse an, die zeigen, welche Komponente die Latenz verursacht</block>
+  <block id="142deff8a2ec74d2d2667eca22500eab" category="list-text">*Im Zeitverlauf*: Visualisieren Sie das Volumen-Latenzverhalten mit einem interaktiven Diagramm über mehrere Zeiträume (1 Stunde, 3 Stunden, 12 Stunden, 24 Stunden oder 72 Stunden)</block>
+  <block id="5ff8bee829d6ed38b529ef851b350ad1" category="paragraph">Die Registerkarte *Über die Zeit* zeigt Rohdaten zur CloudWatch-Latenz (Lesen oder Schreiben, je nachdem, welcher Alarm ausgelöst wurde) mit Warn- und kritischen Schwellenwertlinien, Indikatoren für Überschreitungen und detaillierten Metriken für jede Verletzung an.</block>
+  <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">Diese umfassende Visualisierung hilft Ihnen, Muster zu erkennen, zu verstehen, ob Latenzprobleme wiederkehrend oder vereinzelt auftreten, und fundiertere Entscheidungen über die Behebung zu treffen.</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">Lernen Sie, wie Sie Latenztrends analysieren</block>
+  <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>.</block>
 </blocks>
