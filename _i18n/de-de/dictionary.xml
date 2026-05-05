@@ -185,4 +185,12 @@
   <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">Diese umfassende Visualisierung hilft Ihnen, Muster zu erkennen, zu verstehen, ob Latenzprobleme wiederkehrend oder vereinzelt auftreten, und fundiertere Entscheidungen über die Behebung zu treffen.</block>
   <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">Lernen Sie, wie Sie Latenztrends analysieren</block>
   <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>.</block>
+  <block id="15407be309823d0bd0fd1f09d53ccd89" category="doc">E-Mail-Benachrichtigungen für Workload Factory</block>
+  <block id="a1ed0466beff73a72b5d95ef2b956e83" category="paragraph">Sie können Workload Factory-Benachrichtigungen jetzt per E-Mail erhalten, ohne ein Amazon SNS-Thema konfigurieren zu müssen. Aktivieren Sie E-Mail-Benachrichtigungen, um Benachrichtigungen an alle mit dem Konto verknüpften E-Mail-Adressen zu senden.</block>
+  <block id="1c6cc010b2ec0805e327534ebbfb3973" category="paragraph">Sie können E-Mail-Benachrichtigungen entweder über die Workload Factory Console oder die NetApp Console konfigurieren. Die NetApp Console bietet außerdem die Möglichkeit, NetApp Console-Benachrichtigungen zu konfigurieren, die unter dem Glockensymbol angezeigt werden.</block>
+  <block id="f76fbee6bb24fc9289f051c59b4058b2" category="paragraph">Wenn Sie Benachrichtigungen in der NetApp Console konfigurieren, übernimmt die NetApp Console die Zustellung der Benachrichtigungen. Die Benachrichtigungseinstellungen in der NetApp Workload Factory-Konsole werden schreibgeschützt, um doppelte Benachrichtigungen zu vermeiden.</block>
+  <block id="b2dfd446bf724d5a49ad6d34fffa8cd5" category="section-title">Neue Benachrichtigung für EDA-Latenz</block>
+  <block id="72139a3373d3afc6254af7e39dc3cd2a" category="paragraph">Der NetApp Workload Factory-Benachrichtigungsdienst umfasst die Benachrichtigung für EDA-Latenz, die Sie benachrichtigt, wenn die Latenz einer EDA-Operation einen bestimmten Schwellenwert überschreitet.</block>
+  <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">Workload Factory-Benachrichtigungen konfigurieren</block>
+  <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
 </blocks>
