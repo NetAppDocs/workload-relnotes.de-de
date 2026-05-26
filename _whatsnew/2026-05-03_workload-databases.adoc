@@ -1,0 +1,37 @@
+= Gut konzipierte Analyse für Oracle
+:allow-uri-read: 
+
+
+
+
+=== Gut konzipierte Analyse für Oracle
+
+Die gut durchdachte Analyse umfasst die folgenden neuen Konfigurationen für Oracle:
+
+* *Backup-Konfiguration*: Prüft, ob Ihre Oracle-Datenbanken durch AWS Backup oder FSx for ONTAP Backups geschützt sind.
+* *Klonbereinigung*: Es wird empfohlen, veraltete oder ungenutzte Klone zu entfernen, um Speicherkosten zu reduzieren.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory"]
+
+
+
+=== Automatische Kosteneinsparungsberechnung für Oracle-Datenbanken auf Amazon Elastic Block Store (EBS)
+
+Workload Factory analysiert automatisch die Kosten des für Oracle-Datenbanken verwendeten EBS-Speichers und schlägt anschließend die optimale und kosteneffizienteste FSx for ONTAP Konfiguration vor. Sie können mehrere EBS-Hosts zur Analyse auswählen und dann die Kosten für den Betrieb dieser Hosts auf EBS im Vergleich zu FSx for ONTAP vergleichen.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Entdecken Sie die Einsparungen für erkannte EBS-Hosts"]
+
+
+
+=== CRR-Konfigurationsvoraussetzungsprüfung
+
+Wenn Sie die regionsübergreifende Replikation (CRR) für Ihren Datenbankbestand aktivieren, prüft die Database-Workload, ob das FSx for ONTAP-Dateisystem über eine zugehörige Verbindung und Replikationseinrichtung verfügt. Falls erforderlich, leitet die Database-Workload Sie zum FSx for ONTAP Storage-Workload-Replikationsassistenten weiter, um die Verbindungsvoraussetzungen auf die gleiche Weise wie bei Storage zu erfüllen.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementieren Sie gut strukturierte Datenbankkonfigurationen in Workload Factory"]
+
+
+
+=== Zugehörige LUNs für Microsoft SQL Server-Datenbanken
+
+Sie können jetzt im Inventarbildschirm von Workload Factory die Microsoft SQL Server-Datenbanken zugeordneten LUNs anzeigen. So erkennen Sie schnell, welche LUNs mit welchen Datenbanken verbunden sind, was die Verwaltung und Optimierung Ihrer Speicherressourcen erleichtert.
