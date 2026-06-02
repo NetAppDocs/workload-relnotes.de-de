@@ -196,4 +196,28 @@
   <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">Sie können jetzt AWS GovCloud (US)-Konten in Workload Factory erstellen. Dieser Kontotyp verwendet ausschließlich AWS US-GovCloud-Endpunkte und -Regionen für Einrichtung und Betrieb. Anmeldeinformationen und Geheimnisse bleiben in GovCloud. GovCloud (US)-Regionen werden unterstützt.</block>
   <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Erstellen Sie ein AWS GovCloud (US)-Konto in Workload Factory</block>
   <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
+  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">SSD-Kapazitätserweiterungs-Managementmodi und Automatisierung</block>
+  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factory bietet jetzt Verwaltungsmodi zur SSD-Kapazitätserweiterung, die Ihren betrieblichen Präferenzen entsprechen:</block>
+  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*Automatisieren*</block>
+  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*Empfehlen*</block>
+  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*Keine*</block>
+  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">Der aktuelle Modus und seine Parameter werden oben im SSD-Nutzungsdiagramm auf der Seite mit den Dateisystemdetails angezeigt. Sie können den Modus jederzeit entsprechend Ihren betrieblichen Anforderungen wechseln.</block>
+  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">Erfahren Sie mehr über SSD-Verwaltungsmodi</block>
+  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>.</block>
+  <block id="70a1c8861535253968956554ebf8e231" category="section-title">Parameter für die Massenbearbeitung zur Verwaltung der Erhöhung der SSD-Kapazität</block>
+  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">Über das Übersichts-Dashboard können Sie nun die Parameter für die SSD-Kapazitätserweiterung über mehrere Dateisysteme hinweg anpassen. Wählen Sie dazu in der Tabelle „Cluster“ einen oder mehrere Cluster aus und bearbeiten Sie die Werte für Schwellenwert (10–90 %), Rückblick (1–200 Stunden) und Vorausschau (1–200 Stunden) gleichzeitig.</block>
+  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">Der Bearbeitungsdialog füllt sich automatisch basierend auf Ihrer Auswahl: Wenn alle ausgewählten Dateisysteme dieselben Parameterwerte aufweisen, werden diese angezeigt; andernfalls werden Standardwerte verwendet. Dies hilft Ihnen, einheitliche Kapazitätseinstellungen in Ihrer gesamten Umgebung anzuwenden.</block>
+  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">Erfahren Sie, wie Sie Parameter in großen Mengen bearbeiten können.</block>
+  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>.</block>
+  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">Visualisierung von Kapazitätsentscheidungspunkten</block>
+  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">Das SSD-Nutzungsdiagramm zeigt nun Entscheidungspunkte an, die angeben, wann Kapazitätsempfehlungen generiert oder automatisierte Aktionen durchgeführt wurden.</block>
+  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*Empfehlungsentscheidungspunkte*: Bewegen Sie den Mauszeiger darüber, um den Zeitstempel, die empfohlene Erweiterungsgröße und die aktuelle Kapazität anzuzeigen.</block>
+  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*Automatisierungsentscheidungspunkte*: Bewegen Sie den Mauszeiger darüber, um Zeitstempel, Erfolgs- oder Fehlerstatus, Größe erhöhen und neue Aggregatgröße anzuzeigen. Fehlgeschlagene Versuche enthalten die Fehlerursache.</block>
+  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">Entscheidungspunkte können alle 30 Minuten auftreten und werden je nach gewähltem Zeitbereich einzeln oder zusammengefasst angezeigt.</block>
+  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">Erfahren Sie mehr über Entscheidungspunkte zur Kapazität.</block>
+  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>.</block>
+  <block id="6730925799427eefafa41ca821775fd8" category="section-title">Link-Konfigurationsstatus in der Clustertabelle</block>
+  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">Die Tabelle „Cluster“ im Übersichts-Dashboard enthält nun eine Spalte „Zugehöriger Link“, die anzeigt, ob ein FSx for ONTAP-Link für jedes Dateisystem konfiguriert ist. Der Verbindungsstatus wird täglich überprüft, sodass Sie Dateisysteme identifizieren können, die eine Linkkonfiguration benötigen oder bei denen Verbindungsprobleme auftreten.</block>
+  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">Übersichts-Dashboard anzeigen</block>
+  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>.</block>
 </blocks>
