@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Benutzerdefinierte Dashboards sind schreibgeschützt, daher können sie Ihre Speicher- oder Workload-Einstellungen nicht ändern. Jede Person in Ihrem Workload Factory-Konto kann diese Dashboards anzeigen und verwalten, was es Teams erleichtert, Erkenntnisse zu teilen und abgestimmt zu bleiben.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Weitere Informationen zu benutzerdefinierten Dashboards</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Häufigkeit der Latenzbenachrichtigung festlegen</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Sie können nun auswählen, wie häufig Sie E-Mail-Benachrichtigungen über Latenzüberschreitungen erhalten:</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Tägliche Erinnerung (Empfohlen)*: Sie erhalten eine Benachrichtigung, wenn ein neues Problem auf einem beliebigen FSx for ONTAP Dateisystem auftritt.</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">Wenn an einem Tag mehrere Latenzprobleme auf demselben Dateisystem auftreten, erhalten Sie nur eine E-Mail.</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Nach dem Senden einer Latenzwarnung für ein Dateisystem wartet Workload Factory 24 Stunden, bevor eine weitere Warnung für dieses Dateisystem gesendet wird.</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Benachrichtigung bei Latenzüberschreitung (alle 20 Minuten)*: Es erfolgt eine Benachrichtigung, wenn eine Überschreitung festgestellt wird, bis zu einmal alle 20 Minuten.</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">Tägliche Benachrichtigungen sind standardmäßig aktiviert, um das E-Mail-Aufkommen zu reduzieren und Sie dennoch auf Latenzprobleme aufmerksam zu machen. Die Benachrichtigungseinstellungen lassen sich beim Einrichten der Latenzüberwachung oder beim Bearbeiten der Schwellenwerte ändern.</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Erfahren Sie, wie Sie die Latenzüberwachung konfigurieren</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
 </blocks>

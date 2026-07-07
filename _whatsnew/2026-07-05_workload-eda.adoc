@@ -22,3 +22,23 @@ Diese Diagramme helfen Ihnen zu erkennen, wie Latenz, IOPS und Durchsatz miteina
 Leistungsdiagramme sind jetzt nur verfügbar, wenn AWS-Zugangsdaten angegeben werden. FSx for ONTAP Verbindungen sind nur für die Komponentenaufschlüsselung in der Basis- und KI-Analyse erforderlich.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Informationen zur Analyse von Latenztrends mit mehreren Diagrammen"^].
+
+
+
+=== Häufigkeit der Latenzbenachrichtigung festlegen
+
+Sie können nun auswählen, wie häufig Sie E-Mail-Benachrichtigungen über Latenzüberschreitungen erhalten:
+
+* *Tägliche Erinnerung (Empfohlen)*: Sie erhalten eine Benachrichtigung, wenn ein neues Problem auf einem beliebigen FSx for ONTAP Dateisystem auftritt.
+
+
+Wenn an einem Tag mehrere Latenzprobleme auf demselben Dateisystem auftreten, erhalten Sie nur eine E-Mail.
+
+Nach dem Senden einer Latenzwarnung für ein Dateisystem wartet Workload Factory 24 Stunden, bevor eine weitere Warnung für dieses Dateisystem gesendet wird.
+
+* *Benachrichtigung bei Latenzüberschreitung (alle 20 Minuten)*: Es erfolgt eine Benachrichtigung, wenn eine Überschreitung festgestellt wird, bis zu einmal alle 20 Minuten.
+
+
+Tägliche Benachrichtigungen sind standardmäßig aktiviert, um das E-Mail-Aufkommen zu reduzieren und Sie dennoch auf Latenzprobleme aufmerksam zu machen. Die Benachrichtigungseinstellungen lassen sich beim Einrichten der Latenzüberwachung oder beim Bearbeiten der Schwellenwerte ändern.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Erfahren Sie, wie Sie die Latenzüberwachung konfigurieren"^].
