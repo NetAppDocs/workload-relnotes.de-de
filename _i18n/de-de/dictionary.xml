@@ -179,4 +179,10 @@
   <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Informationen zur Analyse von Latenztrends mit mehreren Diagrammen</block>
   <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
   <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05. Juli 2026</block>
+  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">Benutzerdefinierte Dashboards</block>
+  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">KI-gestützte Dashboards können erstellt werden, die auf Ihre Workloads und Prioritäten abgestimmt sind, sodass die Performance Ihrer Abläufe einfach ersichtlich ist. Anstelle fester Ansichten ermöglichen benutzerdefinierte Dashboards den Fokus auf die Informationen, die am wichtigsten sind.</block>
+  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">Beschreiben Sie in verständlicher Sprache, was Sie überwachen möchten, und die KI erstellt ein Dashboard basierend auf Ihrer Anfrage. Beispielsweise lassen sich der Status der Notfallwiederherstellung, Kapazität und Kosten regionsübergreifend, die Einhaltung von Speicherschutzrichtlinien und andere betriebliche Metriken verfolgen.</block>
+  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Benutzerdefinierte Dashboards sind schreibgeschützt, daher können sie Ihre Speicher- oder Workload-Einstellungen nicht ändern. Jede Person in Ihrem Workload Factory-Konto kann diese Dashboards anzeigen und verwalten, was es Teams erleichtert, Erkenntnisse zu teilen und abgestimmt zu bleiben.</block>
+  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Weitere Informationen zu benutzerdefinierten Dashboards</block>
+  <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
 </blocks>
