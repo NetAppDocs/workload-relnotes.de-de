@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-latency-analysis-with-iops-and-throughput-graphs]]
 === Erweiterte Latenzanalyse mit IOPS- und Durchsatzdiagrammen
 
 Das Panel zur Latenzanalyse zeigt nun synchronisierte Leistungsdiagramme auf der Registerkarte *Über die Zeit* an:
@@ -25,6 +26,7 @@ https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Inf
 
 
 
+[[set-latency-notification-frequency]]
 === Häufigkeit der Latenzbenachrichtigung festlegen
 
 Sie können nun auswählen, wie häufig Sie E-Mail-Benachrichtigungen über Latenzüberschreitungen erhalten:

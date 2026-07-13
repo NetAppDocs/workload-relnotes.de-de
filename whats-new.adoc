@@ -15,10 +15,12 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+[[06-july-2026]]
 == 06. Juli 2026
 
 
 
+[[vmware-workloads]]
 === VMware-Workloads
 
 
@@ -33,10 +35,12 @@ link:calculate-evs-savings.html["Geschätzte Einsparungen für EVS berechnen"]
 
 
 
+[[05-july-2026]]
 == 05. Juli 2026
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === Amazon FSX für NetApp ONTAP
 
 
@@ -49,39 +53,17 @@ Der Zugriff auf die Well-Architected-Analyse für ein bestimmtes Dateisystem sow
 
 
 
-==== Neue Empfehlungen in der Well-Architected-Analyse
-
-Workload Factory umfasst nun die folgenden Konfigurationen in der Well-Architected Analysis für FSx for ONTAP file systems:
-
-* Host mit Failover-Knoten verbinden: Überprüft, ob Hosts in einem Aktiv/Passiv FSx for ONTAP Dateisystem mit dem Failover-Knoten verbunden sind, und schlägt vor, Hosts aus Gründen der Zuverlässigkeit mit dem Failover-Knoten zu verbinden.
-* Verbindung des Hosts mit dem bevorzugten Knoten: Es wird geprüft, ob Hosts über den bevorzugten Knoten mit ihren Blockgeräten verbunden sind, und es wird empfohlen, Hosts zur Effizienzsteigerung mit dem bevorzugten Knoten zu verbinden.
-
-
-
-
 ==== Volumes Explorer
 
 Volumes Explorer bietet eine einfache, durchsuchbare Ansicht aller Volumes in NetApp Workload Factory. Es wird schnell ersichtlich, welche Volumes Block- oder Datei-Workloads bedienen. Die logische Größe, die physisch genutzte Kapazität und die Nutzung von Speichereffizienzfunktionen (Komprimierung, Deduplizierung und Verdichtung) jedes Volumes werden angezeigt. Eine Filterung und Sortierung nach Name, Status (verfügbar/ausgefallen), Latenz, Größe, genutzter Kapazität und Schutzfunktionen ist möglich.
 
 
 
-==== Verbesserungen der Replikationsverzögerung
-
-
-
-===== Verbesserte E-Mail-Benachrichtigungen bei Replikationsverzögerungen
+==== Verbesserte E-Mail-Benachrichtigungen bei Replikationsverzögerungen
 
 E-Mail-Benachrichtigungen über Replikationsverzögerungen enthalten jetzt detailliertere Informationen zur betroffenen Beziehung. Die Benachrichtigung ermöglicht eine schnelle Identifizierung der betroffenen Beziehung und eine weitere Untersuchung in der Workload Factory Konsole.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Benachrichtigungen für Replikationsverzögerungen aktivieren"]
-
-
-
-===== Replikationsverzögerungsdaten in eine CSV-Datei exportieren
-
-Sie können nun Replikationsverzögerungsdaten in eine CSV-Datei exportieren, um die Daten in einer Tabellenkalkulation zu analysieren und sie mit anderen zu teilen.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Replikationsverzögerungen verfolgen"]
 
 
 
@@ -93,6 +75,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["
 
 
 
+[[setup-and-administration]]
 === Einrichtung und Administration
 
 
@@ -109,6 +92,7 @@ link:learn-custom-dashboards.html["Weitere Informationen zu benutzerdefinierten 
 
 
 
+[[eda-workloads]]
 === EDA-Workloads
 
 
@@ -154,10 +138,12 @@ https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.htm
 
 
 
+[[01-june-2026]]
 == 01. Juni 2026
 
 
 
+[[database-workloads]]
 === Datenbank-Workloads
 
 
@@ -186,10 +172,12 @@ NetApp Workload Factory unterstützt AWS GovCloud (US)-Konten. Mit einem GovClou
 
 
 
+[[31-may-2026]]
 == 31. Mai 2026
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === Amazon FSX für NetApp ONTAP
 
 
@@ -270,6 +258,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresho
 
 
 
+[[vmware-workloads]]
 === VMware-Workloads
 
 
@@ -280,6 +269,7 @@ NetApp Workload Factory unterstützt AWS GovCloud (US)-Konten. Mit einem GovClou
 
 
 
+[[genai-workloads]]
 === GenAI-Workloads
 
 
@@ -290,6 +280,7 @@ NetApp Workload Factory unterstützt AWS GovCloud (US)-Konten. Mit einem GovClou
 
 
 
+[[setup-and-administration]]
 === Einrichtung und Administration
 
 
@@ -310,6 +301,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Erste
 
 
 
+[[eda-workloads]]
 === EDA-Workloads
 
 
@@ -367,10 +359,12 @@ NetApp Workload Factory unterstützt AWS GovCloud (US)-Konten. Mit einem GovClou
 
 
 
+[[03-may-2026]]
 == 03. Mai 2026
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === Amazon FSX für NetApp ONTAP
 
 
@@ -409,6 +403,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 
+[[database-workloads]]
 === Datenbank-Workloads
 
 
@@ -447,6 +442,7 @@ Sie können jetzt im Inventarbildschirm von Workload Factory die Microsoft SQL S
 
 
 
+[[setup-and-administration]]
 === Einrichtung und Administration
 
 
@@ -477,6 +473,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+[[eda-workloads]]
 === EDA-Workloads
 
 

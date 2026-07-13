@@ -4,6 +4,7 @@
 
 
 
+[[email-and-sns-notifications-for-latency-events]]
 === E-Mail- und SNS-Benachrichtigungen für Latenzereignisse
 
 Sie können jetzt automatische Benachrichtigungen erhalten, wenn Latenzereignisse auf Ihren FSx for ONTAP Volumes erkannt werden. Konfigurieren Sie E-Mail- oder Amazon SNS-Benachrichtigungen in den Workload Factory-Einstellungen, um Echtzeit-Benachrichtigungen zu erhalten, wenn Volumes Ihre konfigurierten Latenzschwellenwerte überschreiten.
@@ -14,6 +15,7 @@ https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-l
 
 
 
+[[latency-trend-visualization-with-interactive-graphs]]
 === Latenztrendvisualisierung mit interaktiven Diagrammen
 
 Das Panel zur Latenzanalyse verfügt nun über eine Registerkartenoberfläche für eine umfassende Latenzanalyse:
