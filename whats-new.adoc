@@ -67,6 +67,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["
 
 
 
+==== Workload Tagging für Volumes und Blockgeräte
+
+Workload Factory identifiziert und taggt nun Volumes und Blockgeräte anhand ihrer primären Workload oder Anwendung. Es können vordefinierte Workload-Tags wie Microsoft SQL Server oder Oracle Database zugewiesen oder benutzerdefinierte Tags für Anwendungen erstellt werden. Tags können einzelnen Ressourcen zugewiesen oder von verbundenen Speicherressourcen übernommen werden. Dies trägt dazu bei, Speicherkonfigurationen an Workload-Anforderungen auszurichten, Auswirkungen von Vorfällen zu verstehen und die Fehlerbehebung zu erleichtern.
+
+
+
 [[setup-and-administration]]
 === Einrichtung und Administration
 
