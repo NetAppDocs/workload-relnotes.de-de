@@ -44,7 +44,7 @@ Jede volumebezogene Konfiguration im Well-Architected Dashboard enthält nun die
 
 Workloads werden nicht getaggt, wenn ein Administrator KI-Funktionen deaktiviert. Wenn KI-Funktionen in den Workload Factory-Kontoeinstellungen deaktiviert sind, identifiziert oder klassifiziert der Tagging-Dienst keine Workloads auf Ihren Speicherressourcen.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["Informationen zur KI-Administration"^].
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Informationen zur KI-Administration"^].
 
 
 
