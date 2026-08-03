@@ -166,17 +166,13 @@
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">Nachdem Sie ein benutzerdefiniertes Dashboard erstellt haben, erhalten Sie eine Benachrichtigung mit einem direkten Link zur Anzeige. Wenn die Erstellung fehlschlägt, wird eine Benachrichtigung mit einem Link zum benutzerdefinierten Dashboard-Inventar bereitgestellt, um es erneut zu versuchen.</block>
   <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">Dies hilft Ihnen zu erkennen, wann Ihr Dashboard bereit ist, und erleichtert die Überprüfung oder Neuerstellung.</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">Informationen zur Erstellung benutzerdefinierter Dashboards</block>
-  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
   <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">Informationen zur Konfiguration von Benachrichtigungen</block>
-  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">Private und öffentliche benutzerdefinierte Dashboards</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">Benutzerdefinierte Dashboards enthalten jetzt Freigabeeinstellungen. Ein Dashboard kann privat gehalten oder mit dem Team geteilt werden.</block>
   <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">Neue Dashboards sind standardmäßig privat und nur für Sie sichtbar. Ein Dashboard kann jederzeit öffentlich gemacht werden, sodass es mit allen in Ihrem Workload Factory Konto geteilt werden kann.</block>
   <block id="26e05170ba3616166d4659e72d415450" category="paragraph">Jede Dashboard-Karte zeigt ein Label „Privat“ oder „Öffentlich“, sodass schnell ersichtlich ist, welche Dashboards freigegeben sind.</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">Informationen zur Sichtbarkeit und Freigabe von Dashboards</block>
-  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">Informationen zum Teilen von Dashboards</block>
-  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">Verwaltung von KI-Funktionen</block>
   <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Mit den folgenden Einstellungen in der Workload Factory Administration lässt sich der Zugriff auf KI-Funktionen in Ihrer gesamten Organisation steuern.</block>
   <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetApp-verwaltetes Bedrock verwenden (empfohlen und standardmäßig aktiviert, mit monatlichen Kreditlimits)</block>
@@ -185,7 +181,6 @@
   <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">Zu den KI-Funktionen gehören Ask Me, benutzerdefinierte Dashboards, Rule Builder, und Analysetools für EMS, Datenbankprotokolle und Volume-Latenz.</block>
   <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">Wenn die KI-Funktionen deaktiviert sind, sehen die Benutzer eine Meldung, dass die KI nicht verfügbar ist.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Informationen zur Verwaltung von KI-Funktionen</block>
-  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03. August 2026</block>
   <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">KI-Latenzanalyse mit Kostenkontrollen</block>
   <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Als Administrator der Workload Factory kann der Zugriff auf die KI-Latenzanalyse in der gesamten Organisation gesteuert werden.</block>
@@ -238,4 +233,9 @@
   <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
   <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
   <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
+  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
+  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
+  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
+  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
+  <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
 </blocks>
