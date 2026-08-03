@@ -164,7 +164,7 @@
   <block id="0c92fa03ad5e533f4ef42de9a2ae598f" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block> === Benutzerdefinierte Dashboards</block>
   <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">Benachrichtigungen für benutzerdefinierte Dashboards</block>
   <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory benachrichtigt Sie jetzt, wenn Ihr benutzerdefiniertes Dashboard bereit ist oder wenn die Erstellung fehlschlägt.</block>
-  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">Nachdem Sie ein benutzerdefiniertes Dashboard erstellt haben, erhalten Sie eine Benachrichtigung mit einem direkten Link zur Anzeige. Wenn die Erstellung fehlschlägt, erhalten Sie eine Benachrichtigung mit einem Link zum benutzerdefinierten Dashboard-Inventar, um es erneut zu versuchen.</block>
+  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">Nachdem Sie ein benutzerdefiniertes Dashboard erstellt haben, erhalten Sie eine Benachrichtigung mit einem direkten Link zur Anzeige. Wenn die Erstellung fehlschlägt, wird eine Benachrichtigung mit einem Link zum benutzerdefinierten Dashboard-Inventar bereitgestellt, um es erneut zu versuchen.</block>
   <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">Dies hilft Ihnen zu erkennen, wann Ihr Dashboard bereit ist, und erleichtert die Überprüfung oder Neuerstellung.</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">Informationen zur Erstellung benutzerdefinierter Dashboards</block>
   <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
@@ -172,20 +172,34 @@
   <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">Private und öffentliche benutzerdefinierte Dashboards</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">Benutzerdefinierte Dashboards enthalten jetzt Freigabeeinstellungen. Ein Dashboard kann privat gehalten oder mit dem Team geteilt werden.</block>
-  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">Neue Dashboards sind standardmäßig privat und nur für Sie sichtbar. Ein Dashboard kann jederzeit öffentlich gemacht werden, um es mit allen in Ihrem Workload Factory Konto zu teilen.</block>
+  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">Neue Dashboards sind standardmäßig privat und nur für Sie sichtbar. Ein Dashboard kann jederzeit öffentlich gemacht werden, sodass es mit allen in Ihrem Workload Factory Konto geteilt werden kann.</block>
   <block id="26e05170ba3616166d4659e72d415450" category="paragraph">Jede Dashboard-Karte zeigt ein Label „Privat“ oder „Öffentlich“, sodass schnell ersichtlich ist, welche Dashboards freigegeben sind.</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">Informationen zur Sichtbarkeit und Freigabe von Dashboards</block>
   <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">Informationen zum Teilen von Dashboards</block>
   <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">Verwaltung von KI-Funktionen</block>
-  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Der Zugriff auf KI-Funktionen in Ihrer gesamten Organisation lässt sich mit den folgenden Einstellungen in der Workload Factory Administration steuern.</block>
-  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetApp verwaltetes Bedrock verwenden (empfohlen und standardmäßig aktiviert, mit monatlichen Kreditlimits)</block>
+  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">Mit den folgenden Einstellungen in der Workload Factory Administration lässt sich der Zugriff auf KI-Funktionen in Ihrer gesamten Organisation steuern.</block>
+  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">NetApp-verwaltetes Bedrock verwenden (empfohlen und standardmäßig aktiviert, mit monatlichen Kreditlimits)</block>
   <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">Alle KI-Funktionen deaktivieren</block>
   <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">Die neue Administrationsseite ermöglicht die Verwaltung dieser Einstellungen an einem Ort.</block>
-  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">Zu den KI-Funktionen gehören Ask Me, benutzerdefinierte Dashboards, ein Regel-Errichter und Analysetools für EMS, Datenbankprotokolle und Volumenlatenz.</block>
+  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">Zu den KI-Funktionen gehören Ask Me, benutzerdefinierte Dashboards, Rule Builder, und Analysetools für EMS, Datenbankprotokolle und Volume-Latenz.</block>
   <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">Wenn die KI-Funktionen deaktiviert sind, sehen die Benutzer eine Meldung, dass die KI nicht verfügbar ist.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Informationen zur Verwaltung von KI-Funktionen</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03. August 2026</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">KI-Latenzanalyse mit Kostenkontrollen</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Als Administrator der Workload Factory kann der Zugriff auf die KI-Latenzanalyse in der gesamten Organisation gesteuert werden.</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp-verwaltete KI-Guthaben*: Wenn Ihr Administrator dies aktiviert, kann die KI-Analyse über die von NetApp verwaltete Amazon Bedrock Integration genutzt werden. Es ist keine zusätzliche Einrichtung erforderlich. Die monatliche Nutzung ist durch das zugewiesene Budget begrenzt. Wird das monatliche Limit erreicht, sind KI-gestützte Funktionen deaktiviert und eine entsprechende Meldung wird angezeigt.</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*Vom Administrator deaktiviert*: Wenn Ihr Administrator die KI-Funktionen deaktiviert, werden die Optionen für die KI-Analyse ausgegraut und Sie sehen eine Meldung, dass die Funktion deaktiviert ist.</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">Management der elastischen Durchsatzerhöhung</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">Sie können nun das Verhalten bei der Erhöhung des Durchsatzes auf der EDA-Übersichtsseite für ein oder mehrere ausgewählte FSx for ONTAP Dateisysteme verwalten.</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*Modusauswahl*: *Automatisieren* oder *Empfehlen* auswählen.</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*Massenaktualisierungen*: Ein oder mehrere Dateisysteme können ausgewählt und Modus- sowie Parameteränderungen in einem Schritt angewendet werden.</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*Dialog zur Durchsatzverwaltung ändern*: Die Einstellungen zur Durchsatzsteigerung mit den EDA-Standardwerten lassen sich im Dialog bearbeiten.</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Erweiterte Einstellungen*: Zusätzliche Durchsatz-Entscheidungsparameter können in einem erweiterbaren Abschnitt *Erweiterte Konfiguration* konfiguriert werden.</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*Tabellensichtbarkeit*: In der Tabelle „Cluster“ ist eine neue Spalte *Durchsatzmanagement* verfügbar, die über die Spalteneinstellungen aktiviert werden kann.</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*Konfiguration der oberen Karte*: Die obere Karte unterstützt jetzt die Konfiguration des Durchsatzsteigerungsmodus, ähnlich wie bei der SSD-Verwaltung.</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">Informationen zur Verwendung des Overview Dashboards</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
 </blocks>

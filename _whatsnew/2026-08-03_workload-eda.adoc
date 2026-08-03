@@ -1,0 +1,31 @@
+= KI-Latenzanalyse mit Kostenkontrollen
+:allow-uri-read: 
+
+
+
+
+[[ai-latency-analysis-with-cost-controls]]
+=== KI-Latenzanalyse mit Kostenkontrollen
+
+Als Administrator der Workload Factory kann der Zugriff auf die KI-Latenzanalyse in der gesamten Organisation gesteuert werden.
+
+* *NetApp-verwaltete KI-Guthaben*: Wenn Ihr Administrator dies aktiviert, kann die KI-Analyse über die von NetApp verwaltete Amazon Bedrock Integration genutzt werden. Es ist keine zusätzliche Einrichtung erforderlich. Die monatliche Nutzung ist durch das zugewiesene Budget begrenzt. Wird das monatliche Limit erreicht, sind KI-gestützte Funktionen deaktiviert und eine entsprechende Meldung wird angezeigt.
+* *Vom Administrator deaktiviert*: Wenn Ihr Administrator die KI-Funktionen deaktiviert, werden die Optionen für die KI-Analyse ausgegraut und Sie sehen eine Meldung, dass die Funktion deaktiviert ist.
+
+
+
+
+[[elastic-throughput-increase-management]]
+=== Management der elastischen Durchsatzerhöhung
+
+Sie können nun das Verhalten bei der Erhöhung des Durchsatzes auf der EDA-Übersichtsseite für ein oder mehrere ausgewählte FSx for ONTAP Dateisysteme verwalten.
+
+* *Modusauswahl*: *Automatisieren* oder *Empfehlen* auswählen.
+* *Massenaktualisierungen*: Ein oder mehrere Dateisysteme können ausgewählt und Modus- sowie Parameteränderungen in einem Schritt angewendet werden.
+* *Dialog zur Durchsatzverwaltung ändern*: Die Einstellungen zur Durchsatzsteigerung mit den EDA-Standardwerten lassen sich im Dialog bearbeiten.
+* *Erweiterte Einstellungen*: Zusätzliche Durchsatz-Entscheidungsparameter können in einem erweiterbaren Abschnitt *Erweiterte Konfiguration* konfiguriert werden.
+* *Tabellensichtbarkeit*: In der Tabelle „Cluster“ ist eine neue Spalte *Durchsatzmanagement* verfügbar, die über die Spalteneinstellungen aktiviert werden kann.
+* *Konfiguration der oberen Karte*: Die obere Karte unterstützt jetzt die Konfiguration des Durchsatzsteigerungsmodus, ähnlich wie bei der SSD-Verwaltung.
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Informationen zur Verwendung des Overview Dashboards"^].

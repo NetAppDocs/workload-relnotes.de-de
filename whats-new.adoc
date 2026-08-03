@@ -41,7 +41,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 Workload Factory benachrichtigt Sie jetzt, wenn Ihr benutzerdefiniertes Dashboard bereit ist oder wenn die Erstellung fehlschlägt.
 
-Nachdem Sie ein benutzerdefiniertes Dashboard erstellt haben, erhalten Sie eine Benachrichtigung mit einem direkten Link zur Anzeige. Wenn die Erstellung fehlschlägt, erhalten Sie eine Benachrichtigung mit einem Link zum benutzerdefinierten Dashboard-Inventar, um es erneut zu versuchen.
+Nachdem Sie ein benutzerdefiniertes Dashboard erstellt haben, erhalten Sie eine Benachrichtigung mit einem direkten Link zur Anzeige. Wenn die Erstellung fehlschlägt, wird eine Benachrichtigung mit einem Link zum benutzerdefinierten Dashboard-Inventar bereitgestellt, um es erneut zu versuchen.
 
 Dies hilft Ihnen zu erkennen, wann Ihr Dashboard bereit ist, und erleichtert die Überprüfung oder Neuerstellung.
 
@@ -55,7 +55,7 @@ link:configure-notifications.html["Informationen zur Konfiguration von Benachric
 
 Benutzerdefinierte Dashboards enthalten jetzt Freigabeeinstellungen. Ein Dashboard kann privat gehalten oder mit dem Team geteilt werden.
 
-Neue Dashboards sind standardmäßig privat und nur für Sie sichtbar. Ein Dashboard kann jederzeit öffentlich gemacht werden, um es mit allen in Ihrem Workload Factory Konto zu teilen.
+Neue Dashboards sind standardmäßig privat und nur für Sie sichtbar. Ein Dashboard kann jederzeit öffentlich gemacht werden, sodass es mit allen in Ihrem Workload Factory Konto geteilt werden kann.
 
 Jede Dashboard-Karte zeigt ein Label „Privat“ oder „Öffentlich“, sodass schnell ersichtlich ist, welche Dashboards freigegeben sind.
 
@@ -67,19 +67,50 @@ link:manage-custom-dashboards.html#change-dashboard-visibility["Informationen zu
 
 ==== Verwaltung von KI-Funktionen
 
-Der Zugriff auf KI-Funktionen in Ihrer gesamten Organisation lässt sich mit den folgenden Einstellungen in der Workload Factory Administration steuern.
+Mit den folgenden Einstellungen in der Workload Factory Administration lässt sich der Zugriff auf KI-Funktionen in Ihrer gesamten Organisation steuern.
 
-* NetApp verwaltetes Bedrock verwenden (empfohlen und standardmäßig aktiviert, mit monatlichen Kreditlimits)
+* NetApp-verwaltetes Bedrock verwenden (empfohlen und standardmäßig aktiviert, mit monatlichen Kreditlimits)
 * Alle KI-Funktionen deaktivieren
 
 
 Die neue Administrationsseite ermöglicht die Verwaltung dieser Einstellungen an einem Ort.
 
-Zu den KI-Funktionen gehören Ask Me, benutzerdefinierte Dashboards, ein Regel-Errichter und Analysetools für EMS, Datenbankprotokolle und Volumenlatenz.
+Zu den KI-Funktionen gehören Ask Me, benutzerdefinierte Dashboards, Rule Builder, und Analysetools für EMS, Datenbankprotokolle und Volume-Latenz.
 
 Wenn die KI-Funktionen deaktiviert sind, sehen die Benutzer eine Meldung, dass die KI nicht verfügbar ist.
 
 link:manage-genai-features.html["Informationen zur Verwaltung von KI-Funktionen"]
+
+
+
+[[eda-workloads]]
+=== EDA-Workloads
+
+
+
+==== KI-Latenzanalyse mit Kostenkontrollen
+
+Als Administrator der Workload Factory kann der Zugriff auf die KI-Latenzanalyse in der gesamten Organisation gesteuert werden.
+
+* *NetApp-verwaltete KI-Guthaben*: Wenn Ihr Administrator dies aktiviert, kann die KI-Analyse über die von NetApp verwaltete Amazon Bedrock Integration genutzt werden. Es ist keine zusätzliche Einrichtung erforderlich. Die monatliche Nutzung ist durch das zugewiesene Budget begrenzt. Wird das monatliche Limit erreicht, sind KI-gestützte Funktionen deaktiviert und eine entsprechende Meldung wird angezeigt.
+* *Vom Administrator deaktiviert*: Wenn Ihr Administrator die KI-Funktionen deaktiviert, werden die Optionen für die KI-Analyse ausgegraut und Sie sehen eine Meldung, dass die Funktion deaktiviert ist.
+
+
+
+
+==== Management der elastischen Durchsatzerhöhung
+
+Sie können nun das Verhalten bei der Erhöhung des Durchsatzes auf der EDA-Übersichtsseite für ein oder mehrere ausgewählte FSx for ONTAP Dateisysteme verwalten.
+
+* *Modusauswahl*: *Automatisieren* oder *Empfehlen* auswählen.
+* *Massenaktualisierungen*: Ein oder mehrere Dateisysteme können ausgewählt und Modus- sowie Parameteränderungen in einem Schritt angewendet werden.
+* *Dialog zur Durchsatzverwaltung ändern*: Die Einstellungen zur Durchsatzsteigerung mit den EDA-Standardwerten lassen sich im Dialog bearbeiten.
+* *Erweiterte Einstellungen*: Zusätzliche Durchsatz-Entscheidungsparameter können in einem erweiterbaren Abschnitt *Erweiterte Konfiguration* konfiguriert werden.
+* *Tabellensichtbarkeit*: In der Tabelle „Cluster“ ist eine neue Spalte *Durchsatzmanagement* verfügbar, die über die Spalteneinstellungen aktiviert werden kann.
+* *Konfiguration der oberen Karte*: Die obere Karte unterstützt jetzt die Konfiguration des Durchsatzsteigerungsmodus, ähnlich wie bei der SSD-Verwaltung.
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Informationen zur Verwendung des Overview Dashboards"^].
 
 
 
