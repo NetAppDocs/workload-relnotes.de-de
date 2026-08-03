@@ -1,0 +1,31 @@
+= Konfigurationsänderungen für Oracle und Microsoft SQL Server in der Well-Architected-Analyse
+:allow-uri-read: 
+
+
+
+
+[[configuration-changes-for-oracle-and-microsoft-sql-server-in-the-well-architected-analysis]]
+=== Konfigurationsänderungen für Oracle und Microsoft SQL Server in der Well-Architected-Analyse
+
+Im Rahmen der gut strukturierten Analyse wurden mehrere Datenbankkonfigurationen kombiniert und in die folgenden Konfigurationen umbenannt.
+
+* *Speicherplatzmanagement*: umfasst Speicherplatzreservierung, Speicherplatzzuweisung und Teilreserve
+* *Speichereffizienzen*: umfasst Komprimierung, Deduplizierung und Verdichtung
+* *Tiering/TCO-Optimierung*: umfasst die Tiering-Richtlinie und die Mindestkühltage für das Tiering
+* *Lokale Snapshots planen*: beinhaltet Snapshot-Richtlinie
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Konfigurationsanalyse in Workload Factory"]
+
+
+
+[[updated-iam-permission-policies-for-databases]]
+=== Aktualisierte IAM-Berechtigungsrichtlinien für Datenbanken
+
+Die Berechtigungen für Datenbanken wurden aktualisiert, um den Funktionszugriff zu verbessern und den SSM-Zugriff dort einzuschränken, wo er nicht erforderlich ist.
+
+Die Berechtigungen zum Anzeigen, Planen und Analysieren sind auf AWS SSM-Dokumente beschränkt. Mit diesen Berechtigungen können Sie Hosts, Instanzen und Datenbanken anzeigen. Es ist außerdem möglich, eine grundlegende bedarfsgesteuerte Well-Architected-Analyse Ihrer Ressourcen durchzuführen.
+
+Die Berechtigungen für Operationen und Fehlerbehebung ermöglichen Änderungen an Ihren Ressourcen, die Analyse von Fehlerprotokollen, eine umfassende Well-Architected-Analyse Ihrer Ressourcen sowie die Behebung von Konfigurationsproblemen.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Berechtigungsreferenz"^]

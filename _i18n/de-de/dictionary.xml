@@ -161,7 +161,6 @@
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">Die Berechtigungen zum Anzeigen, Planen und Analysieren sind auf AWS SSM-Dokumente beschränkt. Mit diesen Berechtigungen können Sie Hosts, Instanzen und Datenbanken anzeigen. Es ist außerdem möglich, eine grundlegende bedarfsgesteuerte Well-Architected-Analyse Ihrer Ressourcen durchzuführen.</block>
   <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">Die Berechtigungen für Operationen und Fehlerbehebung ermöglichen Änderungen an Ihren Ressourcen, die Analyse von Fehlerprotokollen, eine umfassende Well-Architected-Analyse Ihrer Ressourcen sowie die Behebung von Konfigurationsproblemen.</block>
   <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">Berechtigungsreferenz</block>
-  <block id="0c92fa03ad5e533f4ef42de9a2ae598f" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block> === Benutzerdefinierte Dashboards</block>
   <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">Benachrichtigungen für benutzerdefinierte Dashboards</block>
   <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory benachrichtigt Sie jetzt, wenn Ihr benutzerdefiniertes Dashboard bereit ist oder wenn die Erstellung fehlschlägt.</block>
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">Nachdem Sie ein benutzerdefiniertes Dashboard erstellt haben, erhalten Sie eine Benachrichtigung mit einem direkten Link zur Anzeige. Wenn die Erstellung fehlschlägt, wird eine Benachrichtigung mit einem Link zum benutzerdefinierten Dashboard-Inventar bereitgestellt, um es erneut zu versuchen.</block>
@@ -229,4 +228,14 @@
   <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">Um Benachrichtigungen für S3-Ereignisse einzurichten, <block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block> und unter dem Abschnitt *Journaltabelle* *S3-Ereignisse per SNS senden* auswählen.</block>
   <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">02. August 2026</block>
   <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>.</block>
+  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">Konfigurationsänderungen für Oracle und Microsoft SQL Server in der Well-Architected-Analyse</block>
+  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">Im Rahmen der gut strukturierten Analyse wurden mehrere Datenbankkonfigurationen kombiniert und in die folgenden Konfigurationen umbenannt.</block>
+  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*Speicherplatzmanagement*: umfasst Speicherplatzreservierung, Speicherplatzzuweisung und Teilreserve</block>
+  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*Speichereffizienzen*: umfasst Komprimierung, Deduplizierung und Verdichtung</block>
+  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*Tiering/TCO-Optimierung*: umfasst die Tiering-Richtlinie und die Mindestkühltage für das Tiering</block>
+  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*Lokale Snapshots planen*: beinhaltet Snapshot-Richtlinie</block>
+  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">Konfigurationsanalyse in Workload Factory</block>
+  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
+  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
+  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
 </blocks>
