@@ -275,7 +275,7 @@ link:calculate-evs-savings.html["Geschätzte Einsparungen für EVS berechnen"]
 
 ==== Volumes Explorer
 
-Volumes Explorer bietet eine einfache, durchsuchbare Ansicht aller Volumes in NetApp Workload Factory. Es wird schnell ersichtlich, welche Volumes Block- oder Datei-Workloads bedienen. Die logische Größe, die physisch genutzte Kapazität und die Nutzung von Speichereffizienzfunktionen (Komprimierung, Deduplizierung und Verdichtung) jedes Volumes werden angezeigt. Eine Filterung und Sortierung nach Name, Status (verfügbar/ausgefallen), Latenz, Größe, genutzter Kapazität und Schutzfunktionen ist möglich.
+Der Volumes Explorer bietet eine einfache, durchsuchbare Ansicht aller Volumes in NetApp Workload Factory. Es wird schnell ersichtlich, welche Volumes Block- oder Dateiworkloads bereitstellen. Die logische Größe, die physisch genutzte Kapazität und die Nutzung von Speichereffizienzfunktionen (Komprimierung, Deduplizierung und Verdichtung) jedes Volumes werden angezeigt. Eine Filterung und Sortierung nach Name, Status (verfügbar/ausgefallen), Latenz, Größe, genutzter Kapazität und Schutzfunktionen ist möglich.
 
 
 
