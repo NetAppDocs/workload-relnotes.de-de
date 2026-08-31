@@ -1,0 +1,12 @@
+= Linkerstellung ist auf der Seite „Links“ verfügbar.
+:allow-uri-read: 
+
+
+
+
+[[link-creation-available-from-links-page]]
+=== Linkerstellung ist auf der Seite „Links“ verfügbar.
+
+Es ist jetzt möglich, Links direkt von der Seite „Links“ im Menü „Administration“ zu erstellen, zusätzlich zur FSx for ONTAP Inventarseite und der Dateisystemübersichtsseite.
+
+link:create-link.html["Weitere Informationen zum Erstellen von Links"].
