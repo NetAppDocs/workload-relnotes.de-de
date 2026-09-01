@@ -33,6 +33,14 @@ link:create-link.html["Weitere Informationen zum Erstellen von Links"].
 
 
 
+==== Workload-Identifizierung
+
+* Workload Factory identifiziert jetzt Workloads für Hosts, die mit FSx for ONTAP Storage verbunden sind, der in einer anderen Region bereitgestellt wird.
+* Die verbesserte Logik zur Erkennung von Arbeitslasten erkennt nun zusätzliche Arbeitslasttypen und verbessert die Genauigkeit der Ergebnisse.
+
+
+
+
 [[database-workloads]]
 === Datenbank-Workloads
 

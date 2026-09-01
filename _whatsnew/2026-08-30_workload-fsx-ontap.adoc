@@ -10,3 +10,12 @@
 Es ist jetzt möglich, Links direkt von der Seite „Links“ im Menü „Administration“ zu erstellen, zusätzlich zur FSx for ONTAP Inventarseite und der Dateisystemübersichtsseite.
 
 link:create-link.html["Weitere Informationen zum Erstellen von Links"].
+
+
+
+[[workload-identification]]
+=== Workload-Identifizierung
+
+* Workload Factory identifiziert jetzt Workloads für Hosts, die mit FSx for ONTAP Storage verbunden sind, der in einer anderen Region bereitgestellt wird.
+* Die verbesserte Logik zur Erkennung von Arbeitslasten erkennt nun zusätzliche Arbeitslasttypen und verbessert die Genauigkeit der Ergebnisse.
+
