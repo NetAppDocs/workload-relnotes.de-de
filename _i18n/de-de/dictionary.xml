@@ -172,4 +172,10 @@
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">Es ist jetzt möglich, Links direkt von der Seite „Links“ im Menü „Administration“ zu erstellen, zusätzlich zur FSx for ONTAP Inventarseite und der Dateisystemübersichtsseite.</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">Weitere Informationen zum Erstellen von Links</block>
   <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>.</block>
+  <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">Aktualisierung des Sparrechners</block>
+  <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">Es besteht die Möglichkeit, verschiedene Kostenkomponenten für den Betrieb von Microsoft SQL Server Workloads wie Storage, Compute, SQL-Lizenz, Snapshots und Klone für Ihre Datenbank-Workloads auf FSx for ONTAP File Systemen mit Elastic Block Store (EBS), FSx for Windows File Server und On-Premises Storage zu vergleichen, wobei ausschließlich Ansichts-, Planungs- und Analyseberechtigungen erforderlich sind.</block>
+  <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">Einsparungen für Datenbank Workloads erkunden</block>
+  <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
+  <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">Berechtigungen für Datenbank-Workloads</block>
+  <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
 </blocks>

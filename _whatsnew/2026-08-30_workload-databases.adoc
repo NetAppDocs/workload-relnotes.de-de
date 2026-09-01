@@ -1,0 +1,14 @@
+= Aktualisierung des Sparrechners
+:allow-uri-read: 
+
+
+
+
+[[savings-calculator-update]]
+=== Aktualisierung des Sparrechners
+
+Es besteht die Möglichkeit, verschiedene Kostenkomponenten für den Betrieb von Microsoft SQL Server Workloads wie Storage, Compute, SQL-Lizenz, Snapshots und Klone für Ihre Datenbank-Workloads auf FSx for ONTAP File Systemen mit Elastic Block Store (EBS), FSx for Windows File Server und On-Premises Storage zu vergleichen, wobei ausschließlich Ansichts-, Planungs- und Analyseberechtigungen erforderlich sind.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Einsparungen für Datenbank Workloads erkunden"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["Berechtigungen für Datenbank-Workloads"^]
+
