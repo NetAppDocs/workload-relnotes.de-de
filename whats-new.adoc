@@ -415,3 +415,27 @@ Nach dem Senden einer Latenzwarnung für ein Dateisystem wartet Workload Factory
 Tägliche Benachrichtigungen sind standardmäßig aktiviert, um das E-Mail-Aufkommen zu reduzieren und Sie dennoch auf Latenzprobleme aufmerksam zu machen. Die Benachrichtigungseinstellungen lassen sich beim Einrichten der Latenzüberwachung oder beim Bearbeiten der Schwellenwerte ändern.
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Erfahren Sie, wie Sie die Latenzüberwachung konfigurieren"^].
+
+
+
+[[01-june-2026]]
+== 01. Juni 2026
+
+
+
+[[database-workloads]]
+=== Datenbank-Workloads
+
+Nicht aufgelöste Direktive in <stdin> - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]
+
+
+
+[[31-may-2026]]
+== 31. Mai 2026
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX für NetApp ONTAP
+
+Nicht aufgelöste Direktive in <stdin> - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === VMware Workloads Nicht aufgelöste Direktive in <stdin> - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === Einrichtung und Administration Nicht aufgelöste Direktive in <stdin> - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === EDA Workloads Nicht aufgelöste Direktive in <stdin> - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]
