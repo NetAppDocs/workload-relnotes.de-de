@@ -171,7 +171,6 @@
   <block id="c329a6ebc8c0891e88889203e3e31c39" category="doc">Linkerstellung ist auf der Seite „Links“ verfügbar.</block>
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">Es ist jetzt möglich, Links direkt von der Seite „Links“ im Menü „Administration“ zu erstellen, zusätzlich zur FSx for ONTAP Inventarseite und der Dateisystemübersichtsseite.</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">Weitere Informationen zum Erstellen von Links</block>
-  <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>.</block>
   <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">Aktualisierung des Sparrechners</block>
   <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">Es besteht die Möglichkeit, verschiedene Kostenkomponenten für den Betrieb von Microsoft SQL Server Workloads wie Storage, Compute, SQL-Lizenz, Snapshots und Klone für Ihre Datenbank-Workloads auf FSx for ONTAP File Systemen mit Elastic Block Store (EBS), FSx for Windows File Server und On-Premises Storage zu vergleichen, wobei ausschließlich Ansichts-, Planungs- und Analyseberechtigungen erforderlich sind.</block>
   <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">Einsparungen für Datenbank Workloads erkunden</block>
@@ -181,8 +180,5 @@
   <block id="c82db17d9640cb358a39977100613e95" category="section-title">Workload-Identifizierung</block>
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory identifiziert jetzt Workloads für Hosts, die mit FSx for ONTAP Storage verbunden sind, der in einer anderen Region bereitgestellt wird.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">Die verbesserte Logik zur Erkennung von Arbeitslasten erkennt nun zusätzliche Arbeitslasttypen und verbessert die Genauigkeit der Ergebnisse.</block>
-  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">01. Juni 2026</block>
-  <block id="04c0507bac5db3815eb05149e687293a" category="paragraph">Nicht aufgelöste Direktive in &lt;stdin&gt; - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]</block>
-  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">31. Mai 2026</block>
-  <block id="a5f1df54f2f444fcc2dd868e0f219417" category="paragraph">Nicht aufgelöste Direktive in &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === VMware Workloads Nicht aufgelöste Direktive in &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === Einrichtung und Administration Nicht aufgelöste Direktive in &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === EDA Workloads Nicht aufgelöste Direktive in &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]</block>
+  <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
 </blocks>
