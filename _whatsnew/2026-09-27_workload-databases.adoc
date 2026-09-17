@@ -1,0 +1,20 @@
+= Im Well-Architected Dashboard enthaltene Datenbankkonfigurationen
+:allow-uri-read: 
+
+
+
+
+[[database-configurations-included-in-well-architected-dashboard]]
+=== Im Well-Architected Dashboard enthaltene Datenbankkonfigurationen
+
+Das übersichtliche Dashboard enthält nun Empfehlungen für Ihre Datenbankkonfigurationen, mit denen Sie Ihre Einrichtung anhand bewährter Verfahren bewerten und optimieren können. Die ersten Konfigurationen umfassen:
+
+* Kaltdaten-Tiering
+* Storage Effizienz
+* Snapshot-Richtlinie
+* SSD Kapazitätsreserve
+
+
+Das Dashboard „Well-architected“ befindet sich im Hauptmenü der Workload Factory Konsole unter *Well-architected*.
+
+image:well-architected-menu-option.png["Gut strukturierte Menüoption in der NetApp Workload Factory Konsole"]
