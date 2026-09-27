@@ -337,7 +337,7 @@ Der EVS TCO-Rechner unterstützt jetzt AWS i7i.metal-24xl EC2 Instanzen als Clus
 
 Der Rechner vergleicht automatisch beide Instanztypen und wählt die kostengünstigste Option aus. Ein neuer Vergleichsbereich zeigt EVS Hostkonfigurationen nebeneinander, sodass die beste Konfiguration für Ihre Anforderungen leichter gefunden werden kann.
 
-link:calculate-evs-savings.html["Geschätzte Einsparungen für EVS berechnen"]
+link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Geschätzte Einsparungen für EVS berechnen"]
 
 
 
