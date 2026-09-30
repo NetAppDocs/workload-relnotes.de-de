@@ -25,19 +25,9 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
-==== Im Well-Architected Dashboard enthaltene Datenbankkonfigurationen
+==== Unterstützung für mehrere Dateisysteme pro einzelner Instanz
 
-Das übersichtliche Dashboard enthält nun Empfehlungen für Ihre Datenbankkonfigurationen, mit denen Sie Ihre Einrichtung anhand bewährter Verfahren bewerten und optimieren können. Die ersten Konfigurationen umfassen:
-
-* Kaltdaten-Tiering
-* Storage Effizienz
-* Snapshot-Richtlinie
-* SSD Kapazitätsreserve
-
-
-Das Dashboard „Well-architected“ befindet sich im Hauptmenü der Workload Factory Konsole unter *Well-architected*.
-
-image:well-architected-menu-option.png["Gut strukturierte Menüoption in der NetApp Workload Factory Konsole"]
+Workload Factory für Datenbanken unterstützt mehrere Dateisysteme pro einzelner Microsoft SQL Server Instanz. In einer SQL Server Instanz können mehrere Dateisysteme registriert und ein Konfigurationsproblem für mehrere Dateisysteme gleichzeitig behoben werden.
 
 
 

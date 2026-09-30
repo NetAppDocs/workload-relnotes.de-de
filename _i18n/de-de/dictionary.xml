@@ -179,15 +179,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory identifiziert jetzt Workloads für Hosts, die mit FSx for ONTAP Storage verbunden sind, der in einer anderen Region bereitgestellt wird.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">Die verbesserte Logik zur Erkennung von Arbeitslasten erkennt nun zusätzliche Arbeitslasttypen und verbessert die Genauigkeit der Ergebnisse.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">Im Well-Architected Dashboard enthaltene Datenbankkonfigurationen</block>
-  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">Das übersichtliche Dashboard enthält nun Empfehlungen für Ihre Datenbankkonfigurationen, mit denen Sie Ihre Einrichtung anhand bewährter Verfahren bewerten und optimieren können. Die ersten Konfigurationen umfassen:</block>
-  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Kaltdaten-Tiering</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Storage Effizienz</block>
-  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Snapshot-Richtlinie</block>
-  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">SSD Kapazitätsreserve</block>
-  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">Das Dashboard „Well-architected“ befindet sich im Hauptmenü der Workload Factory Konsole unter *Well-architected*.</block>
-  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Gut strukturierte Menüoption in der NetApp Workload Factory Konsole</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27. September 2026</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
@@ -234,4 +225,6 @@
   <block id="44268d176d67be14130038589d76e779" category="paragraph">Workload Factory benachrichtigt Sie nun, wenn ein Lambda Link nicht das aktuellste verfügbare Image verwendet. Wenn automatische Upgrades für einen Link nicht unterstützt werden, wird die Benachrichtigung angezeigt, sobald eine neuere Version verfügbar ist.</block>
   <block id="36be3d9219f21557e17dda1fb159e09d" category="paragraph">Upgrade-Anweisungen können auf der Seite „Links“ eingesehen werden. Die Anweisungen erläutern, wie das Lambda Link Image manuell aktualisiert und automatische Upgrades aktiviert werden, sobald diese verfügbar sind. Wenn Links aktuell gehalten werden, wird der Zugriff auf die neuesten Funktionen ermöglicht, bekannte Probleme werden behoben und aktuelle Sicherheitsupdates werden angewendet.</block>
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">Außerdem erhalten Sie im FSx for ONTAP Dashboard eine Benachrichtigung, wenn für einen Link, der keine automatischen Upgrades unterstützt, eine neuere Link Version verfügbar ist.</block>
+  <block id="753d621a767f80f69e64e577e1856e54" category="doc">Unterstützung für mehrere Dateisysteme pro einzelner Instanz</block>
+  <block id="6adeb7328ee4497e74b45036bf16ff9d" category="paragraph">Workload Factory für Datenbanken unterstützt mehrere Dateisysteme pro einzelner Microsoft SQL Server Instanz. In einer SQL Server Instanz können mehrere Dateisysteme registriert und ein Konfigurationsproblem für mehrere Dateisysteme gleichzeitig behoben werden.</block>
 </blocks>
