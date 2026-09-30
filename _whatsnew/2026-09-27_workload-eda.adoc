@@ -1,0 +1,28 @@
+= Verbesserte Benachrichtigungen zur SSD-Kapazität
+:allow-uri-read: 
+
+
+
+
+[[enhanced-ssd-capacity-notifications]]
+=== Verbesserte Benachrichtigungen zur SSD-Kapazität
+
+Benachrichtigungen zum SSD Kapazitätsmanagement enthalten jetzt detaillierte Fehlermeldungen zur Fehlerbehebung bei Automatisierungsfehlern. Benachrichtigungen werden bei erfolgreichen Kapazitätserhöhungen, Fehlern bei Erhöhungsvorgängen, fehlgeschlagenen Kapazitätsprüfungen, Schwellenwertwarnungen und Empfehlungen gesendet. Die Fehlerdetails enthalten spezifische Fehlerursachen wie fehlende Berechtigungen, laufende gleichzeitige Aktualisierungen, AWS Cooldown-Zeiten oder Probleme beim Abrufen von CloudWatch Metriken.
+
+link:https://docs.netapp.com/us-en/workload-eda/learn-overview-dashboard.html["Informationen zum SSD Kapazitätsmanagement"^].
+
+
+
+[[week-time-frame-for-latency-graphs]]
+=== Wöchentlicher Zeitrahmen für Latenzdiagramme
+
+Die Diagramme zur Latenzanalyse unterstützen nun zusätzlich zu den bestehenden Optionen (1 Stunde, 3 Stunden, 12 Stunden, 24 Stunden, 72 Stunden) auch einen Zeitraum von einer Woche. Die Wochenansicht dient dazu, längerfristige Muster und Trends im Latenzverhalten von Volumes zu erkennen.
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Informationen zur Latenztrendanalyse"^].
+
+
+
+[[improved-file-system-visibility-in-the-interface]]
+=== Verbesserte Dateisystemsichtbarkeit in der Benutzeroberfläche
+
+Workload Factory bietet Ihnen jetzt eine übersichtlichere Darstellung Ihrer Dateisysteme in der Benutzeroberfläche. In der Dateisystemübersicht lassen sich Trends bei der SSD-Kapazität und der Durchsatznutzung, Workload-Zusammenfassungen und detaillierte Konfigurationsinformationen direkt einsehen.
