@@ -124,7 +124,7 @@ Workload Factory erkennt nun den bevorzugten FlexCache Schreibmodus für Volumes
 
 ==== Unterstützung für Link-Dokumentation
 
-Die gesamte Linkdokumentation ist nun in der Dokumentation zur Einrichtung und Administration von NetApp Workload Factory enthalten. Ein Verweis auf die link:links-overview.html["Informationen zu NetApp Workload Factory-Links"]Workload Factory FSx for ONTAP Dokumentation ist weiterhin möglich; die Links zu den entsprechenden Seiten befinden sich in der Dokumentation zur Einrichtung und Administration.
+Die gesamte Linkdokumentation ist nun in der Dokumentation zur Einrichtung und Administration von NetApp Workload Factory enthalten. Ein Verweis auf die link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Informationen zu NetApp Workload Factory-Links"]Workload Factory FSx for ONTAP Dokumentation ist weiterhin möglich; die Links zu den entsprechenden Seiten befinden sich in der Dokumentation zur Einrichtung und Administration.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Weitere Informationen zur Konfiguration von Links in der Workload Factory Konsole."^]
 
@@ -202,9 +202,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 
 
-==== ONTAP Unterstützung in Ask Me
+==== Storage-Support in Ask Me
 
-Ask Me unterstützt jetzt FSx für ONTAP und On-Premises ONTAP Systeme. Mit derselben Chat-Funktion erhalten Sie Antworten und Einblicke in Ihre gesamte ONTAP Infrastruktur.
+Ask Me unterstützt jetzt FSx für ONTAP und Google Cloud NetApp Volumes. Mit derselben Chat-Funktion erhalten Sie Antworten und Einblicke in Ihre unterstützten Speicherumgebungen.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Erfahren Sie mehr über Ask Me"]
 
