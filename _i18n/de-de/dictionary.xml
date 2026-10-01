@@ -202,16 +202,13 @@
   <block id="72c9ca3fa9790aabd5a7a741dfe036e9" category="paragraph">Diese zusätzlichen Steuerungsmöglichkeiten bieten Ihnen mehr Transparenz und Kontrolle. Im Lese-/Schreibmodus müssen Agenten Ihre Genehmigung einholen, bevor sie Änderungen an AWS, ONTAP oder unterstützten APIs vornehmen. Außerdem kann festgelegt werden, wie detailliert die Antworten sein sollen, einschließlich Informationen zur Begründung des Agenten und in Slack zu dessen Tool-Aktivitäten.</block>
   <block id="8b4711746b3adfa755ed575da3759c69" category="paragraph">Agenten unterstützen zudem Umgebungen mit mehreren Konten und eine einfachere Einrichtung. Ein einzelner Agent kann mit mehreren Anmeldeinformationen sicher über mehrere AWS-Konten hinweg arbeiten.</block>
   <block id="ff2cb9e669640d8f287be7fc339c4d78" category="inline-link-macro">Informationen zu KI-Agenten</block>
-  <block id="fd0b6331664a65cf7a31ea72bbff0ad8" category="paragraph"><block ref="fd0b6331664a65cf7a31ea72bbff0ad8" category="inline-link-macro-rx"></block></block>
   <block id="718a428bd3b2faadb3c143efe186c19c" category="inline-link-macro">Verwaltung der Agenteneinstellungen</block>
-  <block id="f96519dcd31d8fc6ae26fb065d41298c" category="paragraph"><block ref="f96519dcd31d8fc6ae26fb065d41298c" category="inline-link-macro-rx"></block></block>
   <block id="3cfde347b20875f3299e4bc85cde4012" category="section-title">Geplante Aufgaben in Ask Me</block>
   <block id="ed6bda88b37dd9ee0232de291a362174" category="paragraph">Sie können jetzt im Ask Me Chat eine Eingabeaufforderung anpassen, um geplante Aufgaben zu erstellen. Mit geplanten Aufgaben kann Ask Me wiederkehrende Prüfungen ausführen und entsprechend dem von Ihnen definierten Zeitplan Aktualisierungen im Chat senden.</block>
   <block id="ff51f1512e81cb44e19946405c4c3751" category="paragraph">Beispielhafte Eingabeaufforderungen:</block>
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">Der Integritäts- und Lebenszyklusstatus aller FSx for NetApp ONTAP Dateisysteme wird stündlich überprüft, um Probleme frühzeitig zu erkennen.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">Zur Gewährleistung eines aktuellen Inventars werden stündlich alle zugänglichen AWS FSx Dateisysteme aufgelistet.</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Erfahren Sie mehr über Ask Me</block>
-  <block id="21acc05c94ffdfe8d543fc22e8162a92" category="paragraph"><block ref="21acc05c94ffdfe8d543fc22e8162a92" category="inline-link-macro-rx"></block></block>
   <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">ONTAP Unterstützung in Ask Me</block>
   <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me unterstützt jetzt FSx für ONTAP und On-Premises ONTAP Systeme. Mit derselben Chat-Funktion erhalten Sie Antworten und Einblicke in Ihre gesamte ONTAP Infrastruktur.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">Aktualisierung von Benachrichtigungen</block>
@@ -280,4 +277,7 @@
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory identifiziert und klassifiziert Workloads und Hosts im Workload Tagging Service nun präziser. Aktualisierte Erkennungsmethoden reduzieren Fehlklassifizierungen und liefern genauere Tagging- und Klassifizierungsergebnisse.</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory bietet Ihnen jetzt eine übersichtlichere Darstellung Ihrer Dateisysteme in der Benutzeroberfläche. SSD-Kapazitäts- und Durchsatznutzungstrends, Workload-Zusammenfassungen und detaillierte Konfigurationsinformationen können direkt in der Dateisystemübersicht eingesehen werden. Workload Factory identifiziert und klassifiziert Workloads und Hosts im Workload Tagging Service nun präziser. Aktualisierte Erkennungsmethoden reduzieren Fehlklassifizierungen und liefern genauere Tagging- und Klassifizierungsergebnisse.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30. September 2026</block>
+  <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
+  <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
+  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
 </blocks>
