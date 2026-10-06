@@ -15,6 +15,40 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+[[04-october-2026]]
+== 04. Oktober 2026
+
+
+
+[[setup-and-administration]]
+=== Einrichtung und Administration
+
+
+
+==== Benutzerdefinierte Dashboard-Aktualisierungen
+
+Individuell anpassbare Dashboards erleichtern Ihnen jetzt das Managen Ihrer Arbeit.
+
+Sie können Dashboards direkt im Katalog bearbeiten, einschließlich Kennzahlen, Diagrammen und Zeitbereichen.
+
+Wenn Sie ein Dashboard bearbeiten, öffnet Workload Factory den Chat mit Ihren vorherigen Eingabeaufforderungen und Nachrichten erneut. Anschließend können Sie das Dashboard aktualisieren, Ihre Änderungen speichern oder die vorherige Version wiederherstellen.
+
+Nur der Ersteller des Dashboards kann das Dashboard bearbeiten. Während der Bearbeitung sind Ihre Änderungen für andere Nutzer erst sichtbar, nachdem Sie sie gespeichert haben.
+
+Der Dashboard-Katalog enthält jetzt mehr Filter, mit denen sich Dashboards schnell nach Kategorie und Status finden lassen.
+
+Wenn Ihr Administrator die KI-Funktionen deaktiviert oder Ihr monatliches Kreditlimit erreicht ist, sind die Erstellung und Bearbeitung von Dashboards deaktiviert.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html["Informationen zu benutzerdefinierten Dashboards"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["Ein benutzerdefiniertes Dashboard erstellen"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html["Benutzerdefinierte Dashboards verwalten"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/troubleshoot-custom-dashboards.html["Fehlerbehebung bei benutzerdefinierten Dashboards"]
+
+
+
 [[30-september-2026]]
 == 30. September 2026
 
@@ -538,126 +572,3 @@ Um Benachrichtigungen für S3-Ereignisse einzurichten, link:https://docs.netapp.
 ==== Im Volumes Explorer angezeigte ONTAP-Funktionen
 
 Volumes Explorer enthält jetzt ONTAP Funktionen in der Volumes Tabelle. Diese Funktionen bieten detailliertere Einblicke in die Konfiguration und den Status Ihrer Volumes, wie Schutzabdeckung, Status von Autonomous Ransomware Protection (ARP/AI), Speichereffizienz, Tiering Richtlinie und Volume Autogrow.
-
-
-
-[[06-july-2026]]
-== 06. Juli 2026
-
-
-
-[[vmware-workloads]]
-=== VMware-Workloads
-
-
-
-==== Unterstützung der i7i.metal-24xl Instanz im EVS TCO-Rechner
-
-Der EVS TCO-Rechner unterstützt jetzt AWS i7i.metal-24xl EC2 Instanzen als Cluster-Hosts. Im Vergleich zu i4i.metal Konfigurationen senken diese Instanzen die EVS Startkosten um etwa 33 % für Compute und 25 % für vSAN Storage.
-
-Der Rechner vergleicht automatisch beide Instanztypen und wählt die kostengünstigste Option aus. Ein neuer Vergleichsbereich zeigt EVS Hostkonfigurationen nebeneinander, sodass die beste Konfiguration für Ihre Anforderungen leichter gefunden werden kann.
-
-link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Geschätzte Einsparungen für EVS berechnen"]
-
-
-
-[[05-july-2026]]
-== 05. Juli 2026
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX für NetApp ONTAP
-
-
-
-==== Volumes Explorer
-
-Der Volumes Explorer bietet eine einfache, durchsuchbare Ansicht aller Volumes in NetApp Workload Factory. Es wird schnell ersichtlich, welche Volumes Block- oder Dateiworkloads bereitstellen. Die logische Größe, die physisch genutzte Kapazität und die Nutzung von Speichereffizienzfunktionen (Komprimierung, Deduplizierung und Verdichtung) jedes Volumes werden angezeigt. Eine Filterung und Sortierung nach Name, Status (verfügbar/ausgefallen), Latenz, Größe, genutzter Kapazität und Schutzfunktionen ist möglich.
-
-
-
-==== Verbesserte E-Mail-Benachrichtigungen bei Replikationsverzögerungen
-
-E-Mail-Benachrichtigungen über Replikationsverzögerungen enthalten jetzt detailliertere Informationen zur betroffenen Beziehung. Die Benachrichtigung ermöglicht eine schnelle Identifizierung der betroffenen Beziehung und eine weitere Untersuchung in der Workload Factory Konsole.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Benachrichtigungen für Replikationsverzögerungen aktivieren"]
-
-
-
-==== Verbesserung der Blockgeräteerstellung
-
-Workload Factory unterstützt die Erstellung von Blockgeräten aus einem Volume Snapshot.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["Ein Blockgerät aus einem Volume-Snapshot in Workload Factory erstellen"]
-
-
-
-==== Workload Tagging für Volumes und Blockgeräte
-
-Workload Factory identifiziert und taggt nun Volumes und Blockgeräte anhand ihrer primären Workload oder Anwendung. Es können vordefinierte Workload-Tags wie Microsoft SQL Server oder Oracle Database zugewiesen oder benutzerdefinierte Tags für Anwendungen erstellt werden. Tags können einzelnen Ressourcen zugewiesen oder von verbundenen Speicherressourcen übernommen werden. Dies trägt dazu bei, Speicherkonfigurationen an Workload-Anforderungen auszurichten, Auswirkungen von Vorfällen zu verstehen und die Fehlerbehebung zu erleichtern.
-
-
-
-[[setup-and-administration]]
-=== Einrichtung und Administration
-
-
-
-==== Benutzerdefinierte Dashboards
-
-KI-gestützte Dashboards können erstellt werden, die auf Ihre Workloads und Prioritäten abgestimmt sind, sodass die Performance Ihrer Abläufe einfach ersichtlich ist. Anstelle fester Ansichten ermöglichen benutzerdefinierte Dashboards den Fokus auf die Informationen, die am wichtigsten sind.
-
-Beschreiben Sie in verständlicher Sprache, was Sie überwachen möchten, und die KI erstellt ein Dashboard basierend auf Ihrer Anfrage. Beispielsweise lassen sich der Status der Notfallwiederherstellung, Kapazität und Kosten regionsübergreifend, die Einhaltung von Speicherschutzrichtlinien und andere betriebliche Metriken verfolgen.
-
-Benutzerdefinierte Dashboards sind schreibgeschützt, daher können sie Ihre Speicher- oder Workload-Einstellungen nicht ändern. Jede Person in Ihrem Workload Factory-Konto kann diese Dashboards anzeigen und verwalten, was es Teams erleichtert, Erkenntnisse zu teilen und abgestimmt zu bleiben.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html["Weitere Informationen zu benutzerdefinierten Dashboards"]
-
-
-
-==== GenAI Workload-Entfernung aus der Workload Factory
-
-Die GenAI Workload ist aus der Workload Factory Konsole entfernt worden.
-
-
-
-[[eda-workloads]]
-=== EDA-Workloads
-
-
-
-==== Erweiterte Latenzanalyse mit synchronisierten Diagrammen für Latenz, IOPS und Durchsatz
-
-Das Panel zur Latenzanalyse enthält nun eine Seite mit *detaillierter Latenzanalyse* und synchronisierten Leistungsdiagrammen:
-
-* *Latenzdiagramm*: Zeigt, wie sich die Latenz im Laufe der Zeit verändert, mit Schwellenwertlinien und Warnmeldungen, wenn Grenzwerte überschritten werden.
-* *IOPS Diagramm*: Zeigt die Operationen pro Sekunde, mit Schwellenwertlinien und Indikatoren für vergangene Grenzwertüberschreitungen.
-* *Durchsatzdiagramm*: Zeigt Datentransferraten (DataReadBytes oder DataWriteBytes). Wenn im Filter Metadaten ausgewählt sind, zeigt das Durchsatzdiagramm keine Daten.
-
-
-Alle Diagramme verwenden die gleiche Zeitleiste und zeigen automatisch die korrekten Metriken an, abhängig davon, ob das Ereignis ein Lese- oder Schreibvorgang ist.
-
-Sie können die Ansicht anpassen und Latenzspitzen mit Änderungen der IOPS und des Durchsatzes korrelieren. Markierungen für Grenzwertverletzungen und Details beim Überfahren mit der Maus helfen dabei zu erkennen, wann Schwellenwerte überschritten wurden, und wichtige Kennzahlen für die erkannte Grenzwertverletzung zu überprüfen.
-
-https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Informationen zur Analyse von Latenztrends mit mehreren Diagrammen"^].
-
-
-
-==== Häufigkeit der Latenzbenachrichtigung festlegen
-
-Sie können nun auswählen, wie häufig Sie E-Mail-Benachrichtigungen über Latenzüberschreitungen erhalten:
-
-* *Tägliche Erinnerung (Empfohlen)*: Sie erhalten eine Benachrichtigung, wenn ein neues Problem auf einem beliebigen FSx for ONTAP Dateisystem auftritt.
-
-
-Wenn an einem Tag mehrere Latenzprobleme auf demselben Dateisystem auftreten, erhalten Sie nur eine E-Mail.
-
-Nach dem Senden einer Latenzwarnung für ein Dateisystem wartet Workload Factory 24 Stunden, bevor eine weitere Warnung für dieses Dateisystem gesendet wird.
-
-* *Benachrichtigung bei Latenzüberschreitung (alle 20 Minuten)*: Es erfolgt eine Benachrichtigung, wenn eine Überschreitung festgestellt wird, bis zu einmal alle 20 Minuten.
-
-
-Tägliche Benachrichtigungen sind standardmäßig aktiviert, um das E-Mail-Aufkommen zu reduzieren und Sie dennoch auf Latenzprobleme aufmerksam zu machen. Die Benachrichtigungseinstellungen lassen sich beim Einrichten der Latenzüberwachung oder beim Bearbeiten der Schwellenwerte ändern.
-
-https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Erfahren Sie, wie Sie die Latenzüberwachung konfigurieren"^].
