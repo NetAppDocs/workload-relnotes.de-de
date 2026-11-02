@@ -1,0 +1,14 @@
+= Unterstützung für die Instanzen i7i.metal-24xl und i7i.metal-48xl im EVS TCO Rechner
+:allow-uri-read: 
+
+
+
+
+[[i7i-metal-24xl-and-i7i-metal-48xl-instance-support-in-evs-tco-calculator]]
+=== Unterstützung für die Instanzen i7i.metal-24xl und i7i.metal-48xl im EVS TCO Rechner
+
+Der EVS TCO Rechner unterstützt jetzt AWS i7i.metal-24xl und i7i.metal-48xl EC2-Instanzen als Cluster Hosts. Im Vergleich zu i4i.metal Konfigurationen senken i7i.metal-24xl Instanzen die EVS Startkosten um etwa 33 % für Rechenleistung und 25 % für vSAN Storage.
+
+Der Rechner vergleicht alle Instanztypen und wählt automatisch die kostengünstigste Option aus. Ein neuer Vergleichsbereich zeigt EVS Hostkonfigurationen nebeneinander an und erleichtert so die Auswahl der besten Konfiguration für Ihre Anforderungen.
+
+link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Geschätzte Einsparungen für EVS berechnen"]
