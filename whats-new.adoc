@@ -131,6 +131,12 @@ Nun sind Empfehlungen zum Clientdurchsatz sowie Entscheidungspunkte für die Aut
 
 
 
+==== Kundengesteuerte Bedrock Unterstützung für die Klassifizierung
+
+Mit Workload Factory können Sie jetzt Ihre eigene Amazon Bedrock Konfiguration für die Klassifizierung von Workload-Tags verwenden. Sie können Ihren eigenen Bedrock-Endpunkt und Ihre Zugangsdaten angeben, sodass Klassifizierungsanfragen über Ihre eigene Bedrock Konfiguration ausgeführt werden.
+
+
+
 [[database-workloads]]
 === Datenbank-Workloads
 

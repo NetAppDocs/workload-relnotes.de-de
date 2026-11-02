@@ -115,3 +115,10 @@ Sie können jetzt automatische Benachrichtigungen zum Kapazitätsmanagement akti
 === Entscheidungspunkte für den Durchsatz
 
 Nun sind Empfehlungen zum Clientdurchsatz sowie Entscheidungspunkte für die Automatisierung sichtbar. Beim Bewegen des Mauszeigers über einen Entscheidungspunkt werden Details wie die aktuelle und empfohlene SKU oder im Zeitfenster (%) überschrittene Metriken angezeigt.
+
+
+
+[[customer-managed-bedrock-support-for-classification]]
+=== Kundengesteuerte Bedrock Unterstützung für die Klassifizierung
+
+Mit Workload Factory können Sie jetzt Ihre eigene Amazon Bedrock Konfiguration für die Klassifizierung von Workload-Tags verwenden. Sie können Ihren eigenen Bedrock-Endpunkt und Ihre Zugangsdaten angeben, sodass Klassifizierungsanfragen über Ihre eigene Bedrock Konfiguration ausgeführt werden.

@@ -276,4 +276,6 @@
   <block id="3714dde7378ac290c154f62d9c080369" category="section-title">Verbesserungen bei der Linkerstellung</block>
   <block id="73501dc89cd2fc3be142f43eaffe971b" category="paragraph">Workload Factory hat die Codebox-Ausgabe für die Linkerstellung aktualisiert, indem die Inline-Lambda-Berechtigungen durch die IAM-Richtlinie für die CloudFormation Vorlage und Terraform ersetzt wurden.</block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27. September 2026</block>
+  <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">Kundengesteuerte Bedrock Unterstützung für die Klassifizierung</block>
+  <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Mit Workload Factory können Sie jetzt Ihre eigene Amazon Bedrock Konfiguration für die Klassifizierung von Workload-Tags verwenden. Sie können Ihren eigenen Bedrock-Endpunkt und Ihre Zugangsdaten angeben, sodass Klassifizierungsanfragen über Ihre eigene Bedrock Konfiguration ausgeführt werden.</block>
 </blocks>
