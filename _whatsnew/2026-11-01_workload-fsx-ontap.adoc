@@ -1,0 +1,117 @@
+= Verbesserungen des Initiatorgruppe-Diagramms
+:allow-uri-read: 
+
+
+
+
+[[initiator-group-diagram-enhancements]]
+=== Verbesserungen des Initiatorgruppe-Diagramms
+
+Das Diagramm auf der Seite „Clientzugriff managen“, das Initiatorgruppen für Blockgeräte anzeigt, enthält nun mehr Details zu Hosts. Beim Bewegen des Mauszeigers über einen Host im Diagramm erscheinen Hostdetails, darunter der Hostname, die Instanz-ID, der Workload-Typ, die Region und der iSCSI Qualified Name (IQN).
+
+
+
+[[email-enhancement-for-well-architected-issues]]
+=== E-Mail-Optimierung für Well-Architected-Probleme
+
+Das neue E-Mail-Design bietet mehr Details und Kontext zu Konfigurationsproblemen, die von Workload Factory erkannt wurden. Die E-Mail enthält die Anzahl der analysierten Ressourcen, wie viele Warnungen oder kritische Probleme aufweisen und worin diese Probleme bestehen. Die E-Mail enthält außerdem einen Link zum FSx for ONTAP Well-Architected-Dashboard, sodass Probleme umgehend behoben werden können.
+
+
+
+[[well-architected-dashboard-enhancements]]
+=== Gut konzipierte Dashboard-Erweiterungen
+
+
+
+==== Unterstützung für ausgewählte Konfigurationsprüfungen
+
+Sie können die Analyse für ausgewählte Konfigurationen manuell ausführen, sodass Sie nur die Konfigurationen analysieren, für die Sie sich interessieren, und die Wartezeit verkürzen.
+
+
+
+==== Neue Empfehlungen in der Well-Architected-Analyse
+
+Workload Factory umfasst nun die folgenden Konfigurationen in der Well-Architected Analysis für FSx for ONTAP file systems:
+
+Für Storage Workloads:
+
+* *Host mit Failover-Knoten verbinden*: Prüft, ob Hosts in einem Aktiv/Passiv FSx for ONTAP Dateisystem zur Gewährleistung der Zuverlässigkeit mit dem Failover-Knoten verbunden sind.
+* *Verbindung des Hosts mit dem bevorzugten Knoten*: Überprüft, ob Hosts über den bevorzugten Knoten mit ihren Blockgeräten verbunden sind, um eine effiziente Performance zu gewährleisten.
+* *Lücke bei der ARP/AI-Mehrgeräteerkennung*: ARP/AI bietet vollen Schutz, solange an ein Volume nur ein Blockgerät angeschlossen ist. Sind mehrere Blockgeräte an ein Volume angeschlossen, verschiebt Workload Factory diese auf neue Volumes, sodass jedes Volume nur noch ein Blockgerät enthält.
+* *Klonbereinigung*: Prüft, ob Volume-Klone vorhanden sind, die älter als 30 Tage sind und gelöscht werden können, um die Storage-Nutzung zu optimieren und Kosten zu senken.
+* *igroup OS mit Host abgleichen*: Es wird geprüft, ob das Betriebssystem der Initiatorgruppe (igroup) mit dem Betriebssystem des Hosts übereinstimmt, um E/A- oder Performance-Probleme zu vermeiden.
+
+
+Für Kubernetes-Workloads:
+
+* *QoS-Konfiguration*: Überprüft, ob Kubernetes Persistent Volumes durch eine ONTAP QoS-Richtlinie für eine effiziente Performance geschützt sind.
+* *Dedizierte Kubernetes Storage-VM*: Prüft, ob das Dateisystem eine dedizierte Storage-VM für Kubernetes-Workloads verwendet, um die Isolation zu verbessern und das Storage-Management zu vereinfachen.
+* *Dedizierte Kubernetes Exportrichtlinie*: Prüft, ob jedes persistente Kubernetes Volume über eine dedizierte Exportrichtlinie verfügt, die den Zugriff nur von den Worker-Knoten des Clusters aus erlaubt.
+* *Bidirektionales CHAP für Kubernetes iSCSI-Backends*: Prüft, ob auf Trident iSCSI-Backends die gegenseitige CHAP-Authentifizierung aus Sicherheitsgründen aktiviert ist.
+* *Deaktivieren `showmount` auf der Applikations-Storage-VM*: Prüft, ob `showmount` auf der Applikations-Storage-VM deaktiviert ist, um zu verhindern, dass Clients Exporte auflisten, auf die sie nicht zugreifen können.
+
+
+Für Datenbank-Workloads:
+
+* *SAP HANA Snapshot-Richtlinie*: Es wird geprüft, ob die Snapshot-Richtlinie für SAP HANA Volumes auf "Keine" gesetzt ist, um die Storage-Kosten zu senken und die Performance für aktive Datenbankdaten zu verbessern.
+* *MySQL Snapshot-Richtlinie*: Prüft, ob die Snapshot-Richtlinie für MySQL Volumes auf "Keine" gesetzt ist, um die Storage-Kosten zu senken und die Performance für aktive Datenbankdaten zu verbessern.
+* *PostgreSQL Snapshot-Richtlinie*: Prüft, ob die Snapshot-Richtlinie für PostgreSQL Volumes auf "Keine" gesetzt ist, um die Storage-Kosten zu senken und die Performance für aktive Datenbankdaten zu verbessern.
+
+
+
+
+==== Aktuelle und empfohlene Werte für Konfigurationen
+
+Im Dashboard „Well-Architected“ können Sie die aktuellen und empfohlenen Werte für einige nicht optimierte Konfigurationen einsehen. Dies zeigt Ihnen, welcher Wert empfohlen wird, bevor Sie die Konfiguration korrigieren.
+
+* Kaltdaten-Tiering
+* Snapshot-Richtlinie
+* SSD Kapazitätsreserve
+
+
+
+
+[[cost-improvements]]
+=== Kostenoptimierungen
+
+
+
+==== Kostenprognose und Einblicke
+
+Mit der Funktion zur Kostenprognose können Sie jetzt die Kosten Ihrer FSx for ONTAP Dateisysteme prognostizieren. Dies hilft Ihnen bei der Budgetplanung und der effizienten Ressourcennutzung. Sie erhalten außerdem Einblicke in Ihre Kosten und Nutzungsmuster, um Optimierungspotenziale zu erkennen.
+
+
+
+==== AWS Cost and Usage Reports (CUR)
+
+Workload Factory verwendet nun AWS Cost and Usage Reports (CUR) anstelle von AWS Cost Explorer, um detaillierte Abrechnungsdatensätze in kundeneigenen S3-Buckets bereitzustellen. CUR bietet eine bessere Kostengranularität und dient als Grundlage für erweiterte FinOps-, Kostenverrechnungs- und Kostenallokations-Anwendungsfälle.
+
+
+
+[[storage-vm-migration-improvements]]
+=== Verbesserungen bei der Migration von Storage VMs
+
+Workload Factory bietet in der Benutzeroberfläche eine verbesserte Unterstützung für die Migration von Storage VMs. Dies umfasst Schritt-für-Schritt-Anleitungen und einen Testlauf vor der Übernahme der Migration in die Produktionsumgebung.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Weitere Informationen zur Migration von Storage-VMs"]
+
+
+
+[[replication-lag-email-notification-improvement]]
+=== Verbesserung der E-Mail-Benachrichtigung bei Replikationsverzögerung
+
+Wenn eine große Anzahl zusammenhängender Replikationsverzögerungsereignisse auftritt, fasst Workload Factory diese automatisch in einer einzigen E-Mail-Benachrichtigung zusammen, damit Sie nicht von Benachrichtigungen überflutet werden.
+
+
+
+[[automatic-capacity-management-enhancement]]
+=== Verbesserung des automatischen Kapazitätsmanagements
+
+Sie können jetzt automatische Benachrichtigungen zum Kapazitätsmanagement aktivieren, um die Funktion zu testen, bevor Sie Workload Factory mit dem automatischen Kapazitätsmanagement beauftragen. Sie werden benachrichtigt, sobald die Kapazität Ihres Dateisystems zur Neige geht.
+
+
+
+[[throughput-decision-points]]
+=== Entscheidungspunkte für den Durchsatz
+
+Nun sind Empfehlungen zum Clientdurchsatz sowie Entscheidungspunkte für die Automatisierung sichtbar. Beim Bewegen des Mauszeigers über einen Entscheidungspunkt werden Details wie die aktuelle und empfohlene SKU oder im Zeitfenster (%) überschrittene Metriken angezeigt.
