@@ -15,6 +15,42 @@ Informieren Sie sich über die neuesten Änderungen an den Workloads, die Teil d
 
 
 
+[[02-november-2026]]
+== 02. November 2026
+
+
+
+[[database-workloads]]
+=== Datenbank-Workloads
+
+
+
+==== Im Well-Architected Dashboard enthaltene Datenbankkonfigurationen
+
+Das Well-Architected Dashboard enthält jetzt Empfehlungen für Ihre Datenbank-Konfigurationen, sodass Sie Ihre Einrichtung auf Grundlage von Best Practices bewerten und optimieren können. Die ersten im Dashboard enthaltenen Konfigurationen sind:
+
+* Kaltdaten-Tiering
+* Storage Effizienz
+* Snapshot-Richtlinie
+* SSD Kapazitätsreserve
+* Blockgeräte Speicherplatzmanagement
+* OS
+* Betriebssystemtyp des Blockgeräts mit dem Host abgleichen
+* Inaktive Blockgeräte (LUNs)
+* Platzierung der Datendateien (.mdf)
+* Platzierung der Protokolldateien (.ldf)
+* Status von Multipath I/O
+* Multipath I/O Zeitüberschreitung
+* Cluster Quorum
+* Compute Rightsizing
+
+
+Im Hauptmenü der Workload Factory Managementplattform führt die Auswahl von *Well-architected* zum Well-Architected Dashboard.
+
+image:workload-databases/well-architected-menu-option-databases.png["Gut strukturierte Menüoption in der NetApp Workload Factory Konsole"]
+
+
+
 [[01-november-2026]]
 == 01. November 2026
 
@@ -134,37 +170,6 @@ Nun sind Empfehlungen zum Clientdurchsatz sowie Entscheidungspunkte für die Aut
 ==== Kundengesteuerte Bedrock Unterstützung für die Klassifizierung
 
 Mit Workload Factory können Sie jetzt Ihre eigene Amazon Bedrock Konfiguration für die Klassifizierung von Workload-Tags verwenden. Sie können Ihren eigenen Bedrock-Endpunkt und Ihre Zugangsdaten angeben, sodass Klassifizierungsanfragen über Ihre eigene Bedrock Konfiguration ausgeführt werden.
-
-
-
-[[database-workloads]]
-=== Datenbank-Workloads
-
-
-
-==== Im Well-Architected Dashboard enthaltene Datenbankkonfigurationen
-
-Das Well-Architected Dashboard enthält jetzt Empfehlungen für Ihre Datenbank-Konfigurationen, sodass Sie Ihre Einrichtung auf Grundlage von Best Practices bewerten und optimieren können. Die ersten im Dashboard enthaltenen Konfigurationen sind:
-
-* Kaltdaten-Tiering
-* Storage Effizienz
-* Snapshot-Richtlinie
-* SSD Kapazitätsreserve
-* Blockgeräte Speicherplatzmanagement
-* OS
-* Betriebssystemtyp des Blockgeräts mit dem Host abgleichen
-* Inaktive Blockgeräte (LUNs)
-* Platzierung der Datendateien (.mdf)
-* Platzierung der Protokolldateien (.ldf)
-* Status von Multipath I/O
-* Multipath I/O Zeitüberschreitung
-* Cluster Quorum
-* Compute Rightsizing
-
-
-Im Hauptmenü der Workload Factory Managementplattform führt die Auswahl von *Well-architected* zum Well-Architected Dashboard.
-
-image:workload-databases/well-architected-menu-option-databases.png["Gut strukturierte Menüoption in der NetApp Workload Factory Konsole"]
 
 
 
