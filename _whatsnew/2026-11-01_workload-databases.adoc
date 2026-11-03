@@ -27,4 +27,4 @@ Das Well-Architected Dashboard enthält jetzt Empfehlungen für Ihre Datenbank-K
 
 Im Hauptmenü der Workload Factory Managementplattform führt die Auswahl von *Well-architected* zum Well-Architected Dashboard.
 
-image:well-architected-menu-option.png["Gut strukturierte Menüoption in der NetApp Workload Factory Konsole"]
+image:workload-databases/well-architected-menu-option-databases.png["Gut strukturierte Menüoption in der NetApp Workload Factory Konsole"]
